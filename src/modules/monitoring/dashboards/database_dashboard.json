@@ -1,0 +1,24 @@
+{
+  "panels": [
+    {
+      "title": "Database Queries",
+      "type": "graph",
+      "targets": [
+        {
+          "expr": "rate(db_queries_total[1m])",
+          "legendFormat": "Queries"
+        }
+      ]
+    },
+    {
+      "title": "Active Connections",
+      "type": "graph",
+      "targets": [
+        {
+          "expr": "db_connections_active",
+          "legendFormat": "Connections"
+        }
+      ]
+    }
+  ]
+}

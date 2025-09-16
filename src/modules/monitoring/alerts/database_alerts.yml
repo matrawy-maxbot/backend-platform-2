@@ -1,0 +1,8 @@
+- alert: SlowDatabaseQueries
+  expr: rate(db_query_duration_seconds[1m]) > 5
+  for: 5m
+  labels:
+    severity: warning
+  annotations:
+    summary: "Slow database queries detected"
+    description: "Database query duration is above 5 seconds."

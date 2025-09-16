@@ -1,0 +1,10 @@
+Terminal Output Log:
+
+(some characters truncated)...
+ld_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "i
+[2025-08-25T17:53:08.950Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T17:53:10.866Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than 
+[2025-08-25T17:53:10.866Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T17:53:17.972Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points"
+[2025-08-25T17:53:17.972Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or e
+[2025-08-25T17:53:17.972Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1

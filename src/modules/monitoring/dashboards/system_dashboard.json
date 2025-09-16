@@ -1,0 +1,24 @@
+{
+  "panels": [
+    {
+      "title": "CPU Usage",
+      "type": "graph",
+      "targets": [
+        {
+          "expr": "rate(node_cpu_seconds_total[1m])",
+          "legendFormat": "CPU"
+        }
+      ]
+    },
+    {
+      "title": "Memory Usage",
+      "type": "graph",
+      "targets": [
+        {
+          "expr": "node_memory_usage_bytes",
+          "legendFormat": "Memory"
+        }
+      ]
+    }
+  ]
+}

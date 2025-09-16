@@ -1,0 +1,8 @@
+- alert: HighCPUUsage
+  expr: rate(node_cpu_seconds_total[1m]) > 90
+  for: 5m
+  labels:
+    severity: critical
+  annotations:
+    summary: "High CPU usage detected"
+    description: "CPU usage is above 90%."

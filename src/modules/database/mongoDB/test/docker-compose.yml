@@ -1,0 +1,32 @@
+services:
+  mongodb_test:
+    image: bitnami/mongodb:latest
+    container_name: mongodb_test_container
+    environment:
+      MONGODB_ROOT_USER: testuser
+      MONGODB_ROOT_PASSWORD: testpass
+      MONGODB_DATABASE: testdb
+      MONGODB_USERNAME: testuser
+      MONGODB_PASSWORD: testpass
+      MONGODB_AUTHORITATIVE: "yes"
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_test_data:/bitnami/mongodb
+      - ./init:/docker-entrypoint-initdb.d
+    networks:
+      - mongodb_test_network
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+volumes:
+  mongodb_test_data:
+    driver: local
+
+networks:
+  mongodb_test_network:
+    driver: bridge

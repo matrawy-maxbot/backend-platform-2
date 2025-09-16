@@ -1,0 +1,38 @@
+services:
+  redis_test:
+    image: bitnami/redis:latest
+    container_name: redis_test_container
+    environment:
+      REDIS_PASSWORD: testpass
+      REDIS_DATABASE: 0
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_test_data:/bitnami/redis/data
+    networks:
+      - redis_test_network
+    healthcheck:
+      test: ["CMD", "redis-cli", "--no-auth-warning", "-a", "testpass", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  redisinsight:
+    image: redislabs/redisinsight:latest
+    container_name: redisinsight_container
+    ports:
+      - "5540:5540"
+    networks:
+      - redis_test_network
+    depends_on:
+      - redis_test
+    restart: unless-stopped
+
+volumes:
+  redis_test_data:
+    driver: local
+
+networks:
+  redis_test_network:
+    driver: bridge

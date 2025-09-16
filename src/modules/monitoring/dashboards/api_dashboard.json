@@ -1,0 +1,28 @@
+{
+  "panels": [
+    {
+      "title": "API Requests",
+      "type": "graph",
+      "targets": [
+        {
+          "expr": "rate(http_requests_total[1m])",
+          "legendFormat": "Requests"
+        }
+      ],
+      "annotations": {
+        "enable": true,
+        "query": "events{type='deployment'}"
+      }
+    },
+    {
+      "title": "API Response Time",
+      "type": "graph",
+      "targets": [
+        {
+          "expr": "rate(http_request_duration_seconds[1m])",
+          "legendFormat": "Response Time"
+        }
+      ]
+    }
+  ]
+}

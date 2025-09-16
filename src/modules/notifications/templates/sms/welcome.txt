@@ -1,0 +1,1 @@
+Welcome, {{name}}! Thank you for joining our app.
