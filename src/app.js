@@ -20,23 +20,8 @@ import notFoundMiddleware from './middlewares/errors/notFound.middleware.js';
 
 // استيراد middlewares routes
 import {
-    profileRoutes,
-    profileTasksRoutes,
-    serversInteractionsRoutes,
-    verifyDurRoutes,
-    votesRoutes,
-    welcomeRoutes
+    adminsRoutes,
 } from './modules/api/v1/restful/routes/index.js';
-
-import { 
-    runProfileTests,
-    runProfileTasksTests,
-    runServersInteractionsTests,
-    runVerifyDurTests,
-    runVotesTests,
-    runWelcomeTests
- } from './modules/api/v1/restful/test/index.js';
-import votesTest from './modules/api/v1/restful/test/votes.test.js';
 
 // إنشاء تطبيق Express
 const app = express();
@@ -92,72 +77,7 @@ app.get('/health', (req, res) => {
 
 // ===== API ROUTES =====
 // هنا سيتم إضافة routes الـ API
-app.use('/api/v1/profiles', profileRoutes);
-app.use('/api/v1/profileTasks', profileTasksRoutes);
-app.use('/api/v1/serversInteractions', serversInteractionsRoutes);
-app.use('/api/v1/verifyDur', verifyDurRoutes);
-app.use('/api/v1/votes', votesRoutes);
-app.use('/api/v1/welcome', welcomeRoutes);
-
-runProfileTests()
-    .then(() => {
-        console.log('✅ تم إنجاز جميع الاختبارات بنجاح!');
-        // process.exit(0);
-    })
-    .catch((error) => {
-        console.error('❌ فشل في تشغيل الاختبارات:', error);
-        // process.exit(1);
-    });
-
-runProfileTasksTests()
-    .then(() => {
-        console.log('✅ تم إنجاز جميع الاختبارات بنجاح!');
-        // process.exit(0);
-    })
-    .catch((error) => {
-        console.error('❌ فشل في تشغيل الاختبارات:', error);
-        // process.exit(1);
-    });
-
-runServersInteractionsTests()
-    .then(() => {
-        console.log('✅ تم إنجاز جميع الاختبارات بنجاح!');
-        // process.exit(0);
-    })
-    .catch((error) => {
-        console.error('❌ فشل في تشغيل الاختبارات:', error);
-        // process.exit(1);
-    });
-
-runVerifyDurTests()
-    .then(() => {
-        console.log('✅ تم إنجاز جميع الاختبارات بنجاح!');
-        // process.exit(0);
-    })
-    .catch((error) => {
-        console.error('❌ فشل في تشغيل الاختبارات:', error);
-        // process.exit(1);
-    });
-
-runVotesTests()
-    .then(() => {
-        console.log('✅ تم إنجاز جميع الاختبارات بنجاح!');
-        // process.exit(0);
-    })
-    .catch((error) => {
-        console.error('❌ فشل في تشغيل الاختبارات:', error);
-        // process.exit(1);
-    });
-
-runWelcomeTests()
-    .then(() => {
-        console.log('✅ تم إنجاز جميع الاختبارات بنجاح!');
-        // process.exit(0);
-    })
-    .catch((error) => {
-        console.error('❌ فشل في تشغيل الاختبارات:', error);
-        // process.exit(1);
-    });
+app.use('/api/v1/admins', adminsRoutes);
 
 // ===== ERROR HANDLING MIDDLEWARES =====
 // معالجة الصفحات غير الموجودة (404)

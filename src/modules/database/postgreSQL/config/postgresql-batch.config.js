@@ -384,7 +384,7 @@ class PostgreSQLQueueBatchManager extends EventEmitter {
           operations.forEach(operation => {
             console.log("\n!#############! error : ", error, "\n\n");
             if (error.name === 'SequelizeUniqueConstraintError') {
-              console.log('the data is exist in unique fields!', " , table : 0", error?.parent?.table, " , detail : ", error?.parent?.detail);
+              // console.log('the data is exist in unique fields!', " , table : 0", error?.parent?.table, " , detail : ", error?.parent?.detail);
               operation.resolve({
                 status: 'success',
                 message: 'the data is exist in unique fields!',

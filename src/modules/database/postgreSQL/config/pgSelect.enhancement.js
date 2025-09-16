@@ -143,7 +143,7 @@ class pgSQLManager {
 
                                         const res = matchingResults.length > 0 ? matchingResults : null;
                                         results.push(res);
-                                        br.resolve(Array.isArray(res) ? res : [res]);
+                                        br.resolve(Array.isArray(res) ? res : res ? [res] : []);
                                     });
 
                                 } else if (settings[0].query.Op == Op.in || !settings[0].query.Op) {
@@ -152,7 +152,7 @@ class pgSQLManager {
                                         const res = index.get(br.query[key]) || null;
                                         results.push(res);
                                         console.log("res : ", res);
-                                        br.resolve(Array.isArray(res) ? res : [res]);
+                                        br.resolve(Array.isArray(res) ? res : res ? [res] : []);
                                     });
 
                                 } else if (settings[0].query.Op == Op.between) {
@@ -193,7 +193,7 @@ class pgSQLManager {
                                         const res = matchingResults.length > 0 ? matchingResults : [];
 
                                         results.push(res);
-                                        br.resolve(Array.isArray(res) ? res : [res]);
+                                        br.resolve(Array.isArray(res) ? res : res ? [res] : []);
                                     });
                                 } else if (settings[0].query.Op == Op.gt || settings[0].query.Op == Op.gte) {
                                     const sortedResults = batchResults
@@ -222,7 +222,7 @@ class pgSQLManager {
                                         const matchingResults = sortedResults.slice(startIndex);
                                         const res = matchingResults.length > 0 ? matchingResults : [];
                                         results.push(res);
-                                        br.resolve(Array.isArray(res) ? res : [res]);
+                                        br.resolve(Array.isArray(res) ? res : res ? [res] : []);
                                     });
 
                                 } else if (settings[0].query.Op == Op.lt || settings[0].query.Op == Op.lte) {
@@ -249,7 +249,7 @@ class pgSQLManager {
                                         const matchingResults = sortedResults.slice(0, endIndex);
                                         const res = matchingResults.length > 0 ? matchingResults : [];
                                         results.push(res);
-                                        br.resolve(Array.isArray(res) ? res : [res]);
+                                        br.resolve(Array.isArray(res) ? res : res ? [res] : []);
                                     });
                                 }
 
