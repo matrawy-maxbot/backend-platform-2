@@ -116,6 +116,82 @@ class PostgreSQLQueueBatchManager extends EventEmitter {
     
     console.log('⏹️ Batch processor stopped');
   }
+
+  getUniqueColumns(model) {
+    const uniqueColumns = [];
+    
+    Object.values(model.rawAttributes).forEach(attribute => {
+        // المفتاح الأساسي دائماً فريد
+        if (attribute.primaryKey) {
+            uniqueColumns.push(attribute.fieldName);
+        }
+        // الحقول التي لها unique constraint
+        else if (attribute.unique) {
+            uniqueColumns.push(attribute.fieldName);
+        }
+    });
+    
+    return [...new Set(uniqueColumns)]; // إزالة التكرارات
+  }
+
+  removeDuplicatesFromBatch(model, dataBatch, uniqueColumns) {
+    console.log("\n\n\nremoveDuplicatesFromBatch: model : ", model, "\n\n\n");
+    console.log("\n\n\nremoveDuplicatesFromBatch: dataBatch : ", dataBatch, "\n\n\n");
+    console.log("\n\n\nremoveDuplicatesFromBatch: uniqueColumns : ", uniqueColumns, "\n\n\n");
+    if (!Array.isArray(dataBatch) || dataBatch.length === 0) {
+        console.log(`⚠️  removeDuplicatesFromBatch: No data to process or dataBatch is not an array`);
+        return dataBatch; // لا يوجد شيء لمعالجته
+    }
+    
+    if (dataBatch.length === 1) {
+        console.log(`⚠️  removeDuplicatesFromBatch: Only one item in batch, no duplicates to remove`);
+        return dataBatch; // لا يوجد تكرار في عنصر واحد
+    }
+    
+    const seen = new Map();
+    const uniqueData = [];
+    const removedDuplicates = [];
+    
+    dataBatch.forEach((item, index) => {
+
+      let itemCopy = item.data;
+
+        // إنشاء مفتاح فريد بناء على الحقول الفريدة
+        const uniqueKey = uniqueColumns
+            .filter(col => itemCopy[col] !== undefined && itemCopy[col] !== null)
+            .map(col => `${col}:${JSON.stringify(itemCopy[col])}`) // استخدام JSON.stringify للتعامل مع القيم المختلفة
+            .join('|');
+
+            // إذا كان المفتاح الفريد فارغًا، نضيف البيانات كما هي
+            console.log(index + " - unique key : ", uniqueKey);
+        
+        if (uniqueKey && seen.has(uniqueKey)) {
+            console.log("unique has found!!");
+            // وجدنا تكراراً، نضيف إلى المصفوفة المزالة
+            removedDuplicates.push({
+                index: index,
+                duplicateOf: seen.get(uniqueKey),
+                data: itemCopy,
+                uniqueKey: uniqueKey
+            });
+        } else {
+          console.log("unique has not found!!!!!");
+            // بيانات فريدة، نضيفها ونحفظ المفتاح
+            if (uniqueKey) {
+                seen.set(uniqueKey, index);
+            }
+            uniqueData.push(item);
+        }
+    });
+    
+    // طباعة معلومات عن التكرارات المزالة (اختياري)
+    if (removedDuplicates.length > 0) {
+        console.log(`🔄 Removed ${removedDuplicates.length} duplicate records from batch`);
+        console.log('Removed duplicates:', removedDuplicates);
+    }
+    
+    return uniqueData;
+}
   
   /**
    * إضافة عملية INSERT إلى الطابور
@@ -125,6 +201,7 @@ class PostgreSQLQueueBatchManager extends EventEmitter {
       // استخراج اسم النموذج
       const modelName = typeof model === 'string' ? model : model.name;
       
+      
       this.insertQueue.push({
         model: modelName,
         modelClass: model,
@@ -133,6 +210,13 @@ class PostgreSQLQueueBatchManager extends EventEmitter {
         reject,
         timestamp: Date.now()
       });
+
+      const uniqueColumns = this.getUniqueColumns(model);
+      
+      console.log("\n\n\nmodel unique keys ^^^^^ :", uniqueColumns, "\n\n\n");
+
+      this.insertQueue = this.removeDuplicatesFromBatch(model, this.insertQueue, uniqueColumns);
+
       console.log("\n!#############! this.insertQueue : ", this.insertQueue, "\n\n");
       this.metrics.totalInsertOperations++;
       
