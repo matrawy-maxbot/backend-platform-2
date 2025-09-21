@@ -1,5 +1,5 @@
 import { PGinsert, PGupdate, PGdelete, PGselectAll } from '../config/postgre.manager.js';
-import PermissionCategory from '../models/PermissionCategory.model.js';
+import { PermissionCategory } from '../models/index.js';
 import { Op } from 'sequelize';
 
 /**

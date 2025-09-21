@@ -1,6 +1,5 @@
 import { PGinsert, PGupdate, PGdelete, PGselectAll } from '../config/postgre.manager.js';
-import OrderItem from '../models/OrderItem.model.js';
-import Order from '../models/Order.model.js';
+import { OrderItem, Order } from '../models/index.js';
 
 /**
  * خدمة إدارة عناصر الطلبات - OrderItem Service

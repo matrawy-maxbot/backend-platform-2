@@ -1,7 +1,6 @@
 import { PGinsert, PGupdate, PGdelete, PGselectAll } from '../config/postgre.manager.js';
 import { Op } from 'sequelize';
-import Category from '../models/Category.model.js';
-import VendorSiteSetting from '../models/VendorSiteSetting.model.js';
+import { Category, VendorSiteSetting } from '../models/index.js';
 
 /**
  * خدمة إدارة الفئات - Category Service

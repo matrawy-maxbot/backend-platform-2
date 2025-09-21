@@ -1,7 +1,5 @@
 import { PGinsert, PGupdate, PGdelete, PGselectAll } from '../config/postgre.manager.js';
-import Inventory from '../models/Inventory.model.js';
-import ProductVariant from '../models/ProductVariant.model.js';
-import VendorSiteSetting from '../models/VendorSiteSetting.model.js';
+import { Inventory, ProductVariant, VendorSiteSetting } from '../models/index.js';
 
 /**
  * خدمة إدارة المخزون - Inventory Service

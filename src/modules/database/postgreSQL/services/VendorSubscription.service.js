@@ -1,6 +1,4 @@
-import VendorSubscription from '../models/VendorSubscription.model.js';
-import SubscriptionPlan from '../models/SubscriptionPlan.model.js';
-import Vendor from '../models/Vendor.model.js';
+import { VendorSubscription, SubscriptionPlan, Vendor } from '../models/index.js';
 import { findAll, findById, create, update, deleteById } from '../config/postgre.manager.js';
 
 /**

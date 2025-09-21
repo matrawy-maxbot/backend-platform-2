@@ -1,7 +1,5 @@
 import { PGinsert, PGupdate, PGdelete, PGselectAll } from '../config/postgre.manager.js';
-import StaffUser from '../models/StaffUser.model.js';
-import Role from '../models/Role.model.js';
-import { User } from '../models/index.js';
+import { StaffUser, Role, User } from '../models/index.js';
 
 /**
  * خدمة إدارة موظفي المواقع - Staff User Service

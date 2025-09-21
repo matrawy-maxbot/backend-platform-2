@@ -1,5 +1,5 @@
 import { PGinsert, PGupdate, PGdelete, PGselectAll } from '../config/postgre.manager.js';
-import Role from '../models/Role.model.js';
+import { Role } from '../models/index.js';
 
 /**
  * خدمة إدارة الأدوار - Role Service

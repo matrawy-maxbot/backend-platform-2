@@ -1,4 +1,4 @@
-import SubscriptionPlan from '../models/SubscriptionPlan.model.js';
+import { SubscriptionPlan } from '../models/index.js';
 import { findAll, findById, create, update, deleteById } from '../config/postgre.manager.js';
 
 /**

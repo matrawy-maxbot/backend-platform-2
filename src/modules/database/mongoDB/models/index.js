@@ -1,4 +1,3 @@
-import User from './User.model.js';
 import Session from './Session.model.js';
 import UserActivity from './UserActivity.model.js';
 import UserSettings from './UserSettings.model.js';
@@ -19,7 +18,6 @@ import VendorBackups from './VendorBackups.model.js';
 import VendorBackupSettings from './VendorBackupSettings.model.js';
 
 export { 
-  User, 
   Session, 
   UserActivity, 
   UserSettings, 
