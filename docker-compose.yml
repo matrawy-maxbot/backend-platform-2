@@ -1,12 +1,10 @@
-version: '3.8'
-
 services:
   # PostgreSQL Database
   postgres:
     image: postgres:latest
     container_name: postgres_backend
     environment:
-      POSTGRES_DB: test_db
+      POSTGRES_DB: ims_db
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password123
       POSTGRES_HOST_AUTH_METHOD: trust
@@ -35,7 +33,7 @@ services:
     environment:
       MONGODB_ROOT_USER: testuser
       MONGODB_ROOT_PASSWORD: testpass
-      MONGODB_DATABASE: testdb
+      MONGODB_DATABASE: ims_db
       MONGODB_USERNAME: testuser
       MONGODB_PASSWORD: testpass
       MONGODB_AUTHORITATIVE: "yes"
