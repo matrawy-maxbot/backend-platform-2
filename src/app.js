@@ -20,7 +20,13 @@ import notFoundMiddleware from './middlewares/errors/notFound.middleware.js';
 
 // استيراد middlewares routes
 import {
-    adminsRoutes,
+    usersRoutes,
+    vendorsRoutes,
+    vendorSiteSettingsRoutes,
+    productsRoutes,
+    ProductVariantsRoutes,
+    ordersRoutes,
+    couponsRoutes,
 } from './modules/api/v1/restful/routes/index.js';
 
 // إنشاء تطبيق Express
@@ -77,7 +83,13 @@ app.get('/health', (req, res) => {
 
 // ===== API ROUTES =====
 // هنا سيتم إضافة routes الـ API
-app.use('/api/v1/admins', adminsRoutes);
+app.use('/api/v1/users', usersRoutes);
+app.use('/api/v1/vendors', vendorsRoutes);
+app.use('/api/v1/vendor-site-settings', vendorSiteSettingsRoutes);
+app.use('/api/v1/products', productsRoutes);
+app.use('/api/v1/product-variants', ProductVariantsRoutes);
+app.use('/api/v1/orders', ordersRoutes);
+app.use('/api/v1/coupons', couponsRoutes);
 
 // ===== ERROR HANDLING MIDDLEWARES =====
 // معالجة الصفحات غير الموجودة (404)

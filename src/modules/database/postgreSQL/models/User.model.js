@@ -4,6 +4,7 @@ import sequelize from '../config/db.config.js';
 /**
  * نموذج جدول المستخدمين - User Model
  * يحتوي على معلومات المستخدمين الأساسية
+ * @module UserModel
  */
 const User = sequelize.define('User', {
     id: {
