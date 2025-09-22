@@ -1,4 +1,4 @@
-import ProductService from '../../../../database/postgreSQL/services/Product.service.js';
+import { ProductService } from '../../../../database/postgreSQL/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 
