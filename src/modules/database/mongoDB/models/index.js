@@ -1,5 +1,6 @@
 import Session from './Session.model.js';
 import UserActivity from './UserActivity.model.js';
+// import UserActivityLogs from './UserActivityLogs.model.js';
 import UserSettings from './UserSettings.model.js';
 import Notification from './Notification.model.js';
 import Wishlist from './Wishlist.model.js';
@@ -8,7 +9,6 @@ import ProductDetails from './ProductDetails.model.js';
 import ProductReviews from './ProductReviews.model.js';
 import VendorDynamicContent from './VendorDynamicContent.model.js';
 import VendorActivities from './VendorActivities.model.js';
-import UserActivityLogs from './UserActivityLogs.model.js';
 import AuditTrails from './AuditTrails.model.js';
 import VendorSettings from './VendorSettings.model.js';
 import VendorCompanySettings from './VendorCompanySettings.model.js';
@@ -20,6 +20,7 @@ import VendorBackupSettings from './VendorBackupSettings.model.js';
 export { 
   Session, 
   UserActivity, 
+  // UserActivityLogs,
   UserSettings, 
   Notification, 
   Wishlist, 
@@ -28,7 +29,6 @@ export {
   ProductReviews,
   VendorDynamicContent,
   VendorActivities,
-  UserActivityLogs,
   AuditTrails,
   VendorSettings,
   VendorCompanySettings,
