@@ -3,8 +3,7 @@ import mongoose from 'mongoose';
 const wishlistSchema = new mongoose.Schema({
   user_id: {
     type: Number,
-    required: true,
-    index: true
+    required: true
   },
   product_id: {
     type: Number,

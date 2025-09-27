@@ -3,8 +3,7 @@ import mongoose from 'mongoose';
 const orderStatusHistorySchema = new mongoose.Schema({
   order_id: {
     type: Number,
-    required: true,
-    index: true
+    required: true
   },
   status: {
     type: String,

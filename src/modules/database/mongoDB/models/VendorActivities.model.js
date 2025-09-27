@@ -3,8 +3,7 @@ import mongoose from 'mongoose';
 const vendorActivitiesSchema = new mongoose.Schema({
   vendor_id: {
     type: Number,
-    required: true,
-    index: true
+    required: true
   },
   activity_type: {
     type: String,
@@ -29,7 +28,7 @@ const vendorActivitiesSchema = new mongoose.Schema({
 // Indexes
 vendorActivitiesSchema.index({ vendor_id: 1, created_at: -1 });
 vendorActivitiesSchema.index({ activity_type: 1 });
-vendorActivitiesSchema.index({ vendor_id: 1, activity_type: 1 });
+// vendorActivitiesSchema.index({ vendor_id: 1, activity_type: 1 });
 vendorActivitiesSchema.index({ created_at: -1 }); // للتقارير
 
 const VendorActivities = mongoose.model('VendorActivities', vendorActivitiesSchema);

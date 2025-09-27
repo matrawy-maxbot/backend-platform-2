@@ -3,13 +3,11 @@ import mongoose from 'mongoose';
 const productReviewsSchema = new mongoose.Schema({
   product_id: {
     type: Number,
-    required: true,
-    index: true
+    required: true
   },
   user_id: {
     type: Number,
-    required: true,
-    index: true
+    required: true
   },
   rating: {
     type: Number,
@@ -43,7 +41,7 @@ const productReviewsSchema = new mongoose.Schema({
 
 // Indexes
 productReviewsSchema.index({ product_id: 1, rating: 1 });
-productReviewsSchema.index({ user_id: 1 });
+// productReviewsSchema.index({ user_id: 1 }); // مكرر - user_id موجود في الفهرس المركب
 productReviewsSchema.index({ product_id: 1, created_at: -1 });
 productReviewsSchema.index({ is_verified_purchase: 1 });
 productReviewsSchema.index({ status: 1 });

@@ -4,8 +4,7 @@ const vendorPrintSettingsSchema = new mongoose.Schema({
   vendor_id: {
     type: Number,
     required: true,
-    unique: true,
-    index: true
+    unique: true
   },
   // إعدادات عامة
   general: {
@@ -105,7 +104,7 @@ const vendorPrintSettingsSchema = new mongoose.Schema({
 });
 
 // Indexes
-vendorPrintSettingsSchema.index({ vendor_id: 1 });
+// vendorPrintSettingsSchema.index({ vendor_id: 1 }); // مكرر - vendor_id معرف بـ unique: true
 
 const VendorPrintSettings = mongoose.model('VendorPrintSettings', vendorPrintSettingsSchema);
 

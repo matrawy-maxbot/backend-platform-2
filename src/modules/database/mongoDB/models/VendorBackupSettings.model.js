@@ -4,8 +4,7 @@ const vendorBackupSettingsSchema = new mongoose.Schema({
   vendor_id: { 
     type: Number, 
     required: true, 
-    unique: true, 
-    index: true 
+    unique: true
   }, 
   // الإعدادات العامة 
   auto_backup: { 
@@ -79,7 +78,7 @@ const vendorBackupSettingsSchema = new mongoose.Schema({
 }); 
 
 // Indexes 
-vendorBackupSettingsSchema.index({ vendor_id: 1 }); 
+// vendorBackupSettingsSchema.index({ vendor_id: 1 }); // مكرر - vendor_id معرف بـ unique: true
 vendorBackupSettingsSchema.index({ 'storage.type': 1 }); 
 
 const VendorBackupSettings = mongoose.model('VendorBackupSettings', vendorBackupSettingsSchema);

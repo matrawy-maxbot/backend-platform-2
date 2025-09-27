@@ -4,8 +4,7 @@ const vendorNotificationSettingsSchema = new mongoose.Schema({
   vendor_id: {
     type: Number,
     required: true,
-    unique: true,
-    index: true
+    unique: true
   },
   // إشعارات المخزون
   inventory_notifications: {
@@ -93,7 +92,7 @@ const vendorNotificationSettingsSchema = new mongoose.Schema({
 });
 
 // Indexes
-vendorNotificationSettingsSchema.index({ vendor_id: 1 });
+// vendorNotificationSettingsSchema.index({ vendor_id: 1 }); // مكرر - vendor_id معرف بـ unique: true
 
 const VendorNotificationSettings = mongoose.model('VendorNotificationSettings', vendorNotificationSettingsSchema);
 

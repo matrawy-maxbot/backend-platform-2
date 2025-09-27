@@ -3,8 +3,7 @@ import mongoose from 'mongoose';
 const notificationSchema = new mongoose.Schema({
   user_id: {
     type: Number,
-    required: true,
-    index: true
+    required: true
   },
   title: {
     type: String,

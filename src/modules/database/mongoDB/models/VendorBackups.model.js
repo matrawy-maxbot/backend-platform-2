@@ -3,8 +3,7 @@ import mongoose from 'mongoose';
 const vendorBackupsSchema = new mongoose.Schema({ 
   vendor_id: { 
     type: Number, 
-    required: true, 
-    index: true 
+    required: true 
   }, 
   backup_name: { 
     type: String, 
@@ -56,7 +55,7 @@ const vendorBackupsSchema = new mongoose.Schema({
 vendorBackupsSchema.index({ vendor_id: 1, created_at: -1 }); 
 vendorBackupsSchema.index({ status: 1 }); 
 vendorBackupsSchema.index({ backup_type: 1 }); 
-vendorBackupsSchema.index({ vendor_id: 1, status: 1 }); 
+// vendorBackupsSchema.index({ vendor_id: 1, status: 1 }); 
 
 const VendorBackups = mongoose.model('VendorBackups', vendorBackupsSchema);
 

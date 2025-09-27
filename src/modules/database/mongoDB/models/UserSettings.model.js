@@ -4,8 +4,7 @@ const userSettingsSchema = new mongoose.Schema({
   user_id: {
     type: Number,
     required: true,
-    unique: true,
-    index: true
+    unique: true
   },
   dark_mode: {
     type: Boolean,
@@ -33,7 +32,7 @@ const userSettingsSchema = new mongoose.Schema({
 });
 
 // Indexes
-userSettingsSchema.index({ user_id: 1 });
+// userSettingsSchema.index({ user_id: 1 }); // مكرر - user_id معرف بـ unique: true
 
 const UserSettings = mongoose.model('UserSettings', userSettingsSchema);
 

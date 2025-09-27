@@ -4,8 +4,7 @@ const vendorCompanySettingsSchema = new mongoose.Schema({
   vendor_id: {
     type: Number,
     required: true,
-    unique: true,
-    index: true
+    unique: true
   },
   company_name: {
     type: String,
@@ -49,7 +48,7 @@ const vendorCompanySettingsSchema = new mongoose.Schema({
 });
 
 // Indexes
-vendorCompanySettingsSchema.index({ vendor_id: 1 });
+// vendorCompanySettingsSchema.index({ vendor_id: 1 }); // مكرر - vendor_id معرف بـ unique: true
 vendorCompanySettingsSchema.index({ 'address.country': 1 });
 
 const VendorCompanySettings = mongoose.model('VendorCompanySettings', vendorCompanySettingsSchema);

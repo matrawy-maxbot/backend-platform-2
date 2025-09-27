@@ -20,29 +20,24 @@ const userActivitiesSchema = new mongoose.Schema({
     default: generateSecureFastId // استخدام الأسرع
   },
   user_id: {
-    type: Number,
-    index: true
+    type: Number
   },
   user_type: {
     type: String,
     enum: ['customer', 'vendor', 'admin', 'guest'],
-    default: 'customer',
-    index: true
+    default: 'customer'
   },
   activity_type: {
     type: String,
-    required: true,
-    index: true
+    required: true
   },
   activity_description: String,
   ip_address: {
-    type: String,
-    index: true
+    type: String
   },
   timestamp: {
     type: Date,
-    default: Date.now,
-    index: true
+    default: Date.now
   },
   duration: {
     type: Number,

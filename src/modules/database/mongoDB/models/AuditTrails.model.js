@@ -3,8 +3,7 @@ import mongoose from 'mongoose';
 const auditTrailsSchema = new mongoose.Schema({
   user_id: {
     type: Number,
-    required: true,
-    index: true
+    required: true
   },
   user_type: {
     type: String,

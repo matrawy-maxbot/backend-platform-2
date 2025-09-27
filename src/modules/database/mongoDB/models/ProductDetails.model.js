@@ -4,13 +4,11 @@ const productDetailsSchema = new mongoose.Schema({
   product_id: {
     type: Number,
     required: true,
-    unique: true,
-    index: true
+    unique: true
   },
   vendor_id: {
     type: Number,
-    required: true,
-    index: true
+    required: true
   },
   description: {
     type: String,
@@ -41,7 +39,7 @@ const productDetailsSchema = new mongoose.Schema({
 });
 
 // Indexes
-productDetailsSchema.index({ product_id: 1 });
+// productDetailsSchema.index({ product_id: 1 }); // مكرر - product_id معرف بـ unique: true
 productDetailsSchema.index({ vendor_id: 1 });
 productDetailsSchema.index({ tags: 1 }); // للبحث بالكلمات الدلالية
 productDetailsSchema.index({ 'specifications.brand': 1 }); // للبحث بالماركة

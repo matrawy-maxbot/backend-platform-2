@@ -3,8 +3,7 @@ import mongoose from 'mongoose';
 const sessionSchema = new mongoose.Schema({
   user_id: {
     type: String,
-    required: true,
-    index: true
+    required: true
   },
   token: {
     type: String,

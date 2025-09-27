@@ -3,8 +3,7 @@ import mongoose from 'mongoose';
 const userActivityLogsSchema = new mongoose.Schema({
   user_id: {
     type: Number,
-    required: true,
-    index: true
+    required: true
   },
   activity_type: {
     type: String,

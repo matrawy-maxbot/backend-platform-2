@@ -4,7 +4,7 @@ const vendorDynamicContentSchema = new mongoose.Schema({
   vendor_id: {
     type: Number,
     required: true,
-    index: true
+    unique: true
   },
   homepage_banners: [{
     image_url: { type: String, required: true },
@@ -39,7 +39,7 @@ const vendorDynamicContentSchema = new mongoose.Schema({
 });
 
 // Indexes
-vendorDynamicContentSchema.index({ vendor_id: 1 }, { unique: true });
+// vendorDynamicContentSchema.index({ vendor_id: 1 }, { unique: true });
 vendorDynamicContentSchema.index({ 'homepage_banners.is_active': 1 });
 
 const VendorDynamicContent = mongoose.model('VendorDynamicContent', vendorDynamicContentSchema);
