@@ -1,4 +1,4 @@
-import VendorPaymentService from '../../../../database/postgreSQL/services/VendorPayment.service.js';
+import { VendorPaymentService } from '../../../../database/postgreSQL/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

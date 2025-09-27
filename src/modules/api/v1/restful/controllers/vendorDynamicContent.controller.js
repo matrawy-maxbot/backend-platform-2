@@ -1,4 +1,4 @@
-import VendorDynamicContentService from '../../../../database/postgreSQL/services/vendorDynamicContent.service.js';
+import { VendorDynamicContentService } from '../../../../database/mongoDB/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

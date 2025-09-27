@@ -1,4 +1,4 @@
-import StaffUserService from '../../../../database/postgreSQL/services/staffUser.service.js';
+import { StaffUserService } from '../../../../database/postgreSQL/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

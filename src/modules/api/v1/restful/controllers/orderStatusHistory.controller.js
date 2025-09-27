@@ -1,4 +1,4 @@
-import OrderStatusHistoryService from '../../../../database/mongoDB/services/OrderStatusHistory.service.js';
+import { OrderStatusHistoryService } from '../../../../database/mongoDB/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

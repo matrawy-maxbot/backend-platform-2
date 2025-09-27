@@ -59,8 +59,8 @@ class PaymentService {
    */
   static async getPaymentById(paymentId) {
     try {
-      const payment = await Payment.findByPk(paymentId);
-      return payment;
+      const payments = await PGselectAll(Payment, { id: paymentId });
+      return payments[0] || null;
     } catch (error) {
       throw new Error(`خطأ في جلب عملية الدفع: ${error.message}`);
     }
@@ -90,10 +90,8 @@ class PaymentService {
    */
   static async getPaymentByTransactionId(transactionId) {
     try {
-      const payment = await Payment.findOne({
-        where: { transaction_id: transactionId }
-      });
-      return payment;
+      const payments = await PGselectAll(Payment, { transaction_id: transactionId });
+      return payments[0] || null;
     } catch (error) {
       throw new Error(`خطأ في جلب عملية الدفع بمعرف المعاملة: ${error.message}`);
     }
@@ -107,12 +105,18 @@ class PaymentService {
    */
   static async getPaymentsByStatus(status, options = {}) {
     try {
-      const payments = await Payment.findAll({
-        where: { status: status },
-        order: [['created_at', 'DESC']],
-        ...options
-      });
-      return payments;
+      // إذا كانت هناك خيارات إضافية مثل order أو limit، استخدم Payment.findAll
+      if (Object.keys(options).length > 0) {
+        const payments = await Payment.findAll({
+          where: { status: status },
+          order: [['created_at', 'DESC']],
+          ...options
+        });
+        return payments;
+      }
+      
+      // للاستعلامات البسيطة، استخدم PGselectAll
+      return await PGselectAll(Payment, { status: status });
     } catch (error) {
       throw new Error(`خطأ في جلب المدفوعات بالحالة: ${error.message}`);
     }
@@ -126,12 +130,18 @@ class PaymentService {
    */
   static async getPaymentsByMethod(paymentMethod, options = {}) {
     try {
-      const payments = await Payment.findAll({
-        where: { payment_method: paymentMethod },
-        order: [['created_at', 'DESC']],
-        ...options
-      });
-      return payments;
+      // إذا كانت هناك خيارات إضافية مثل order أو limit، استخدم Payment.findAll
+      if (Object.keys(options).length > 0) {
+        const payments = await Payment.findAll({
+          where: { payment_method: paymentMethod },
+          order: [['created_at', 'DESC']],
+          ...options
+        });
+        return payments;
+      }
+      
+      // للاستعلامات البسيطة، استخدم PGselectAll
+      return await PGselectAll(Payment, { payment_method: paymentMethod });
     } catch (error) {
       throw new Error(`خطأ في جلب المدفوعات بطريقة الدفع: ${error.message}`);
     }
@@ -162,7 +172,7 @@ class PaymentService {
         updateData.paid_at = new Date();
       }
 
-      const updatedPayment = await PGupdate(Payment, paymentId, updateData);
+      const updatedPayment = await PGupdate(Payment, updateData, { id: paymentId });
       return updatedPayment;
     } catch (error) {
       throw new Error(`خطأ في تحديث حالة الدفع: ${error.message}`);
@@ -278,7 +288,7 @@ class PaymentService {
       }
 
       updateData.updated_at = new Date();
-      const updatedPayment = await PGupdate(Payment, paymentId, updateData);
+      const updatedPayment = await PGupdate(Payment, updateData, { id: paymentId });
       return updatedPayment;
     } catch (error) {
       throw new Error(`خطأ في تحديث عملية الدفع: ${error.message}`);
@@ -302,7 +312,7 @@ class PaymentService {
         throw new Error('لا يمكن حذف عملية دفع مكتملة');
       }
 
-      const result = await PGdelete(Payment, paymentId);
+      const result = await PGdelete(Payment, { id: paymentId });
       return result;
     } catch (error) {
       throw new Error(`خطأ في حذف عملية الدفع: ${error.message}`);

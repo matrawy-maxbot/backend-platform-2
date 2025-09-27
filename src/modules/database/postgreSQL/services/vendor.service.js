@@ -228,7 +228,7 @@ class VendorService {
         }
       }
 
-      const result = await PGupdate(Vendor, { id: vendorId }, updateData);
+      const result = await PGupdate(Vendor, updateData, { id: vendorId });
       return result;
     } catch (error) {
       throw new Error(`خطأ في تحديث المتجر: ${error.message}`);

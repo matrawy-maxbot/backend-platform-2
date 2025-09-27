@@ -1,7 +1,7 @@
 import '../../../../config/index.js';
 import mongoose from 'mongoose';
 import { mongodb } from '../../../../config/database.config.js';
-import { User } from '../models/index.js';
+// import { User } from '../models/index.js';
 
 const connectDB = async () => {
      try {
@@ -29,25 +29,25 @@ const connectDB = async () => {
      }
 };
 
-// select 100000 example
-const selectExample = async () => {
-     try {
+// // select 100000 example
+// const selectExample = async () => {
+//      try {
 
-          await connectDB();
+//           await connectDB();
 
-          const startTime = Date.now();
+//           const startTime = Date.now();
 
-          const result = await User.find({}).limit(1_000_000);
+//           const result = await User.find({}).limit(1_000_000);
 
-          console.log("✅ done", (Date.now() - startTime) + "ms", result && result.length > 0 ? result[0] : result);
+//           console.log("✅ done", (Date.now() - startTime) + "ms", result && result.length > 0 ? result[0] : result);
 
 
-     } catch (err) {
-          console.error('Error selecting data:', err);
-     }
-};
+//      } catch (err) {
+//           console.error('Error selecting data:', err);
+//      }
+// };
 
-selectExample();
+// selectExample();
 
 
 export default connectDB;

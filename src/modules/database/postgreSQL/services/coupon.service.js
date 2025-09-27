@@ -5,6 +5,11 @@ import { Op } from 'sequelize';
 /**
  * خدمة إدارة الكوبونات - Coupon Service
  * تحتوي على الوظائف الأساسية لإدارة كوبونات الخصم
+ * 
+ * ملاحظات حول استخدام وظائف قاعدة البيانات:
+ * - PGselectAll: للاستعلامات البسيطة بشرط واحد (مثل البحث بالكود)
+ * - Coupon.findAll: للاستعلامات المعقدة مع multiple conditions أو order/limit
+ * - Coupon.count: لعمليات العد والإحصائيات
  */
 class CouponService {
   
@@ -74,10 +79,11 @@ class CouponService {
    */
   static async getCouponByCode(code) {
     try {
-      const coupon = await Coupon.findOne({
-        where: { code: code.toUpperCase() }
+      // استخدام PGselectAll للاستعلام البسيط بشرط واحد
+      const coupons = await PGselectAll(Coupon, {
+        code: code.toUpperCase()
       });
-      return coupon;
+      return coupons[0] || null;
     } catch (error) {
       throw new Error(`خطأ في جلب الكوبون بالكود: ${error.message}`);
     }
@@ -241,7 +247,7 @@ class CouponService {
         updateData.code = updateData.code.toUpperCase();
       }
 
-      const updatedCoupon = await PGupdate(Coupon, couponId, updateData);
+      const updatedCoupon = await PGupdate(Coupon, updateData, { id: couponId });
       return updatedCoupon;
     } catch (error) {
       throw new Error(`خطأ في تحديث الكوبون: ${error.message}`);
@@ -270,7 +276,7 @@ class CouponService {
    */
   static async deleteCoupon(couponId) {
     try {
-      const result = await PGdelete(Coupon, couponId);
+      const result = await PGdelete(Coupon, { id: couponId });
       return result;
     } catch (error) {
       throw new Error(`خطأ في حذف الكوبون: ${error.message}`);

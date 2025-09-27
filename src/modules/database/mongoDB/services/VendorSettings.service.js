@@ -1,4 +1,4 @@
-import { mDBinsert, mDBupdate, mDBdelete, mDBselectAll, mDBselectOne } from '../config/mongodb.manager.js';
+import { mDBinsert, mDBupdate, mDBdelete, mDBselectAll } from '../config/mongodb.manager.js';
 import { VendorSettings } from '../models/index.js';
 
 /**
@@ -38,7 +38,7 @@ class VendorSettingsService {
    */
   static async getVendorSettings(vendorId) {
     try {
-      const settings = await mDBselectOne({
+      const settings = await mDBselectAll({
         model: VendorSettings,
         filter: { vendor_id: vendorId }
       });

@@ -1,4 +1,4 @@
-import WishlistService from '../../../../database/mongoDB/services/Wishlist.service.js';
+import { WishlistService } from '../../../../database/mongoDB/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

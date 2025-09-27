@@ -1,4 +1,4 @@
-import VendorActivitiesService from '../../../../database/mongoDB/services/VendorActivities.service.js';
+import { VendorActivitiesService } from '../../../../database/mongoDB/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

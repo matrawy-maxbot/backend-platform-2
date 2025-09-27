@@ -1,4 +1,4 @@
-import UserActivityService from '../../../../database/mongoDB/services/UserActivity.service.js';
+import { UserActivityService } from '../../../../database/mongoDB/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

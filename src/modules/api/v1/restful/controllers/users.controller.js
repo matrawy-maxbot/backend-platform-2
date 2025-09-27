@@ -1,4 +1,4 @@
-import UserService from '../../../../database/postgreSQL/services/user.service.js';
+import { UserService } from '../../../../database/postgreSQL/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

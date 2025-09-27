@@ -1,4 +1,4 @@
-import SessionService from '../../../../database/mongoDB/services/Session.service.js';
+import { SessionService } from '../../../../database/mongoDB/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

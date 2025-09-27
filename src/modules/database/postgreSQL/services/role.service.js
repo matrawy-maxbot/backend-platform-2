@@ -39,7 +39,7 @@ class RoleService {
    */
   static async getAllRoles(options = {}) {
     try {
-      const roles = await PGselectAll(Role, {
+      const roles = await Role.findAll({
         order: [['created_at', 'DESC']],
         ...options
       });
@@ -148,7 +148,7 @@ class RoleService {
         }
       }
 
-      const updatedRole = await PGupdate(Role, roleId, updateData);
+      const updatedRole = await PGupdate(Role, updateData, { id: roleId });
       return updatedRole;
     } catch (error) {
       throw new Error(`خطأ في تحديث الدور: ${error.message}`);
@@ -203,7 +203,7 @@ class RoleService {
         throw new Error('لا يمكن حذف الدور الافتراضي');
       }
 
-      const result = await PGdelete(Role, roleId);
+      const result = await PGdelete(Role, {id: roleId});
       return result;
     } catch (error) {
       throw new Error(`خطأ في حذف الدور: ${error.message}`);

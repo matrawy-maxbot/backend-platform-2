@@ -57,8 +57,8 @@ class PermissionCategoryService {
    */
   static async getPermissionCategoryById(categoryId) {
     try {
-      const category = await PermissionCategory.findByPk(categoryId);
-      return category;
+      const categories = await PGselectAll(PermissionCategory, { id: categoryId });
+      return categories[0] || null;
     } catch (error) {
       throw new Error(`خطأ في جلب فئة الصلاحيات: ${error.message}`);
     }
@@ -128,7 +128,7 @@ class PermissionCategoryService {
         throw new Error('فئة الصلاحيات غير موجودة');
       }
 
-      const updatedCategory = await PGupdate(PermissionCategory, categoryId, updateData);
+      const updatedCategory = await PGupdate(PermissionCategory, updateData, { id: categoryId });
       return updatedCategory;
     } catch (error) {
       throw new Error(`خطأ في تحديث فئة الصلاحيات: ${error.message}`);
@@ -148,7 +148,7 @@ class PermissionCategoryService {
         throw new Error('فئة الصلاحيات غير موجودة');
       }
 
-      const result = await PGdelete(PermissionCategory, categoryId);
+      const result = await PGdelete(PermissionCategory, { id: categoryId });
       return result;
     } catch (error) {
       throw new Error(`خطأ في حذف فئة الصلاحيات: ${error.message}`);
@@ -164,7 +164,7 @@ class PermissionCategoryService {
   static async reorderPermissionCategories(siteId, categoryOrders) {
     try {
       for (const item of categoryOrders) {
-        await this.updatePermissionCategory(item.id, { sort_order: item.sort_order });
+        await PGupdate(PermissionCategory, { sort_order: item.sort_order }, { id: item.id });
       }
       return true;
     } catch (error) {
@@ -196,8 +196,8 @@ class PermissionCategoryService {
       if (previousCategory) {
         // تبديل الترتيب
         const tempOrder = category.sort_order;
-        await this.updatePermissionCategory(category.id, { sort_order: previousCategory.sort_order });
-        await this.updatePermissionCategory(previousCategory.id, { sort_order: tempOrder });
+        await PGupdate(PermissionCategory, { sort_order: previousCategory.sort_order }, { id: category.id });
+        await PGupdate(PermissionCategory, { sort_order: tempOrder }, { id: previousCategory.id });
       }
 
       return await this.getPermissionCategoryById(categoryId);
@@ -230,8 +230,8 @@ class PermissionCategoryService {
       if (nextCategory) {
         // تبديل الترتيب
         const tempOrder = category.sort_order;
-        await this.updatePermissionCategory(category.id, { sort_order: nextCategory.sort_order });
-        await this.updatePermissionCategory(nextCategory.id, { sort_order: tempOrder });
+        await PGupdate(PermissionCategory, { sort_order: nextCategory.sort_order }, { id: category.id });
+        await PGupdate(PermissionCategory, { sort_order: tempOrder }, { id: nextCategory.id });
       }
 
       return await this.getPermissionCategoryById(categoryId);

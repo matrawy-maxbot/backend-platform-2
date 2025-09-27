@@ -46,7 +46,7 @@ class OrderItemService {
    */
   static async getAllOrderItems(options = {}) {
     try {
-      const orderItems = await PGselectAll(OrderItem, {
+      const orderItems = await OrderItem.findAll({
         include: [
           {
             model: Order,
@@ -169,7 +169,7 @@ class OrderItemService {
         }
       }
 
-      const updatedOrderItem = await PGupdate(OrderItem, orderItemId, updateData);
+      const updatedOrderItem = await PGupdate(OrderItem, updateData, { id: orderItemId });
       return updatedOrderItem;
     } catch (error) {
       throw new Error(`خطأ في تحديث عنصر الطلب: ${error.message}`);
@@ -202,7 +202,7 @@ class OrderItemService {
    */
   static async deleteOrderItem(orderItemId) {
     try {
-      const result = await PGdelete(OrderItem, orderItemId);
+      const result = await PGdelete(OrderItem, { id: orderItemId });
       return result;
     } catch (error) {
       throw new Error(`خطأ في حذف عنصر الطلب: ${error.message}`);

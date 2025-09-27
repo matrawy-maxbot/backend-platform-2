@@ -1,4 +1,4 @@
-import OrderItemService from '../../../../database/postgreSQL/services/OrderItem.service.js';
+import { OrderItemService } from '../../../../database/postgreSQL/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

@@ -90,7 +90,8 @@ class InventoryService {
    */
   static async searchInventory(searchCriteria = {}) {
     try {
-      const result = await PGselectAll(Inventory, {
+      // استخدام Inventory.findAll بدلاً من PGselectAll لأنها تحتوي على include
+      const result = await Inventory.findAll({
         where: searchCriteria,
         include: [
           {
@@ -218,7 +219,8 @@ class InventoryService {
    */
   static async getLowStockItems(siteId) {
     try {
-      const result = await PGselectAll(Inventory, {
+      // استخدام Inventory.findAll بدلاً من PGselectAll لأنها تحتوي على include
+      const result = await Inventory.findAll({
         where: {
           site_id: siteId
         },

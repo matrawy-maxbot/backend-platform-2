@@ -18,7 +18,6 @@ import Permission from './Permission.model.js';
 import SubscriptionPlan from './SubscriptionPlan.model.js';
 import VendorSubscription from './VendorSubscription.model.js';
 import VendorPayment from './VendorPayment.model.js';
-import Admins from './Admins.model.js';
 
 // تعريف العلاقات بين الـ Models
 
@@ -406,6 +405,5 @@ export {
   Permission,
   SubscriptionPlan,
   VendorSubscription,
-  VendorPayment,
-  Admins
+  VendorPayment
 };

@@ -1,4 +1,4 @@
-import VendorBackupSettingsService from '../../../../database/mongoDB/services/VendorBackupSettings.service.js';
+import { VendorBackupSettingsService } from '../../../../database/mongoDB/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

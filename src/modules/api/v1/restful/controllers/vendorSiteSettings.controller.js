@@ -1,4 +1,4 @@
-import VendorSiteSettingService from '../../../../database/postgreSQL/services/VendorSiteSetting.service.js';
+import { VendorSiteSettingService } from '../../../../database/postgreSQL/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

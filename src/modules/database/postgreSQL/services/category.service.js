@@ -142,7 +142,7 @@ class CategoryService {
    */
   static async searchCategories(searchCriteria = {}) {
     try {
-      const result = await PGselectAll(Category, {
+      const result = await Category.findAll({
         where: searchCriteria,
         include: [
           {
@@ -250,7 +250,7 @@ class CategoryService {
         whereCondition.is_active = true;
       }
 
-      const result = await PGselectAll(Category, {
+      const result = await Category.findAll({
         where: whereCondition,
         include: [
           {
@@ -282,7 +282,7 @@ class CategoryService {
         whereCondition.is_active = true;
       }
 
-      const result = await PGselectAll(Category, {
+      const result = await Category.findAll({
         where: whereCondition,
         order: [['sort_order', 'ASC'], ['name', 'ASC']]
       });

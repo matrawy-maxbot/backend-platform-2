@@ -1,5 +1,5 @@
 import { SubscriptionPlan } from '../models/index.js';
-import { findAll, findById, create, update, deleteById } from '../config/postgre.manager.js';
+import { PGinsert, PGupdate, PGdelete, PGselectAll } from '../config/postgre.manager.js';
 
 /**
  * خدمة إدارة خطط الاشتراك - SubscriptionPlan Service
@@ -15,7 +15,7 @@ class SubscriptionPlanService {
     static async createPlan(planData) {
         try {
             // التحقق من عدم وجود خطة بنفس الاسم
-            const existingPlan = await findAll(SubscriptionPlan, {
+            const existingPlan = await PGselectAll(SubscriptionPlan, {
                 where: { name: planData.name }
             });
 
@@ -23,7 +23,7 @@ class SubscriptionPlanService {
                 throw new Error('خطة اشتراك بهذا الاسم موجودة بالفعل');
             }
 
-            const newPlan = await create(SubscriptionPlan, planData);
+            const newPlan = await PGinsert(SubscriptionPlan, planData);
             return newPlan;
         } catch (error) {
             throw new Error(`خطأ في إنشاء خطة الاشتراك: ${error.message}`);
@@ -44,7 +44,8 @@ class SubscriptionPlanService {
                 whereClause.is_active = options.isActive;
             }
 
-            const plans = await findAll(SubscriptionPlan, {
+            // استخدام الموديل مباشرة للـ order
+            const plans = await SubscriptionPlan.findAll({
                 where: whereClause,
                 order: [['price', 'ASC']]
             });
@@ -62,13 +63,15 @@ class SubscriptionPlanService {
      */
     static async getPlanById(planId) {
         try {
-            const plan = await findById(SubscriptionPlan, planId);
+            const plan = await PGselectAll(SubscriptionPlan, {
+                where: { id: planId }
+            });
             
-            if (!plan) {
+            if (!plan || plan.length === 0) {
                 throw new Error('خطة الاشتراك غير موجودة');
             }
 
-            return plan;
+            return plan[0];
         } catch (error) {
             throw new Error(`خطأ في جلب خطة الاشتراك: ${error.message}`);
         }
@@ -99,7 +102,7 @@ class SubscriptionPlanService {
 
             // التحقق من عدم تكرار الاسم إذا تم تحديثه
             if (updateData.name && updateData.name !== existingPlan.name) {
-                const duplicatePlan = await findAll(SubscriptionPlan, {
+                const duplicatePlan = await PGselectAll(SubscriptionPlan, {
                     where: { name: updateData.name }
                 });
 
@@ -108,7 +111,7 @@ class SubscriptionPlanService {
                 }
             }
 
-            const updatedPlan = await update(SubscriptionPlan, planId, updateData);
+            const updatedPlan = await PGupdate(SubscriptionPlan, updateData, { id: planId });
             return updatedPlan;
         } catch (error) {
             throw new Error(`خطأ في تحديث خطة الاشتراك: ${error.message}`);
@@ -139,7 +142,7 @@ class SubscriptionPlanService {
             // التحقق من وجود الخطة
             await this.getPlanById(planId);
 
-            const result = await deleteById(SubscriptionPlan, planId);
+            const result = await PGdelete(SubscriptionPlan, { id: planId });
             return result;
         } catch (error) {
             throw new Error(`خطأ في حذف خطة الاشتراك: ${error.message}`);
@@ -155,7 +158,8 @@ class SubscriptionPlanService {
         try {
             const { Op } = await import('sequelize');
             
-            const plans = await findAll(SubscriptionPlan, {
+            // استخدام الموديل مباشرة للـ Op.or والـ order
+            const plans = await SubscriptionPlan.findAll({
                 where: {
                     [Op.or]: [
                         { name: { [Op.iLike]: `%${searchTerm}%` } },
@@ -181,7 +185,8 @@ class SubscriptionPlanService {
         try {
             const { Op } = await import('sequelize');
             
-            const plans = await findAll(SubscriptionPlan, {
+            // استخدام الموديل مباشرة للشروط المتعددة والـ order
+            const plans = await SubscriptionPlan.findAll({
                 where: {
                     price: {
                         [Op.between]: [minPrice, maxPrice]

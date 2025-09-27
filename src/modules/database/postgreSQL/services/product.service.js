@@ -294,19 +294,16 @@ class ProductService {
    */
   static async getProductsByPriceRange(minPrice, maxPrice, options = {}) {
     try {
-      const whereClause = {
-        base_price: {
-          [Op.between]: [minPrice, maxPrice]
-        }
-      };
+      // استخدام PGselectAll مع Op.between للاستفادة من تحسين الأداء
+      const result = await PGselectAll(Product, {
+        base_price: { [Op.between]: [minPrice, maxPrice] }
+      });
       
-      const defaultOptions = {
-        where: whereClause,
-        order: [['base_price', 'ASC']],
-        ...options
-      };
+      // ترتيب النتائج حسب السعر (تصاعدي) إذا لم يتم تحديد ترتيب مخصص
+      if (!options.order) {
+        result.sort((a, b) => a.base_price - b.base_price);
+      }
       
-      const result = await Product.findAll(defaultOptions);
       return result;
     } catch (error) {
       throw new Error(`خطأ في الحصول على المنتجات بالنطاق السعري: ${error.message}`);

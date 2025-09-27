@@ -1,4 +1,4 @@
-import VendorCompanySettingsService from '../../../../database/mongoDB/services/VendorCompanySettings.service.js';
+import { VendorCompanySettingsService } from '../../../../database/mongoDB/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

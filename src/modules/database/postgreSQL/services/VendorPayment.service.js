@@ -1,5 +1,5 @@
 import { VendorPayment, VendorSubscription, SubscriptionPlan, Vendor } from '../models/index.js';
-import { findAll, findById, create, update, deleteById } from '../config/postgre.manager.js';
+import { PGinsert, PGupdate, PGdelete, PGselectAll } from '../config/postgre.manager.js';
 
 /**
  * خدمة إدارة مدفوعات البائعين - VendorPayment Service
@@ -19,7 +19,7 @@ class VendorPaymentService {
                 paymentData.transaction_id = this.generateTransactionId();
             }
 
-            const newPayment = await create(VendorPayment, paymentData);
+            const newPayment = await PGinsert(VendorPayment, paymentData);
             return await this.getPaymentWithDetails(newPayment.id);
         } catch (error) {
             throw new Error(`خطأ في إنشاء الدفعة: ${error.message}`);
@@ -33,7 +33,7 @@ class VendorPaymentService {
      */
     static async getPaymentWithDetails(paymentId) {
         try {
-            const payment = await findAll(VendorPayment, {
+            const payment = await VendorPayment.findOne({
                 where: { id: paymentId },
                 include: [
                     {
@@ -53,11 +53,11 @@ class VendorPaymentService {
                 ]
             });
 
-            if (!payment || payment.length === 0) {
+            if (!payment) {
                 throw new Error('الدفعة غير موجودة');
             }
 
-            return payment[0];
+            return payment;
         } catch (error) {
             throw new Error(`خطأ في جلب تفاصيل الدفعة: ${error.message}`);
         }
@@ -87,7 +87,7 @@ class VendorPaymentService {
                 whereClause.payment_method = options.paymentMethod;
             }
 
-            const payments = await findAll(VendorPayment, {
+            const payments = await VendorPayment.findAll({
                 where: whereClause,
                 include: [
                     {
@@ -117,9 +117,8 @@ class VendorPaymentService {
      */
     static async getSubscriptionPayments(subscriptionId) {
         try {
-            const payments = await findAll(VendorPayment, {
-                where: { subscription_id: subscriptionId },
-                order: [['created_at', 'DESC']]
+            const payments = await PGselectAll(VendorPayment, {
+                where: { subscription_id: subscriptionId }
             });
 
             return payments;
@@ -149,7 +148,7 @@ class VendorPaymentService {
                 updateData.gateway_response = additionalData.gateway_response;
             }
 
-            const updatedPayment = await update(VendorPayment, paymentId, updateData);
+            const updatedPayment = await PGupdate(VendorPayment, updateData, { id: paymentId });
             return await this.getPaymentWithDetails(paymentId);
         } catch (error) {
             throw new Error(`خطأ في تحديث حالة الدفعة: ${error.message}`);
@@ -219,7 +218,7 @@ class VendorPaymentService {
      */
     static async getPaymentsByStatus(status, siteId) {
         try {
-            const payments = await findAll(VendorPayment, {
+            const payments = await VendorPayment.findAll({
                 where: { 
                     payment_status: status,
                     site_id: siteId
@@ -267,7 +266,7 @@ class VendorPaymentService {
                 };
             }
 
-            const payments = await findAll(VendorPayment, {
+            const payments = await VendorPayment.findAll({
                 where: whereClause
             });
 
@@ -306,7 +305,7 @@ class VendorPaymentService {
         try {
             const { Op } = await import('sequelize');
             
-            const payments = await findAll(VendorPayment, {
+            const payments = await VendorPayment.findAll({
                 where: {
                     site_id: siteId,
                     [Op.or]: [
@@ -343,7 +342,7 @@ class VendorPaymentService {
             // التحقق من وجود الدفعة
             await this.getPaymentWithDetails(paymentId);
 
-            const result = await deleteById(VendorPayment, paymentId);
+            const result = await PGdelete(VendorPayment, { id: paymentId });
             return result;
         } catch (error) {
             throw new Error(`خطأ في حذف الدفعة: ${error.message}`);

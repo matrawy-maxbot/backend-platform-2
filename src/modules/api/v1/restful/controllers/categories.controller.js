@@ -1,4 +1,4 @@
-import CategoryService from '../../../../database/postgreSQL/services/category.service.js';
+import { CategoryService } from '../../../../database/postgreSQL/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

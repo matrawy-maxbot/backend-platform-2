@@ -1,5 +1,5 @@
 import { VendorSubscription, SubscriptionPlan, Vendor } from '../models/index.js';
-import { findAll, findById, create, update, deleteById } from '../config/postgre.manager.js';
+import { PGselectAll, PGinsert, PGupdate, PGdelete } from '../config/postgre.manager.js';
 
 /**
  * خدمة إدارة اشتراكات البائعين - VendorSubscription Service
@@ -24,7 +24,7 @@ class VendorSubscriptionService {
                 throw new Error('البائع لديه اشتراك نشط بالفعل');
             }
 
-            const newSubscription = await create(VendorSubscription, subscriptionData);
+            const newSubscription = await PGinsert(VendorSubscription, subscriptionData);
             return await this.getSubscriptionWithDetails(newSubscription.id);
         } catch (error) {
             throw new Error(`خطأ في إنشاء الاشتراك: ${error.message}`);
@@ -38,7 +38,7 @@ class VendorSubscriptionService {
      */
     static async getSubscriptionWithDetails(subscriptionId) {
         try {
-            const subscription = await findAll(VendorSubscription, {
+            const subscription = await VendorSubscription.findOne({
                 where: { id: subscriptionId },
                 include: [
                     {
@@ -52,11 +52,11 @@ class VendorSubscriptionService {
                 ]
             });
 
-            if (!subscription || subscription.length === 0) {
+            if (!subscription) {
                 throw new Error('الاشتراك غير موجود');
             }
 
-            return subscription[0];
+            return subscription;
         } catch (error) {
             throw new Error(`خطأ في جلب تفاصيل الاشتراك: ${error.message}`);
         }
@@ -70,7 +70,7 @@ class VendorSubscriptionService {
      */
     static async getActiveSubscriptionByVendor(vendorId, siteId) {
         try {
-            const subscriptions = await findAll(VendorSubscription, {
+            const subscriptions = await VendorSubscription.findAll({
                 where: { 
                     vendor_id: vendorId,
                     site_id: siteId
@@ -105,7 +105,7 @@ class VendorSubscriptionService {
      */
     static async getVendorSubscriptions(vendorId, siteId) {
         try {
-            const subscriptions = await findAll(VendorSubscription, {
+            const subscriptions = await VendorSubscription.findAll({
                 where: { 
                     vendor_id: vendorId,
                     site_id: siteId
@@ -133,7 +133,7 @@ class VendorSubscriptionService {
      */
     static async getExpiringSubscriptions(daysThreshold = 7, siteId) {
         try {
-            const subscriptions = await findAll(VendorSubscription, {
+            const subscriptions = await VendorSubscription.findAll({
                 where: { site_id: siteId },
                 include: [
                     {
@@ -166,9 +166,9 @@ class VendorSubscriptionService {
      */
     static async updateAutoRenewal(subscriptionId, autoRenew) {
         try {
-            const updatedSubscription = await update(VendorSubscription, subscriptionId, {
+            const updatedSubscription = await PGupdate(VendorSubscription, {
                 auto_renew: autoRenew
-            });
+            }, { id: subscriptionId });
 
             return await this.getSubscriptionWithDetails(subscriptionId);
         } catch (error) {
@@ -201,7 +201,7 @@ class VendorSubscriptionService {
                 gateway_subscription_id: renewalData.gateway_subscription_id || null
             };
 
-            const newSubscription = await create(VendorSubscription, newSubscriptionData);
+            const newSubscription = await PGinsert(VendorSubscription, newSubscriptionData);
             return await this.getSubscriptionWithDetails(newSubscription.id);
         } catch (error) {
             throw new Error(`خطأ في تجديد الاشتراك: ${error.message}`);
@@ -216,9 +216,9 @@ class VendorSubscriptionService {
     static async cancelSubscription(subscriptionId) {
         try {
             // تعطيل التجديد التلقائي
-            const updatedSubscription = await update(VendorSubscription, subscriptionId, {
+            const updatedSubscription = await PGupdate(VendorSubscription, {
                 auto_renew: false
-            });
+            }, { id: subscriptionId });
 
             return await this.getSubscriptionWithDetails(subscriptionId);
         } catch (error) {
@@ -233,7 +233,7 @@ class VendorSubscriptionService {
      */
     static async getSubscriptionStats(siteId) {
         try {
-            const allSubscriptions = await findAll(VendorSubscription, {
+            const allSubscriptions = await VendorSubscription.findAll({
                 where: { site_id: siteId },
                 include: [
                     {
@@ -279,7 +279,7 @@ class VendorSubscriptionService {
             // التحقق من وجود الاشتراك
             await this.getSubscriptionWithDetails(subscriptionId);
 
-            const result = await deleteById(VendorSubscription, subscriptionId);
+            const result = await PGdelete(VendorSubscription, { id: subscriptionId });
             return result;
         } catch (error) {
             throw new Error(`خطأ في حذف الاشتراك: ${error.message}`);

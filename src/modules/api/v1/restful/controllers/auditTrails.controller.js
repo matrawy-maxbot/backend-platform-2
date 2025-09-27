@@ -1,4 +1,4 @@
-import AuditTrailsService from '../../../../database/mongoDB/services/AuditTrails.service.js';
+import { AuditTrailsService } from '../../../../database/mongoDB/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

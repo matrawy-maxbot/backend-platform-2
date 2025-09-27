@@ -1,4 +1,4 @@
-import UserSettingsService from '../../../../database/mongoDB/services/UserSettings.service.js';
+import { UserSettingsService } from '../../../../database/mongoDB/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

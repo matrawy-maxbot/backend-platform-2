@@ -1,4 +1,4 @@
-import VendorPrintSettingsService from '../../../../database/mongoDB/services/VendorPrintSettings.service.js';
+import { VendorPrintSettingsService } from '../../../../database/mongoDB/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

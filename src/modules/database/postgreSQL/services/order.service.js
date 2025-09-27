@@ -39,7 +39,7 @@ class OrderService {
    */
   static async getAllOrders(options = {}) {
     try {
-      const orders = await PGselectAll(Order, {
+      const orders = await Order.findAll({
         include: [
           {
             model: OrderItem,
@@ -160,7 +160,7 @@ class OrderService {
         throw new Error('حالة الطلب غير صحيحة');
       }
 
-      const updatedOrder = await PGupdate(Order, orderId, { status });
+      const updatedOrder = await PGupdate(Order, status, { id: orderId });
       return updatedOrder;
     } catch (error) {
       throw new Error(`خطأ في تحديث حالة الطلب: ${error.message}`);
@@ -175,7 +175,7 @@ class OrderService {
    */
   static async updateOrder(orderId, updateData) {
     try {
-      const updatedOrder = await PGupdate(Order, orderId, updateData);
+      const updatedOrder = await PGupdate(Order, updateData, { id: orderId });
       return updatedOrder;
     } catch (error) {
       throw new Error(`خطأ في تحديث الطلب: ${error.message}`);
@@ -212,7 +212,7 @@ class OrderService {
    */
   static async deleteOrder(orderId) {
     try {
-      const result = await PGdelete(Order, orderId);
+      const result = await PGdelete(Order, { id: orderId });
       return result;
     } catch (error) {
       throw new Error(`خطأ في حذف الطلب: ${error.message}`);

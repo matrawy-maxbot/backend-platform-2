@@ -1,4 +1,4 @@
-import { mDBinsert, mDBupdate, mDBdelete, mDBselectAll, mDBselectOne } from '../config/mongodb.manager.js';
+import { mDBinsert, mDBupdate, mDBdelete, mDBselectAll } from '../config/mongodb.manager.js';
 import { VendorBackups } from '../models/index.js';
 
 /**
@@ -32,7 +32,7 @@ class VendorBackupsService {
    */
   static async getBackupById(backupId) {
     try {
-      const backup = await mDBselectOne({
+      const backup = await mDBselectAll({
         model: VendorBackups,
         filter: { _id: backupId }
       });

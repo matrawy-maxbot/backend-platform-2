@@ -86,7 +86,8 @@ class VendorSiteSettingService {
    */
   static async getAllVendorSiteSettings(options = {}) {
     try {
-      const result = await PGselectAll(VendorSiteSetting, {
+      // استخدام VendorSiteSetting.findAll بدلاً من PGselectAll لأنها تحتوي على include وخيارات معقدة
+      const result = await VendorSiteSetting.findAll({
         include: options.include || [
           {
             model: Vendor,
@@ -235,9 +236,7 @@ class VendorSiteSettingService {
         }
       }
 
-      const result = await PGupdate(VendorSiteSetting, updateData, {
-        where: { id: settingId }
-      });
+      const result = await PGupdate(VendorSiteSetting, updateData, { id: settingId });
 
       return await this.getVendorSiteSettingById(settingId);
     } catch (error) {
@@ -328,9 +327,7 @@ class VendorSiteSettingService {
         throw new Error('إعدادات الموقع غير موجودة');
       }
 
-      const result = await PGdelete(VendorSiteSetting, {
-        where: { id: settingId }
-      });
+      const result = await PGdelete(VendorSiteSetting, { id: settingId });
 
       return result > 0;
     } catch (error) {

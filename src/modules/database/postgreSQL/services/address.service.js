@@ -64,8 +64,8 @@ class AddressService {
    */
   static async getAddressById(addressId) {
     try {
-      const address = await Address.findByPk(addressId);
-      return address;
+      const addresses = await PGselectAll(Address, { id: addressId });
+      return addresses.length > 0 ? addresses[0] : null;
     } catch (error) {
       throw new Error(`خطأ في جلب العنوان: ${error.message}`);
     }
@@ -176,7 +176,7 @@ class AddressService {
       }
 
       updateData.updated_at = new Date();
-      const updatedAddress = await PGupdate(Address, addressId, updateData);
+      const updatedAddress = await PGupdate(Address, updateData, { id: addressId });
       return updatedAddress;
     } catch (error) {
       throw new Error(`خطأ في تحديث العنوان: ${error.message}`);
@@ -298,7 +298,7 @@ class AddressService {
         }
       }
 
-      const result = await PGdelete(Address, addressId);
+      const result = await PGdelete(Address, { id: addressId });
       return result;
     } catch (error) {
       throw new Error(`خطأ في حذف العنوان نهائياً: ${error.message}`);

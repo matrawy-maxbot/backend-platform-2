@@ -1,4 +1,4 @@
-import SubscriptionPlanService from '../../../../database/postgreSQL/services/SubscriptionPlan.service.js';
+import { SubscriptionPlanService } from '../../../../database/postgreSQL/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

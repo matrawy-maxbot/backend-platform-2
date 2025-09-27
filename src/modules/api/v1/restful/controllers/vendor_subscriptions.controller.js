@@ -1,4 +1,4 @@
-import VendorSubscriptionService from '../../../../database/postgreSQL/services/VendorSubscription.service.js';
+import { VendorSubscriptionService } from '../../../../database/postgreSQL/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

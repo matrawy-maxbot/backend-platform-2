@@ -1,4 +1,4 @@
-import AddressService from '../../../../database/postgreSQL/services/address.service.js';
+import { AddressService } from '../../../../database/postgreSQL/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

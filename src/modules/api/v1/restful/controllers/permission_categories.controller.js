@@ -1,4 +1,4 @@
-import PermissionCategoryService from '../../../../database/postgreSQL/services/permissionCategory.service.js';
+import { PermissionCategoryService } from '../../../../database/postgreSQL/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

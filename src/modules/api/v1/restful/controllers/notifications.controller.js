@@ -1,4 +1,4 @@
-import NotificationService from '../../../../database/mongoDB/services/Notification.service.js';
+import { NotificationService } from '../../../../database/mongoDB/index.js';
 import send from '../../../../../utils/responseHandler.util.js';
 import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

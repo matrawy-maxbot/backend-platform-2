@@ -1,4 +1,4 @@
-// import UserActivityLogsService from '../../../../database/mongoDB/services/UserActivityLogs.service.js';
+// import { UserActivityLogsService } from '../../../../database/mongoDB/index.js';
 // import send from '../../../../../utils/responseHandler.util.js';
 // import { resolveDatabaseResult } from '../../../../../utils/object.util.js';
 

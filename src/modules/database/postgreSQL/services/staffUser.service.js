@@ -142,6 +142,20 @@ class StaffUserService {
   }
 
   /**
+   * الحصول على موظفي الموقع (نسخة محسنة بدون تفاصيل إضافية)
+   * @param {number} siteId - معرف الموقع
+   * @returns {Promise<Array>} قائمة موظفي الموقع (بيانات أساسية فقط)
+   */
+  static async getStaffUsersBySiteSimple(siteId) {
+    try {
+      const staffUsers = await PGselectAll(StaffUser, 'site_id', siteId);
+      return staffUsers;
+    } catch (error) {
+      throw new Error(`خطأ في جلب موظفي الموقع: ${error.message}`);
+    }
+  }
+
+  /**
    * الحصول على مواقع المستخدم كموظف
    * @param {string} userId - معرف المستخدم
    * @returns {Promise<Array>} قائمة المواقع التي يعمل بها المستخدم
@@ -158,6 +172,20 @@ class StaffUserService {
         ],
         order: [['created_at', 'DESC']]
       });
+      return staffUsers;
+    } catch (error) {
+      throw new Error(`خطأ في جلب مواقع المستخدم: ${error.message}`);
+    }
+  }
+
+  /**
+   * الحصول على مواقع المستخدم كموظف (نسخة محسنة بدون تفاصيل إضافية)
+   * @param {string} userId - معرف المستخدم
+   * @returns {Promise<Array>} قائمة المواقع التي يعمل بها المستخدم (بيانات أساسية فقط)
+   */
+  static async getUserSitesSimple(userId) {
+    try {
+      const staffUsers = await PGselectAll(StaffUser, 'user_id', userId);
       return staffUsers;
     } catch (error) {
       throw new Error(`خطأ في جلب مواقع المستخدم: ${error.message}`);
@@ -192,6 +220,20 @@ class StaffUserService {
   }
 
   /**
+   * الحصول على موظفي الدور (نسخة محسنة بدون تفاصيل إضافية)
+   * @param {number} roleId - معرف الدور
+   * @returns {Promise<Array>} قائمة الموظفين بهذا الدور (بيانات أساسية فقط)
+   */
+  static async getStaffUsersByRoleSimple(roleId) {
+    try {
+      const staffUsers = await PGselectAll(StaffUser, 'role_id', roleId);
+      return staffUsers;
+    } catch (error) {
+      throw new Error(`خطأ في جلب موظفي الدور: ${error.message}`);
+    }
+  }
+
+  /**
    * تحديث دور الموظف
    * @param {number} staffId - معرف الموظف
    * @param {number} roleId - معرف الدور الجديد
@@ -218,7 +260,7 @@ class StaffUserService {
         }
       }
 
-      const updatedStaffUser = await PGupdate(StaffUser, staffId, { role_id: roleId });
+      const updatedStaffUser = await PGupdate(StaffUser, { role_id: roleId }, { id: staffId });
       return updatedStaffUser;
     } catch (error) {
       throw new Error(`خطأ في تحديث دور الموظف: ${error.message}`);
@@ -238,7 +280,7 @@ class StaffUserService {
         throw new Error('الموظف غير موجود');
       }
 
-      const result = await PGdelete(StaffUser, staffId);
+      const result = await PGdelete(StaffUser, { id: staffId });
       return result;
     } catch (error) {
       throw new Error(`خطأ في إزالة الموظف: ${error.message}`);

@@ -1,4 +1,4 @@
-import { PGinsert, PGupdate, PGdelete, PGselectAll } from '../config/postgre.manager.js';
+import { PGinsert, PGupdate, PGdelete } from '../config/postgre.manager.js';
 import { Permission } from '../models/index.js';
 import { Op } from 'sequelize';
 
@@ -176,7 +176,7 @@ class PermissionService {
         }
       }
 
-      const updatedPermission = await PGupdate(Permission, permissionId, updateData);
+      const updatedPermission = await PGupdate(Permission, updateData, { id: permissionId });
       return updatedPermission;
     } catch (error) {
       throw new Error(`خطأ في تحديث الصلاحية: ${error.message}`);
@@ -196,7 +196,7 @@ class PermissionService {
         throw new Error('الصلاحية غير موجودة');
       }
 
-      const result = await PGdelete(Permission, permissionId);
+      const result = await PGdelete(Permission, { id: permissionId });
       return result;
     } catch (error) {
       throw new Error(`خطأ في حذف الصلاحية: ${error.message}`);
