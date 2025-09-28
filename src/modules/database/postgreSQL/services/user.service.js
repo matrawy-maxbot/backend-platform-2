@@ -71,7 +71,7 @@ class UserService {
   static async getAllUsers(options = {}) {
     try {
       const defaultOptions = {
-        order: [['createdAt', 'DESC']],
+        order: [['created_at', 'DESC']],
         ...options
       };
       
@@ -231,7 +231,7 @@ class UserService {
    */
   static async getUsersByDateRange(startDate, endDate) {
     try {
-      const result = await PGselectAll(User, {createdAt: [startDate, endDate], Op: Op.between});
+      const result = await PGselectAll(User, {created_at: [startDate, endDate], Op: Op.between});
       
       return result;
     } catch (error) {

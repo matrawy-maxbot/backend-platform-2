@@ -1,10 +1,10 @@
-import { object } from 'joi';
+import Joi from 'joi';
 
 const validate = (data, schemaConfig, errorThrow = false) => {
     if(!schemaConfig) { 
         throw new Error('Schema is required for validation');
     }
-    const schema = object(schemaConfig).unknown();
+    const schema = Joi.object(schemaConfig).unknown();
 
     const { value: schemaData, error } = schema.validate(data, {
         abortEarly: false, // عرض جميع الأخطاء

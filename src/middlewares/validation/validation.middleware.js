@@ -1,4 +1,5 @@
 import status from '../../config/status.config.js';
+import Joi from 'joi';
 
 const validationMiddleware = (req, res, next) => {
 
@@ -33,7 +34,8 @@ const validationMiddleware = (req, res, next) => {
         return next(new Error('Schema is required'));
     }
 
-    const { error, value } = req.schema.validate(validationTarget, { abortEarly: false });
+    const schema = req.schema.unknown ? req.schema.unknown() : Joi.object(req.schema).unknown();
+    const { error, value } = schema.validate(validationTarget, { abortEarly: false });
   
     if (error) {
         res.status(status.BAD_REQUEST);

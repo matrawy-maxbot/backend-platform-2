@@ -9,18 +9,18 @@ import Joi from 'joi';
  * مخطط التحقق من معرف المستخدم
  */
 export const getUserByIdSchema = {
-  params: {
-    id: {
-      type: 'string',
-      length: 15,
-      required: true,
-      messages: {
+  params: Joi.object({
+    id: Joi.string()
+      .min(12)
+      .max(15)
+      .required()
+      .messages({
         'string.base': 'معرف المستخدم يجب أن يكون نص',
-        'string.length': 'معرف المستخدم يجب أن يكون 15 حرف بالضبط',
+        'string.min': 'معرف المستخدم يجب أن يكون على الأقل 12 حرف',
+        'string.max': 'معرف المستخدم يجب أن يكون أقل من 15 حرف',
         'any.required': 'معرف المستخدم مطلوب'
-      }
-    }
-  }
+      })
+  })
 };
 
 /**
