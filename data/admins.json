@@ -1,0 +1,30 @@
+{
+  "423067123225722891": {
+    "serverId": "423067123225722891",
+    "admins": [
+      {
+        "id": "1760715505785",
+        "discordId": "420285977940983808",
+        "username": "shytnbsly.",
+        "discriminator": "0",
+        "avatar": "https://cdn.discordapp.com/avatars/420285977940983808/cffa1556a7a1af34f1a4658a0d5c0beb.png",
+        "addedAt": "2025-10-17T15:38:25.787Z",
+        "addedBy": "359907771224817664",
+        "permissions": [
+          "manage_messages"
+        ],
+        "status": "active",
+        "lastActivity": "2025-10-17T15:38:25.787Z"
+      }
+    ],
+    "settings": {
+      "maxAdmins": 10,
+      "autoRemoveInactive": false,
+      "inactivityDays": 30,
+      "requireTwoFactorAuth": false
+    },
+    "createdAt": "2025-10-17T15:38:25.787Z",
+    "updatedAt": "2025-10-17T15:38:25.787Z",
+    "updatedBy": "359907771224817664"
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="8" fill="#333"/>
+  <rect x="8" y="12" width="12" height="40" fill="#FFF" stroke="#333" stroke-width="1"/>
+  <rect x="20" y="12" width="12" height="40" fill="#333" stroke="#FFF" stroke-width="1"/>
+  <rect x="32" y="12" width="12" height="40" fill="#FFF" stroke="#333" stroke-width="1"/>
+  <rect x="44" y="12" width="12" height="40" fill="#333" stroke="#FFF" stroke-width="1"/>
+  <text x="32" y="58" text-anchor="middle" fill="#FFF" font-size="7" font-family="Arial">PIANO</text>
+</svg>

@@ -66,9 +66,8 @@ function mDBdelete(...args) {
  * @param {Object} filter - شرط التحديث
  * @returns {Promise} - إرجاع الحقل المُضاف
  * @example
- * mDBselectAll({
- *      model: User,
- *      filter: {name: `Test User ${0 + i}`}
+ * mDBselectAll(User, {
+ *     serverId: '123456789012345678'
  * });
  */
 

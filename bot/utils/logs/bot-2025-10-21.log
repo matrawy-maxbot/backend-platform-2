@@ -1,0 +1,112 @@
+[2025-10-21T13:48:34.611Z] [INFO] Starting Sync System...
+[2025-10-21T13:48:34.612Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-21T13:48:34.612Z] [INFO] Starting heartbeat system...
+[2025-10-21T13:48:34.613Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-21T13:48:34.613Z] [INFO] Queue processor started
+[2025-10-21T13:48:34.614Z] [SUCCESS] Sync System started successfully
+[2025-10-21T13:49:54.848Z] [INFO] Starting Sync System...
+[2025-10-21T13:49:54.849Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-21T13:49:54.850Z] [INFO] Starting heartbeat system...
+[2025-10-21T13:49:54.851Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-21T13:49:54.853Z] [INFO] Queue processor started
+[2025-10-21T13:49:54.853Z] [SUCCESS] Sync System started successfully
+[2025-10-21T13:50:26.562Z] [INFO] Starting Sync System...
+[2025-10-21T13:50:26.563Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-21T13:50:26.564Z] [INFO] Starting heartbeat system...
+[2025-10-21T13:50:26.564Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-21T13:50:26.565Z] [INFO] Queue processor started
+[2025-10-21T13:50:26.565Z] [SUCCESS] Sync System started successfully
+[2025-10-21T13:56:47.587Z] [INFO] Starting Sync System...
+[2025-10-21T13:56:47.588Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-21T13:56:47.588Z] [INFO] Starting heartbeat system...
+[2025-10-21T13:56:47.588Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-21T13:56:47.589Z] [INFO] Queue processor started
+[2025-10-21T13:56:47.590Z] [SUCCESS] Sync System started successfully
+[2025-10-21T14:35:16.611Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-21T14:35:16.590Z"}
+[2025-10-21T14:35:16.613Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-21T14:35:16.834Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-21T14:35:16.842Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-21T14:35:55.486Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-21T14:35:55.482Z"}
+[2025-10-21T14:35:55.487Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-21T14:35:55.605Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-21T14:35:55.613Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-21T14:39:43.622Z] [INFO] Starting Sync System...
+[2025-10-21T14:39:43.623Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-21T14:39:43.624Z] [INFO] Starting heartbeat system...
+[2025-10-21T14:39:43.625Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-21T14:39:43.627Z] [INFO] Queue processor started
+[2025-10-21T14:39:43.628Z] [SUCCESS] Sync System started successfully
+[2025-10-21T14:42:51.183Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-21T14:42:51.168Z"}
+[2025-10-21T14:42:51.184Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-21T14:42:51.299Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-21T14:42:51.306Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-21T14:43:10.351Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-21T14:43:10.344Z"}
+[2025-10-21T14:43:10.352Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-21T14:43:10.500Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-21T14:43:10.509Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-21T14:43:30.868Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-21T14:43:30.864Z"}
+[2025-10-21T14:43:30.869Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-21T14:43:31.005Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-21T14:43:31.015Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-21T14:49:14.054Z] [INFO] Starting Sync System...
+[2025-10-21T14:49:14.056Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-21T14:49:14.056Z] [INFO] Starting heartbeat system...
+[2025-10-21T14:49:14.057Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-21T14:49:14.057Z] [INFO] Queue processor started
+[2025-10-21T14:49:14.058Z] [SUCCESS] Sync System started successfully
+[2025-10-21T14:56:58.979Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-21T14:56:58.954Z"}
+[2025-10-21T14:56:58.983Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-21T14:56:59.227Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-21T14:56:59.254Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-21T14:57:28.010Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-21T14:57:28.008Z"}
+[2025-10-21T14:57:28.011Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-21T14:57:28.118Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-21T14:57:28.124Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-21T15:20:13.834Z] [INFO] Starting Sync System...
+[2025-10-21T15:20:13.835Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-21T15:20:13.836Z] [INFO] Starting heartbeat system...
+[2025-10-21T15:20:13.836Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-21T15:20:13.837Z] [INFO] Queue processor started
+[2025-10-21T15:20:13.838Z] [SUCCESS] Sync System started successfully
+[2025-10-21T15:25:43.612Z] [INFO] Starting Sync System...
+[2025-10-21T15:25:43.614Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-21T15:25:43.615Z] [INFO] Starting heartbeat system...
+[2025-10-21T15:25:43.615Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-21T15:25:43.616Z] [INFO] Queue processor started
+[2025-10-21T15:25:43.617Z] [SUCCESS] Sync System started successfully
+[2025-10-22T09:20:25.430Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T09:20:25.399Z"}
+[2025-10-22T09:20:25.432Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T09:20:25.573Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T09:20:25.576Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T09:22:51.021Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T09:22:51.014Z"}
+[2025-10-22T09:22:51.022Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T09:22:51.152Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T09:22:51.154Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T10:47:26.844Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T10:47:26.835Z"}
+[2025-10-22T10:47:26.845Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T10:47:26.971Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T10:47:26.973Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T10:47:40.760Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T10:47:40.754Z"}
+[2025-10-22T10:47:40.760Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T10:47:40.908Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T10:47:40.910Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T10:48:26.290Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T10:48:26.283Z"}
+[2025-10-22T10:48:26.291Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T10:48:26.439Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T10:48:26.441Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T10:48:57.061Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T10:48:57.056Z"}
+[2025-10-22T10:48:57.062Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T10:48:57.186Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T10:48:57.189Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T10:56:20.324Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T10:56:20.308Z"}
+[2025-10-22T10:56:20.327Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T10:56:20.735Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T10:56:20.744Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T10:56:31.994Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T10:56:31.981Z"}
+[2025-10-22T10:56:31.996Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T10:56:32.353Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T10:56:32.359Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T10:57:46.576Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T10:57:46.529Z"}
+[2025-10-22T10:57:46.580Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T10:57:47.155Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T10:57:47.159Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891

@@ -1,0 +1,451 @@
+[
+  {
+    "id": "mh0otz7uwwporur5uz",
+    "serverId": "423067123225722891",
+    "section": "protection",
+    "action": "update",
+    "oldData": {
+      "spamProtection": true,
+      "raidProtection": false,
+      "autoModeration": true,
+      "links": {
+        "enabled": true,
+        "allowDiscordInvites": true,
+        "allowedDomains": [],
+        "blockAll": false,
+        "whitelistChannels": [],
+        "blockedLinks": [
+          {
+            "id": "test_blocked_link_001",
+            "content": "example.com",
+            "action": "warn",
+            "channels": [
+              "726837802406248539"
+            ],
+            "reason": "Blocked domain for testing",
+            "createdAt": "2025-09-24T16:10:48.268Z"
+          }
+        ]
+      },
+      "images": {
+        "enabled": false,
+        "mode": "allow_all",
+        "channels": [],
+        "pictureChannels": []
+      },
+      "badWords": {
+        "enabled": true,
+        "words": [
+          "spam",
+          "hack",
+          "scam"
+        ],
+        "action": "delete",
+        "punishment": "Mute",
+        "customMessage": "Please avoid using inappropriate language!",
+        "pictureChannels": [],
+        "botCommandChannels": []
+      },
+      "botManagement": {
+        "enabled": true,
+        "allowedBots": [],
+        "blockUnknownBots": false,
+        "disallowBots": false
+      },
+      "moderation": {
+        "enabled": true,
+        "autoDelete": true,
+        "warnUser": true,
+        "logChannel": "",
+        "maxKickBan": 5,
+        "memberPunishment": "kick"
+      },
+      "antiSpam": {
+        "enabled": true,
+        "maxMessages": 5,
+        "timeWindow": 10,
+        "action": "delete"
+      },
+      "test": true
+    },
+    "newData": {
+      "spamProtection": true,
+      "raidProtection": false,
+      "autoModeration": true,
+      "links": {
+        "enabled": true,
+        "allowDiscordInvites": true,
+        "allowedDomains": [],
+        "blockAll": false,
+        "whitelistChannels": [],
+        "blockedLinks": [
+          {
+            "content": "youtube.com",
+            "action": "delete",
+            "channels": [
+              "general",
+              "chat",
+              "726837802406248539",
+              "423067123225722893",
+              "726842791367540786"
+            ]
+          },
+          {
+            "content": "discord.gg",
+            "action": "allow",
+            "channels": [
+              "general",
+              "announcements"
+            ]
+          },
+          {
+            "content": "spam",
+            "action": "delete",
+            "channels": [
+              "general"
+            ]
+          }
+        ]
+      },
+      "images": {
+        "enabled": false,
+        "mode": "allow_all",
+        "pictureChannels": []
+      },
+      "badWords": {
+        "enabled": true,
+        "words": [
+          "هلا",
+          "وينو",
+          "سيبسيب",
+          "سيبيسب",
+          "شسييي",
+          "بق"
+        ],
+        "action": "delete",
+        "customMessage": "",
+        "pictureChannels": [
+          "art",
+          "chan",
+          "kick-",
+          "nf",
+          "servers",
+          "J",
+          "meme",
+          "mess",
+          "join-leave",
+          "423067123225722893",
+          "726837802406248539",
+          "726842791367540786"
+        ],
+        "botCommandChannels": [
+          "join-leave",
+          "channels",
+          "general",
+          "asd",
+          "roles",
+          "members"
+        ],
+        "punishment": "Mute chat"
+      },
+      "botManagement": {
+        "enabled": true,
+        "allowedBots": [],
+        "blockUnknownBots": false,
+        "disallowBots": false,
+        "deleteRepeatedMessages": true
+      },
+      "moderation": {
+        "enabled": true,
+        "autoDelete": false,
+        "warnUser": false,
+        "logChannel": "",
+        "maxKickBan": 1,
+        "memberPunishment": "kick"
+      },
+      "antiSpam": {
+        "enabled": false,
+        "maxMessages": 20,
+        "timeWindow": 10,
+        "action": "delete",
+        "messageLimit": 15
+      },
+      "test": true,
+      "channels": {
+        "enabled": true,
+        "mode": "allow_all",
+        "channels": [],
+        "channelSettings": {
+          "1423638928212099192": {
+            "allowImages": true,
+            "allowTexts": true,
+            "allowFiles": true,
+            "allowBotCommands": true
+          },
+          "423067123225722893": {
+            "allowImages": false,
+            "allowTexts": true,
+            "allowFiles": false,
+            "allowBotCommands": true
+          }
+        }
+      }
+    },
+    "userId": "bot-sync",
+    "timestamp": "2025-10-21T14:56:59.274Z"
+  },
+  {
+    "id": "mh0oulhakswzbaw20sr",
+    "serverId": "423067123225722891",
+    "section": "protection",
+    "action": "update",
+    "oldData": {
+      "spamProtection": true,
+      "raidProtection": false,
+      "autoModeration": true,
+      "links": {
+        "enabled": true,
+        "allowDiscordInvites": true,
+        "allowedDomains": [],
+        "blockAll": false,
+        "whitelistChannels": [],
+        "blockedLinks": [
+          {
+            "content": "youtube.com",
+            "action": "delete",
+            "channels": [
+              "general",
+              "chat",
+              "726837802406248539",
+              "423067123225722893",
+              "726842791367540786"
+            ]
+          },
+          {
+            "content": "discord.gg",
+            "action": "allow",
+            "channels": [
+              "general",
+              "announcements"
+            ]
+          },
+          {
+            "content": "spam",
+            "action": "delete",
+            "channels": [
+              "general"
+            ]
+          }
+        ]
+      },
+      "images": {
+        "enabled": false,
+        "mode": "allow_all",
+        "pictureChannels": []
+      },
+      "badWords": {
+        "enabled": true,
+        "words": [
+          "هلا",
+          "وينو",
+          "سيبسيب",
+          "سيبيسب",
+          "شسييي",
+          "بق"
+        ],
+        "action": "delete",
+        "customMessage": "",
+        "pictureChannels": [
+          "art",
+          "chan",
+          "kick-",
+          "nf",
+          "servers",
+          "J",
+          "meme",
+          "mess",
+          "join-leave",
+          "423067123225722893",
+          "726837802406248539",
+          "726842791367540786"
+        ],
+        "botCommandChannels": [
+          "join-leave",
+          "channels",
+          "general",
+          "asd",
+          "roles",
+          "members"
+        ],
+        "punishment": "Mute chat"
+      },
+      "botManagement": {
+        "enabled": true,
+        "allowedBots": [],
+        "blockUnknownBots": false,
+        "disallowBots": false,
+        "deleteRepeatedMessages": true
+      },
+      "moderation": {
+        "enabled": true,
+        "autoDelete": false,
+        "warnUser": false,
+        "logChannel": "",
+        "maxKickBan": 1,
+        "memberPunishment": "kick"
+      },
+      "antiSpam": {
+        "enabled": false,
+        "maxMessages": 20,
+        "timeWindow": 10,
+        "action": "delete",
+        "messageLimit": 15
+      },
+      "test": true,
+      "channels": {
+        "enabled": true,
+        "mode": "allow_all",
+        "channels": [],
+        "channelSettings": {
+          "1423638928212099192": {
+            "allowImages": true,
+            "allowTexts": true,
+            "allowFiles": true,
+            "allowBotCommands": true
+          },
+          "423067123225722893": {
+            "allowImages": false,
+            "allowTexts": true,
+            "allowFiles": false,
+            "allowBotCommands": true
+          }
+        }
+      }
+    },
+    "newData": {
+      "spamProtection": true,
+      "raidProtection": false,
+      "autoModeration": true,
+      "links": {
+        "enabled": true,
+        "allowDiscordInvites": true,
+        "allowedDomains": [],
+        "blockAll": false,
+        "whitelistChannels": [],
+        "blockedLinks": [
+          {
+            "content": "youtube.com",
+            "action": "delete",
+            "channels": [
+              "general",
+              "chat",
+              "726837802406248539",
+              "423067123225722893",
+              "726842791367540786"
+            ]
+          },
+          {
+            "content": "discord.gg",
+            "action": "allow",
+            "channels": [
+              "general",
+              "announcements"
+            ]
+          },
+          {
+            "content": "spam",
+            "action": "delete",
+            "channels": [
+              "general"
+            ]
+          }
+        ]
+      },
+      "images": {
+        "enabled": false,
+        "mode": "allow_all",
+        "pictureChannels": []
+      },
+      "badWords": {
+        "enabled": true,
+        "words": [
+          "هلا",
+          "وينو",
+          "سيبسيب",
+          "سيبيسب",
+          "شسييي",
+          "بق"
+        ],
+        "action": "delete",
+        "customMessage": "",
+        "pictureChannels": [
+          "art",
+          "chan",
+          "kick-",
+          "nf",
+          "servers",
+          "J",
+          "meme",
+          "mess",
+          "join-leave",
+          "423067123225722893",
+          "726837802406248539",
+          "726842791367540786"
+        ],
+        "botCommandChannels": [
+          "join-leave",
+          "channels",
+          "general",
+          "asd",
+          "roles",
+          "members"
+        ],
+        "punishment": "kick"
+      },
+      "botManagement": {
+        "enabled": true,
+        "allowedBots": [],
+        "blockUnknownBots": false,
+        "disallowBots": false,
+        "deleteRepeatedMessages": true
+      },
+      "moderation": {
+        "enabled": true,
+        "autoDelete": false,
+        "warnUser": false,
+        "logChannel": "",
+        "maxKickBan": 1,
+        "memberPunishment": "kick"
+      },
+      "antiSpam": {
+        "enabled": false,
+        "maxMessages": 20,
+        "timeWindow": 10,
+        "action": "delete",
+        "messageLimit": 15
+      },
+      "test": true,
+      "channels": {
+        "enabled": true,
+        "mode": "allow_all",
+        "channels": [],
+        "channelSettings": {
+          "1423638928212099192": {
+            "allowImages": true,
+            "allowTexts": true,
+            "allowFiles": true,
+            "allowBotCommands": true
+          },
+          "423067123225722893": {
+            "allowImages": false,
+            "allowTexts": true,
+            "allowFiles": false,
+            "allowBotCommands": true
+          }
+        }
+      }
+    },
+    "userId": "bot-sync",
+    "timestamp": "2025-10-21T14:57:28.126Z"
+  }
+]

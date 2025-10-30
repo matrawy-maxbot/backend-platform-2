@@ -1,0 +1,56 @@
+[
+  {
+    "id": "mh248hmdkccyfj9u84h",
+    "serverId": "423067123225722891",
+    "section": "full",
+    "action": "create",
+    "newData": {
+      "id": "423067123225722891",
+      "autoReply": {
+        "enabled": true,
+        "replies": []
+      },
+      "ads": {
+        "enabled": false,
+        "ads": []
+      },
+      "members": {
+        "welcomeMessage": {
+          "enabled": true,
+          "message": "Welcome {user}!",
+          "channel": ""
+        },
+        "autoRole": {
+          "enabled": false,
+          "roleId": ""
+        }
+      },
+      "protection": {
+        "spamProtection": true,
+        "raidProtection": false
+      },
+      "createdAt": "2025-10-22T14:55:56.725Z",
+      "updatedAt": "2025-10-22T14:55:56.725Z",
+      "updatedBy": "backup-system",
+      "backup": {
+        "enabled": true,
+        "backups": [
+          {
+            "id": "mh248hma3qmsmwl154l",
+            "filename": "backup_423067123225722891_2025-10-22T14-55-56-717Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-22T14-55-56-717Z.json",
+            "timestamp": "2025-10-22T14:55:56.717Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 22,
+            "rolesCount": 8,
+            "size": 7514,
+            "createdAt": "2025-10-22T14:55:56.723Z"
+          }
+        ]
+      }
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-22T14:55:56.725Z"
+  }
+]

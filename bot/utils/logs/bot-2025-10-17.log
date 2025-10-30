@@ -1,0 +1,12 @@
+[2025-10-17T16:13:54.506Z] [INFO] Starting Sync System...
+[2025-10-17T16:13:54.507Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-17T16:13:54.508Z] [INFO] Starting heartbeat system...
+[2025-10-17T16:13:54.508Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-17T16:13:54.509Z] [INFO] Queue processor started
+[2025-10-17T16:13:54.510Z] [SUCCESS] Sync System started successfully
+[2025-10-18T13:14:17.732Z] [INFO] Manual Log (message delete) sent for message from te2m in R7 بالقمة ..
+[2025-10-18T13:14:19.433Z] [INFO] Manual Log (message delete) sent for message from te2m in R7 بالقمة ..
+[2025-10-18T13:21:31.786Z] [INFO] Manual Log (role change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-18T13:21:33.617Z] [INFO] Manual Log (role change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-18T13:21:39.031Z] [INFO] Manual Log (channel delete) sent for channel ئؤؤؤ in R7 بالقمة ..
+[2025-10-18T13:21:47.730Z] [INFO] Manual Log (server update) sent for R7 بالقمة

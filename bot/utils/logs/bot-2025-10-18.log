@@ -1,0 +1,74 @@
+[2025-10-18T13:34:22.906Z] [INFO] Starting Sync System...
+[2025-10-18T13:34:22.907Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-18T13:34:22.907Z] [INFO] Starting heartbeat system...
+[2025-10-18T13:34:22.907Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-18T13:34:22.908Z] [INFO] Queue processor started
+[2025-10-18T13:34:22.909Z] [SUCCESS] Sync System started successfully
+[2025-10-18T13:43:29.712Z] [INFO] Starting Sync System...
+[2025-10-18T13:43:29.713Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-18T13:43:29.713Z] [INFO] Starting heartbeat system...
+[2025-10-18T13:43:29.715Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-18T13:43:29.716Z] [INFO] Queue processor started
+[2025-10-18T13:43:29.717Z] [SUCCESS] Sync System started successfully
+[2025-10-18T13:48:21.286Z] [INFO] Starting Sync System...
+[2025-10-18T13:48:21.287Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-18T13:48:21.288Z] [INFO] Starting heartbeat system...
+[2025-10-18T13:48:21.288Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-18T13:48:21.289Z] [INFO] Queue processor started
+[2025-10-18T13:48:21.289Z] [SUCCESS] Sync System started successfully
+[2025-10-18T13:51:03.826Z] [INFO] Starting Sync System...
+[2025-10-18T13:51:03.827Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-18T13:51:03.828Z] [INFO] Starting heartbeat system...
+[2025-10-18T13:51:03.828Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-18T13:51:03.829Z] [INFO] Queue processor started
+[2025-10-18T13:51:03.829Z] [SUCCESS] Sync System started successfully
+[2025-10-18T14:14:16.563Z] [INFO] Starting Sync System...
+[2025-10-18T14:14:16.565Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-18T14:14:16.565Z] [INFO] Starting heartbeat system...
+[2025-10-18T14:14:16.566Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-18T14:14:16.567Z] [INFO] Queue processor started
+[2025-10-18T14:14:16.568Z] [SUCCESS] Sync System started successfully
+[2025-10-18T14:57:34.391Z] [INFO] Starting Sync System...
+[2025-10-18T14:57:34.392Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-18T14:57:34.392Z] [INFO] Starting heartbeat system...
+[2025-10-18T14:57:34.393Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-18T14:57:34.393Z] [INFO] Queue processor started
+[2025-10-18T14:57:34.394Z] [SUCCESS] Sync System started successfully
+[2025-10-18T15:09:46.456Z] [INFO] Starting Sync System...
+[2025-10-18T15:09:46.458Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-18T15:09:46.458Z] [INFO] Starting heartbeat system...
+[2025-10-18T15:09:46.459Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-18T15:09:46.460Z] [INFO] Queue processor started
+[2025-10-18T15:09:46.460Z] [SUCCESS] Sync System started successfully
+[2025-10-18T15:27:50.560Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"ads","timestamp":"2024-01-01T00:00:00.000Z"}
+[2025-10-18T15:27:50.561Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-18T15:27:51.563Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-18T15:27:51.569Z] [SUCCESS] Section 'ads' updated successfully for server: 423067123225722891
+[2025-10-18T15:34:28.592Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"autoReply","timestamp":"2025-10-18T15:34:28.585Z"}
+[2025-10-18T15:34:28.593Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-18T15:34:28.787Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-18T15:34:28.790Z] [SUCCESS] Section 'autoReply' updated successfully for server: 423067123225722891
+[2025-10-18T15:34:43.611Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"ads","timestamp":"2025-10-18T15:34:43.595Z"}
+[2025-10-18T15:34:43.612Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-18T15:34:43.785Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-18T15:34:43.829Z] [SUCCESS] Section 'ads' updated successfully for server: 423067123225722891
+[2025-10-18T15:34:50.695Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"ads","timestamp":"2025-10-18T15:34:50.687Z"}
+[2025-10-18T15:34:50.697Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-18T15:34:50.893Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-18T15:34:50.937Z] [SUCCESS] Section 'ads' updated successfully for server: 423067123225722891
+[2025-10-19T11:14:04.830Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"ads","timestamp":"2025-10-19T11:14:04.825Z"}
+[2025-10-19T11:14:04.831Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-19T11:14:04.921Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-19T11:14:04.944Z] [SUCCESS] Section 'ads' updated successfully for server: 423067123225722891
+[2025-10-19T11:14:11.465Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"ads","timestamp":"2025-10-19T11:14:11.461Z"}
+[2025-10-19T11:14:11.466Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-19T11:14:11.603Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-19T11:14:11.632Z] [SUCCESS] Section 'ads' updated successfully for server: 423067123225722891
+[2025-10-19T11:15:17.355Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"ads","timestamp":"2025-10-19T11:15:17.351Z"}
+[2025-10-19T11:15:17.356Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-19T11:15:17.462Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-19T11:15:17.484Z] [SUCCESS] Section 'ads' updated successfully for server: 423067123225722891
+[2025-10-19T11:15:24.021Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"ads","timestamp":"2025-10-19T11:15:24.016Z"}
+[2025-10-19T11:15:24.022Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-19T11:15:24.236Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-19T11:15:24.287Z] [SUCCESS] Section 'ads' updated successfully for server: 423067123225722891

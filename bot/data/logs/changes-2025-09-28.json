@@ -1,0 +1,137 @@
+[
+  {
+    "id": "mg3usdop4eqcrxpghi",
+    "serverId": "423067123225722891",
+    "section": "protection",
+    "action": "update",
+    "oldData": {
+      "spamProtection": true,
+      "raidProtection": false,
+      "autoModeration": true,
+      "links": {
+        "enabled": true,
+        "allowDiscordInvites": true,
+        "allowedDomains": [],
+        "blockAll": false,
+        "whitelistChannels": [],
+        "blockedLinks": [
+          {
+            "id": "test_blocked_link_001",
+            "content": "example.com",
+            "action": "warn",
+            "channels": [
+              "726837802406248539"
+            ],
+            "reason": "Blocked domain for testing",
+            "createdAt": "2025-09-24T16:10:48.268Z"
+          }
+        ]
+      },
+      "images": {
+        "enabled": false,
+        "mode": "allow_all",
+        "channels": [],
+        "pictureChannels": []
+      },
+      "badWords": {
+        "enabled": true,
+        "words": [
+          "spam",
+          "hack",
+          "scam"
+        ],
+        "action": "delete",
+        "punishment": "Mute",
+        "customMessage": "Please avoid using inappropriate language!",
+        "pictureChannels": [],
+        "botCommandChannels": []
+      },
+      "botManagement": {
+        "enabled": true,
+        "allowedBots": [],
+        "blockUnknownBots": false,
+        "disallowBots": false
+      },
+      "moderation": {
+        "enabled": true,
+        "autoDelete": true,
+        "warnUser": true,
+        "logChannel": "",
+        "maxKickBan": 5,
+        "memberPunishment": "kick"
+      },
+      "antiSpam": {
+        "enabled": true,
+        "maxMessages": 5,
+        "timeWindow": 10,
+        "action": "delete"
+      }
+    },
+    "newData": {
+      "spamProtection": true,
+      "raidProtection": false,
+      "autoModeration": true,
+      "links": {
+        "enabled": true,
+        "allowDiscordInvites": true,
+        "allowedDomains": [],
+        "blockAll": false,
+        "whitelistChannels": [],
+        "blockedLinks": [
+          {
+            "id": "test_blocked_link_001",
+            "content": "example.com",
+            "action": "warn",
+            "channels": [
+              "726837802406248539"
+            ],
+            "reason": "Blocked domain for testing",
+            "createdAt": "2025-09-24T16:10:48.268Z"
+          }
+        ]
+      },
+      "images": {
+        "enabled": false,
+        "mode": "allow_all",
+        "channels": [],
+        "pictureChannels": []
+      },
+      "badWords": {
+        "enabled": true,
+        "words": [
+          "spam",
+          "hack",
+          "scam"
+        ],
+        "action": "delete",
+        "punishment": "Mute",
+        "customMessage": "Please avoid using inappropriate language!",
+        "pictureChannels": [],
+        "botCommandChannels": []
+      },
+      "botManagement": {
+        "enabled": true,
+        "allowedBots": [],
+        "blockUnknownBots": false,
+        "disallowBots": false
+      },
+      "moderation": {
+        "enabled": true,
+        "autoDelete": true,
+        "warnUser": true,
+        "logChannel": "",
+        "maxKickBan": 5,
+        "memberPunishment": "kick"
+      },
+      "antiSpam": {
+        "enabled": true,
+        "maxMessages": 5,
+        "timeWindow": 10,
+        "action": "delete"
+      },
+      "test": true
+    },
+    "userId": "bot-sync",
+    "timestamp": "2025-09-28T15:27:18.601Z"
+  }
+]

@@ -1,0 +1,486 @@
+{
+  "486630940542763009": {
+    "serverId": "486630940542763009",
+    "enabled": true,
+    "channelId": null,
+    "categories": {
+      "joinLeave": {
+        "enabled": true,
+        "channelId": "1430573745642147852"
+      },
+      "kickBan": {
+        "enabled": true,
+        "channelId": "1430573748997722320"
+      },
+      "members": {
+        "enabled": true,
+        "channelId": "1430573752386850867"
+      },
+      "serverSettings": {
+        "enabled": true,
+        "channelId": "1430573755163218042"
+      },
+      "roles": {
+        "enabled": true,
+        "channelId": "1430573758309077083"
+      },
+      "channels": {
+        "enabled": true,
+        "channelId": "1430573760792105182"
+      },
+      "messages": {
+        "enabled": true,
+        "channelId": "1430573763262546041"
+      },
+      "adminActions": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "updatedAt": "2025-10-23T10:50:49.237Z"
+  },
+  "423067123225722891": {
+    "serverId": "423067123225722891",
+    "enabled": true,
+    "channelId": null,
+    "categories": {
+      "joinLeave": {
+        "enabled": true,
+        "channelId": "1430527372452434033"
+      },
+      "kickBan": {
+        "enabled": true,
+        "channelId": "1430527375371800586"
+      },
+      "members": {
+        "enabled": true,
+        "channelId": "1430527378257612944"
+      },
+      "serverSettings": {
+        "enabled": true,
+        "channelId": "1430527381474381855"
+      },
+      "roles": {
+        "enabled": true,
+        "channelId": "1430527388080537711"
+      },
+      "channels": {
+        "enabled": true,
+        "channelId": "1430527391666802850"
+      },
+      "messages": {
+        "enabled": true,
+        "channelId": "1430527395147808779"
+      },
+      "adminActions": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "updatedAt": "2025-10-23T19:09:17.396Z"
+  },
+  "358950338046459905": {
+    "serverId": "358950338046459905",
+    "enabled": true,
+    "channelId": null,
+    "categories": {
+      "joinLeave": {
+        "enabled": true,
+        "channelId": "611525634497314827"
+      },
+      "kickBan": {
+        "enabled": true,
+        "channelId": "611525634497314827"
+      },
+      "members": {
+        "enabled": true,
+        "channelId": "611525634497314827"
+      },
+      "serverSettings": {
+        "enabled": true,
+        "channelId": "611525634497314827"
+      },
+      "roles": {
+        "enabled": true,
+        "channelId": "611525634497314827"
+      },
+      "channels": {
+        "enabled": true,
+        "channelId": "611525634497314827"
+      },
+      "messages": {
+        "enabled": true,
+        "channelId": "611525634497314827"
+      },
+      "adminActions": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "updatedAt": "2025-10-03T12:38:05.915Z"
+  },
+  "424932293866684416": {
+    "serverId": "424932293866684416",
+    "enabled": true,
+    "channelId": null,
+    "categories": {
+      "joinLeave": {
+        "enabled": true,
+        "channelId": "736914204417720341"
+      },
+      "kickBan": {
+        "enabled": true,
+        "channelId": "736914204417720341"
+      },
+      "members": {
+        "enabled": true,
+        "channelId": "736914204417720341"
+      },
+      "serverSettings": {
+        "enabled": true,
+        "channelId": "736914204417720341"
+      },
+      "roles": {
+        "enabled": true,
+        "channelId": "736914204417720341"
+      },
+      "messages": {
+        "enabled": true,
+        "channelId": "736914204417720341"
+      },
+      "adminActions": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "updatedAt": "2025-10-03T12:38:05.930Z"
+  },
+  "425638954436395020": {
+    "serverId": "425638954436395020",
+    "enabled": true,
+    "channelId": null,
+    "categories": {
+      "joinLeave": {
+        "enabled": true,
+        "channelId": "736914109135716352"
+      },
+      "kickBan": {
+        "enabled": true,
+        "channelId": "736914109135716352"
+      },
+      "members": {
+        "enabled": true,
+        "channelId": "736914109135716352"
+      },
+      "serverSettings": {
+        "enabled": true,
+        "channelId": "736914109135716352"
+      },
+      "roles": {
+        "enabled": true,
+        "channelId": "736914109135716352"
+      },
+      "messages": {
+        "enabled": true,
+        "channelId": "736914109135716352"
+      },
+      "adminActions": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "updatedAt": "2025-10-03T12:38:05.935Z"
+  },
+  "441998122827120640": {
+    "serverId": "441998122827120640",
+    "enabled": true,
+    "channelId": null,
+    "categories": {
+      "joinLeave": {
+        "enabled": true,
+        "channelId": "694674541439352974"
+      },
+      "kickBan": {
+        "enabled": true,
+        "channelId": "694674541439352974"
+      },
+      "members": {
+        "enabled": true,
+        "channelId": "694674541439352974"
+      },
+      "serverSettings": {
+        "enabled": true,
+        "channelId": "694674541439352974"
+      },
+      "roles": {
+        "enabled": true,
+        "channelId": "694674541439352974"
+      },
+      "messages": {
+        "enabled": true,
+        "channelId": "694674541439352974"
+      },
+      "adminActions": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "updatedAt": "2025-10-03T12:38:05.938Z"
+  },
+  "450317165816578079": {
+    "serverId": "450317165816578079",
+    "enabled": true,
+    "channelId": null,
+    "categories": {
+      "joinLeave": {
+        "enabled": true,
+        "channelId": "736913891065593887"
+      },
+      "kickBan": {
+        "enabled": true,
+        "channelId": "736913891065593887"
+      },
+      "members": {
+        "enabled": true,
+        "channelId": "736913891065593887"
+      },
+      "serverSettings": {
+        "enabled": true,
+        "channelId": "736913891065593887"
+      },
+      "roles": {
+        "enabled": true,
+        "channelId": "736913891065593887"
+      },
+      "messages": {
+        "enabled": true,
+        "channelId": "736913891065593887"
+      },
+      "adminActions": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "updatedAt": "2025-10-03T12:38:05.939Z"
+  },
+  "452546233643433984": {
+    "serverId": "452546233643433984",
+    "enabled": true,
+    "channelId": null,
+    "categories": {
+      "joinLeave": {
+        "enabled": true,
+        "channelId": "452546233643433986"
+      },
+      "kickBan": {
+        "enabled": true,
+        "channelId": "452546233643433986"
+      },
+      "members": {
+        "enabled": true,
+        "channelId": "452546233643433986"
+      },
+      "serverSettings": {
+        "enabled": true,
+        "channelId": "452546233643433986"
+      },
+      "roles": {
+        "enabled": true,
+        "channelId": "452546233643433986"
+      },
+      "messages": {
+        "enabled": true,
+        "channelId": "452546233643433986"
+      },
+      "adminActions": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "updatedAt": "2025-10-03T12:38:05.941Z"
+  },
+  "487547068475506698": {
+    "serverId": "487547068475506698",
+    "enabled": true,
+    "channelId": null,
+    "categories": {
+      "joinLeave": {
+        "enabled": true,
+        "channelId": "487547068475506700"
+      },
+      "kickBan": {
+        "enabled": true,
+        "channelId": "487547068475506700"
+      },
+      "members": {
+        "enabled": true,
+        "channelId": "487547068475506700"
+      },
+      "serverSettings": {
+        "enabled": true,
+        "channelId": "487547068475506700"
+      },
+      "roles": {
+        "enabled": true,
+        "channelId": "487547068475506700"
+      },
+      "messages": {
+        "enabled": true,
+        "channelId": "487547068475506700"
+      },
+      "adminActions": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "updatedAt": "2025-10-03T12:38:05.943Z"
+  },
+  "1124131035349790880": {
+    "serverId": "1124131035349790880",
+    "enabled": true,
+    "channelId": null,
+    "categories": {
+      "joinLeave": {
+        "enabled": true,
+        "channelId": "1124131035349790883"
+      },
+      "kickBan": {
+        "enabled": true,
+        "channelId": "1124131035349790883"
+      },
+      "members": {
+        "enabled": true,
+        "channelId": "1124131035349790883"
+      },
+      "serverSettings": {
+        "enabled": true,
+        "channelId": "1124131035349790883"
+      },
+      "roles": {
+        "enabled": true,
+        "channelId": "1124131035349790883"
+      },
+      "messages": {
+        "enabled": true,
+        "channelId": "1124131035349790883"
+      },
+      "adminActions": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "updatedAt": "2025-10-03T12:38:05.946Z"
+  },
+  "1404472248814931998": {
+    "serverId": "1404472248814931998",
+    "enabled": true,
+    "channelId": null,
+    "categories": {
+      "joinLeave": {
+        "enabled": true,
+        "channelId": "1404472249498599426"
+      },
+      "kickBan": {
+        "enabled": true,
+        "channelId": "1404472249498599426"
+      },
+      "members": {
+        "enabled": true,
+        "channelId": "1404472249498599426"
+      },
+      "serverSettings": {
+        "enabled": true,
+        "channelId": "1404472249498599426"
+      },
+      "roles": {
+        "enabled": true,
+        "channelId": "1404472249498599426"
+      },
+      "messages": {
+        "enabled": true,
+        "channelId": "1404472249498599426"
+      },
+      "adminActions": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "updatedAt": "2025-10-03T12:38:05.948Z"
+  },
+  "1408896573739503679": {
+    "serverId": "1408896573739503679",
+    "enabled": true,
+    "channelId": null,
+    "categories": {
+      "joinLeave": {
+        "enabled": true,
+        "channelId": "1409197511792398520"
+      },
+      "kickBan": {
+        "enabled": true,
+        "channelId": "1409197511792398520"
+      },
+      "members": {
+        "enabled": true,
+        "channelId": "1409197511792398520"
+      },
+      "serverSettings": {
+        "enabled": true,
+        "channelId": "1409197511792398520"
+      },
+      "roles": {
+        "enabled": true,
+        "channelId": "1409197511792398520"
+      },
+      "messages": {
+        "enabled": true,
+        "channelId": "1409197511792398520"
+      },
+      "adminActions": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "updatedAt": "2025-10-03T12:38:05.950Z"
+  },
+  "520346922876141598": {
+    "serverId": "520346922876141598",
+    "enabled": true,
+    "channelId": null,
+    "categories": {
+      "joinLeave": {
+        "enabled": true,
+        "channelId": "1427318846724898856"
+      },
+      "kickBan": {
+        "enabled": false,
+        "channelId": "1427318850122289234"
+      },
+      "members": {
+        "enabled": true,
+        "channelId": "1427318853175611523"
+      },
+      "serverSettings": {
+        "enabled": true,
+        "channelId": "1427318855692189826"
+      },
+      "roles": {
+        "enabled": true,
+        "channelId": "1427318858372481117"
+      },
+      "channels": {
+        "enabled": true,
+        "channelId": "1427318861669077003"
+      },
+      "messages": {
+        "enabled": true,
+        "channelId": "1427318861669077003"
+      },
+      "adminActions": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "updatedAt": "2025-10-24T19:54:21.256Z"
+  }
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backup Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #1a1a1a;
+            color: white;
+        }
+        .card {
+            background-color: #2a2a2a;
+            border: 1px solid #444;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .success {
+            background-color: #28a745;
+        }
+        .error {
+            background-color: #dc3545;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 4px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>Backup API Test</h1>
+    
+    <div class="card">
+        <h2>Current Backup Status</h2>
+        <div id="backupStatus">Loading...</div>
+        <button onclick="fetchBackupInfo()">Refresh Status</button>
+    </div>
+    
+    <div class="card">
+        <h2>Actions</h2>
+        <button onclick="createBackup()">Create New Backup</button>
+        <button onclick="fetchBackupInfo()">Check Backup Info</button>
+    </div>
+    
+    <div id="result"></div>
+
+    <script>
+        const API_BASE = 'http://localhost:3001/api';
+        const SERVER_ID = '423067123225722891';
+        const API_SECRET = 'dashboard-bot-secret-2024';
+        
+        function showResult(message, isError = false) {
+            const result = document.getElementById('result');
+            result.textContent = message;
+            result.className = isError ? 'error' : 'success';
+        }
+        
+        async function fetchBackupInfo() {
+            try {
+                console.log('🔍 Fetching backup info...');
+                showResult('Fetching backup info...');
+                
+                const response = await fetch(`${API_BASE}/info/${SERVER_ID}`, {
+                    method: 'GET',
+                    mode: 'cors',
+                    headers: {
+                        'Authorization': `Bearer ${API_SECRET}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+                
+                console.log('📡 Response status:', response.status);
+                console.log('📡 Response headers:', response.headers);
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    console.log('📦 Backup info response:', data);
+                    
+                    const statusDiv = document.getElementById('backupStatus');
+                    if (data.hasBackup) {
+                        statusDiv.innerHTML = `
+                            <div style="color: #28a745;">✅ Backup Available</div>
+                            <div>Created: ${new Date(data.backup.createdAt).toLocaleString()}</div>
+                            <div>Channels: ${data.stats.channels}</div>
+                            <div>Roles: ${data.stats.roles}</div>
+                            <div>Size: ${data.backup.size} bytes</div>
+                        `;
+                    } else {
+                        statusDiv.innerHTML = '<div style="color: #dc3545;">❌ No backup available</div>';
+                    }
+                    
+                    showResult(JSON.stringify(data, null, 2));
+                } else {
+                    const errorText = await response.text();
+                    throw new Error(`HTTP ${response.status}: ${response.statusText} - ${errorText}`);
+                }
+            } catch (error) {
+                console.error('❌ Error fetching backup info:', error);
+                document.getElementById('backupStatus').innerHTML = '<div style="color: #dc3545;">❌ Error loading backup info</div>';
+                showResult(`Error: ${error.message}`, true);
+            }
+        }
+        
+        async function createBackup() {
+            try {
+                console.log('🔄 Creating backup...');
+                showResult('Creating backup...');
+                
+                const response = await fetch(`${API_BASE}/create/${SERVER_ID}`, {
+                    method: 'POST',
+                    mode: 'cors',
+                    headers: {
+                        'Authorization': `Bearer ${API_SECRET}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+                
+                console.log('📡 Create response status:', response.status);
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    console.log('✅ Backup created:', data);
+                    showResult(`Backup created successfully!\n${JSON.stringify(data, null, 2)}`);
+                    
+                    // Refresh the status
+                    setTimeout(fetchBackupInfo, 1000);
+                } else {
+                    const errorText = await response.text();
+                    throw new Error(`HTTP ${response.status}: ${response.statusText} - ${errorText}`);
+                }
+            } catch (error) {
+                console.error('❌ Error creating backup:', error);
+                showResult(`Error: ${error.message}`, true);
+            }
+        }
+        
+        // Add some debug info
+        console.log('🚀 Test page loaded');
+        console.log('🔧 API Base:', API_BASE);
+        console.log('🔧 Server ID:', SERVER_ID);
+        
+        // Load initial status
+        setTimeout(() => {
+            console.log('⏰ Starting initial fetch...');
+            fetchBackupInfo();
+        }, 1000);
+    </script>
+</body>
+</html>

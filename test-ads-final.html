@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار نظام الإعلانات النهائي</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .success {
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+            color: #721c24;
+        }
+        .info {
+            background-color: #d1ecf1;
+            border-color: #bee5eb;
+            color: #0c5460;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 اختبار نظام الإعلانات النهائي</h1>
+        
+        <div class="test-section info">
+            <h3>📋 معلومات الاختبار</h3>
+            <p>هذا الاختبار يتحقق من:</p>
+            <ul>
+                <li>✅ اتصال البوت (المنفذ 3001)</li>
+                <li>✅ اتصال التطبيق (المنفذ 3002)</li>
+                <li>✅ تحديث إعدادات الإعلانات</li>
+                <li>✅ إشعار البوت بالتحديثات</li>
+            </ul>
+        </div>
+
+        <div class="test-section">
+            <h3>🔍 1. اختبار حالة البوت</h3>
+            <button onclick="testBotHealth()">اختبار حالة البوت</button>
+            <div id="bot-health-result" class="result"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>📊 2. جلب إعدادات الخادم</h3>
+            <button onclick="getServerSettings()">جلب الإعدادات</button>
+            <div id="server-settings-result" class="result"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>🔄 3. تحديث إعدادات الإعلانات</h3>
+            <button onclick="updateAdsSettings()">تحديث الإعلانات</button>
+            <div id="update-ads-result" class="result"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>📡 4. اختبار إشعار البوت</h3>
+            <button onclick="testBotNotification()">اختبار الإشعار</button>
+            <div id="bot-notification-result" class="result"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>🎯 5. اختبار شامل</h3>
+            <button onclick="runFullTest()">تشغيل الاختبار الشامل</button>
+            <div id="full-test-result" class="result"></div>
+        </div>
+    </div>
+
+    <script>
+        const SERVER_ID = '423067123225722891';
+        const BOT_API_SECRET = 'dashboard-bot-secret-2024';
+
+        async function testBotHealth() {
+            const resultDiv = document.getElementById('bot-health-result');
+            resultDiv.className = 'result info';
+            resultDiv.textContent = '🔄 جاري اختبار حالة البوت...';
+
+            try {
+                const response = await fetch('http://localhost:3001/api/health', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Bearer ${BOT_API_SECRET}`
+                    }
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    resultDiv.className = 'result success';
+                    resultDiv.textContent = `✅ البوت يعمل بشكل صحيح!\n${JSON.stringify(data, null, 2)}`;
+                } else {
+                    resultDiv.className = 'result error';
+                    resultDiv.textContent = `❌ خطأ في الاتصال بالبوت: ${response.status}`;
+                }
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `❌ خطأ في الاتصال: ${error.message}`;
+            }
+        }
+
+        async function getServerSettings() {
+            const resultDiv = document.getElementById('server-settings-result');
+            resultDiv.className = 'result info';
+            resultDiv.textContent = '🔄 جاري جلب إعدادات الخادم...';
+
+            try {
+                const response = await fetch(`http://localhost:3002/api/server-settings/${SERVER_ID}`);
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    resultDiv.className = 'result success';
+                    resultDiv.textContent = `✅ تم جلب الإعدادات بنجاح!\n${JSON.stringify(data, null, 2)}`;
+                } else {
+                    resultDiv.className = 'result error';
+                    resultDiv.textContent = `❌ خطأ في جلب الإعدادات: ${response.status}`;
+                }
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `❌ خطأ في الاتصال: ${error.message}`;
+            }
+        }
+
+        async function updateAdsSettings() {
+            const resultDiv = document.getElementById('update-ads-result');
+            resultDiv.className = 'result info';
+            resultDiv.textContent = '🔄 جاري تحديث إعدادات الإعلانات...';
+
+            const adsData = {
+                section: 'ads',
+                data: {
+                    enabled: true,
+                    ads: [
+                        {
+                            id: 'test-ad-' + Date.now(),
+                            title: 'إعلان تجريبي',
+                            description: 'هذا إعلان تجريبي للاختبار',
+                            image: 'https://via.placeholder.com/300x200',
+                            url: 'https://example.com',
+                            type: 'immediate',
+                            enabled: true,
+                            publishedAt: new Date().toISOString()
+                        }
+                    ]
+                }
+            };
+
+            try {
+                const response = await fetch(`http://localhost:3002/api/server-settings/${SERVER_ID}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(adsData)
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    resultDiv.className = 'result success';
+                    resultDiv.textContent = `✅ تم تحديث الإعلانات بنجاح!\n${JSON.stringify(data, null, 2)}`;
+                } else {
+                    const errorText = await response.text();
+                    resultDiv.className = 'result error';
+                    resultDiv.textContent = `❌ خطأ في تحديث الإعلانات: ${response.status}\n${errorText}`;
+                }
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `❌ خطأ في الاتصال: ${error.message}`;
+            }
+        }
+
+        async function testBotNotification() {
+            const resultDiv = document.getElementById('bot-notification-result');
+            resultDiv.className = 'result info';
+            resultDiv.textContent = '🔄 جاري اختبار إشعار البوت...';
+
+            const notificationData = {
+                serverId: SERVER_ID,
+                section: 'ads',
+                data: {
+                    enabled: true,
+                    ads: []
+                }
+            };
+
+            try {
+                const response = await fetch('http://localhost:3001/api/settings-update', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${BOT_API_SECRET}`
+                    },
+                    body: JSON.stringify(notificationData)
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    resultDiv.className = 'result success';
+                    resultDiv.textContent = `✅ تم إشعار البوت بنجاح!\n${JSON.stringify(data, null, 2)}`;
+                } else {
+                    const errorText = await response.text();
+                    resultDiv.className = 'result error';
+                    resultDiv.textContent = `❌ خطأ في إشعار البوت: ${response.status}\n${errorText}`;
+                }
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `❌ خطأ في الاتصال: ${error.message}`;
+            }
+        }
+
+        async function runFullTest() {
+            const resultDiv = document.getElementById('full-test-result');
+            resultDiv.className = 'result info';
+            resultDiv.textContent = '🔄 جاري تشغيل الاختبار الشامل...\n';
+
+            let results = [];
+
+            // اختبار 1: حالة البوت
+            try {
+                const botResponse = await fetch('http://localhost:3001/api/health', {
+                    headers: { 'Authorization': `Bearer ${BOT_API_SECRET}` }
+                });
+                results.push(`1. حالة البوت: ${botResponse.ok ? '✅ يعمل' : '❌ لا يعمل'}`);
+            } catch (error) {
+                results.push(`1. حالة البوت: ❌ خطأ في الاتصال`);
+            }
+
+            // اختبار 2: جلب الإعدادات
+            try {
+                const settingsResponse = await fetch(`http://localhost:3002/api/server-settings/${SERVER_ID}`);
+                results.push(`2. جلب الإعدادات: ${settingsResponse.ok ? '✅ نجح' : '❌ فشل'}`);
+            } catch (error) {
+                results.push(`2. جلب الإعدادات: ❌ خطأ في الاتصال`);
+            }
+
+            // اختبار 3: تحديث الإعلانات
+            try {
+                const updateResponse = await fetch(`http://localhost:3002/api/server-settings/${SERVER_ID}`, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        section: 'ads',
+                        data: { enabled: true, ads: [] }
+                    })
+                });
+                results.push(`3. تحديث الإعلانات: ${updateResponse.ok ? '✅ نجح' : '❌ فشل'}`);
+            } catch (error) {
+                results.push(`3. تحديث الإعلانات: ❌ خطأ في الاتصال`);
+            }
+
+            // اختبار 4: إشعار البوت
+            try {
+                const notifyResponse = await fetch('http://localhost:3001/api/settings-update', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${BOT_API_SECRET}`
+                    },
+                    body: JSON.stringify({
+                        serverId: SERVER_ID,
+                        section: 'ads',
+                        data: { enabled: true }
+                    })
+                });
+                results.push(`4. إشعار البوت: ${notifyResponse.ok ? '✅ نجح' : '❌ فشل'}`);
+            } catch (error) {
+                results.push(`4. إشعار البوت: ❌ خطأ في الاتصال`);
+            }
+
+            const allPassed = results.every(result => result.includes('✅'));
+            resultDiv.className = `result ${allPassed ? 'success' : 'error'}`;
+            resultDiv.textContent = `${allPassed ? '🎉 جميع الاختبارات نجحت!' : '⚠️ بعض الاختبارات فشلت'}\n\n${results.join('\n')}`;
+        }
+    </script>
+</body>
+</html>

@@ -27,7 +27,7 @@ const User = sequelize.define('User', {
         },
         comment: 'البريد الإلكتروني للمستخدم - User Email'
     },
-    birthDate: {
+    birth_date: {
         type: DataTypes.DATEONLY,
         allowNull: true,
         validate: {

@@ -39,12 +39,14 @@ export const createStaffUserSchema = {
         'any.required': 'معرف الموقع مطلوب'
       }),
     user_id: Joi.string()
-      .length(15)
+      .min(12)
+      .max(15)
       .required()
       .messages({
         'string.base': 'معرف المستخدم يجب أن يكون نص',
         'string.empty': 'معرف المستخدم لا يمكن أن يكون فارغ',
-        'string.length': 'معرف المستخدم يجب أن يكون 15 حرف بالضبط',
+        'string.min': 'معرف المستخدم يجب أن يكون على الأقل 12 حرف',
+        'string.max': 'معرف المستخدم يجب أن يكون أقل من 15 حرف',
         'any.required': 'معرف المستخدم مطلوب'
       }),
     role_id: Joi.number()

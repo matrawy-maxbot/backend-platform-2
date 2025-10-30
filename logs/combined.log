@@ -1,0 +1,279 @@
+[2025-08-24T13:10:48.275Z] [ERROR]: 404 Not Found - /api/v1/profile
+[2025-08-24T13:10:49.076Z] [ERROR]: 404 Not Found - /api/v1/profile/test_profile_1756041047465
+[2025-08-24T13:10:49.745Z] [ERROR]: 404 Not Found - /api/v1/profile/test_profile_1756041047465
+[2025-08-24T13:10:50.627Z] [ERROR]: 404 Not Found - /api/v1/profile/test_profile_1756041047465
+[2025-08-24T13:10:51.704Z] [ERROR]: 404 Not Found - /api/v1/profile/test_profile_1756041047465
+[2025-08-24T13:10:52.972Z] [ERROR]: 404 Not Found - /api/v1/profile
+[2025-08-24T13:15:14.988Z] [ERROR]: Cannot set properties of undefined (setting 'body')
+[2025-08-24T13:15:15.832Z] [ERROR]: Cannot set properties of undefined (setting 'params')
+[2025-08-24T13:15:16.501Z] [ERROR]: Cannot set properties of undefined (setting 'body')
+[2025-08-24T13:15:17.387Z] [ERROR]: Cannot set properties of undefined (setting 'params')
+[2025-08-24T13:15:18.455Z] [ERROR]: Cannot set properties of undefined (setting 'params')
+[2025-08-24T13:15:19.077Z] [ERROR]: Cannot set properties of undefined (setting 'body')
+[2025-08-24T13:31:21.536Z] [ERROR]: Cannot set properties of undefined (setting 'body')
+[2025-08-24T13:31:22.250Z] [ERROR]: Cannot set properties of undefined (setting 'params')
+[2025-08-24T13:31:23.201Z] [ERROR]: Cannot set properties of undefined (setting 'body')
+[2025-08-24T13:31:24.105Z] [ERROR]: Cannot set properties of undefined (setting 'params')
+[2025-08-24T13:31:25.178Z] [ERROR]: Cannot set properties of undefined (setting 'params')
+[2025-08-24T13:31:25.791Z] [ERROR]: Cannot set properties of undefined (setting 'body')
+[2025-08-24T13:36:53.943Z] [ERROR]: Cannot set properties of undefined (setting 'body')
+[2025-08-24T13:36:54.836Z] [ERROR]: Cannot set properties of undefined (setting 'params')
+[2025-08-24T13:36:55.527Z] [ERROR]: Cannot set properties of undefined (setting 'body')
+[2025-08-24T13:36:56.412Z] [ERROR]: Cannot set properties of undefined (setting 'params')
+[2025-08-24T13:36:57.501Z] [ERROR]: Cannot set properties of undefined (setting 'params')
+[2025-08-24T13:36:58.134Z] [ERROR]: Cannot set properties of undefined (setting 'body')
+[2025-08-24T13:37:52.467Z] [ERROR]: Cannot set properties of undefined (setting 'body')
+[2025-08-24T13:37:53.110Z] [ERROR]: Cannot set properties of undefined (setting 'params')
+[2025-08-24T13:37:53.696Z] [ERROR]: Cannot set properties of undefined (setting 'body')
+[2025-08-24T13:37:54.303Z] [ERROR]: Cannot set properties of undefined (setting 'params')
+[2025-08-24T13:37:54.902Z] [ERROR]: Cannot set properties of undefined (setting 'params')
+[2025-08-24T13:37:55.487Z] [ERROR]: Cannot set properties of undefined (setting 'body')
+[2025-08-24T13:39:00.921Z] [ERROR]: "id" is required, "body" is not allowed
+[2025-08-24T13:39:01.536Z] [ERROR]: "id" is required, "params" is not allowed
+[2025-08-24T13:39:02.121Z] [ERROR]: "body" is not allowed
+[2025-08-24T13:39:02.744Z] [ERROR]: "id" is required, "params" is not allowed
+[2025-08-24T13:39:03.315Z] [ERROR]: "id" is required, "params" is not allowed
+[2025-08-24T13:39:03.909Z] [ERROR]: "id" is required, "body" is not allowed
+[2025-08-24T13:39:44.133Z] [ERROR]: "id" is required, "body" is not allowed
+[2025-08-24T13:39:44.763Z] [ERROR]: "id" is required, "params" is not allowed
+[2025-08-24T13:39:45.358Z] [ERROR]: "body" is not allowed
+[2025-08-24T13:39:45.958Z] [ERROR]: "id" is required, "params" is not allowed
+[2025-08-24T13:39:46.542Z] [ERROR]: "id" is required, "params" is not allowed
+[2025-08-24T13:39:47.119Z] [ERROR]: "id" is required, "body" is not allowed
+[2025-08-24T16:20:18.290Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1, "country" length must be less than or equal to 30 characters long, "city" length must be less than or equal to 50 characters long
+[2025-08-24T16:25:31.289Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1, "country" length must be less than or equal to 30 characters long, "city" length must be less than or equal to 50 characters long
+[2025-08-24T18:46:05.963Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-24T18:53:30.186Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-24T19:01:04.656Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-24T19:03:54.227Z] [ERROR]: 404 Not Found - /api/v1/profileTasks
+[2025-08-24T19:03:54.847Z] [ERROR]: 404 Not Found - /api/v1/profileTasks
+[2025-08-24T19:03:55.438Z] [ERROR]: 404 Not Found - /api/v1/profileTasks/1
+[2025-08-24T19:03:56.029Z] [ERROR]: 404 Not Found - /api/v1/profileTasks/profile/pt_profile_1756062233399
+[2025-08-24T19:03:56.620Z] [ERROR]: 404 Not Found - /api/v1/profileTasks/guild/pt_guild_1756062233399
+[2025-08-24T19:03:57.212Z] [ERROR]: 404 Not Found - /api/v1/profileTasks/1
+[2025-08-24T19:03:57.557Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-24T19:03:57.789Z] [ERROR]: 404 Not Found - /api/v1/profileTasks/1
+[2025-08-24T19:03:58.379Z] [ERROR]: 404 Not Found - /api/v1/profileTasks/1
+[2025-08-24T19:03:58.968Z] [ERROR]: 404 Not Found - /api/v1/profileTasks
+[2025-08-24T19:03:59.559Z] [ERROR]: 404 Not Found - /api/v1/profileTasks/invalid_id
+[2025-08-24T19:04:00.148Z] [ERROR]: 404 Not Found - /api/v1/profileTasks/profile/invalid_profile_id
+[2025-08-24T19:04:00.714Z] [ERROR]: 404 Not Found - /api/v1/profileTasks/guild/invalid_guild_id
+[2025-08-24T19:25:55.605Z] [ERROR]: "guild_id" length must be 20 characters long, "profile_id" length must be 20 characters long
+[2025-08-24T19:25:57.881Z] [ERROR]: "profileId" length must be 20 characters long
+[2025-08-24T19:25:58.469Z] [ERROR]: "guildId" length must be 20 characters long
+[2025-08-24T19:25:58.898Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-24T19:25:59.070Z] [ERROR]: "guild_id" length must be 20 characters long, "profile_id" length must be 20 characters long
+[2025-08-24T19:28:27.956Z] [ERROR]: "guild_id" length must be 20 characters long, "profile_id" length must be 20 characters long
+[2025-08-24T19:28:30.290Z] [ERROR]: "profileId" length must be 20 characters long
+[2025-08-24T19:28:30.882Z] [ERROR]: "guildId" length must be 20 characters long
+[2025-08-24T19:28:31.320Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-24T19:28:31.462Z] [ERROR]: "guild_id" length must be 20 characters long, "profile_id" length must be 20 characters long
+[2025-08-24T19:31:34.902Z] [ERROR]: "guild_id" length must be 20 characters long, "profile_id" length must be 20 characters long
+[2025-08-24T19:31:37.203Z] [ERROR]: "profileId" length must be 20 characters long
+[2025-08-24T19:31:37.794Z] [ERROR]: "guildId" length must be 20 characters long
+[2025-08-24T19:31:38.229Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-24T19:31:38.387Z] [ERROR]: "guild_id" length must be 20 characters long, "profile_id" length must be 20 characters long
+[2025-08-24T19:32:02.985Z] [ERROR]: "guild_id" length must be 20 characters long, "profile_id" length must be 20 characters long
+[2025-08-24T19:32:05.248Z] [ERROR]: "profileId" length must be 20 characters long
+[2025-08-24T19:32:05.838Z] [ERROR]: "guildId" length must be 20 characters long
+[2025-08-24T19:32:06.270Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-24T19:32:06.427Z] [ERROR]: "guild_id" length must be 20 characters long, "profile_id" length must be 20 characters long
+[2025-08-24T19:40:16.179Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-24T19:57:31.956Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-24T20:11:01.198Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-24T20:11:03.111Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-24T20:19:37.660Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-24T20:19:39.492Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-24T20:47:31.338Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-24T20:47:33.189Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-24T20:51:14.192Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-24T20:51:16.025Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-24T20:58:16.486Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-24T20:58:18.359Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-24T21:01:01.142Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-24T21:01:03.005Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T13:29:32.279Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T13:29:33.725Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/guild/test_guild_1756128570019
+[2025-08-25T13:29:34.188Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T13:29:34.325Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/chat-level/2
+[2025-08-25T13:29:34.910Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/voice-level/2
+[2025-08-25T13:29:35.474Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/test_user_1756128570019/guild/test_guild_1756128570019
+[2025-08-25T13:29:36.065Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/test_user_1756128570019/guild/test_guild_1756128570019/chat-points
+[2025-08-25T13:29:36.657Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/test_user_1756128570019/guild/test_guild_1756128570019/voice-points
+[2025-08-25T13:29:37.248Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/test_user_1756128570019/guild/test_guild_1756128570019/increment-chat
+[2025-08-25T13:29:37.840Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/test_user_1756128570019/guild/test_guild_1756128570019/increment-voice
+[2025-08-25T13:29:38.428Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions
+[2025-08-25T13:29:39.015Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/test_user_1756128570019/guild/test_guild_1756128570019
+[2025-08-25T13:29:39.607Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/test_user_2_1756128570019
+[2025-08-25T13:29:40.195Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/guild/test_guild_2_1756128570019
+[2025-08-25T13:29:40.751Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/test_user_1756128570019/guild/test_guild_1756128570019
+[2025-08-25T13:34:24.634Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T13:34:25.948Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/tu_1756128862833
+[2025-08-25T13:34:26.509Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T13:34:27.062Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/chat-level/2
+[2025-08-25T13:34:27.652Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/voice-level/2
+[2025-08-25T13:34:28.245Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/tu_1756128862833/guild/tg_1756128862833
+[2025-08-25T13:34:28.837Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/tu_1756128862833/guild/tg_1756128862833/chat-points
+[2025-08-25T13:34:29.427Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/tu_1756128862833/guild/tg_1756128862833/voice-points
+[2025-08-25T13:34:30.018Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/tu_1756128862833/guild/tg_1756128862833/increment-chat
+[2025-08-25T13:34:30.610Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/tu_1756128862833/guild/tg_1756128862833/increment-voice
+[2025-08-25T13:34:31.195Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions
+[2025-08-25T13:34:31.787Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/tu_1756128862833/guild/tg_1756128862833
+[2025-08-25T13:34:32.351Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/tu2_1756128862833
+[2025-08-25T13:34:32.942Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/guild/tg2_1756128862833
+[2025-08-25T13:34:33.504Z] [ERROR]: 404 Not Found - /api/v1/serversInteractions/user/tu_1756128862833/guild/tg_1756128862833
+[2025-08-25T13:46:09.661Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T13:46:11.581Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T13:46:18.672Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-25T13:53:06.728Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T13:53:08.626Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T13:53:14.737Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-25T14:08:38.603Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T14:08:41.037Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T14:08:47.080Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-25T16:25:39.679Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T16:25:41.566Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T16:25:47.640Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-25T16:26:54.900Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T16:26:56.756Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T16:27:03.378Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-25T16:40:23.195Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T16:40:25.148Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T16:40:32.169Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-25T16:53:07.826Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T16:53:09.714Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T16:53:16.768Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-25T17:03:19.550Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T17:03:21.514Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T17:03:28.525Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-25T17:03:49.837Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T17:03:52.264Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T17:03:58.335Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-25T17:04:20.942Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T17:04:22.851Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T17:04:29.943Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-25T17:04:45.890Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T17:04:47.825Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T17:04:54.875Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-25T17:13:31.166Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T17:13:33.582Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T17:13:40.695Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-25T17:42:21.899Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T17:42:24.321Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T17:42:31.418Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-25T17:53:08.950Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T17:53:10.866Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T17:53:17.972Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-25T22:17:38.805Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-25T22:17:41.232Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-25T22:17:48.283Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-26T11:28:32.864Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-26T11:28:35.190Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-26T11:28:41.767Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-26T11:29:33.922Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-26T11:29:36.254Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-26T11:29:42.818Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-26T11:31:00.174Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-26T11:31:07.070Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-26T12:30:18.368Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-26T12:30:20.365Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-26T12:30:27.340Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-26T12:33:59.270Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-26T12:34:01.187Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-26T12:34:07.262Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-26T12:35:43.273Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-26T12:35:45.194Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-26T12:35:51.301Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-26T12:42:28.232Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-26T12:42:30.128Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-26T12:42:37.213Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-26T12:52:55.278Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-26T12:52:56.767Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-26T12:53:03.787Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-26T13:03:40.444Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-26T13:03:42.302Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-26T13:03:47.828Z] [ERROR]: 404 Not Found - /api/v1/verifyDur/
+[2025-08-26T13:03:48.896Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-26T13:03:49.026Z] [ERROR]: معرف المستخدم مطلوب, معرف الخادم مطلوب, تنسيق المدة غير صحيح (مثال: 1h, 30m, 2d)
+[2025-08-26T13:03:49.623Z] [ERROR]: 404 Not Found - /api/v1/verifyDur/
+[2025-08-26T13:42:49.597Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-26T13:42:50.487Z] [ERROR]: المعرف يجب أن يكون رقم
+[2025-08-26T13:42:50.870Z] [ERROR]: 404 Not Found - /api/v1/votes/
+[2025-08-26T13:42:50.934Z] [ERROR]: 404 Not Found - /api/v1/votes//message
+[2025-08-26T13:42:51.017Z] [ERROR]: 404 Not Found - /api/v1/votes//rank-message
+[2025-08-26T13:42:51.076Z] [ERROR]: 404 Not Found - /api/v1/votes//channel
+[2025-08-26T13:42:51.268Z] [ERROR]: 404 Not Found - /api/v1/votes/
+[2025-08-26T13:42:51.359Z] [ERROR]: معرف الخادم مطلوب, معرف القناة مطلوب
+[2025-08-26T13:42:51.414Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-26T13:42:56.961Z] [ERROR]: 404 Not Found - /api/v1/verifyDur/
+[2025-08-26T13:42:57.479Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-26T13:42:58.179Z] [ERROR]: معرف المستخدم مطلوب, معرف الخادم مطلوب, تنسيق المدة غير صحيح (مثال: 1h, 30m, 2d)
+[2025-08-26T13:42:58.774Z] [ERROR]: 404 Not Found - /api/v1/verifyDur/
+[2025-08-26T13:54:20.070Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-26T13:54:21.102Z] [ERROR]: المعرف يجب أن يكون رقم
+[2025-08-26T13:54:21.451Z] [ERROR]: 404 Not Found - /api/v1/votes/
+[2025-08-26T13:54:21.506Z] [ERROR]: 404 Not Found - /api/v1/votes//message
+[2025-08-26T13:54:21.563Z] [ERROR]: 404 Not Found - /api/v1/votes//rank-message
+[2025-08-26T13:54:21.620Z] [ERROR]: 404 Not Found - /api/v1/votes//channel
+[2025-08-26T13:54:21.870Z] [ERROR]: 404 Not Found - /api/v1/votes/
+[2025-08-26T13:54:21.938Z] [ERROR]: معرف الخادم مطلوب, معرف القناة مطلوب
+[2025-08-26T13:54:21.967Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-26T13:54:26.987Z] [ERROR]: 404 Not Found - /api/v1/verifyDur/
+[2025-08-26T13:54:28.052Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-26T13:54:28.143Z] [ERROR]: معرف المستخدم مطلوب, معرف الخادم مطلوب, تنسيق المدة غير صحيح (مثال: 1h, 30m, 2d)
+[2025-08-26T13:54:28.725Z] [ERROR]: 404 Not Found - /api/v1/verifyDur/
+[2025-08-26T13:56:11.244Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-26T13:56:12.236Z] [ERROR]: المعرف يجب أن يكون رقم
+[2025-08-26T13:56:12.577Z] [ERROR]: 404 Not Found - /api/v1/votes/
+[2025-08-26T13:56:12.631Z] [ERROR]: 404 Not Found - /api/v1/votes//message
+[2025-08-26T13:56:12.693Z] [ERROR]: 404 Not Found - /api/v1/votes//rank-message
+[2025-08-26T13:56:12.791Z] [ERROR]: 404 Not Found - /api/v1/votes//channel
+[2025-08-26T13:56:13.041Z] [ERROR]: 404 Not Found - /api/v1/votes/
+[2025-08-26T13:56:13.106Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-26T13:56:13.110Z] [ERROR]: معرف الخادم مطلوب, معرف القناة مطلوب
+[2025-08-26T14:09:03.978Z] [ERROR]: "guild_id" is not allowed to be empty, "profile_ch_id" is not allowed to be empty, "tasks_ch_id" is not allowed to be empty, "profile_id" is not allowed to be empty, "bot_dur" is not allowed to be empty, "s_members" is required, "s_online" is required, "s_boosts" is required, "s_votes" is required, "s_chat" is required, "bd_shard" is required, "sm_shard" is required, "so_shard" is required, "sb_shard" is required, "sv_shard" is required, "si_shard" is required, "invalid_field" is not allowed
+[2025-08-26T14:09:04.865Z] [ERROR]: المعرف يجب أن يكون رقم
+[2025-08-26T14:09:05.240Z] [ERROR]: 404 Not Found - /api/v1/votes/
+[2025-08-26T14:09:05.320Z] [ERROR]: 404 Not Found - /api/v1/votes//message
+[2025-08-26T14:09:05.378Z] [ERROR]: 404 Not Found - /api/v1/votes//rank-message
+[2025-08-26T14:09:05.427Z] [ERROR]: 404 Not Found - /api/v1/votes//channel
+[2025-08-26T14:09:05.598Z] [ERROR]: 404 Not Found - /api/v1/votes/
+[2025-08-26T14:09:05.659Z] [ERROR]: معرف الخادم مطلوب, معرف القناة مطلوب
+[2025-08-26T14:09:05.785Z] [ERROR]: "id" is required, "credits" must be greater than or equal to 0, "xp" must be greater than or equal to 0, "level" must be greater than or equal to 1
+[2025-08-26T14:09:11.828Z] [ERROR]: 404 Not Found - /api/v1/verifyDur/
+[2025-08-26T14:09:12.822Z] [ERROR]: "user_id" is not allowed to be empty, "guild_id" is not allowed to be empty, "chat_points" must be greater than or equal to 0, "voice_points" must be greater than or equal to 0, "chat_level" must be greater than or equal to 1, "voice_level" must be greater than or equal to 1
+[2025-08-26T14:09:13.043Z] [ERROR]: معرف المستخدم مطلوب, معرف الخادم مطلوب, تنسيق المدة غير صحيح (مثال: 1h, 30m, 2d)
+[2025-08-26T14:09:13.641Z] [ERROR]: 404 Not Found - /api/v1/verifyDur/
+[2025-09-27T23:04:24.863Z] [ERROR]: خطأ في الحصول على المستخدمين: 
+[2025-09-27T23:05:32.618Z] [ERROR]: خطأ في الحصول على المستخدمين: column User.createdAt does not exist
+[2025-09-27T23:07:46.100Z] [ERROR]: req.schema.validate is not a function
+[2025-09-27T23:15:14.818Z] [ERROR]: Must be invoked on a Joi instance.
+[2025-09-27T23:19:23.852Z] [ERROR]: "id" must be of type object
+[2025-09-27T23:22:34.267Z] [ERROR]: "id" must be of type object
+[2025-09-27T23:25:29.698Z] [ERROR]: "id" must be of type object
+[2025-09-27T23:26:12.645Z] [ERROR]: "id" must be of type object
+[2025-09-27T23:26:44.424Z] [ERROR]: "id" must be of type object
+[2025-09-28T13:52:41.028Z] [ERROR]: Error creating user: Email already exists
+[2025-09-28T13:54:53.323Z] [ERROR]: Error creating user: Email already exists
+[2025-09-28T13:55:29.791Z] [ERROR]: Error creating user: Email already exists
+[2025-09-28T13:56:27.792Z] [ERROR]: Error creating user: Email already exists
+[2025-09-28T13:56:59.605Z] [ERROR]: Error creating user: Email already exists
+[2025-09-28T13:57:25.889Z] [ERROR]: Error creating user: Email already exists
+[2025-09-28T13:59:57.819Z] [ERROR]: اسم المستخدم يجب أن يكون على الأقل حرفين, البريد الإلكتروني غير صحيح, كلمة المرور يجب أن تكون على الأقل 6 أحرف, الاسم الكامل مطلوب
+[2025-09-28T14:00:24.130Z] [ERROR]: معرف المستخدم يجب أن يكون على الأقل 12 حرف
+[2025-09-28T14:01:49.670Z] [ERROR]: خطأ في تحديث المستخدم: المستخدم غير موجود
+[2025-09-28T14:01:57.989Z] [ERROR]: خطأ في تحديث المستخدم: column "name" of relation "users" does not exist
+[2025-10-24T13:44:55.401Z] [ERROR]: خطأ في إنشاء المتجر: insert or update on table "vendors" violates foreign key constraint "vendors_user_id_fkey"
+[2025-10-24T13:45:48.388Z] [ERROR]: معرف المستخدم يجب أن يكون 15 حرف بالضبط
+[2025-10-24T13:55:27.815Z] [ERROR]: معرف المتجر مطلوب
+[2025-10-24T13:56:08.658Z] [ERROR]: معرف المتجر مطلوب
+[2025-10-24T14:05:05.325Z] [ERROR]: خطأ في تحديث المتجر: column "status" is of type enum_vendors_status but expression is of type text
+[2025-10-24T14:12:51.480Z] [ERROR]: خطأ في تحديث المتجر: column "approved_at" is of type timestamp with time zone but expression is of type text
+[2025-10-24T14:14:58.855Z] [ERROR]: خطأ في تحديث المتجر: insert or update on table "vendors" violates foreign key constraint "vendors_approved_by_fkey"
+[2025-10-24T14:20:28.068Z] [ERROR]: معرف المستخدم يجب أن يكون على الأقل 12 حرف, اسم النشاط التجاري يجب أن يكون على الأقل حرفين, البريد الإلكتروني للنشاط غير صحيح, رقم هاتف النشاط غير صحيح
+[2025-10-24T14:20:35.057Z] [ERROR]: معرف المستخدم مطلوب, البريد الإلكتروني للنشاط مطلوب, رقم هاتف النشاط مطلوب
+[2025-10-24T14:20:45.140Z] [ERROR]: معرف المتجر يجب أن يكون رقم
+[2025-10-24T14:20:53.724Z] [ERROR]: معرف المتجر يجب أن يكون رقم موجب
+[2025-10-24T14:21:11.066Z] [ERROR]: يجب تقديم حقل واحد على الأقل للتحديث
+[2025-10-24T14:21:29.097Z] [ERROR]: خطأ في إنشاء المتجر: insert or update on table "vendors" violates foreign key constraint "vendors_user_id_fkey"
+[2025-10-24T16:34:28.038Z] [ERROR]: خطأ في جلب إعدادات المواقع: Vendor is associated to VendorSiteSetting using an alias. You've included an alias (vendor), but it does not match the alias(es) defined in your association (Vendor).

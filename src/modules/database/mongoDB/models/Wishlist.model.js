@@ -15,7 +15,11 @@ const wishlistSchema = new mongoose.Schema({
     default: Date.now
   }
 }, {
-  strict: false
+  timestamps: {
+    createdAt: 'created_at',
+    updatedAt: 'updated_at'
+  },
+  strict: false // يسمح بإضافة حقول إضافية مثل باقي النماذج
 });
 
 // Compound index لمنع تكرار المنتج لنفس المستخدم

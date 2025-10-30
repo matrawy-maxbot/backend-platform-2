@@ -26,8 +26,11 @@ const notificationSchema = new mongoose.Schema({
   related_entity_id: Number,
   action_url: String // رابط للإجراء
 }, {
-  timestamps: true,
-  strict: false
+  timestamps: {
+    createdAt: 'created_at',
+    updatedAt: 'updated_at'
+  },
+  strict: false // يسمح بإضافة حقول إضافية مثل باقي النماذج
 });
 
 // Indexes

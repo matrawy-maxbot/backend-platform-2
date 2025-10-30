@@ -16,8 +16,11 @@ const sessionSchema = new mongoose.Schema({
     required: true
   }
 }, {
-  timestamps: true, // يضيف created_at, updated_at تلقائياً
-  strict: false // يسمح بإضافة حقول أخرى
+  timestamps: {
+    createdAt: 'created_at',
+    updatedAt: 'updated_at'
+  },
+  strict: false // يسمح بإضافة حقول إضافية مثل باقي النماذج
 });
 
 // Indexes

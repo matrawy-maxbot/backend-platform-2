@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="12" fill="#8B5CF6"/>
+  <!-- Memory cards grid -->
+  <rect x="12" y="12" width="12" height="12" rx="2" fill="white" opacity="0.9"/>
+  <rect x="26" y="12" width="12" height="12" rx="2" fill="white" opacity="0.9"/>
+  <rect x="40" y="12" width="12" height="12" rx="2" fill="white" opacity="0.9"/>
+  <rect x="12" y="26" width="12" height="12" rx="2" fill="white" opacity="0.9"/>
+  <rect x="26" y="26" width="12" height="12" rx="2" fill="#F59E0B" opacity="0.9"/>
+  <rect x="40" y="26" width="12" height="12" rx="2" fill="white" opacity="0.9"/>
+  <rect x="12" y="40" width="12" height="12" rx="2" fill="white" opacity="0.9"/>
+  <rect x="26" y="40" width="12" height="12" rx="2" fill="#F59E0B" opacity="0.9"/>
+  <rect x="40" y="40" width="12" height="12" rx="2" fill="white" opacity="0.9"/>
+  <!-- Stars on matched cards -->
+  <path d="M32 29L33 31L35 31L33.5 32.5L34 35L32 33.5L30 35L30.5 32.5L29 31L31 31Z" fill="white"/>
+  <path d="M32 43L33 45L35 45L33.5 46.5L34 49L32 47.5L30 49L30.5 46.5L29 45L31 45Z" fill="white"/>
+</svg>

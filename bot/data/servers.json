@@ -1,0 +1,343 @@
+{
+  "423067123225722891": {
+    "id": "423067123225722891",
+    "autoReply": {
+      "enabled": true,
+      "smartReplyEnabled": false,
+      "defaultCooldown": 30,
+      "maxResponsesPerHour": 10,
+      "replies": [
+        {
+          "id": "1",
+          "name": "ترحيب",
+          "triggers": [
+            "مرحبا",
+            "السلام عليكم",
+            "hello",
+            "hi",
+            "أهلا"
+          ],
+          "responses": [
+            "أهلاً وسهلاً {user}! 👋",
+            "مرحباً بك في {server}! 🎉",
+            "السلام عليكم ورحمة الله وبركاته {user}! ✨"
+          ],
+          "enabled": true,
+          "conditions": [],
+          "channels": [],
+          "roles": [],
+          "cooldown": 10,
+          "usageCount": 0,
+          "lastUsed": "Never"
+        },
+        {
+          "id": "2",
+          "name": "شكر",
+          "triggers": [
+            "شكرا",
+            "thanks",
+            "thank you",
+            "شكراً"
+          ],
+          "responses": [
+            "العفو {user}! 😊",
+            "لا شكر على واجب! 💙",
+            "أهلاً وسهلاً دائماً! ✨"
+          ],
+          "enabled": true,
+          "conditions": [],
+          "channels": [],
+          "roles": [],
+          "cooldown": 15,
+          "usageCount": 0,
+          "lastUsed": "Never"
+        }
+      ]
+    },
+    "ads": {
+      "enabled": false,
+      "ads": []
+    },
+    "members": {
+      "welcomeMessage": {
+        "enabled": true,
+        "message": "Welcome {user}!",
+        "channel": ""
+      },
+      "autoRole": {
+        "enabled": false,
+        "roleId": ""
+      }
+    },
+    "protection": {
+      "spamProtection": true,
+      "raidProtection": false,
+      "autoModeration": true,
+      "botManagement": {
+        "enabled": true,
+        "allowedBots": [],
+        "blockUnknownBots": false,
+        "disallowBots": false,
+        "deleteRepeatedMessages": true
+      },
+      "moderation": {
+        "enabled": true,
+        "autoDelete": false,
+        "warnUser": false,
+        "logChannel": "",
+        "maxKickBan": 1,
+        "memberPunishment": "remove roles"
+      },
+      "badWords": {
+        "enabled": true,
+        "words": [
+          "هلا",
+          "وينو",
+          "سيبسيب",
+          "سيبيسب",
+          "شسييي",
+          "بق"
+        ],
+        "action": "delete",
+        "customMessage": "",
+        "pictureChannels": [
+          "art",
+          "chan",
+          "kick-",
+          "nf",
+          "servers",
+          "J",
+          "meme",
+          "mess",
+          "join-leave",
+          "423067123225722893",
+          "726837802406248539",
+          "726842791367540786"
+        ],
+        "botCommandChannels": [
+          "join-leave",
+          "channels",
+          "general",
+          "asd",
+          "roles",
+          "members"
+        ],
+        "punishment": "Warn message"
+      },
+      "links": {
+        "enabled": true,
+        "allowDiscordInvites": true,
+        "allowedDomains": [],
+        "blockAll": false,
+        "whitelistChannels": [],
+        "blockedLinks": [
+          {
+            "content": "",
+            "action": "delete",
+            "channels": []
+          },
+          {
+            "content": "youtube.com",
+            "action": "delete",
+            "channels": [
+              "general",
+              "chat",
+              "726837802406248539",
+              "423067123225722893",
+              "726842791367540786"
+            ]
+          },
+          {
+            "content": "discorضd.شش",
+            "action": "delete",
+            "channels": [
+              "general",
+              "announcements",
+              "1423638928212099192",
+              "727083989361229876",
+              "727083988925153360"
+            ]
+          },
+          {
+            "content": "spam",
+            "action": "delete",
+            "channels": [
+              "general",
+              "1423638928212099192",
+              "727083988925153360"
+            ]
+          }
+        ]
+      },
+      "antiSpam": {
+        "enabled": false,
+        "maxMessages": 20,
+        "timeWindow": 10,
+        "action": "delete",
+        "messageLimit": 15
+      },
+      "images": {
+        "enabled": false,
+        "mode": "allow_all",
+        "pictureChannels": []
+      },
+      "channels": {
+        "enabled": true,
+        "mode": "allow_all",
+        "channels": [],
+        "channelSettings": {
+          "1423638928212099192": {
+            "allowImages": true,
+            "allowTexts": true,
+            "allowFiles": true,
+            "allowBotCommands": true
+          },
+          "423067123225722893": {
+            "allowImages": true,
+            "allowTexts": false,
+            "allowFiles": true,
+            "allowBotCommands": true
+          }
+        }
+      }
+    },
+    "createdAt": "2025-10-22T14:55:56.725Z",
+    "updatedAt": "2025-10-24T15:22:09.366Z",
+    "updatedBy": "bot-sync",
+    "backup": {
+      "enabled": true,
+      "backups": [
+        {
+          "id": "mh3s0r6cbfwi82fhxb4",
+          "filename": "backup_423067123225722891_2025-10-23T18-49-32-813Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-23T18-49-32-813Z.json",
+          "timestamp": "2025-10-23T18:49:32.812Z",
+          "guildName": "R7 بالقمة ..",
+          "memberCount": 9,
+          "channelsCount": 17,
+          "rolesCount": 8,
+          "size": 6428,
+          "createdAt": "2025-10-23T18:49:32.820Z"
+        },
+        {
+          "id": "mh3rygrxsyi19gibw7g",
+          "filename": "backup_423067123225722891_2025-10-23T18-47-46-021Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-23T18-47-46-021Z.json",
+          "timestamp": "2025-10-23T18:47:46.019Z",
+          "guildName": "R7 بالقمة ..",
+          "memberCount": 9,
+          "channelsCount": 16,
+          "rolesCount": 8,
+          "size": 6276,
+          "createdAt": "2025-10-23T18:47:46.029Z"
+        },
+        {
+          "id": "mh248hma3qmsmwl154l",
+          "filename": "backup_423067123225722891_2025-10-22T14-55-56-717Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-22T14-55-56-717Z.json",
+          "timestamp": "2025-10-22T14:55:56.717Z",
+          "guildName": "R7 بالقمة ..",
+          "memberCount": 9,
+          "channelsCount": 22,
+          "rolesCount": 8,
+          "size": 7514,
+          "createdAt": "2025-10-22T14:55:56.723Z"
+        }
+      ]
+    }
+  },
+  "520346922876141598": {
+    "id": "520346922876141598",
+    "autoReply": {
+      "enabled": true,
+      "replies": []
+    },
+    "ads": {
+      "enabled": false,
+      "ads": []
+    },
+    "members": {
+      "welcomeMessage": {
+        "enabled": true,
+        "message": "Welcome {user}!",
+        "channel": ""
+      },
+      "autoRole": {
+        "enabled": false,
+        "roleId": ""
+      }
+    },
+    "protection": {
+      "spamProtection": true,
+      "raidProtection": false
+    },
+    "createdAt": "2025-10-24T20:53:40.016Z",
+    "updatedAt": "2025-10-24T20:59:43.190Z",
+    "updatedBy": "backup-system",
+    "backup": {
+      "enabled": true,
+      "backups": [
+        {
+          "id": "mh5c40czn9upjwz7fua",
+          "filename": "backup_520346922876141598_2025-10-24T20-59-43-181Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-59-43-181Z.json",
+          "timestamp": "2025-10-24T20:59:43.180Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:59:43.187Z"
+        },
+        {
+          "id": "mh5c1wfqtn5ylsowbxi",
+          "filename": "backup_520346922876141598_2025-10-24T20-58-04-784Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-58-04-784Z.json",
+          "timestamp": "2025-10-24T20:58:04.783Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:58:04.790Z"
+        },
+        {
+          "id": "mh5bzhi3sv71tjyeq4e",
+          "filename": "backup_520346922876141598_2025-10-24T20-56-12-116Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-56-12-116Z.json",
+          "timestamp": "2025-10-24T20:56:12.115Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:56:12.124Z"
+        },
+        {
+          "id": "mh5bxujifm7bea1lwpl",
+          "filename": "backup_520346922876141598_2025-10-24T20-54-55-705Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-54-55-705Z.json",
+          "timestamp": "2025-10-24T20:54:55.705Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:54:55.711Z"
+        },
+        {
+          "id": "mh5bw84t7f026pz6ucq",
+          "filename": "backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "timestamp": "2025-10-24T20:53:40.006Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:53:40.014Z"
+        }
+      ]
+    }
+  }
+}

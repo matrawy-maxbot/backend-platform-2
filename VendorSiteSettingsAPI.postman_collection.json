@@ -1,0 +1,578 @@
+{
+	"info": {
+		"_postman_id": "vendor-site-settings-api-collection-2024",
+		"name": "Vendor Site Settings API Collection",
+		"description": "مجموعة شاملة لاختبار API إعدادات مواقع المتاجر",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "vendor-site-settings-api"
+	},
+	"item": [
+		{
+			"name": "Get All Vendor Site Settings",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response is an array\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.be.an('array');",
+							"});",
+							"",
+							"pm.test(\"Response contains vendor site settings data\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    if (jsonData.length > 0) {",
+							"        pm.expect(jsonData[0]).to.have.property('id');",
+							"        pm.expect(jsonData[0]).to.have.property('vendor_id');",
+							"        pm.expect(jsonData[0]).to.have.property('site_type');",
+							"    }",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/vendor-site-settings",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendor-site-settings"
+					]
+				},
+				"description": "جلب جميع إعدادات مواقع المتاجر المسجلة في النظام"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Vendor Site Setting By ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response has vendor site setting data\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('id');",
+							"    pm.expect(jsonData).to.have.property('vendor_id');",
+							"    pm.expect(jsonData).to.have.property('site_type');",
+							"    pm.expect(jsonData).to.have.property('theme_color');",
+							"});",
+							"",
+							"pm.test(\"ID matches requested ID\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    const requestedId = pm.request.url.path[pm.request.url.path.length - 1];",
+							"    pm.expect(jsonData.id.toString()).to.equal(requestedId);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/vendor-site-settings/{{testSettingId}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendor-site-settings",
+						"{{testSettingId}}"
+					]
+				},
+				"description": "جلب إعدادات موقع متجر محدد بواسطة المعرف"
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Vendor Site Setting",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});",
+							"",
+							"pm.test(\"Response has created vendor site setting data\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('id');",
+							"    pm.expect(jsonData).to.have.property('vendor_id');",
+							"    pm.expect(jsonData).to.have.property('site_type');",
+							"});",
+							"",
+							"pm.test(\"Created data matches request data\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    const requestData = JSON.parse(pm.request.body.raw);",
+							"    pm.expect(jsonData.vendor_id).to.equal(requestData.vendor_id);",
+							"    pm.expect(jsonData.site_type).to.equal(requestData.site_type);",
+							"});",
+							"",
+							"// Save the created ID for other tests",
+							"if (pm.response.code === 201) {",
+							"    const jsonData = pm.response.json();",
+							"    pm.collectionVariables.set('createdSettingId', jsonData.id);",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"vendor_id\": 1,\n  \"site_type\": \"متجر إلكتروني\",\n  \"theme_color\": \"#2563EB\",\n  \"logo_url\": \"https://example.com/logo.png\",\n  \"banner_url\": \"https://example.com/banner.jpg\",\n  \"custom_domain\": \"متجري.com\",\n  \"is_custom_domain_verified\": false,\n  \"site_title\": \"متجر الإلكترونيات الحديثة\",\n  \"meta_description\": \"أفضل متجر للإلكترونيات والأجهزة الذكية في المملكة العربية السعودية\",\n  \"is_active\": true,\n  \"maintenance_mode\": false\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/vendor-site-settings",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendor-site-settings"
+					]
+				},
+				"description": "إنشاء إعدادات موقع متجر جديدة مع جميع البيانات المطلوبة والاختيارية"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Vendor Site Setting",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response has updated vendor site setting data\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('id');",
+							"    pm.expect(jsonData).to.have.property('vendor_id');",
+							"    pm.expect(jsonData).to.have.property('site_type');",
+							"});",
+							"",
+							"pm.test(\"Updated data reflects changes\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    const requestData = JSON.parse(pm.request.body.raw);",
+							"    if (requestData.site_title) {",
+							"        pm.expect(jsonData.site_title).to.equal(requestData.site_title);",
+							"    }",
+							"    if (requestData.theme_color) {",
+							"        pm.expect(jsonData.theme_color).to.equal(requestData.theme_color);",
+							"    }",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"site_type\": \"متجر إلكتروني محدث\",\n  \"theme_color\": \"#059669\",\n  \"site_title\": \"متجر الإلكترونيات الحديثة - محدث\",\n  \"meta_description\": \"أفضل متجر للإلكترونيات والأجهزة الذكية في المملكة العربية السعودية - تم التحديث\",\n  \"is_active\": true,\n  \"maintenance_mode\": false,\n  \"is_custom_domain_verified\": true\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/vendor-site-settings/{{testSettingId}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendor-site-settings",
+						"{{testSettingId}}"
+					]
+				},
+				"description": "تحديث إعدادات موقع متجر موجود"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Vendor Site Setting",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200 or 204\", function () {",
+							"    pm.expect(pm.response.code).to.be.oneOf([200, 204]);",
+							"});",
+							"",
+							"pm.test(\"Response indicates successful deletion\", function () {",
+							"    if (pm.response.code === 200) {",
+							"        const jsonData = pm.response.json();",
+							"        pm.expect(jsonData).to.have.property('message');",
+							"    }",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/vendor-site-settings/{{testSettingId}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendor-site-settings",
+						"{{testSettingId}}"
+					]
+				},
+				"description": "حذف إعدادات موقع متجر من النظام"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Vendor Site Setting - Validation Error Test",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {",
+							"    pm.response.to.have.status(400);",
+							"});",
+							"",
+							"pm.test(\"Response has validation error\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('error');",
+							"});",
+							"",
+							"pm.test(\"Error message is in Arabic\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData.error).to.be.a('string');",
+							"    // Check if error contains Arabic characters",
+							"    pm.expect(jsonData.error).to.match(/[\\u0600-\\u06FF]/);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"vendor_id\": \"invalid_id\",\n  \"site_type\": \"\",\n  \"theme_color\": \"invalid_color\",\n  \"logo_url\": \"not_a_valid_url\",\n  \"custom_domain\": \"invalid..domain\"\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/vendor-site-settings",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendor-site-settings"
+					]
+				},
+				"description": "اختبار أخطاء التحقق من صحة البيانات عند إنشاء إعدادات موقع متجر"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Vendor Site Setting By Invalid ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {",
+							"    pm.response.to.have.status(400);",
+							"});",
+							"",
+							"pm.test(\"Response has validation error for ID\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('error');",
+							"});",
+							"",
+							"pm.test(\"Error message mentions ID validation\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData.error).to.include('معرف');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/vendor-site-settings/invalid_id",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendor-site-settings",
+						"invalid_id"
+					]
+				},
+				"description": "اختبار خطأ التحقق من معرف إعدادات الموقع (يجب أن يكون رقم صحيح موجب)"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Vendor Site Setting - Missing Fields Test",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {",
+							"    pm.response.to.have.status(400);",
+							"});",
+							"",
+							"pm.test(\"Response has validation error for empty body\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('error');",
+							"});",
+							"",
+							"pm.test(\"Error message mentions minimum fields requirement\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData.error).to.include('حقل واحد على الأقل');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/vendor-site-settings/{{testSettingId}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendor-site-settings",
+						"{{testSettingId}}"
+					]
+				},
+				"description": "اختبار خطأ التحديث بدون تقديم أي حقول (يجب تقديم حقل واحد على الأقل)"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Vendor Site Setting - Theme Color Validation",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {",
+							"    pm.response.to.have.status(400);",
+							"});",
+							"",
+							"pm.test(\"Response has validation error for theme color\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('error');",
+							"});",
+							"",
+							"pm.test(\"Error message mentions hex color format\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData.error).to.include('hex');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"vendor_id\": 1,\n  \"site_type\": \"متجر إلكتروني\",\n  \"theme_color\": \"blue\"\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/vendor-site-settings",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendor-site-settings"
+					]
+				},
+				"description": "اختبار التحقق من صحة لون القالب (يجب أن يكون بصيغة hex)"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Vendor Site Setting - Domain Validation",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {",
+							"    pm.response.to.have.status(400);",
+							"});",
+							"",
+							"pm.test(\"Response has validation error for custom domain\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('error');",
+							"});",
+							"",
+							"pm.test(\"Error message mentions domain validation\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData.error).to.include('الدومين');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"vendor_id\": 1,\n  \"site_type\": \"متجر إلكتروني\",\n  \"custom_domain\": \"invalid..domain..name\"\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/vendor-site-settings",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendor-site-settings"
+					]
+				},
+				"description": "اختبار التحقق من صحة الدومين المخصص"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// Set default values if not already set",
+					"if (!pm.collectionVariables.get('baseUrl')) {",
+					"    pm.collectionVariables.set('baseUrl', 'http://localhost:3000/api/v1');",
+					"}",
+					"if (!pm.collectionVariables.get('testSettingId')) {",
+					"    pm.collectionVariables.set('testSettingId', '1');",
+					"}"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// Global test to check response time",
+					"pm.test('Response time is less than 2000ms', function () {",
+					"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+					"});",
+					"",
+					"// Global test to check content type for successful responses",
+					"if (pm.response.code >= 200 && pm.response.code < 300) {",
+					"    pm.test('Content-Type is application/json', function () {",
+					"        pm.expect(pm.response.headers.get('Content-Type')).to.include('application/json');",
+					"    });",
+					"}"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:3000/api/v1",
+			"type": "string"
+		},
+		{
+			"key": "testSettingId",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "createdSettingId",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

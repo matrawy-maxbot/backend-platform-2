@@ -1,0 +1,87 @@
+[
+  {
+    "id": "mg9mthqsb4vqgtvp8s9",
+    "serverId": "486630940542763009",
+    "section": "full",
+    "action": "create",
+    "newData": {
+      "id": "486630940542763009",
+      "autoReply": {
+        "enabled": true,
+        "replies": []
+      },
+      "ads": {
+        "enabled": false,
+        "ads": []
+      },
+      "members": {
+        "welcomeMessage": {
+          "enabled": true,
+          "message": "Welcome {user}!",
+          "channel": ""
+        },
+        "autoRole": {
+          "enabled": false,
+          "roleId": ""
+        }
+      },
+      "protection": {
+        "spamProtection": true,
+        "raidProtection": false
+      },
+      "createdAt": "2025-10-02T16:30:50.644Z",
+      "updatedAt": "2025-10-02T16:30:50.644Z",
+      "updatedBy": "backup-system",
+      "backup": {
+        "enabled": true,
+        "backups": [
+          {
+            "id": "mg9mthqnypqmx5ft9p",
+            "filename": "backup_486630940542763009_2025-10-02T16-30-50-631Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_486630940542763009_2025-10-02T16-30-50-631Z.json",
+            "timestamp": "2025-10-02T16:30:50.630Z",
+            "guildName": "Sweet Frend..",
+            "memberCount": 29,
+            "channelsCount": 8,
+            "rolesCount": 8,
+            "size": 3369,
+            "createdAt": "2025-10-02T16:30:50.639Z"
+          }
+        ]
+      }
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-02T16:30:50.644Z"
+  },
+  {
+    "id": "mg9nr1834clmmgg7ei5",
+    "serverId": "423067123225722891",
+    "section": "backup",
+    "action": "update",
+    "oldData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": []
+    },
+    "newData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-02T16:56:55.540Z"
+  }
+]

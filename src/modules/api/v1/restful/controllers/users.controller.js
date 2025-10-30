@@ -63,8 +63,13 @@ export const createUser = async (req, res, next) => {
     result = resolveDatabaseResult(result);
     send(res, { success: true, data: result }, 'تم إنشاء المستخدم بنجاح', 201);
   } catch (error) {
-    res.status(500);
-    next(error);
+    if(error.message.toLowerCase().includes('already exists')) {
+      res.status(400);
+      next(error);
+    } else {
+      res.status(500);
+      next(error);
+    }
   }
 };
 

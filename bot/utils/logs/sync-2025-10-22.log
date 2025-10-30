@@ -1,0 +1,1280 @@
+[2025-10-22T11:06:39.344Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:06:39.538Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:07:09.354Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:07:09.489Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:07:39.360Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:07:39.613Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:08:09.366Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:08:09.584Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:08:39.374Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:08:39.523Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:09:09.383Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:09:09.515Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:09:39.387Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:09:39.583Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:10:09.395Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:10:09.572Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:10:39.407Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:10:39.595Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:11:09.413Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:11:09.480Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:11:39.417Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:11:39.505Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:12:06.588Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: STARTED
+[2025-10-22T11:12:06.593Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: SUCCESS
+[2025-10-22T11:12:09.422Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:12:09.474Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:12:39.425Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:12:39.532Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:13:09.433Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:13:09.547Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:13:39.439Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:13:39.542Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:14:09.451Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:14:09.586Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:14:39.454Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:14:39.505Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:15:09.456Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:15:09.506Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:15:39.467Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:15:39.526Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:16:09.479Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:16:09.546Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:16:39.487Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:16:39.542Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:17:09.495Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:17:09.555Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:17:39.502Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:17:39.575Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:18:09.508Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:18:09.564Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:18:39.509Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:18:39.558Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:19:09.513Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:19:09.585Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:19:39.515Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:19:39.564Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:20:09.523Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:20:09.574Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:20:39.538Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:20:39.597Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:21:09.545Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:21:09.655Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:21:39.551Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:21:39.606Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:22:09.559Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:22:09.666Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:22:39.561Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:22:39.620Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:23:09.575Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:23:09.640Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:23:39.574Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:23:39.641Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:24:09.587Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:24:09.647Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:24:39.601Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:24:39.686Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:25:09.604Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:25:09.665Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:25:30.085Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: STARTED
+[2025-10-22T11:25:30.089Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: SUCCESS
+[2025-10-22T11:25:39.617Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:25:39.687Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:26:09.629Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:26:09.739Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:26:39.639Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:26:39.704Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:27:09.642Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:27:09.712Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:27:39.647Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:27:39.712Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:28:09.656Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:28:09.733Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:28:39.659Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:28:39.723Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:29:09.662Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:29:09.726Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:29:39.675Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:29:39.747Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:30:09.676Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:30:09.736Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:30:39.688Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:30:39.760Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:31:09.703Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:31:09.772Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:31:39.718Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:31:39.795Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:32:09.732Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:32:09.846Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:32:23.859Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: STARTED
+[2025-10-22T11:32:23.863Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: SUCCESS
+[2025-10-22T11:32:39.738Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:32:39.853Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:33:09.750Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:33:09.815Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:33:39.758Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:33:39.814Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:34:09.763Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:34:09.827Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:34:39.765Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:34:39.823Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:35:09.779Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:35:09.835Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:35:39.793Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:35:39.851Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:36:09.802Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:36:09.863Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:36:39.813Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:36:39.889Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:37:09.827Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:37:09.884Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:37:39.834Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:37:39.894Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:38:09.844Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:38:09.903Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:38:39.857Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:38:39.907Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:39:09.860Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:39:09.922Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:39:39.868Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:39:39.921Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:40:09.879Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:40:09.964Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:40:39.879Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:40:39.942Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:41:09.887Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:41:09.948Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:41:39.921Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:41:40.078Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:42:09.922Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:42:09.984Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:42:39.928Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:42:39.987Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:43:09.936Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:43:09.996Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:43:39.951Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:43:40.012Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:44:09.953Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:44:10.003Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:44:39.953Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:44:40.003Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:45:09.969Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:45:10.027Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:45:39.973Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:45:40.024Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:46:09.977Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:46:10.029Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:46:39.987Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:46:40.042Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:47:10.002Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:47:10.054Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:47:40.017Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:47:40.084Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:48:10.028Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:48:10.081Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:48:40.041Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:48:40.099Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:49:10.045Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:49:10.103Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:49:40.058Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:49:40.110Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:50:10.064Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:50:10.124Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:50:40.074Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:50:40.188Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:51:10.075Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:51:10.132Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:51:40.084Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:51:40.149Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:52:10.085Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:52:10.153Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:52:40.089Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:52:40.153Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:53:10.101Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:53:10.162Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:53:40.115Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:53:40.169Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:54:10.128Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:54:10.188Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:54:40.142Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:54:40.194Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:55:10.144Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:55:10.197Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:55:40.158Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:55:40.216Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:56:09.799Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: STARTED
+[2025-10-22T11:56:09.802Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: SUCCESS
+[2025-10-22T11:56:10.169Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:56:10.229Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:56:40.182Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:56:40.310Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:57:10.183Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:57:10.302Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:57:40.198Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:57:40.255Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:58:10.200Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:58:10.251Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:58:40.210Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:58:40.274Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:59:10.212Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:59:10.355Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T11:59:17.348Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: STARTED
+[2025-10-22T11:59:17.353Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: SUCCESS
+[2025-10-22T11:59:40.219Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T11:59:40.281Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:00:01.267Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: STARTED
+[2025-10-22T12:00:01.270Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: SUCCESS
+[2025-10-22T12:00:10.232Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:00:10.334Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:00:40.240Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:00:40.310Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:00:58.833Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: STARTED
+[2025-10-22T12:00:58.838Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: SUCCESS
+[2025-10-22T12:01:10.245Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:01:10.379Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:01:31.468Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: STARTED
+[2025-10-22T12:01:31.472Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: SUCCESS
+[2025-10-22T12:01:40.256Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:01:40.488Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:01:51.920Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: STARTED
+[2025-10-22T12:01:51.925Z] [SYNC] WEBHOOK | Server: 423067123225722891 | Section: protection | Status: SUCCESS
+[2025-10-22T12:02:10.272Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:02:10.377Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:02:40.285Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:02:40.344Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:03:10.297Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:03:10.354Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:03:40.313Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:03:40.370Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:04:10.368Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:04:10.510Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:04:40.377Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:04:40.482Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:05:10.379Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:05:10.506Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:05:40.393Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:05:40.445Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:06:10.396Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:06:10.456Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:06:40.400Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:06:40.461Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:07:10.412Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:07:10.468Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:07:40.423Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:07:40.495Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:08:10.437Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:08:10.487Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:08:40.440Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:08:40.512Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:09:41.840Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:09:42.080Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:10:11.848Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:10:11.954Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:10:41.860Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:10:41.918Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:11:11.861Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:11:11.927Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:12:23.619Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:12:23.622Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"error":"request to http://localhost:3000/api/bot-heartbeat failed, reason: "}
+[2025-10-22T12:12:53.624Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:12:53.626Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"error":"request to http://localhost:3000/api/bot-heartbeat failed, reason: "}
+[2025-10-22T12:13:23.629Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:13:23.632Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"error":"request to http://localhost:3000/api/bot-heartbeat failed, reason: "}
+[2025-10-22T12:14:06.384Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:14:06.387Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"error":"request to http://localhost:3000/api/bot-heartbeat failed, reason: "}
+[2025-10-22T12:14:36.393Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:14:36.396Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"error":"request to http://localhost:3000/api/bot-heartbeat failed, reason: "}
+[2025-10-22T12:15:06.403Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:15:06.405Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"error":"request to http://localhost:3000/api/bot-heartbeat failed, reason: "}
+[2025-10-22T12:15:50.760Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:15:50.764Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"error":"request to http://localhost:3000/api/bot-heartbeat failed, reason: "}
+[2025-10-22T12:16:45.827Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:16:46.052Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:17:15.831Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:17:15.907Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:17:45.846Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:17:45.947Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:18:15.851Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:18:16.017Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:18:45.855Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:18:45.974Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:19:15.862Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:19:15.973Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:19:45.873Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:19:45.993Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:20:15.879Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:20:16.001Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:20:45.887Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:20:46.011Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:21:15.889Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:21:16.006Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:21:45.896Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:21:46.032Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:22:15.906Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:22:16.020Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:22:45.915Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:22:46.069Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:23:15.918Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:23:16.045Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:23:45.925Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:23:46.059Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:24:15.937Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:24:16.048Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:24:45.952Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:24:46.105Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:25:16.045Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:25:16.235Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:25:46.051Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:25:46.255Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:26:16.062Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:26:16.179Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:26:46.073Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:26:46.181Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:27:16.076Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:27:16.200Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:27:46.081Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:27:46.201Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:28:16.091Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:28:16.191Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:28:46.104Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:28:46.205Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:29:16.113Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:29:16.222Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:29:46.127Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:29:46.247Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:30:16.138Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:30:16.221Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:30:46.146Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:30:46.262Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:31:39.198Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:31:39.286Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:32:09.200Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:32:09.294Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:32:39.212Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:32:39.305Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:33:41.823Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:33:42.106Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:34:11.824Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:34:11.960Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:34:41.839Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:34:41.938Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:35:11.841Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:35:11.949Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:35:41.845Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:35:41.966Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:36:11.858Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:36:11.960Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:36:41.863Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:36:41.956Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:37:11.875Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:37:11.973Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:37:41.876Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:37:41.967Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:38:11.882Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:38:11.973Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:38:41.892Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:38:41.978Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:39:11.904Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:39:11.990Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:39:41.917Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:39:42.008Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:40:11.928Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:40:12.020Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:40:41.931Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:40:42.006Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:41:11.944Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:41:12.026Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:41:41.955Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:41:42.032Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:42:11.956Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:42:12.035Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:42:41.969Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:42:42.057Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:43:11.975Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:43:12.095Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:43:41.976Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:43:42.068Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:44:11.976Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:44:12.074Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:44:41.979Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:44:42.062Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:45:11.984Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:45:12.094Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:45:41.996Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:45:42.159Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:46:12.009Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:46:12.107Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:46:42.017Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:46:42.098Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:47:12.023Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:47:12.109Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:47:42.030Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:47:42.116Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:48:12.044Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:48:12.123Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:48:42.046Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:48:42.145Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:49:12.054Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:49:12.157Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:49:42.059Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:49:42.160Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:50:12.068Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:50:12.169Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:50:42.074Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:50:42.165Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:51:12.086Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:51:12.189Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:51:42.097Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:51:42.192Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:52:12.103Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:52:12.311Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:52:42.105Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:52:42.238Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:53:12.120Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:53:12.497Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:53:42.127Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:53:42.304Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:54:12.128Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:54:12.225Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:54:42.139Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:54:42.249Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:55:12.143Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:55:12.240Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:55:42.150Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:55:42.252Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:56:12.154Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:56:12.252Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:56:42.156Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:56:42.257Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:57:12.163Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:57:12.254Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:57:42.165Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:57:42.250Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:58:12.167Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:58:12.251Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:58:42.177Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:58:42.262Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:59:12.185Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:59:12.257Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T12:59:42.189Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T12:59:42.271Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:00:12.193Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:00:12.307Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:00:42.196Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:00:42.292Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:01:12.203Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:01:12.296Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:01:42.208Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:01:42.302Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:02:12.223Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:02:12.311Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:02:42.234Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:02:42.358Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:03:12.240Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:03:12.327Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:03:42.246Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:03:42.339Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:04:12.252Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:04:12.332Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:04:42.262Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:04:42.351Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:05:12.262Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:05:12.361Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:05:42.262Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:05:42.353Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:06:12.265Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:06:12.338Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:06:42.273Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:06:42.363Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:07:12.279Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:07:12.358Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:07:42.285Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:07:42.452Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:08:58.388Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:09:04.439Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:09:28.401Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:09:28.515Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:09:58.414Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:09:58.522Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:10:28.419Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:10:28.465Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:10:58.426Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:10:58.475Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:11:28.435Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:11:28.497Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:11:58.443Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:11:58.492Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:12:28.453Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:12:28.501Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:12:58.466Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:12:58.518Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:13:28.476Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:13:28.541Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:13:58.485Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:13:58.533Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:14:28.498Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:14:28.548Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:14:58.510Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:14:58.558Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:15:28.522Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:15:28.572Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:15:58.532Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:15:58.587Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:16:28.533Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:16:28.585Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:16:58.544Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:16:58.603Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:17:28.549Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:17:28.605Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:17:58.561Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:17:58.606Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:18:28.567Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:18:28.616Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:18:58.578Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:18:58.625Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:19:28.579Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:19:28.629Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:19:58.583Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:19:58.632Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:20:28.589Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:20:28.651Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:20:58.594Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:20:58.650Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:21:28.606Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:21:28.656Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:21:58.607Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:21:58.656Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:22:28.622Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:22:28.671Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:22:58.634Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:22:58.687Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:23:28.643Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:23:28.691Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:23:58.652Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:23:58.699Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:24:28.659Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:24:28.703Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:24:58.668Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:24:58.724Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:25:28.678Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:25:28.725Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:25:58.678Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:25:58.725Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:26:28.693Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:26:28.739Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:26:58.701Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:26:58.750Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:27:28.713Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:27:28.757Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:27:58.724Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:27:58.768Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:28:28.724Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:28:28.766Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:28:58.725Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:28:58.778Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:29:28.734Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:29:28.779Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:29:58.739Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:29:58.786Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:30:28.739Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:30:28.785Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:30:58.750Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:30:58.800Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:31:28.751Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:31:28.798Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:31:58.760Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:31:58.811Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:32:28.767Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:32:28.812Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:32:58.770Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:32:58.818Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:33:28.773Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:33:28.816Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:33:58.780Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:33:58.843Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:34:28.789Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:34:28.840Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:34:58.793Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:34:58.847Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:35:28.798Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:35:28.844Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:35:58.798Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:35:58.846Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:36:28.803Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:36:28.885Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:36:58.812Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:36:58.863Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:37:28.827Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:37:28.875Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:37:58.831Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:37:58.889Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:38:28.845Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:38:28.938Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:38:58.858Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:38:58.929Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:39:28.871Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:39:28.919Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:39:58.882Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:39:58.927Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:40:28.895Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:40:28.953Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:40:58.906Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:40:59.020Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:41:59.605Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:41:59.751Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:42:29.620Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:42:29.675Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:42:59.628Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:42:59.678Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:43:29.631Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:43:29.686Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:43:59.640Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:43:59.691Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:44:29.643Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:44:29.696Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:44:59.645Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:44:59.689Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:45:29.656Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:45:29.766Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:45:59.669Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:45:59.739Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:46:29.676Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:46:29.731Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:46:59.688Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:46:59.739Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:47:29.690Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:47:29.740Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:47:59.705Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:47:59.765Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:48:29.715Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:48:29.765Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:48:59.729Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:48:59.817Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:49:29.731Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:49:29.784Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:49:59.738Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:49:59.795Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:50:29.750Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:50:29.847Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:50:59.757Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:50:59.842Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:51:29.765Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:51:29.871Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:51:38.203Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:51:38.329Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:51:59.773Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:51:59.904Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:52:46.091Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:52:46.239Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:53:16.095Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:53:16.228Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:53:46.105Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:53:46.156Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:54:16.108Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:54:16.154Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:54:46.114Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:54:46.261Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:55:16.117Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:55:16.167Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:55:46.130Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:55:46.191Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:56:16.138Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:56:16.191Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:56:46.150Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:56:46.211Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:57:16.154Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:57:16.203Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:57:46.167Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:57:46.220Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:58:16.174Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:58:16.299Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:58:46.182Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:58:46.313Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:59:16.187Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:59:16.336Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T13:59:46.189Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T13:59:46.326Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:00:16.203Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:00:16.255Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:00:46.211Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:00:46.270Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:01:16.223Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:01:16.269Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:01:46.225Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:01:46.271Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:02:16.227Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:02:16.279Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:02:46.238Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:02:46.285Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:03:16.238Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:03:16.379Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:03:46.243Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:03:46.373Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:18:46.385Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:18:46.537Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:31:54.083Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:31:54.371Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:32:24.097Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:32:24.151Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:32:54.100Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:32:54.152Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:33:24.106Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:33:24.156Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:33:54.110Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:33:54.168Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:34:24.119Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:34:24.175Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:34:54.127Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:34:54.179Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:35:24.132Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:35:24.186Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:35:54.132Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:35:54.183Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:36:24.148Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:36:24.194Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:36:54.155Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:36:54.208Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:37:24.156Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:37:24.202Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:37:54.160Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:37:54.217Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:38:24.168Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:38:24.220Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:38:54.176Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:38:54.226Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:39:24.180Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:39:24.229Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:39:54.182Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:39:54.229Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:40:24.184Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:40:24.229Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:40:54.198Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:40:54.243Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:41:24.200Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:41:24.253Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:41:42.222Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:41:42.271Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:41:54.214Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:41:54.273Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:42:12.229Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:42:12.277Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:42:24.220Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:42:24.271Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:42:42.240Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:42:42.291Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:42:54.229Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:42:54.288Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:43:12.246Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:43:12.295Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:43:24.243Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:43:24.289Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:43:42.247Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:43:42.300Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:43:54.251Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:43:54.297Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:44:12.259Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:44:12.308Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:44:24.263Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:44:24.309Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:44:42.269Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:44:42.320Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:44:54.271Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:44:54.317Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:45:12.283Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:45:12.334Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:45:24.283Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:45:24.333Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:45:42.283Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:45:42.331Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:45:54.285Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:45:54.335Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:46:12.285Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:46:12.354Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:46:24.299Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:46:24.343Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:46:42.291Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:46:42.338Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:46:54.313Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:46:54.373Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:47:12.306Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:47:12.363Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:47:24.314Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:47:24.378Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:47:42.315Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:47:42.367Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:47:54.322Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:47:54.373Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:48:12.318Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:48:12.368Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:48:24.331Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:48:24.391Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:48:42.331Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:48:42.381Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:48:54.338Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:48:54.387Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:49:24.343Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:49:24.427Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:49:54.345Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:49:54.397Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:49:55.290Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:49:55.419Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:50:24.347Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:50:24.558Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:50:52.704Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:50:52.958Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:50:54.354Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:50:54.431Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:51:22.711Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:51:22.761Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:51:24.361Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:51:24.422Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:51:52.724Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:51:52.779Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:51:54.364Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:51:54.419Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:52:22.724Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:52:22.773Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:52:24.369Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:52:24.421Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:52:52.731Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:52:52.795Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:52:54.383Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:52:54.432Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:53:22.738Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:53:22.796Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:53:24.383Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:53:24.433Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:53:52.743Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:53:52.799Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:53:54.393Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:53:54.443Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:54:22.754Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:54:22.957Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T14:54:24.404Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:54:24.746Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T14:54:54.418Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:54:54.572Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T14:55:06.495Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:55:06.621Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:55:24.434Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:55:24.550Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T14:55:36.495Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:55:36.651Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:55:54.434Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:55:54.493Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T14:56:06.500Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:56:06.567Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:56:24.444Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:56:24.643Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T14:56:36.511Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:56:36.674Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:56:54.458Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:56:54.520Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T14:57:06.523Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:57:06.572Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:57:24.470Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:57:24.537Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T14:57:36.537Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:57:36.588Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:57:54.478Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:57:54.540Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T14:58:06.551Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:58:06.628Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:58:24.484Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:58:24.544Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T14:58:36.566Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:58:36.628Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:58:54.487Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:58:54.540Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T14:59:06.580Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:59:06.658Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:59:24.494Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:59:24.599Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T14:59:36.595Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:59:36.705Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T14:59:54.496Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T14:59:54.614Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:00:06.603Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:00:06.714Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:00:24.500Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:00:24.563Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:00:36.615Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:00:36.666Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:00:54.503Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:00:54.558Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:01:06.623Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:01:06.676Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:01:24.504Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:01:24.569Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:01:36.630Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:01:36.676Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:01:54.519Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:01:54.583Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:02:06.641Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:02:06.701Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:02:24.535Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:02:24.596Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:02:36.644Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:02:36.701Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:02:54.536Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:02:54.695Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:03:06.645Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:03:06.725Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:03:24.550Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:03:24.616Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:03:36.650Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:03:36.699Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:03:54.560Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:03:54.614Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:04:06.664Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:04:06.718Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:04:24.573Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:04:24.631Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:04:36.673Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:04:36.726Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:04:54.586Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:04:54.648Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:05:06.678Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:05:06.798Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:05:24.592Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:05:24.646Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:05:36.687Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:05:36.752Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:05:54.607Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:05:54.658Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:06:06.689Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:06:06.750Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:06:24.617Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:06:24.669Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:06:36.704Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:06:36.760Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:06:54.619Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:06:54.674Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:07:06.708Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:07:07.192Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:07:24.623Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:07:24.719Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:07:36.718Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:07:36.831Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:07:54.629Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:07:54.692Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:08:06.720Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:08:06.770Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:08:24.638Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:08:24.695Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:08:36.726Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:08:36.832Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:08:54.648Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:08:54.767Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:09:06.730Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:09:06.785Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:09:24.655Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:09:24.727Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:09:36.736Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:09:36.787Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:09:54.670Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:09:54.727Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:10:06.737Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:10:06.789Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:10:24.685Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:10:24.737Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:10:36.744Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:10:36.798Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:10:54.690Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:10:54.743Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:11:06.760Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:11:06.812Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:11:24.692Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:11:24.748Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:11:36.767Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:11:36.819Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:11:54.705Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:11:54.770Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:12:06.774Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:12:06.828Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:12:24.709Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:12:24.825Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:12:36.780Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:12:36.847Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:12:54.711Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:12:54.763Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:13:06.783Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:13:06.834Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:13:24.716Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:13:24.775Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:13:36.796Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:13:36.856Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:13:54.731Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:13:54.790Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:14:06.800Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:14:06.861Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:14:24.746Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:14:24.793Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:14:36.813Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:14:36.869Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:14:54.749Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:14:54.795Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:15:06.824Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:15:06.877Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:15:24.750Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:15:24.798Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:15:36.827Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:15:36.878Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:15:54.759Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:15:54.805Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:16:06.842Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:16:06.895Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:16:24.774Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:16:24.831Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:16:36.843Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:16:36.890Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:16:54.784Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:16:54.834Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:17:06.846Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:17:06.922Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:17:24.798Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:17:24.846Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:17:36.847Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:17:36.919Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:17:54.807Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:17:54.854Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:18:06.855Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:18:06.990Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:18:24.812Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:18:24.911Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:18:36.861Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:18:36.954Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:18:54.821Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:18:54.937Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:19:06.875Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:19:06.980Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:19:24.833Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:19:24.939Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:19:36.881Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:19:36.983Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:19:54.847Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:19:54.937Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:20:06.889Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:20:07.004Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:20:24.850Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:20:24.938Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:20:36.896Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:20:36.994Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:20:54.860Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:20:54.972Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:21:06.906Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:21:07.002Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:21:24.864Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:21:25.026Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:21:36.921Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:21:37.021Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:21:54.878Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:21:54.970Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:22:06.926Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:22:07.034Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:22:24.878Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:22:24.975Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:22:36.936Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:22:37.050Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:22:54.887Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:22:54.978Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:23:06.942Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:23:07.030Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:23:24.896Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:23:24.971Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:23:36.946Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:23:37.039Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:23:54.902Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:23:55.004Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:24:06.952Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:24:07.118Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:24:24.903Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:24:25.013Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:24:36.963Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:24:37.085Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:24:54.912Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:24:55.040Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:25:06.974Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:25:07.063Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:25:24.920Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:25:25.002Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:25:36.982Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:25:37.098Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:25:54.921Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:25:55.013Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:26:06.985Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:26:07.098Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:26:24.927Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:26:25.013Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:26:36.986Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:26:37.085Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:26:54.936Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:26:55.034Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:27:06.994Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:27:07.102Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:27:24.939Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:27:25.044Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:27:37.006Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:27:37.105Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:27:54.941Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:27:55.024Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:28:07.021Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:28:07.101Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:28:24.954Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:28:25.057Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:28:37.036Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:28:37.122Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:28:54.955Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:28:55.039Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:29:07.038Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:29:07.129Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:29:24.967Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:29:25.043Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:29:37.038Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:29:37.149Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:29:54.974Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:29:55.061Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:30:07.046Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:30:07.145Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:30:24.989Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:30:25.076Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:30:37.047Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:30:37.188Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:30:55.001Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:30:55.135Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:31:07.058Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:31:07.191Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:31:25.001Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:31:25.129Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:31:37.072Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:31:37.204Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:31:55.007Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:31:55.126Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:32:07.082Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:32:07.244Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:32:25.023Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:32:25.144Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:32:37.083Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:32:37.213Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:32:55.025Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:32:55.154Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:33:07.084Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:33:07.199Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:33:25.030Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:33:25.135Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:33:55.036Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:33:55.142Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:34:04.558Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:34:04.662Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:34:25.046Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:34:25.154Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:34:34.570Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:34:34.677Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-22T15:34:55.058Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:34:55.156Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:49:51.845Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:49:51.862Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-22T15:49:52.142Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-22T15:49:52.148Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:06:38.641Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:06:38.676Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:06:39.517Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:06:39.557Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:07:08.656Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:07:08.686Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:07:08.771Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:07:08.828Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:07:38.660Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:07:38.691Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:07:38.773Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:07:38.799Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:08:08.663Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:08:08.695Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:08:08.791Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:08:08.824Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:08:40.265Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:08:40.296Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:08:40.433Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:08:40.488Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:09:10.270Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:09:10.301Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:09:10.407Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:09:10.435Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:09:40.273Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:09:40.305Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:09:40.426Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:09:40.452Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:10:10.273Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:10:10.305Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:10:10.407Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:10:10.476Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:10:40.275Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:10:40.306Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:10:40.409Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:10:40.445Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:11:10.276Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:11:10.307Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:11:10.413Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:11:10.484Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:11:40.286Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:11:40.317Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:11:40.437Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:11:40.460Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:12:10.296Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:12:10.327Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:12:10.432Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:12:10.460Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:12:40.303Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:12:40.333Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:12:40.451Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:12:40.474Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:13:10.311Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:13:10.342Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:13:10.467Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:13:10.503Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:13:40.316Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:13:40.347Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:13:40.456Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:13:40.482Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:14:10.320Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:14:10.351Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:14:10.449Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:14:10.491Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:14:40.330Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:14:40.361Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:14:40.443Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:14:40.495Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:15:10.338Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:15:10.370Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:15:10.468Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:15:10.499Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:15:40.353Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:15:40.384Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:15:40.469Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:15:40.517Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: SUCCESS | Details: {"serverCount":0}
+[2025-10-23T09:16:10.365Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:16:10.472Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:16:40.373Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:16:40.513Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:17:10.384Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:17:10.499Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:17:40.391Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:17:40.485Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:18:10.397Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:18:10.495Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:18:40.413Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:18:40.572Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:19:10.423Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:19:10.511Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:19:40.435Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:19:40.541Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:20:10.437Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:20:10.530Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:20:40.441Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:20:40.531Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:21:10.445Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:21:10.539Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:21:40.447Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:21:40.534Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}
+[2025-10-23T09:22:10.454Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: STARTED
+[2025-10-23T09:22:10.537Z] [SYNC] HEARTBEAT | Server: bot | Section: status | Status: FAILED | Details: {"httpStatus":401}

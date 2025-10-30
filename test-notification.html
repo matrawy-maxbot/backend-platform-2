@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار إشعارات البوت</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .test-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fafafa;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+            font-family: monospace;
+        }
+        .success {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+        .info {
+            background-color: #d1ecf1;
+            border: 1px solid #bee5eb;
+            color: #0c5460;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 اختبار إشعارات البوت</h1>
+        
+        <div class="test-section">
+            <h3>1. اختبار حالة البوت</h3>
+            <p>تحقق من أن البوت يعمل ويستقبل الطلبات</p>
+            <button onclick="testBotStatus()">اختبار حالة البوت</button>
+            <div id="botStatusResult" class="result" style="display: none;"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>2. اختبار إشعار تحديث الإعلانات</h3>
+            <p>إرسال إشعار للبوت بتحديث إعدادات الإعلانات</p>
+            
+            <label for="serverId">معرف الخادم:</label>
+            <input type="text" id="serverId" value="423067123225722891" placeholder="معرف الخادم">
+            
+            <label for="adTitle">عنوان الإعلان:</label>
+            <input type="text" id="adTitle" value="إعلان تجريبي" placeholder="عنوان الإعلان">
+            
+            <label for="adContent">محتوى الإعلان:</label>
+            <textarea id="adContent" rows="3" placeholder="محتوى الإعلان">هذا إعلان تجريبي لاختبار النظام</textarea>
+            
+            <button onclick="testAdNotification()">إرسال إشعار الإعلان</button>
+            <div id="adNotificationResult" class="result" style="display: none;"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>3. اختبار إنشاء إعلان كامل</h3>
+            <p>إنشاء إعلان جديد وإرسال إشعار للبوت</p>
+            <button onclick="testFullAdCreation()">إنشاء إعلان كامل</button>
+            <div id="fullAdResult" class="result" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script>
+        // اختبار حالة البوت
+        async function testBotStatus() {
+            const resultDiv = document.getElementById('botStatusResult');
+            resultDiv.style.display = 'block';
+            resultDiv.className = 'result info';
+            resultDiv.textContent = 'جاري الاختبار...';
+
+            try {
+                const response = await fetch('http://localhost:3001/api/settings-update', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        serverId: '423067123225722891',
+                        section: 'test',
+                        data: { test: true }
+                    })
+                });
+
+                if (response.ok) {
+                    const data = await response.text();
+                    resultDiv.className = 'result success';
+                    resultDiv.textContent = `✅ البوت يعمل بشكل صحيح!\nالاستجابة: ${data}`;
+                } else {
+                    resultDiv.className = 'result error';
+                    resultDiv.textContent = `❌ خطأ في الاستجابة: ${response.status} ${response.statusText}`;
+                }
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `❌ خطأ في الاتصال: ${error.message}`;
+            }
+        }
+
+        // اختبار إشعار الإعلانات
+        async function testAdNotification() {
+            const resultDiv = document.getElementById('adNotificationResult');
+            const serverId = document.getElementById('serverId').value;
+            const adTitle = document.getElementById('adTitle').value;
+            const adContent = document.getElementById('adContent').value;
+
+            resultDiv.style.display = 'block';
+            resultDiv.className = 'result info';
+            resultDiv.textContent = 'جاري إرسال الإشعار...';
+
+            const adData = {
+                enabled: true,
+                ads: [{
+                    id: 'test-' + Date.now(),
+                    title: adTitle,
+                    content: adContent,
+                    publishType: 'immediate',
+                    status: 'published',
+                    createdAt: new Date().toISOString(),
+                    publishedAt: new Date().toISOString(),
+                    targetChannels: [],
+                    targetRoles: [],
+                    views: 0,
+                    clicks: 0,
+                    enabled: true
+                }]
+            };
+
+            try {
+                const response = await fetch('http://localhost:3001/api/settings-update', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        serverId: serverId,
+                        section: 'ads',
+                        data: adData
+                    })
+                });
+
+                if (response.ok) {
+                    const data = await response.text();
+                    resultDiv.className = 'result success';
+                    resultDiv.textContent = `✅ تم إرسال إشعار الإعلان بنجاح!\nالاستجابة: ${data}`;
+                } else {
+                    resultDiv.className = 'result error';
+                    resultDiv.textContent = `❌ خطأ في إرسال الإشعار: ${response.status} ${response.statusText}`;
+                }
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `❌ خطأ في الاتصال: ${error.message}`;
+            }
+        }
+
+        // اختبار إنشاء إعلان كامل
+        async function testFullAdCreation() {
+            const resultDiv = document.getElementById('fullAdResult');
+            resultDiv.style.display = 'block';
+            resultDiv.className = 'result info';
+            resultDiv.textContent = 'جاري إنشاء الإعلان...';
+
+            const serverId = '423067123225722891';
+            const adData = {
+                enabled: true,
+                ads: [{
+                    id: 'full-test-' + Date.now(),
+                    title: 'إعلان اختبار كامل',
+                    content: 'هذا إعلان تم إنشاؤه من خلال اختبار النظام الكامل',
+                    publishType: 'immediate',
+                    status: 'published',
+                    createdAt: new Date().toISOString(),
+                    publishedAt: new Date().toISOString(),
+                    targetChannels: [],
+                    targetRoles: [],
+                    views: 0,
+                    clicks: 0,
+                    enabled: true
+                }]
+            };
+
+            try {
+                // 1. حفظ الإعلان في قاعدة البيانات
+                const saveResponse = await fetch(`/api/server-settings/${serverId}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        section: 'ads',
+                        data: adData
+                    })
+                });
+
+                if (!saveResponse.ok) {
+                    throw new Error(`فشل في حفظ الإعلان: ${saveResponse.status}`);
+                }
+
+                // 2. إرسال إشعار للبوت
+                const notifyResponse = await fetch('http://localhost:3001/api/settings-update', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        serverId: serverId,
+                        section: 'ads',
+                        data: adData
+                    })
+                });
+
+                if (notifyResponse.ok) {
+                    const data = await notifyResponse.text();
+                    resultDiv.className = 'result success';
+                    resultDiv.textContent = `✅ تم إنشاء الإعلان وإرسال الإشعار بنجاح!\n\nتفاصيل الإعلان:\n- العنوان: ${adData.ads[0].title}\n- المحتوى: ${adData.ads[0].content}\n- الحالة: ${adData.ads[0].status}\n\nاستجابة البوت: ${data}`;
+                } else {
+                    resultDiv.className = 'result error';
+                    resultDiv.textContent = `❌ تم حفظ الإعلان لكن فشل إرسال الإشعار: ${notifyResponse.status}`;
+                }
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `❌ خطأ في العملية: ${error.message}`;
+            }
+        }
+    </script>
+</body>
+</html>

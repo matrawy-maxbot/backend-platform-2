@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "mgargj5a8jthq3bp0d5",
+    "serverId": "423067123225722891",
+    "section": "backup",
+    "action": "update",
+    "oldData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "newData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgargj58ng879tw8qv",
+          "filename": "backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "timestamp": "2025-10-03T11:28:30.186Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:28:30.188Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-03T11:28:30.190Z"
+  },
+  {
+    "id": "mgarllusb3bdiqpff4s",
+    "serverId": "423067123225722891",
+    "section": "backup",
+    "action": "update",
+    "oldData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgargj58ng879tw8qv",
+          "filename": "backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "timestamp": "2025-10-03T11:28:30.186Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:28:30.188Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "newData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgarllurc8vym9jzva",
+          "filename": "backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "timestamp": "2025-10-03T11:32:26.976Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:32:26.979Z"
+        },
+        {
+          "id": "mgargj58ng879tw8qv",
+          "filename": "backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "timestamp": "2025-10-03T11:28:30.186Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:28:30.188Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-03T11:32:26.980Z"
+  },
+  {
+    "id": "mgarupfmh21e0p0zawo",
+    "serverId": "423067123225722891",
+    "section": "backup",
+    "action": "update",
+    "oldData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgarllurc8vym9jzva",
+          "filename": "backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "timestamp": "2025-10-03T11:32:26.976Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:32:26.979Z"
+        },
+        {
+          "id": "mgargj58ng879tw8qv",
+          "filename": "backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "timestamp": "2025-10-03T11:28:30.186Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:28:30.188Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "newData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgarupfio18e97fgv8i",
+          "filename": "backup_423067123225722891_2025-10-03T11-39-31-514Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-39-31-514Z.json",
+          "timestamp": "2025-10-03T11:39:31.513Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:39:31.518Z"
+        },
+        {
+          "id": "mgarllurc8vym9jzva",
+          "filename": "backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "timestamp": "2025-10-03T11:32:26.976Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:32:26.979Z"
+        },
+        {
+          "id": "mgargj58ng879tw8qv",
+          "filename": "backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "timestamp": "2025-10-03T11:28:30.186Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:28:30.188Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-03T11:39:31.522Z"
+  },
+  {
+    "id": "mgarx13eea11ez41wsi",
+    "serverId": "423067123225722891",
+    "section": "backup",
+    "action": "update",
+    "oldData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgarupfio18e97fgv8i",
+          "filename": "backup_423067123225722891_2025-10-03T11-39-31-514Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-39-31-514Z.json",
+          "timestamp": "2025-10-03T11:39:31.513Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:39:31.518Z"
+        },
+        {
+          "id": "mgarllurc8vym9jzva",
+          "filename": "backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "timestamp": "2025-10-03T11:32:26.976Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:32:26.979Z"
+        },
+        {
+          "id": "mgargj58ng879tw8qv",
+          "filename": "backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "timestamp": "2025-10-03T11:28:30.186Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:28:30.188Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "newData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgarx13c5gq45fkzw88",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "timestamp": "2025-10-03T11:41:19.941Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:19.944Z"
+        },
+        {
+          "id": "mgarupfio18e97fgv8i",
+          "filename": "backup_423067123225722891_2025-10-03T11-39-31-514Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-39-31-514Z.json",
+          "timestamp": "2025-10-03T11:39:31.513Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:39:31.518Z"
+        },
+        {
+          "id": "mgarllurc8vym9jzva",
+          "filename": "backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "timestamp": "2025-10-03T11:32:26.976Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:32:26.979Z"
+        },
+        {
+          "id": "mgargj58ng879tw8qv",
+          "filename": "backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "timestamp": "2025-10-03T11:28:30.186Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:28:30.188Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-03T11:41:19.946Z"
+  },
+  {
+    "id": "mgarxskem3aoiu15lwc",
+    "serverId": "423067123225722891",
+    "section": "backup",
+    "action": "update",
+    "oldData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgarx13c5gq45fkzw88",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "timestamp": "2025-10-03T11:41:19.941Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:19.944Z"
+        },
+        {
+          "id": "mgarupfio18e97fgv8i",
+          "filename": "backup_423067123225722891_2025-10-03T11-39-31-514Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-39-31-514Z.json",
+          "timestamp": "2025-10-03T11:39:31.513Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:39:31.518Z"
+        },
+        {
+          "id": "mgarllurc8vym9jzva",
+          "filename": "backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "timestamp": "2025-10-03T11:32:26.976Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:32:26.979Z"
+        },
+        {
+          "id": "mgargj58ng879tw8qv",
+          "filename": "backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "timestamp": "2025-10-03T11:28:30.186Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:28:30.188Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "newData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgarxskcx2gi9b7ea5t",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "timestamp": "2025-10-03T11:41:55.545Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:55.548Z"
+        },
+        {
+          "id": "mgarx13c5gq45fkzw88",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "timestamp": "2025-10-03T11:41:19.941Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:19.944Z"
+        },
+        {
+          "id": "mgarupfio18e97fgv8i",
+          "filename": "backup_423067123225722891_2025-10-03T11-39-31-514Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-39-31-514Z.json",
+          "timestamp": "2025-10-03T11:39:31.513Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:39:31.518Z"
+        },
+        {
+          "id": "mgarllurc8vym9jzva",
+          "filename": "backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "timestamp": "2025-10-03T11:32:26.976Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:32:26.979Z"
+        },
+        {
+          "id": "mgargj58ng879tw8qv",
+          "filename": "backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "timestamp": "2025-10-03T11:28:30.186Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:28:30.188Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-03T11:41:55.550Z"
+  },
+  {
+    "id": "mgas2k5nwoascr8ur",
+    "serverId": "423067123225722891",
+    "section": "backup",
+    "action": "update",
+    "oldData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgarxskcx2gi9b7ea5t",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "timestamp": "2025-10-03T11:41:55.545Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:55.548Z"
+        },
+        {
+          "id": "mgarx13c5gq45fkzw88",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "timestamp": "2025-10-03T11:41:19.941Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:19.944Z"
+        },
+        {
+          "id": "mgarupfio18e97fgv8i",
+          "filename": "backup_423067123225722891_2025-10-03T11-39-31-514Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-39-31-514Z.json",
+          "timestamp": "2025-10-03T11:39:31.513Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:39:31.518Z"
+        },
+        {
+          "id": "mgarllurc8vym9jzva",
+          "filename": "backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "timestamp": "2025-10-03T11:32:26.976Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:32:26.979Z"
+        },
+        {
+          "id": "mgargj58ng879tw8qv",
+          "filename": "backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "timestamp": "2025-10-03T11:28:30.186Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:28:30.188Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "newData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgarxskcx2gi9b7ea5t",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "timestamp": "2025-10-03T11:41:55.545Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:55.548Z"
+        },
+        {
+          "id": "mgarx13c5gq45fkzw88",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "timestamp": "2025-10-03T11:41:19.941Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:19.944Z"
+        },
+        {
+          "id": "mgarllurc8vym9jzva",
+          "filename": "backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "timestamp": "2025-10-03T11:32:26.976Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:32:26.979Z"
+        },
+        {
+          "id": "mgargj58ng879tw8qv",
+          "filename": "backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "timestamp": "2025-10-03T11:28:30.186Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:28:30.188Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-03T11:45:37.931Z"
+  },
+  {
+    "id": "mgas2l765xxrskjvgd8",
+    "serverId": "423067123225722891",
+    "section": "backup",
+    "action": "update",
+    "oldData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgarxskcx2gi9b7ea5t",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "timestamp": "2025-10-03T11:41:55.545Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:55.548Z"
+        },
+        {
+          "id": "mgarx13c5gq45fkzw88",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "timestamp": "2025-10-03T11:41:19.941Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:19.944Z"
+        },
+        {
+          "id": "mgarllurc8vym9jzva",
+          "filename": "backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-32-26-976Z.json",
+          "timestamp": "2025-10-03T11:32:26.976Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:32:26.979Z"
+        },
+        {
+          "id": "mgargj58ng879tw8qv",
+          "filename": "backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "timestamp": "2025-10-03T11:28:30.186Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:28:30.188Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "newData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgarxskcx2gi9b7ea5t",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "timestamp": "2025-10-03T11:41:55.545Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:55.548Z"
+        },
+        {
+          "id": "mgarx13c5gq45fkzw88",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "timestamp": "2025-10-03T11:41:19.941Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:19.944Z"
+        },
+        {
+          "id": "mgargj58ng879tw8qv",
+          "filename": "backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "timestamp": "2025-10-03T11:28:30.186Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:28:30.188Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-03T11:45:39.282Z"
+  },
+  {
+    "id": "mgas2m7nc5icfpa6sd6",
+    "serverId": "423067123225722891",
+    "section": "backup",
+    "action": "update",
+    "oldData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgarxskcx2gi9b7ea5t",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "timestamp": "2025-10-03T11:41:55.545Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:55.548Z"
+        },
+        {
+          "id": "mgarx13c5gq45fkzw88",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "timestamp": "2025-10-03T11:41:19.941Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:19.944Z"
+        },
+        {
+          "id": "mgargj58ng879tw8qv",
+          "filename": "backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-28-30-186Z.json",
+          "timestamp": "2025-10-03T11:28:30.186Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-03T11:28:30.188Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "newData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgarxskcx2gi9b7ea5t",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "timestamp": "2025-10-03T11:41:55.545Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:55.548Z"
+        },
+        {
+          "id": "mgarx13c5gq45fkzw88",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "timestamp": "2025-10-03T11:41:19.941Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:19.944Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-03T11:45:40.595Z"
+  },
+  {
+    "id": "mgasbhhb2wvpku5u3vh",
+    "serverId": "423067123225722891",
+    "section": "backup",
+    "action": "update",
+    "oldData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgarxskcx2gi9b7ea5t",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "timestamp": "2025-10-03T11:41:55.545Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:55.548Z"
+        },
+        {
+          "id": "mgarx13c5gq45fkzw88",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "timestamp": "2025-10-03T11:41:19.941Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:19.944Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "newData": {
+      "autoBackup": true,
+      "backupInterval": 24,
+      "backups": [
+        {
+          "id": "mgasbhh93k9r6cw52c",
+          "filename": "backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+          "timestamp": "2025-10-03T11:52:34.362Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 17,
+          "rolesCount": 7,
+          "size": 5601,
+          "createdAt": "2025-10-03T11:52:34.365Z"
+        },
+        {
+          "id": "mgarxskcx2gi9b7ea5t",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+          "timestamp": "2025-10-03T11:41:55.545Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:55.548Z"
+        },
+        {
+          "id": "mgarx13c5gq45fkzw88",
+          "filename": "backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-19-942Z.json",
+          "timestamp": "2025-10-03T11:41:19.941Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 7,
+          "size": 5433,
+          "createdAt": "2025-10-03T11:41:19.944Z"
+        },
+        {
+          "id": "mg9nr180db7lqgpssrk",
+          "filename": "backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-02T16-56-55-531Z.json",
+          "timestamp": "2025-10-02T16:56:55.530Z",
+          "guildName": "R7 بالقمة",
+          "memberCount": 8,
+          "channelsCount": 16,
+          "rolesCount": 6,
+          "size": 5331,
+          "createdAt": "2025-10-02T16:56:55.536Z"
+        }
+      ]
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-03T11:52:34.367Z"
+  }
+]

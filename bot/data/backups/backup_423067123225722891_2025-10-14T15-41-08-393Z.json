@@ -1,0 +1,494 @@
+{
+  "guildId": "423067123225722891",
+  "guildName": "R7 بالقمة ..",
+  "memberCount": 9,
+  "categories": [
+    {
+      "id": "423067123225722892",
+      "name": "Text Channelss",
+      "type": 4,
+      "position": 0,
+      "parentId": null,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "423067123225722894",
+      "name": "Voice Channels",
+      "type": 4,
+      "position": 1,
+      "parentId": null,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "1",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1424729010167873661",
+      "name": "Server Logs",
+      "type": 4,
+      "position": 2,
+      "parentId": null,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "68608",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "id": "423067123225722893",
+      "name": "general",
+      "type": 0,
+      "position": 0,
+      "parentId": "423067123225722892",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "423067123225722895",
+      "name": "General",
+      "type": 2,
+      "position": 0,
+      "parentId": "423067123225722894",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "bitrate": 64000,
+      "userLimit": 0,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "1",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "726837802406248539",
+      "name": "asd",
+      "type": 0,
+      "position": 1,
+      "parentId": "423067123225722892",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "1",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "727083988925153360",
+      "name": "تال",
+      "type": 0,
+      "position": 2,
+      "parentId": "423067123225722892",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "17",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "727083989361229876",
+      "name": "شات",
+      "type": 0,
+      "position": 3,
+      "parentId": "423067123225722892",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "805306385",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1423638928212099192",
+      "name": "sdfsdfsdfsdfsdfsdf",
+      "type": 0,
+      "position": 0,
+      "parentId": null,
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "1424729014785802242",
+      "name": "🌐server-logs",
+      "type": 0,
+      "position": 0,
+      "parentId": "1424729010167873661",
+      "topic": "قناة تسجيل server logs",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "84992",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1424729019634421771",
+      "name": "👋join-leave",
+      "type": 0,
+      "position": 1,
+      "parentId": "1424729010167873661",
+      "topic": "قناة تسجيل join leave",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "84992",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1424729024571248651",
+      "name": "🔨kick-ban",
+      "type": 0,
+      "position": 2,
+      "parentId": "1424729010167873661",
+      "topic": "قناة تسجيل kick ban",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "84992",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1424729028715089923",
+      "name": "👥members",
+      "type": 0,
+      "position": 3,
+      "parentId": "1424729010167873661",
+      "topic": "قناة تسجيل members",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "84992",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1424729032594952202",
+      "name": "⚙️server-settings",
+      "type": 0,
+      "position": 4,
+      "parentId": "1424729010167873661",
+      "topic": "قناة تسجيل server settings",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "84992",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1424729037405687838",
+      "name": "👑roles",
+      "type": 0,
+      "position": 5,
+      "parentId": "1424729010167873661",
+      "topic": "قناة تسجيل roles",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "84992",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1424729041390403686",
+      "name": "⃣channels",
+      "type": 0,
+      "position": 6,
+      "parentId": "1424729010167873661",
+      "topic": "قناة تسجيل channels",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "84992",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1424729045492305920",
+      "name": "💬messages",
+      "type": 0,
+      "position": 7,
+      "parentId": "1424729010167873661",
+      "topic": "قناة تسجيل messages",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "84992",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1427273037811548170",
+      "name": "ئؤؤؤ",
+      "type": 0,
+      "position": 2,
+      "parentId": null,
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "1427675130665894072",
+      "name": "12",
+      "type": 0,
+      "position": 1,
+      "parentId": null,
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": []
+    }
+  ],
+  "roles": [
+    {
+      "id": "472408830144282624",
+      "name": "king",
+      "color": 0,
+      "hoist": true,
+      "position": 6,
+      "permissions": "6546775625",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "472409261692026881",
+      "name": "Fighter.",
+      "color": 0,
+      "hoist": true,
+      "position": 4,
+      "permissions": "6546775617",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "472411193131401237",
+      "name": ".",
+      "color": 0,
+      "hoist": true,
+      "position": 7,
+      "permissions": "8804682432511",
+      "mentionable": true,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "726841725150167071",
+      "name": "Gaint",
+      "color": 0,
+      "hoist": false,
+      "position": 3,
+      "permissions": "8",
+      "mentionable": false,
+      "managed": true,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1417231665704599685",
+      "name": "TestCode",
+      "color": 0,
+      "hoist": false,
+      "position": 8,
+      "permissions": "8",
+      "mentionable": false,
+      "managed": true,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1423636284366262353",
+      "name": "new role",
+      "color": 1752220,
+      "hoist": false,
+      "position": 5,
+      "permissions": "6546775617",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1423636291299311759",
+      "name": "oubida",
+      "color": 0,
+      "hoist": false,
+      "position": 2,
+      "permissions": "0",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1426247175733510245",
+      "name": "new roleييي",
+      "color": 0,
+      "hoist": false,
+      "position": 1,
+      "permissions": "0",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    }
+  ],
+  "serverSettings": {
+    "name": "R7 بالقمة ..",
+    "description": null,
+    "icon": "5fe15216f779df85845f35bfc4d1abba",
+    "banner": null,
+    "splash": null,
+    "discoverySplash": null,
+    "afkChannelId": null,
+    "afkTimeout": 300,
+    "systemChannelId": "423067123225722893",
+    "systemChannelFlags": 0,
+    "rulesChannelId": null,
+    "publicUpdatesChannelId": null,
+    "preferredLocale": "en-US",
+    "features": [
+      "EXPOSED_TO_ACTIVITIES_WTP_EXPERIMENT"
+    ],
+    "verificationLevel": 0,
+    "explicitContentFilter": 0,
+    "mfaLevel": 0,
+    "defaultMessageNotifications": 0,
+    "vanityURLCode": null,
+    "premiumTier": 0,
+    "premiumSubscriptionCount": 0,
+    "nsfwLevel": 0
+  },
+  "createdAt": "2025-10-14T15:41:08.392Z"
+}

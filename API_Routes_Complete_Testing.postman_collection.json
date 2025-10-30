@@ -1,0 +1,776 @@
+{
+	"info": {
+		"_postman_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+		"name": "API Routes Complete Testing Collection",
+		"description": "مجموعة شاملة لاختبار جميع API routes للـ Links، Logs، و Members",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Links API",
+			"item": [
+				{
+					"name": "Get All Links",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/links?limit=10&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"links"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "10",
+									"description": "عدد النتائج المطلوبة"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "عدد النتائج المتجاوزة"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Link By ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/links/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"links",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Links By Server ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/links/server/123456789012345678",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"links",
+								"server",
+								"123456789012345678"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Link",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789012345678\",\n  \"link_or_keyword\": \"discord.gg\",\n  \"action_type\": \"delete\",\n  \"channels\": [\"987654321098765432\", \"876543210987654321\"]\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/links",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"links"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Link - Allow Action",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789012345678\",\n  \"link_or_keyword\": \"youtube.com\",\n  \"action_type\": \"allow\",\n  \"channels\": []\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/links",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"links"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Link",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"link_or_keyword\": \"twitch.tv\",\n  \"action_type\": \"kick\",\n  \"channels\": [\"111222333444555666\"]\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/links/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"links",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Link",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/links/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"links",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Log API",
+			"item": [
+				{
+					"name": "Get All Logs",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/log?limit=10&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"log"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "offset",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Log By ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/log/507f1f77bcf86cd799439011",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"log",
+								"507f1f77bcf86cd799439011"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Logs By Server ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/log/server/123456789012345678",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"log",
+								"server",
+								"123456789012345678"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Log - Complete Configuration",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789012345678\",\n  \"member_join_leave\": {\n    \"enabled\": true,\n    \"channel_id\": \"987654321098765432\"\n  },\n  \"role_changes\": {\n    \"enabled\": true,\n    \"channel_id\": \"876543210987654321\"\n  },\n  \"channel_changes\": {\n    \"enabled\": false,\n    \"channel_id\": null\n  },\n  \"message_delete\": {\n    \"enabled\": true,\n    \"channel_id\": \"765432109876543210\"\n  },\n  \"message_edit\": {\n    \"enabled\": false,\n    \"channel_id\": null\n  },\n  \"voice_activity\": {\n    \"enabled\": true,\n    \"channel_id\": \"654321098765432109\"\n  },\n  \"moderation_actions\": {\n    \"enabled\": true,\n    \"channel_id\": \"543210987654321098\"\n  },\n  \"server_settings\": {\n    \"enabled\": false,\n    \"channel_id\": null\n  }\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/log",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"log"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Log - Minimal Configuration",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"987654321098765432\",\n  \"member_join_leave\": {\n    \"enabled\": true,\n    \"channel_id\": \"123456789012345678\"\n  }\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/log",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"log"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Log By ID",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"member_join_leave\": {\n    \"enabled\": true,\n    \"channel_id\": \"111222333444555666\"\n  },\n  \"role_changes\": {\n    \"enabled\": false,\n    \"channel_id\": null\n  },\n  \"message_delete\": {\n    \"enabled\": true,\n    \"channel_id\": \"222333444555666777\"\n  }\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/log/507f1f77bcf86cd799439011",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"log",
+								"507f1f77bcf86cd799439011"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Log By Server ID",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"moderation_actions\": {\n    \"enabled\": false,\n    \"channel_id\": null\n  },\n  \"voice_activity\": {\n    \"enabled\": true,\n    \"channel_id\": \"333444555666777888\"\n  }\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/log/server/123456789012345678",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"log",
+								"server",
+								"123456789012345678"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Log By ID",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/log/507f1f77bcf86cd799439011",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"log",
+								"507f1f77bcf86cd799439011"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Log By Server ID",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/log/server/123456789012345678",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"log",
+								"server",
+								"123456789012345678"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Members API",
+			"item": [
+				{
+					"name": "Get All Members",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/members?limit=10&offset=0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"members"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "offset",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Members By ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/members/507f1f77bcf86cd799439011",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"members",
+								"507f1f77bcf86cd799439011"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Members By Server ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/members/server/123456789012345678",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"members",
+								"server",
+								"123456789012345678"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Members Settings - Full Configuration",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789012345678\",\n  \"welcome_message\": true,\n  \"welcome_message_content\": \"مرحباً (user) في خادم (server)! 🎉\",\n  \"welcome_message_channel\": \"987654321098765432\",\n  \"welcome_image\": true,\n  \"leave_message\": true,\n  \"leave_message_content\": \"وداعاً (user)، نأمل أن نراك قريباً!\",\n  \"leave_message_channel\": \"876543210987654321\",\n  \"auto_role\": true,\n  \"auto_role_channel\": \"765432109876543210\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/members",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"members"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Members Settings - Minimal Configuration",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"987654321098765432\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/members",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"members"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Members By ID",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"welcome_message\": false,\n  \"leave_message\": true,\n  \"leave_message_content\": \"إلى اللقاء (user)!\",\n  \"auto_role\": false\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/members/507f1f77bcf86cd799439011",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"members",
+								"507f1f77bcf86cd799439011"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Members By Server ID",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"welcome_message\": true,\n  \"welcome_message_channel\": \"111222333444555666\",\n  \"welcome_image\": false\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/members/server/123456789012345678",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"members",
+								"server",
+								"123456789012345678"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Members By ID",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/members/507f1f77bcf86cd799439011",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"members",
+								"507f1f77bcf86cd799439011"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Members By Server ID",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/members/server/123456789012345678",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"members",
+								"server",
+								"123456789012345678"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:3000",
+			"type": "string"
+		}
+	]
+}

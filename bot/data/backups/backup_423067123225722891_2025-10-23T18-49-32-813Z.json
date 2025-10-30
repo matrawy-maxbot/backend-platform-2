@@ -1,0 +1,459 @@
+{
+  "guildId": "423067123225722891",
+  "guildName": "R7 بالقمة ..",
+  "memberCount": 9,
+  "categories": [
+    {
+      "id": "423067123225722892",
+      "name": "Text Channelss",
+      "type": 4,
+      "position": 0,
+      "parentId": null,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "423067123225722894",
+      "name": "Voice Channels",
+      "type": 4,
+      "position": 1,
+      "parentId": null,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "1",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1430527370355540092",
+      "name": "Log Channels",
+      "type": 4,
+      "position": 2,
+      "parentId": null,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "19456",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "id": "423067123225722893",
+      "name": "general",
+      "type": 0,
+      "position": 0,
+      "parentId": "423067123225722892",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "423067123225722895",
+      "name": "General",
+      "type": 2,
+      "position": 0,
+      "parentId": "423067123225722894",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "bitrate": 64000,
+      "userLimit": 0,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "1",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "726837802406248539",
+      "name": "asd",
+      "type": 0,
+      "position": 1,
+      "parentId": "423067123225722892",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "1",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "727083988925153360",
+      "name": "تال",
+      "type": 0,
+      "position": 2,
+      "parentId": "423067123225722892",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "17",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "727083989361229876",
+      "name": "شات",
+      "type": 0,
+      "position": 3,
+      "parentId": "423067123225722892",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "805306385",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1423638928212099192",
+      "name": "sdfsdfsdfsdfsdfsdf",
+      "type": 0,
+      "position": 0,
+      "parentId": null,
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "1430527372452434033",
+      "name": "join-leave-log",
+      "type": 0,
+      "position": 0,
+      "parentId": "1430527370355540092",
+      "topic": "سجلات انضمام ومغادرة الأعضاء من السيرفر",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "52224",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "3072"
+        }
+      ]
+    },
+    {
+      "id": "1430527375371800586",
+      "name": "kick-ban-log",
+      "type": 0,
+      "position": 1,
+      "parentId": "1430527370355540092",
+      "topic": "سجلات طرد وحظر الأعضاء",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "52224",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "3072"
+        }
+      ]
+    },
+    {
+      "id": "1430527378257612944",
+      "name": "members-log",
+      "type": 0,
+      "position": 2,
+      "parentId": "1430527370355540092",
+      "topic": "سجلات تغييرات بيانات الأعضاء",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "52224",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "3072"
+        }
+      ]
+    },
+    {
+      "id": "1430527381474381855",
+      "name": "server-settings-log",
+      "type": 0,
+      "position": 3,
+      "parentId": "1430527370355540092",
+      "topic": "سجلات تغييرات إعدادات السيرفر",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "52224",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "3072"
+        }
+      ]
+    },
+    {
+      "id": "1430527388080537711",
+      "name": "roles-log",
+      "type": 0,
+      "position": 4,
+      "parentId": "1430527370355540092",
+      "topic": "سجلات تغييرات الرتب",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "52224",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "3072"
+        }
+      ]
+    },
+    {
+      "id": "1430527391666802850",
+      "name": "channels-log",
+      "type": 0,
+      "position": 5,
+      "parentId": "1430527370355540092",
+      "topic": "سجلات إنشاء وحذف وتعديل القنوات",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "52224",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "3072"
+        }
+      ]
+    },
+    {
+      "id": "1430527395147808779",
+      "name": "messages-log",
+      "type": 0,
+      "position": 6,
+      "parentId": "1430527370355540092",
+      "topic": "سجلات حذف وتعديل الرسائل",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "691025642078208092",
+          "type": 1,
+          "allow": "52224",
+          "deny": "0"
+        },
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "3072"
+        }
+      ]
+    },
+    {
+      "id": "1430991405848858824",
+      "name": "23",
+      "type": 0,
+      "position": 1,
+      "parentId": null,
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": []
+    }
+  ],
+  "roles": [
+    {
+      "id": "472408830144282624",
+      "name": "king",
+      "color": 0,
+      "hoist": true,
+      "position": 6,
+      "permissions": "6546775625",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "472409261692026881",
+      "name": "Fighter.",
+      "color": 0,
+      "hoist": true,
+      "position": 4,
+      "permissions": "6546775617",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "472411193131401237",
+      "name": ".",
+      "color": 0,
+      "hoist": true,
+      "position": 7,
+      "permissions": "8804682432511",
+      "mentionable": true,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "726841725150167071",
+      "name": "Gaint",
+      "color": 0,
+      "hoist": false,
+      "position": 3,
+      "permissions": "8",
+      "mentionable": false,
+      "managed": true,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1417231665704599685",
+      "name": "TestCode",
+      "color": 0,
+      "hoist": false,
+      "position": 8,
+      "permissions": "8",
+      "mentionable": false,
+      "managed": true,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1423636284366262353",
+      "name": "new role",
+      "color": 1752220,
+      "hoist": false,
+      "position": 5,
+      "permissions": "6546775617",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1423636291299311759",
+      "name": "oubida",
+      "color": 0,
+      "hoist": false,
+      "position": 2,
+      "permissions": "0",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1426247175733510245",
+      "name": "new roleييي",
+      "color": 0,
+      "hoist": false,
+      "position": 1,
+      "permissions": "0",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    }
+  ],
+  "serverSettings": {
+    "name": "R7 بالقمة ..",
+    "description": null,
+    "icon": "5fe15216f779df85845f35bfc4d1abba",
+    "banner": null,
+    "splash": null,
+    "discoverySplash": null,
+    "afkChannelId": null,
+    "afkTimeout": 300,
+    "systemChannelId": "423067123225722893",
+    "systemChannelFlags": 0,
+    "rulesChannelId": null,
+    "publicUpdatesChannelId": null,
+    "preferredLocale": "en-US",
+    "features": [
+      "EXPOSED_TO_ACTIVITIES_WTP_EXPERIMENT"
+    ],
+    "verificationLevel": 0,
+    "explicitContentFilter": 0,
+    "mfaLevel": 0,
+    "defaultMessageNotifications": 0,
+    "vanityURLCode": null,
+    "premiumTier": 0,
+    "premiumSubscriptionCount": 0,
+    "nsfwLevel": 0
+  },
+  "createdAt": "2025-10-23T18:49:32.812Z"
+}

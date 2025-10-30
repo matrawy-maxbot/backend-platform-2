@@ -1,0 +1,357 @@
+{
+  "111222333": {
+    "999888777": {
+      "discord_invites": [
+        {
+          "id": "mh1w37rp98mywx6u35",
+          "timestamp": "2025-10-22T11:07:53.749Z",
+          "reason": "Discord server invite shared (first warning)",
+          "content": "Check this out: https://discord.gg/test123",
+          "channelId": "123456789",
+          "channelName": "general",
+          "action": "delete"
+        }
+      ]
+    }
+  },
+  "123456789": {
+    "987654321": {
+      "blocked_links": [],
+      "discord_invites": []
+    }
+  },
+  "486630940542763009": {
+    "359907771224817664": {
+      "blocked_links": [
+        {
+          "id": "mg0r9lrvpphih4z6pub",
+          "timestamp": "2025-09-26T11:25:25.243Z",
+          "reason": "Blocked link shared",
+          "content": "ee.com",
+          "fullMessage": "ee.com",
+          "channelId": "487651169909473280",
+          "channelName": "spam-7"
+        },
+        {
+          "id": "mg0r9nczfbuvhtay4l5",
+          "timestamp": "2025-09-26T11:25:27.299Z",
+          "reason": "Blocked link shared (repeated violation)",
+          "content": "ee.com",
+          "fullMessage": "ee.com",
+          "channelId": "487651169909473280",
+          "channelName": "spam-7",
+          "action": "delete"
+        },
+        {
+          "id": "mh1wi8kurqdvfazo37i",
+          "timestamp": "2025-10-22T11:19:34.638Z",
+}}
+          "reason": "Blocked link shared (repeated violation - severe punishment)",
+          "content": "badsite.com",
+          "fullMessage": "Check this out: badsite.com",
+          "channelId": "123456789",
+          "channelName": "specified-channel-1",
+          "action": "kick",
+          "punishmentApplied": true
+        },
+        {
+          "id": "mh1wi8y7o7mm50tci7m",
+          "timestamp": "2025-10-22T11:19:35.119Z",
+          "reason": "Blocked link shared (repeated violation - severe punishment)",
+          "content": "badsite.com",
+          "fullMessage": "Join us: badsite.com",
+          "channelId": "987654321",
+          "channelName": "specified-channel-2",
+          "action": "kick",
+          "punishmentApplied": true
+        },
+        {
+          "id": "mh1wi8yio6krwdsfjm",
+          "timestamp": "2025-10-22T11:19:35.130Z",
+          "reason": "Blocked link shared (repeated violation - severe punishment)",
+          "content": "badsite.com",
+          "fullMessage": "badsite.com is here",
+          "channelId": "555666777",
+          "channelName": "specified-channel-3",
+          "action": "kick",
+          "punishmentApplied": true
+        }
+      ],
+      "discord_invites": [
+        {
+          "id": "mh1wgxmoluycqhadaur",
+          "timestamp": "2025-10-22T11:18:33.792Z",
+          "reason": "Discord server invite shared (first warning)",
+          "content": "Check this out: discord.gg/test",
+          "channelId": "123456789",
+          "channelName": "specified-channel-1",
+          "action": "delete"
+        },
+        {
+          "id": "mh1wgxznhv16636o4c6",
+          "timestamp": "2025-10-22T11:18:34.259Z",
+          "reason": "Discord server invite shared (repeated violation)",
+          "content": "Check this out: discord.gg/test",
+          "channelId": "999888777",
+          "channelName": "non-specified-channel",
+          "action": "delete"
+        },
+        {
+          "id": "mh1wgxzy7vbkpcut91q",
+          "timestamp": "2025-10-22T11:18:34.270Z",
+          "reason": "Discord server invite shared (repeated violation)",
+          "content": "Join us: discord.gg/test",
+          "channelId": "987654321",
+          "channelName": "specified-channel-2",
+          "action": "delete"
+        },
+        {
+          "id": "mh1wgy05zcia01cey9i",
+          "timestamp": "2025-10-22T11:18:34.277Z",
+          "reason": "Discord server invite shared (repeated violation)",
+          "content": "discord.gg/test is here",
+          "channelId": "555666777",
+          "channelName": "specified-channel-3",
+          "action": "delete"
+        }
+      ]
+    }
+  },
+  "423067123225722891": {
+    "123456789": {
+      "blocked_links": [
+        {
+          "id": "mh1wuj87a8ptuqsdiot",
+          "timestamp": "2025-10-22T11:29:08.311Z",
+          "reason": "Blocked link shared (first warning)",
+          "content": "discord.صص",
+          "fullMessage": "تفضل الرابط discord.صص للانضمام",
+          "channelId": "1423638928212099192",
+          "channelName": "general",
+          "action": "delete"
+        },
+        {
+          "id": "mh1wuj8hlewz99kgh47",
+          "timestamp": "2025-10-22T11:29:08.321Z",
+          "reason": "Blocked link shared (second violation - punishment applied)",
+          "content": "discord.صص",
+          "fullMessage": "شوف discord.صص هذا",
+          "channelId": "727083989361229876",
+          "channelName": "chat",
+          "action": "ban",
+          "punishmentApplied": true
+        }
+      ]
+    }
+  },
+  "server123": {
+    "123456789": {
+      "discord_invites": [
+        {
+          "id": "mh1x6c1hu4obtmxkg9k",
+          "timestamp": "2025-10-22T11:38:18.869Z",
+          "reason": "Discord server invite shared (first warning)",
+          "content": "Check this out: discord.gg/invite",
+          "channelId": "111",
+          "channelName": "general",
+          "action": "delete"
+        },
+        {
+          "id": "mh1x6ceg3dbt1kpmq65",
+          "timestamp": "2025-10-22T11:38:19.336Z",
+          "reason": "Discord server invite shared (repeated violation)",
+          "content": "Join here: discord.gg/server",
+          "channelId": "222",
+          "channelName": "chat",
+          "action": "delete"
+        },
+        {
+          "id": "mh1x6celec8xxyk32mv",
+          "timestamp": "2025-10-22T11:38:19.341Z",
+          "reason": "Discord server invite shared (repeated violation)",
+          "content": "Link: discord.gg/test",
+          "channelId": "333",
+          "channelName": "random",
+          "action": "delete"
+        },
+        {
+          "id": "mh1x77wd5nglmjwfi2g",
+          "timestamp": "2025-10-22T11:39:00.157Z",
+          "reason": "Discord server invite shared (repeated violation)",
+          "content": "Check this out: discord.gg/invite",
+          "channelId": "111",
+          "channelName": "general",
+          "action": "delete"
+        },
+        {
+          "id": "mh1x789e8exmbc1p0r3",
+          "timestamp": "2025-10-22T11:39:00.626Z",
+          "reason": "Discord server invite shared (repeated violation)",
+          "content": "Join here: discord.gg/server",
+          "channelId": "222",
+          "channelName": "chat",
+          "action": "delete"
+        },
+        {
+          "id": "mh1x789pyvqzqzarcnp",
+          "timestamp": "2025-10-22T11:39:00.637Z",
+          "reason": "Discord server invite shared (repeated violation)",
+          "content": "Link: discord.gg/test",
+          "channelId": "333",
+          "channelName": "random",
+          "action": "delete"
+        },
+        {
+          "id": "mh1x7x5gpm2ujj4xyz",
+          "timestamp": "2025-10-22T11:39:32.884Z",
+          "reason": "Discord server invite shared (repeated violation)",
+          "content": "Check this out: discord.gg/invite",
+          "channelId": "111",
+          "channelName": "general",
+          "action": "delete"
+        },
+        {
+          "id": "mh1x7xhupqtyjbu5daq",
+          "timestamp": "2025-10-22T11:39:33.330Z",
+          "reason": "Discord server invite shared (repeated violation)",
+          "content": "Join here: discord.gg/server",
+          "channelId": "222",
+          "channelName": "chat",
+          "action": "delete"
+        },
+        {
+          "id": "mh1x7xi1tr0iao4f6e9",
+          "timestamp": "2025-10-22T11:39:33.337Z",
+          "reason": "Discord server invite shared (repeated violation)",
+          "content": "Link: discord.gg/test",
+          "channelId": "333",
+          "channelName": "random",
+          "action": "delete"
+        },
+        {
+          "id": "mh1x8q0j00s15crt6dgd",
+          "timestamp": "2025-10-22T11:40:10.291Z",
+          "reason": "Discord server invite shared (repeated violation)",
+          "content": "Check this out: discord.gg/invite",
+          "channelId": "111",
+          "channelName": "general",
+          "action": "delete"
+        },
+        {
+          "id": "mh1x8qcjad5evv355b",
+          "timestamp": "2025-10-22T11:40:10.723Z",
+          "reason": "Discord server invite shared (repeated violation)",
+          "content": "Join here: discord.gg/server",
+          "channelId": "222",
+          "channelName": "chat",
+          "action": "delete"
+        },
+        {
+          "id": "mh1x8qcprwgskiatg1j",
+          "timestamp": "2025-10-22T11:40:10.729Z",
+          "reason": "Discord server invite shared (repeated violation)",
+          "content": "Link: discord.gg/test",
+          "channelId": "333",
+          "channelName": "random",
+          "action": "delete"
+        },
+        {
+          "id": "mh1xaxahj2z8lj4wwe",
+          "timestamp": "2025-10-22T11:41:53.033Z",
+          "reason": "Discord server invite shared (repeated violation)",
+          "content": "Check discord.gg/invite",
+          "channelId": "111",
+          "channelName": "general",
+          "action": "delete"
+        },
+        {
+          "id": "mh1xaxnjxkrsmtqdsqi",
+          "timestamp": "2025-10-22T11:41:53.503Z",
+          "reason": "Discord server invite shared (repeated violation)",
+          "content": "Check discord.gg/invite",
+          "channelId": "444",
+          "channelName": "random",
+          "action": "delete"
+        }
+      ],
+      "blocked_links": [
+        {
+          "id": "mh1x8qcwc3aeg07syle",
+          "timestamp": "2025-10-22T11:40:10.736Z",
+          "reason": "Blocked link shared (first warning)",
+          "content": "badsite.com",
+          "fullMessage": "Visit badsite.com now!",
+          "channelId": "111",
+          "channelName": "general",
+          "action": "delete"
+        },
+        {
+          "id": "mh1x8qd2v1w2441zn6e",
+          "timestamp": "2025-10-22T11:40:10.742Z",
+          "reason": "Blocked link shared (second violation - punishment applied)",
+          "content": "spamlink.net",
+          "fullMessage": "Check spamlink.net",
+          "channelId": "222",
+          "channelName": "chat",
+          "action": "ban",
+          "punishmentApplied": true
+        },
+        {
+          "id": "mh1x8qdc6j9btd2zz7m",
+          "timestamp": "2025-10-22T11:40:10.752Z",
+          "reason": "Blocked link shared (repeated violation - severe punishment)",
+          "content": "warnlink.org",
+          "fullMessage": "See warnlink.org",
+          "channelId": "111",
+          "channelName": "general",
+          "action": "kick",
+          "punishmentApplied": true
+        },
+        {
+          "id": "mh1x8qdi7yqohu5e7lf",
+          "timestamp": "2025-10-22T11:40:10.758Z",
+          "reason": "Blocked link shared (repeated violation - severe punishment)",
+          "content": "warnlink.org",
+          "fullMessage": "Check warnlink.org",
+          "channelId": "222",
+          "channelName": "chat",
+          "action": "kick",
+          "punishmentApplied": true
+        },
+        {
+          "id": "mh1x8qdrcgttiy8g1t",
+          "timestamp": "2025-10-22T11:40:10.767Z",
+          "reason": "Blocked link shared (repeated violation - severe punishment)",
+          "content": "allowedlink.com",
+          "fullMessage": "Check allowedlink.com",
+          "channelId": "111",
+          "channelName": "general",
+          "action": "kick",
+          "punishmentApplied": true
+        },
+        {
+          "id": "mh1xaxnfukkj7dsc12f",
+          "timestamp": "2025-10-22T11:41:53.499Z",
+          "reason": "Blocked link shared (repeated violation - severe punishment)",
+          "content": "discord.gg",
+          "fullMessage": "Check discord.gg/invite",
+          "channelId": "111",
+          "channelName": "general",
+          "action": "kick",
+          "punishmentApplied": true
+        },
+        {
+          "id": "mh1xaxnq6dodjogtxv6",
+          "timestamp": "2025-10-22T11:41:53.510Z",
+          "reason": "Blocked link shared (repeated violation - severe punishment)",
+          "content": "allowedlink.com",
+          "fullMessage": "Visit allowedlink.com",
+          "channelId": "111",
+          "channelName": "general",
+          "action": "kick",
+          "punishmentApplied": true
+        }
+      ]
+    }
+  }
+}

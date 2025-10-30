@@ -1,0 +1,341 @@
+{
+  "guildId": "423067123225722891",
+  "guildName": "R7 بالقمة",
+  "memberCount": 8,
+  "categories": [
+    {
+      "id": "423067123225722892",
+      "name": "Text Channelss",
+      "type": 4,
+      "position": 0,
+      "parentId": null,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "423067123225722894",
+      "name": "Voice Channels",
+      "type": 4,
+      "position": 1,
+      "parentId": null,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "1",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "726842504040939561",
+      "name": "AUDIT LOG",
+      "type": 4,
+      "position": 2,
+      "parentId": null,
+      "permissionOverwrites": []
+    }
+  ],
+  "channels": [
+    {
+      "id": "423067123225722893",
+      "name": "general",
+      "type": 0,
+      "position": 0,
+      "parentId": "423067123225722892",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "0",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "423067123225722895",
+      "name": "General",
+      "type": 2,
+      "position": 0,
+      "parentId": "423067123225722894",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "bitrate": 64000,
+      "userLimit": 0,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "1",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "726837802406248539",
+      "name": "asd",
+      "type": 0,
+      "position": 1,
+      "parentId": "423067123225722892",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "1",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "726842791367540786",
+      "name": "join--leave",
+      "type": 0,
+      "position": 0,
+      "parentId": "726842504040939561",
+      "topic": "Here will display members events (join & leave)",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "359907771224817664",
+          "type": 1,
+          "allow": "0",
+          "deny": "6144"
+        }
+      ]
+    },
+    {
+      "id": "726842793099788378",
+      "name": "kick--ban",
+      "type": 0,
+      "position": 1,
+      "parentId": "726842504040939561",
+      "topic": "Here will display members events (kick & ban)",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "472409397172240384",
+          "type": 0,
+          "allow": "536870912",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "726842794609475605",
+      "name": "roles",
+      "type": 0,
+      "position": 2,
+      "parentId": "726842504040939561",
+      "topic": "Here will display roles events (create, delete, edit settings, edit permissions)",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "726842826880450651",
+      "name": "channels",
+      "type": 0,
+      "position": 3,
+      "parentId": "726842504040939561",
+      "topic": "Here will display channels events (create, delete, edit settings, edit permissions)",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "805306368",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "726842828617154590",
+      "name": "members",
+      "type": 0,
+      "position": 4,
+      "parentId": "726842504040939561",
+      "topic": "Here will display members settings events (add role, remove role, mute, deafen)",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "726842830533951670",
+      "name": "server-settings",
+      "type": 0,
+      "position": 5,
+      "parentId": "726842504040939561",
+      "topic": "Here will display servers settings events (owner, name, icon, region, AFK channel)",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "726842848615333898",
+      "name": "messages",
+      "type": 0,
+      "position": 6,
+      "parentId": "726842504040939561",
+      "topic": "Here will display messages events (update, delete)",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "727083988925153360",
+      "name": "تال",
+      "type": 0,
+      "position": 2,
+      "parentId": "423067123225722892",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "17",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "727083989361229876",
+      "name": "شات",
+      "type": 0,
+      "position": 3,
+      "parentId": "423067123225722892",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "423067123225722891",
+          "type": 0,
+          "allow": "805306385",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1422919140695478272",
+      "name": "ششش",
+      "type": 0,
+      "position": 0,
+      "parentId": null,
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": []
+    }
+  ],
+  "roles": [
+    {
+      "id": "472408830144282624",
+      "name": "king",
+      "color": 0,
+      "hoist": true,
+      "position": 4,
+      "permissions": "6546775625",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "472409261692026881",
+      "name": "Fighter.",
+      "color": 0,
+      "hoist": true,
+      "position": 3,
+      "permissions": "6546775617",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "472409397172240384",
+      "name": "new role",
+      "color": 1752220,
+      "hoist": false,
+      "position": 2,
+      "permissions": "6546775617",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "472411193131401237",
+      "name": ".",
+      "color": 0,
+      "hoist": true,
+      "position": 5,
+      "permissions": "8804682432511",
+      "mentionable": true,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "726841725150167071",
+      "name": "Gaint",
+      "color": 0,
+      "hoist": false,
+      "position": 1,
+      "permissions": "8",
+      "mentionable": false,
+      "managed": true,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1417231665704599685",
+      "name": "TestCode",
+      "color": 0,
+      "hoist": false,
+      "position": 6,
+      "permissions": "8",
+      "mentionable": false,
+      "managed": true,
+      "icon": null,
+      "unicodeEmoji": null
+    }
+  ],
+  "serverSettings": {
+    "name": "R7 بالقمة",
+    "description": null,
+    "icon": "afcdc90073fd7fdd5e84c4707b4a41aa",
+    "banner": null,
+    "splash": null,
+    "discoverySplash": null,
+    "afkChannelId": null,
+    "afkTimeout": 300,
+    "systemChannelId": "423067123225722893",
+    "systemChannelFlags": 0,
+    "rulesChannelId": null,
+    "publicUpdatesChannelId": null,
+    "preferredLocale": "en-US",
+    "features": [
+      "EXPOSED_TO_ACTIVITIES_WTP_EXPERIMENT"
+    ],
+    "verificationLevel": 0,
+    "explicitContentFilter": 0,
+    "mfaLevel": 0,
+    "defaultMessageNotifications": 0,
+    "vanityURLCode": null,
+    "premiumTier": 0,
+    "premiumSubscriptionCount": 0,
+    "nsfwLevel": 0
+  },
+  "createdAt": "2025-10-02T15:26:21.335Z"
+}

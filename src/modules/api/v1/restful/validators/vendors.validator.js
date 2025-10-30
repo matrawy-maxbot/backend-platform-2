@@ -10,7 +10,7 @@ import Joi from 'joi';
  */
 export const getVendorByIdSchema = {
   params: Joi.object({
-    vendor_id: Joi.number()
+    id: Joi.number()
       .integer()
       .positive()
       .required()
@@ -29,12 +29,14 @@ export const getVendorByIdSchema = {
 export const createVendorSchema = {
   body: Joi.object({
     user_id: Joi.string()
-      .length(15)
+      .min(12)
+      .max(15)
       .required()
       .messages({
         'string.base': 'معرف المستخدم يجب أن يكون نص',
         'string.empty': 'معرف المستخدم لا يمكن أن يكون فارغ',
-        'string.length': 'معرف المستخدم يجب أن يكون 15 حرف بالضبط',
+        'string.min': 'معرف المستخدم يجب أن يكون على الأقل 12 حرف',
+        'string.max': 'معرف المستخدم يجب أن يكون أقل من 15 حرف',
         'any.required': 'معرف المستخدم مطلوب'
       }),
     business_name: Joi.string()
@@ -97,11 +99,13 @@ export const createVendorSchema = {
         'any.only': 'حالة التحقق يجب أن تكون إحدى القيم: unverified, verified, rejected'
       }),
     approved_by: Joi.string()
-      .length(15)
+      .min(12)
+      .max(15)
       .allow(null, '')
       .messages({
         'string.base': 'معرف الموافق يجب أن يكون نص',
-        'string.length': 'معرف الموافق يجب أن يكون 15 حرف بالضبط'
+        'string.min': 'معرف الموافق يجب أن يكون على الأقل 12 حرف',
+        'string.max': 'معرف الموافق يجب أن يكون أقل من 15 حرف'
       }),
     approved_at: Joi.date()
       .iso()
@@ -120,7 +124,7 @@ export const createVendorSchema = {
  */
 export const updateVendorSchema = {
   params: Joi.object({
-    vendor_id: Joi.number()
+    id: Joi.number()
       .integer()
       .positive()
       .required()
@@ -184,11 +188,13 @@ export const updateVendorSchema = {
         'any.only': 'حالة التحقق يجب أن تكون إحدى القيم: unverified, verified, rejected'
       }),
     approved_by: Joi.string()
-      .length(15)
+      .min(12)
+      .max(15)
       .allow(null, '')
       .messages({
         'string.base': 'معرف الموافق يجب أن يكون نص',
-        'string.length': 'معرف الموافق يجب أن يكون 15 حرف بالضبط'
+        'string.min': 'معرف الموافق يجب أن يكون على الأقل 12 حرف',
+        'string.max': 'معرف الموافق يجب أن يكون أقل من 15 حرف'
       }),
     approved_at: Joi.date()
       .iso()

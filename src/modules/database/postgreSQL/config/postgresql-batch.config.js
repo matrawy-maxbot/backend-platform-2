@@ -466,9 +466,8 @@ class PostgreSQLQueueBatchManager extends EventEmitter {
         } catch (error) {
           // في حالة فشل المجموعة كاملة
           operations.forEach(operation => {
-            console.log("\n!#############! error : ", error, "\n\n");
-            if (error.name === 'SequelizeUniqueConstraintError') {
-              // console.log('the data is exist in unique fields!', " , table : 0", error?.parent?.table, " , detail : ", error?.parent?.detail);
+            if (error.name.toLowerCase() === 'sequelizeuniqueconstrainterror') {
+              console.log('the data is exist in unique fields!', " , table : 0", error?.parent?.table, " , detail : ", error?.parent?.detail);
               operation.resolve({
                 status: 'success',
                 message: 'the data is exist in unique fields!',
@@ -476,6 +475,7 @@ class PostgreSQLQueueBatchManager extends EventEmitter {
                 data: {}
               });
             } else {
+              console.log("\n!#############! error : ", error, "\n\n");
               operation.reject(error);
             }
           });
@@ -534,13 +534,144 @@ class PostgreSQLQueueBatchManager extends EventEmitter {
         if (allHavePk && updatedColumns.length > 0 && sameColumnsAcrossAll) {
           const ids = operations.map(op => op.where[primaryKey]);
           
+          // الحصول على معلومات الأعمدة من النموذج للتحقق من أنواع البيانات
+          const modelAttributes = modelClass.rawAttributes || {};
+          
           // بناء تعبيرات CASE لكل عمود مع معاملات مستبدلة لسلامة الاستعلام
           const cases = {};
           const replacements = [];
           updatedColumns.forEach(col => {
+            const columnInfo = modelAttributes[col];
+            const dataType = columnInfo && columnInfo.type;
+            
+            // تحديد نوع البيانات للـ type casting
+            let typeCast = '';
+            let typeName = '';
+            if (dataType) {
+              typeName = dataType.constructor.name;
+
+              console.log('typeName ::---:: ', typeName);
+              
+              switch (typeName) {
+                case 'ENUM':
+                  typeCast = `::enum_${modelClass.getTableName()}_${col}`;
+                  break;
+                case 'DATE':
+                case 'DATEONLY':
+                  typeCast = '::timestamp with time zone';
+                  break;
+                case 'TIME':
+                  typeCast = '::time';
+                  break;
+                case 'INTEGER':
+                case 'BIGINT':
+                case 'SMALLINT':
+                  typeCast = '::integer';
+                  break;
+                case 'DECIMAL':
+                case 'FLOAT':
+                case 'REAL':
+                case 'DOUBLE':
+                  typeCast = '::numeric';
+                  break;
+                case 'BOOLEAN':
+                  typeCast = '::boolean';
+                  break;
+                case 'UUID':
+                  typeCast = '::uuid';
+                  break;
+                case 'JSON':
+                case 'JSONB':
+                  typeCast = '::jsonb';
+                  break;
+                case 'ARRAY':
+                  // تحديد نوع المصفوفة بناءً على نوع العناصر الداخلية
+                  if (dataType.type && dataType.type.constructor) {
+                    const innerTypeName = dataType.type.constructor.name;
+                    switch (innerTypeName) {
+                      case 'INTEGER':
+                      case 'BIGINT':
+                      case 'SMALLINT':
+                        typeCast = '::integer[]';
+                        break;
+                      case 'BOOLEAN':
+                        typeCast = '::boolean[]';
+                        break;
+                      case 'DECIMAL':
+                      case 'FLOAT':
+                      case 'REAL':
+                      case 'DOUBLE':
+                        typeCast = '::numeric[]';
+                        break;
+                      case 'UUID':
+                        typeCast = '::uuid[]';
+                        break;
+                      default:
+                        typeCast = '::text[]';
+                    }
+                  } else {
+                    typeCast = '::text[]';
+                  }
+                  break;
+                // STRING, TEXT وأنواع النصوص الأخرى لا تحتاج type casting
+                default:
+                  typeCast = '';
+              }
+            }
+            
             const whenClauses = operations.map(op => {
-              replacements.push(op.where[primaryKey], op.data[col]);
-              return `WHEN "${primaryKey}" = ? THEN ?`;
+              const value = op.data[col];
+              
+              // معالجة خاصة للمصفوفات - إصلاح مشكلة تنسيق المصفوفات في PostgreSQL
+              if (typeName === 'ARRAY' && Array.isArray(value)) {
+                // التعامل مع المصفوفات الفارغة
+                if (value.length === 0) {
+                  replacements.push(op.where[primaryKey]);
+                  return `WHEN "${primaryKey}" = ? THEN '{}'${typeCast}`;
+                }
+                // تحديد نوع العناصر الداخلية للمصفوفة
+                const dataType = columnInfo && columnInfo.type;
+                let innerTypeName = 'STRING';
+                if (dataType && dataType.type && dataType.type.constructor) {
+                  innerTypeName = dataType.type.constructor.name;
+                }
+                
+                // تحويل المصفوفة إلى تنسيق PostgreSQL المناسب حسب نوع البيانات
+                let arrayValue;
+                switch (innerTypeName) {
+                  case 'INTEGER':
+                  case 'BIGINT':
+                  case 'SMALLINT':
+                  case 'DECIMAL':
+                  case 'FLOAT':
+                  case 'REAL':
+                  case 'DOUBLE':
+                    // الأرقام لا تحتاج علامات اقتباس
+                    arrayValue = `{${value.join(',')}}`;
+                    break;
+                  case 'BOOLEAN':
+                    // القيم المنطقية
+                    arrayValue = `{${value.map(item => item ? 'true' : 'false').join(',')}}`;
+                    break;
+                  case 'UUID':
+                    // UUID بدون علامات اقتباس إضافية
+                    arrayValue = `{${value.join(',')}}`;
+                    break;
+                  default:
+                    // النصوص تحتاج علامات اقتباس مع escape للعلامات الداخلية
+                    arrayValue = `{${value.map(item => `"${String(item).replace(/"/g, '\\"')}"`).join(',')}}`;
+                }
+                
+                replacements.push(op.where[primaryKey]);
+                return `WHEN "${primaryKey}" = ? THEN '${arrayValue}'${typeCast}`;
+              } else if (typeName === 'ARRAY' && value === null) {
+                // معالجة القيم null للمصفوفات
+                replacements.push(op.where[primaryKey], null);
+                return `WHEN "${primaryKey}" = ? THEN NULL`;
+              } else {
+                replacements.push(op.where[primaryKey], value);
+                return `WHEN "${primaryKey}" = ? THEN ?${typeCast}`;
+              }
             }).join(' ');
             cases[col] = `CASE ${whenClauses} END`;
           });

@@ -1,0 +1,210 @@
+[2025-10-22T11:04:59.320Z] [INFO] Starting Sync System...
+[2025-10-22T11:04:59.323Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T11:04:59.326Z] [INFO] Starting heartbeat system...
+[2025-10-22T11:04:59.327Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T11:04:59.331Z] [INFO] Queue processor started
+[2025-10-22T11:04:59.333Z] [SUCCESS] Sync System started successfully
+[2025-10-22T11:05:35.128Z] [INFO] Starting Sync System...
+[2025-10-22T11:05:35.129Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T11:05:35.130Z] [INFO] Starting heartbeat system...
+[2025-10-22T11:05:35.132Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T11:05:35.134Z] [INFO] Queue processor started
+[2025-10-22T11:05:35.135Z] [SUCCESS] Sync System started successfully
+[2025-10-22T11:06:09.324Z] [INFO] Starting Sync System...
+[2025-10-22T11:06:09.326Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T11:06:09.327Z] [INFO] Starting heartbeat system...
+[2025-10-22T11:06:09.329Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T11:06:09.331Z] [INFO] Queue processor started
+[2025-10-22T11:06:09.332Z] [SUCCESS] Sync System started successfully
+[2025-10-22T11:12:06.492Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T11:12:06.474Z"}
+[2025-10-22T11:12:06.494Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T11:12:06.587Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T11:12:06.594Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T11:25:29.979Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T11:25:29.974Z"}
+[2025-10-22T11:25:29.980Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T11:25:30.084Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T11:25:30.090Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T11:32:23.699Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T11:32:23.691Z"}
+[2025-10-22T11:32:23.704Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T11:32:23.858Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T11:32:23.864Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T11:56:09.700Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T11:56:09.697Z"}
+[2025-10-22T11:56:09.702Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T11:56:09.798Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T11:56:09.802Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T11:59:17.217Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T11:59:17.213Z"}
+[2025-10-22T11:59:17.218Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T11:59:17.348Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T11:59:17.354Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T12:00:01.154Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T12:00:01.151Z"}
+[2025-10-22T12:00:01.155Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T12:00:01.266Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T12:00:01.271Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T12:00:58.736Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T12:00:58.733Z"}
+[2025-10-22T12:00:58.736Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T12:00:58.833Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T12:00:58.839Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T12:01:31.360Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T12:01:31.356Z"}
+[2025-10-22T12:01:31.360Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T12:01:31.467Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T12:01:31.473Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T12:01:51.802Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-22T12:01:51.799Z"}
+[2025-10-22T12:01:51.803Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-22T12:01:51.919Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-22T12:01:51.926Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-22T12:09:11.823Z] [INFO] Starting Sync System...
+[2025-10-22T12:09:11.824Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T12:09:11.824Z] [INFO] Starting heartbeat system...
+[2025-10-22T12:09:11.825Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T12:09:11.826Z] [INFO] Queue processor started
+[2025-10-22T12:09:11.826Z] [SUCCESS] Sync System started successfully
+[2025-10-22T12:11:22.456Z] [INFO] Starting Sync System...
+[2025-10-22T12:11:22.457Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T12:11:22.458Z] [INFO] Starting heartbeat system...
+[2025-10-22T12:11:22.458Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T12:11:22.459Z] [INFO] Queue processor started
+[2025-10-22T12:11:22.459Z] [SUCCESS] Sync System started successfully
+[2025-10-22T12:11:53.616Z] [INFO] Starting Sync System...
+[2025-10-22T12:11:53.617Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T12:11:53.617Z] [INFO] Starting heartbeat system...
+[2025-10-22T12:11:53.617Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T12:11:53.618Z] [INFO] Queue processor started
+[2025-10-22T12:11:53.618Z] [SUCCESS] Sync System started successfully
+[2025-10-22T12:13:36.373Z] [INFO] Starting Sync System...
+[2025-10-22T12:13:36.373Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T12:13:36.374Z] [INFO] Starting heartbeat system...
+[2025-10-22T12:13:36.375Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T12:13:36.375Z] [INFO] Queue processor started
+[2025-10-22T12:13:36.376Z] [SUCCESS] Sync System started successfully
+[2025-10-22T12:15:20.746Z] [INFO] Starting Sync System...
+[2025-10-22T12:15:20.747Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T12:15:20.748Z] [INFO] Starting heartbeat system...
+[2025-10-22T12:15:20.748Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T12:15:20.749Z] [INFO] Queue processor started
+[2025-10-22T12:15:20.749Z] [SUCCESS] Sync System started successfully
+[2025-10-22T12:16:15.816Z] [INFO] Starting Sync System...
+[2025-10-22T12:16:15.817Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T12:16:15.817Z] [INFO] Starting heartbeat system...
+[2025-10-22T12:16:15.818Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T12:16:15.819Z] [INFO] Queue processor started
+[2025-10-22T12:16:15.819Z] [SUCCESS] Sync System started successfully
+[2025-10-22T12:30:37.166Z] [INFO] Starting Sync System...
+[2025-10-22T12:30:37.167Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T12:30:37.168Z] [INFO] Starting heartbeat system...
+[2025-10-22T12:30:37.169Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T12:30:37.170Z] [INFO] Queue processor started
+[2025-10-22T12:30:37.170Z] [SUCCESS] Sync System started successfully
+[2025-10-22T12:31:09.183Z] [INFO] Starting Sync System...
+[2025-10-22T12:31:09.184Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T12:31:09.185Z] [INFO] Starting heartbeat system...
+[2025-10-22T12:31:09.186Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T12:31:09.187Z] [INFO] Queue processor started
+[2025-10-22T12:31:09.187Z] [SUCCESS] Sync System started successfully
+[2025-10-22T12:33:11.813Z] [INFO] Starting Sync System...
+[2025-10-22T12:33:11.814Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T12:33:11.815Z] [INFO] Starting heartbeat system...
+[2025-10-22T12:33:11.815Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T12:33:11.816Z] [INFO] Queue processor started
+[2025-10-22T12:33:11.816Z] [SUCCESS] Sync System started successfully
+[2025-10-22T12:52:17.875Z] [INFO] Manual Log (role change) sent for member .comando. in R7 بالقمة
+[2025-10-22T12:52:27.405Z] [INFO] Manual Log (nickname change) sent for member .comando. in R7 بالقمة
+[2025-10-22T12:53:16.221Z] [INFO] Manual Log (role change) sent for member shytnbsly. in R7 بالقمة
+[2025-10-22T12:53:34.648Z] [INFO] Manual Log (channel create) sent for channel 343444 in R7 بالقمة
+[2025-10-22T12:53:45.396Z] [INFO] Manual Log (server update) sent for R7 بالقمة ..
+[2025-10-22T12:53:57.463Z] [INFO] Manual Log (channel delete) sent for channel zxcc in R7 بالقمة ..
+[2025-10-22T12:54:08.865Z] [INFO] Manual Log (channel delete) sent for channel 343444 in R7 بالقمة ..
+[2025-10-22T12:54:31.271Z] [INFO] Manual Log (message edit) sent for message from te2m in R7 بالقمة ..
+[2025-10-22T12:54:36.028Z] [INFO] Manual Log (message delete) sent for message from te2m in R7 بالقمة ..
+[2025-10-22T13:08:28.371Z] [INFO] Starting Sync System...
+[2025-10-22T13:08:28.373Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T13:08:28.375Z] [INFO] Starting heartbeat system...
+[2025-10-22T13:08:28.376Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T13:08:28.379Z] [INFO] Queue processor started
+[2025-10-22T13:08:28.381Z] [SUCCESS] Sync System started successfully
+[2025-10-22T13:08:37.388Z] [INFO] Manual Log (role change) sent for member .comando. in R7 بالقمة ..
+[2025-10-22T13:08:44.871Z] [INFO] Manual Log (nickname change) sent for member .comando. in R7 بالقمة ..
+[2025-10-22T13:09:07.568Z] [INFO] Manual Log (message edit) sent for message from te2m in R7 بالقمة ..
+[2025-10-22T13:41:29.599Z] [INFO] Starting Sync System...
+[2025-10-22T13:41:29.599Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T13:41:29.600Z] [INFO] Starting heartbeat system...
+[2025-10-22T13:41:29.600Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T13:41:29.601Z] [INFO] Queue processor started
+[2025-10-22T13:41:29.601Z] [SUCCESS] Sync System started successfully
+[2025-10-22T13:49:47.618Z] [INFO] Starting Sync System...
+[2025-10-22T13:49:47.618Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T13:49:47.619Z] [INFO] Starting heartbeat system...
+[2025-10-22T13:49:47.619Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T13:49:47.620Z] [INFO] Queue processor started
+[2025-10-22T13:49:47.620Z] [SUCCESS] Sync System started successfully
+[2025-10-22T13:50:24.944Z] [INFO] Starting Sync System...
+[2025-10-22T13:50:24.945Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T13:50:24.945Z] [INFO] Starting heartbeat system...
+[2025-10-22T13:50:24.945Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T13:50:24.946Z] [INFO] Queue processor started
+[2025-10-22T13:50:24.946Z] [SUCCESS] Sync System started successfully
+[2025-10-22T13:51:08.197Z] [INFO] Starting Sync System...
+[2025-10-22T13:51:08.198Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T13:51:08.199Z] [INFO] Starting heartbeat system...
+[2025-10-22T13:51:08.199Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T13:51:08.200Z] [INFO] Queue processor started
+[2025-10-22T13:51:08.200Z] [SUCCESS] Sync System started successfully
+[2025-10-22T13:52:16.076Z] [INFO] Starting Sync System...
+[2025-10-22T13:52:16.076Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T13:52:16.077Z] [INFO] Starting heartbeat system...
+[2025-10-22T13:52:16.077Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T13:52:16.078Z] [INFO] Queue processor started
+[2025-10-22T13:52:16.078Z] [SUCCESS] Sync System started successfully
+[2025-10-22T13:56:30.065Z] [INFO] Manual Log (role change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-22T13:56:31.273Z] [INFO] Manual Log (role change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-22T13:56:31.899Z] [INFO] Manual Log (role change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-22T13:56:32.296Z] [INFO] Manual Log (role change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-22T14:41:12.210Z] [INFO] Starting Sync System...
+[2025-10-22T14:41:12.211Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T14:41:12.211Z] [INFO] Starting heartbeat system...
+[2025-10-22T14:41:12.212Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T14:41:12.212Z] [INFO] Queue processor started
+[2025-10-22T14:41:12.213Z] [SUCCESS] Sync System started successfully
+[2025-10-22T14:48:50.337Z] [INFO] Starting Sync System...
+[2025-10-22T14:48:50.338Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T14:48:50.338Z] [INFO] Starting heartbeat system...
+[2025-10-22T14:48:50.339Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T14:48:50.339Z] [INFO] Queue processor started
+[2025-10-22T14:48:50.340Z] [SUCCESS] Sync System started successfully
+[2025-10-22T14:49:25.272Z] [INFO] Starting Sync System...
+[2025-10-22T14:49:25.273Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T14:49:25.274Z] [INFO] Starting heartbeat system...
+[2025-10-22T14:49:25.274Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T14:49:25.275Z] [INFO] Queue processor started
+[2025-10-22T14:49:25.275Z] [SUCCESS] Sync System started successfully
+[2025-10-22T14:50:22.695Z] [INFO] Starting Sync System...
+[2025-10-22T14:50:22.696Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T14:50:22.696Z] [INFO] Starting heartbeat system...
+[2025-10-22T14:50:22.696Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T14:50:22.697Z] [INFO] Queue processor started
+[2025-10-22T14:50:22.697Z] [SUCCESS] Sync System started successfully
+[2025-10-22T14:54:36.488Z] [INFO] Starting Sync System...
+[2025-10-22T14:54:36.489Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T14:54:36.490Z] [INFO] Starting heartbeat system...
+[2025-10-22T14:54:36.491Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T14:54:36.492Z] [INFO] Queue processor started
+[2025-10-22T14:54:36.494Z] [SUCCESS] Sync System started successfully
+[2025-10-22T14:59:15.139Z] [INFO] Manual Log (role change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-22T14:59:15.397Z] [INFO] Manual Log (role change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-22T14:59:17.166Z] [INFO] Manual Log (role change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-22T14:59:17.265Z] [INFO] Manual Log (role change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-22T14:59:17.993Z] [INFO] Manual Log (role change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-22T14:59:18.054Z] [INFO] Manual Log (role change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-22T14:59:26.634Z] [INFO] Manual Log (nickname change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-22T14:59:26.711Z] [INFO] Manual Log (nickname change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-22T14:59:35.541Z] [INFO] Manual Log (nickname change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-22T14:59:35.613Z] [INFO] Manual Log (nickname change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-22T14:59:51.046Z] [INFO] Manual Log (message edit) sent for message from te2m in R7 بالقمة ..
+[2025-10-22T14:59:51.343Z] [INFO] Manual Log (message edit) sent for message from te2m in R7 بالقمة ..
+[2025-10-22T14:59:54.182Z] [INFO] Manual Log (message delete) sent for message from te2m in R7 بالقمة ..
+[2025-10-22T14:59:54.223Z] [INFO] Manual Log (message delete) sent for message from te2m in R7 بالقمة ..
+[2025-10-22T15:33:34.549Z] [INFO] Starting Sync System...
+[2025-10-22T15:33:34.551Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-22T15:33:34.552Z] [INFO] Starting heartbeat system...
+[2025-10-22T15:33:34.553Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-22T15:33:34.554Z] [INFO] Queue processor started
+[2025-10-22T15:33:34.555Z] [SUCCESS] Sync System started successfully

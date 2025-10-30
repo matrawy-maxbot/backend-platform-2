@@ -132,7 +132,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"name\": \"أحمد محمد\",\n  \"email\": \"ahmed.mohamed@example.com\",\n  \"password_hash\": \"123456789\",\n  \"full_name\": \"أحمد محمد علي السيد\",\n  \"birthDate\": \"1995-05-15\",\n  \"phone\": \"+966501234567\",\n  \"avatar_url\": \"https://example.com/avatar.jpg\",\n  \"is_email_verified\": false,\n  \"is_phone_verified\": false\n}"
+					"raw": "{\n  \"name\": \"أحمد محمد\",\n  \"email\": \"ahmed.mohamed@example.com\",\n  \"password_hash\": \"123456789\",\n  \"full_name\": \"أحمد محمد علي السيد\",\n  \"birth_date\": \"1995-05-15\",\n  \"phone\": \"+966501234567\",\n  \"avatar_url\": \"https://example.com/avatar.jpg\",\n  \"is_email_verified\": false,\n  \"is_phone_verified\": false\n}"
 				},
 				"url": {
 					"raw": "http://localhost:3000/api/v1/users",

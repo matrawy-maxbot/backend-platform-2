@@ -392,6 +392,12 @@ class MongoDBQueueBatchManager extends EventEmitter {
             // إذا لم يكن التحديث يحتوي على عوامل MongoDB، نضعه في $set
             updateDoc = { $set: updateDoc };
           }
+
+          if(op.filter._id) {
+            op.filter._id = mongoose.Types.ObjectId.createFromHexString(op.filter._id);
+          }
+
+          console.log("updateDoc :::: ", op.filter, updateDoc);
           
           return {
             updateOne: {
@@ -452,6 +458,8 @@ class MongoDBQueueBatchManager extends EventEmitter {
       
       // تجميع العمليات حسب المجموعة ونوع الفلتر
       const groupedBatch = this.groupSelectOperations(batch);
+
+      // console.log("groupedBatch :::: ", groupedBatch.autoreplies?._id[0]);
       
       // معالجة كل مجموعة بشكل متوازي مع حد أقصى للعمليات المتزامنة
       const collectionNames = Object.keys(groupedBatch);
@@ -615,10 +623,18 @@ class MongoDBQueueBatchManager extends EventEmitter {
   async executeSelectQuery(collection, filterKey, operationsGroup) {
     try {
       const { operations, options } = operationsGroup;
-      const filterValues = operations.map(op => op.filterValue);
+      let filterValues = operations.map(op => op.filterValue);
+      
+      // console.log("filterValues 1 :::: ", filterKey, filterValues);
+
+      if(filterKey === '_id') {
+        filterValues = filterValues.map(id => mongoose.Types.ObjectId.createFromHexString(id));
+      }
       
       // بناء الاستعلام
       let cursor = collection.find({ [filterKey]: { $in: filterValues } });
+      
+      // console.log("filterValues 2 :::: ", filterKey, filterValues);
       
       // تطبيق الخيارات
       if (options.projection) {
@@ -698,6 +714,8 @@ class MongoDBQueueBatchManager extends EventEmitter {
     if (this.deleteQueue.length === 0) return;
     
     const batch = this.deleteQueue.splice(0); // أخذ جميع العمليات
+
+    console.log("batch :::: ", batch);
     
     // تجميع العمليات حسب المجموعة (Collection)
     const collectionGroups = {};
@@ -711,11 +729,19 @@ class MongoDBQueueBatchManager extends EventEmitter {
     try {
       // معالجة كل مجموعة على حدة
       for (const [collectionName, operations] of Object.entries(collectionGroups)) {
-        const bulkOps = operations.map(op => ({
-          deleteMany: {
-            filter: op.filter
+        
+        const bulkOps = operations.map(op => {
+          if(op.filter._id) {
+            op.filter._id = mongoose.Types.ObjectId.createFromHexString(op.filter._id);
           }
-        }));
+          return ({
+            deleteMany: {
+              filter: op.filter
+            }
+          })
+        });
+
+        console.log("bulkOps :::: ", bulkOps.deleteMany?.filter);
         
         try {
           const result = await mongoose.connection.db.collection(collectionName).bulkWrite(bulkOps, {

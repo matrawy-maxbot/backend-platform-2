@@ -1,0 +1,7 @@
+{
+  "type": "settings_update",
+  "serverId": "423067123225722891",
+  "section": "ads",
+  "timestamp": 1761226333041,
+  "source": "dashboard"
+}

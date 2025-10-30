@@ -1,0 +1,27 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="12" fill="#06B6D4"/>
+  <!-- Keyboard base -->
+  <rect x="8" y="24" width="48" height="24" rx="4" fill="white" opacity="0.9"/>
+  <!-- Keys -->
+  <rect x="12" y="28" width="4" height="4" rx="1" fill="#06B6D4"/>
+  <rect x="18" y="28" width="4" height="4" rx="1" fill="#06B6D4"/>
+  <rect x="24" y="28" width="4" height="4" rx="1" fill="#06B6D4"/>
+  <rect x="30" y="28" width="4" height="4" rx="1" fill="#06B6D4"/>
+  <rect x="36" y="28" width="4" height="4" rx="1" fill="#06B6D4"/>
+  <rect x="42" y="28" width="4" height="4" rx="1" fill="#06B6D4"/>
+  <rect x="48" y="28" width="4" height="4" rx="1" fill="#06B6D4"/>
+  
+  <rect x="14" y="34" width="4" height="4" rx="1" fill="#06B6D4"/>
+  <rect x="20" y="34" width="4" height="4" rx="1" fill="#06B6D4"/>
+  <rect x="26" y="34" width="4" height="4" rx="1" fill="#06B6D4"/>
+  <rect x="32" y="34" width="4" height="4" rx="1" fill="#06B6D4"/>
+  <rect x="38" y="34" width="4" height="4" rx="1" fill="#06B6D4"/>
+  <rect x="44" y="34" width="4" height="4" rx="1" fill="#06B6D4"/>
+  
+  <rect x="16" y="40" width="32" height="4" rx="1" fill="#06B6D4"/>
+  
+  <!-- Speed lines -->
+  <path d="M12 16L20 12" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <path d="M24 14L32 10" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <path d="M36 16L44 12" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -11,9 +11,12 @@ class UserService {
   static async createUser(userData) {
     try {
       const result = await PGinsert(User, userData);
+      if(result.exist) {
+        throw new Error('Email already exists');
+      }
       return result;
     } catch (error) {
-      throw new Error(`خطأ في إنشاء المستخدم: ${error.message}`);
+      throw new Error(`Error creating user: ${error.message}`);
     }
   }
 
@@ -23,12 +26,12 @@ class UserService {
    * @param {string} email - البريد الإلكتروني
    * @param {string} password_hash - كلمة المرور المشفرة
    * @param {string} full_name - الاسم الكامل
-   * @param {string} birthDate - تاريخ الميلاد (اختياري) بصيغة YYYY-MM-DD
+   * @param {string} birth_date - تاريخ الميلاد (اختياري) بصيغة YYYY-MM-DD
    * @param {string} phone - رقم الهاتف (اختياري)
    * @param {string} avatar_url - رابط الصورة الشخصية (اختياري)
    * @returns {Promise<Object>} - المستخدم المنشأ
    */
-  static async createUserWithValidation(name, email, password_hash, full_name, birthDate = null, phone = null, avatar_url = null) {
+  static async createUserWithValidation(name, email, password_hash, full_name, birth_date = null, phone = null, avatar_url = null) {
     try {
       // التحقق من وجود البريد الإلكتروني مسبقاً
       const existingUser = await this.getUserByEmail(email);
@@ -49,7 +52,7 @@ class UserService {
         email: email.toLowerCase().trim(),
         password_hash: password_hash,
         full_name: full_name.trim(),
-        birthDate: birthDate,
+        birth_date: birth_date,
         phone: phone ? phone.trim() : null,
         avatar_url: avatar_url,
         is_email_verified: false,
@@ -325,14 +328,14 @@ class UserService {
 
   /**
    * حساب العمر من تاريخ الميلاد
-   * @param {string} birthDate - تاريخ الميلاد بصيغة YYYY-MM-DD
+   * @param {string} birth_date - تاريخ الميلاد بصيغة YYYY-MM-DD
    * @returns {number} - العمر بالسنوات
    */
-  static calculateAge(birthDate) {
-    if (!birthDate) return null;
+  static calculateAge(birth_date) {
+    if (!birth_date) return null;
     
     const today = new Date();
-    const birth = new Date(birthDate);
+    const birth = new Date(birth_date);
     let age = today.getFullYear() - birth.getFullYear();
     const monthDiff = today.getMonth() - birth.getMonth();
     
@@ -352,11 +355,11 @@ class UserService {
   static async getUsersByAgeRange(minAge, maxAge) {
     try {
       const today = new Date();
-      const maxBirthDate = new Date(today.getFullYear() - minAge, today.getMonth(), today.getDate());
-      const minBirthDate = new Date(today.getFullYear() - maxAge - 1, today.getMonth(), today.getDate());
+      const max_birth_date = new Date(today.getFullYear() - minAge, today.getMonth(), today.getDate());
+      const min_birth_date = new Date(today.getFullYear() - maxAge - 1, today.getMonth(), today.getDate());
       
       const result = await PGselectAll(User, {
-        birthDate: [minBirthDate.toISOString().split('T')[0], maxBirthDate.toISOString().split('T')[0]], 
+        birth_date: [min_birth_date.toISOString().split('T')[0], max_birth_date.toISOString().split('T')[0]], 
         Op: Op.between
       });
       

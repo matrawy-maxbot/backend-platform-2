@@ -1,0 +1,10 @@
+{
+  "user": "te2m",
+  "userId": "test-user-123",
+  "action": "إنشاء إعلان جديد",
+  "section": "Ads",
+  "details": "تم إنشاء إعلان جديد بعنوان \"إعلان اختبار\" في قناة عام، أخبار",
+  "type": "create",
+  "severity": "success",
+  "serverId": "423067123225722891"
+}

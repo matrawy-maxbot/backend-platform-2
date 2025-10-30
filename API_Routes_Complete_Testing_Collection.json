@@ -1,0 +1,672 @@
+{
+	"info": {
+		"_postman_id": "12345678-1234-1234-1234-123456789012",
+		"name": "Genius Backend API - Complete Testing Collection",
+		"description": "مجموعة شاملة لاختبار جميع API endpoints في النظام\nComplete collection for testing all API endpoints in the system",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Protection API",
+			"description": "اختبارات API إدارة الحماية",
+			"item": [
+				{
+					"name": "Get All Protections",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/protection",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "protection"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Protection by ID - Valid",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/protection/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "protection", "1"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Protection by ID - Invalid (String)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/protection/invalid",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "protection", "invalid"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Protection by Server ID - Valid",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/protection/server/123456789012345678",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "protection", "server", "123456789012345678"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Protection by Server ID - Invalid (Contains Letters)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/protection/server/abc123",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "protection", "server", "abc123"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Protection - Valid Data",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789012345678\",\n  \"bot_management_enabled\": true,\n  \"disallow_bots\": false,\n  \"delete_repeated_messages\": true,\n  \"moderation_controls_enabled\": true,\n  \"max_punishment_type\": \"kick\",\n  \"max_kick_ban_limit\": 5,\n  \"bad_words\": true,\n  \"links\": false,\n  \"channels_content\": true\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/protection",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "protection"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Protection - Invalid Server ID",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"invalid_server_id\",\n  \"bot_management_enabled\": true\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/protection",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "protection"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Protection - Missing Required Field",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"bot_management_enabled\": true\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/protection",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "protection"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Protection by ID - Valid",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"bot_management_enabled\": false,\n  \"max_punishment_type\": \"ban\",\n  \"max_kick_ban_limit\": 10\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/protection/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "protection", "1"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Protection by Server ID - Valid",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"bad_words\": false,\n  \"links\": true\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/protection/server/123456789012345678",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "protection", "server", "123456789012345678"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Protection by ID - Valid",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/protection/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "protection", "1"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Protection by Server ID - Valid",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/protection/server/123456789012345678",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "protection", "server", "123456789012345678"]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Schedule Messages API",
+			"description": "اختبارات API إدارة الرسائل المجدولة",
+			"item": [
+				{
+					"name": "Get All Schedule Messages",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/schedule-messages",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "schedule-messages"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Schedule Message by ID - Valid",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/schedule-messages/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "schedule-messages", "1"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Schedule Messages by Server ID - Valid",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/schedule-messages/server/123456789012345678",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "schedule-messages", "server", "123456789012345678"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Schedule Message - Valid (Immediate)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789012345678\",\n  \"title\": \"إعلان مهم\",\n  \"content\": \"هذا إعلان مهم للجميع\",\n  \"image_url\": \"https://example.com/image.jpg\",\n  \"link_url\": \"https://example.com\",\n  \"channels\": [\"987654321098765432\"],\n  \"roles\": [\"111222333444555666\"],\n  \"publish_type\": \"immediate\",\n  \"priority_level\": \"high\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/schedule-messages",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "schedule-messages"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Schedule Message - Valid (Scheduled)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789012345678\",\n  \"title\": \"رسالة مجدولة\",\n  \"content\": \"هذه رسالة مجدولة للنشر لاحقاً\",\n  \"publish_type\": \"scheduled\",\n  \"schedule_mode\": \"specific_time\",\n  \"scheduled_time\": \"2024-12-31T23:59:59.000Z\",\n  \"schedule_type\": \"one_time\",\n  \"priority_level\": \"normal\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/schedule-messages",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "schedule-messages"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Schedule Message - Valid (Delay)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789012345678\",\n  \"title\": \"رسالة مؤجلة\",\n  \"content\": \"هذه رسالة ستُنشر بعد تأخير\",\n  \"publish_type\": \"scheduled\",\n  \"schedule_mode\": \"delay_from_now\",\n  \"delay_amount\": 30,\n  \"delay_unit\": \"minutes\",\n  \"schedule_type\": \"recurring\",\n  \"recurring_type\": \"daily\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/schedule-messages",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "schedule-messages"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Schedule Message - Invalid (Missing Title)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789012345678\",\n  \"content\": \"محتوى بدون عنوان\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/schedule-messages",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "schedule-messages"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Schedule Message - Invalid URL",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789012345678\",\n  \"title\": \"اختبار رابط خاطئ\",\n  \"content\": \"اختبار رابط غير صحيح\",\n  \"image_url\": \"invalid-url\",\n  \"link_url\": \"not-a-url\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/schedule-messages",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "schedule-messages"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Schedule Message - Valid",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"title\": \"عنوان محدث\",\n  \"content\": \"محتوى محدث\",\n  \"priority_level\": \"low\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/schedule-messages/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "schedule-messages", "1"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Schedule Message - Valid",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/schedule-messages/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "schedule-messages", "1"]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Welcome Image API",
+			"description": "اختبارات API إدارة صور الترحيب",
+			"item": [
+				{
+					"name": "Get All Welcome Images",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/welcome-image",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "welcome-image"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Welcome Image by ID - Valid",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/welcome-image/507f1f77bcf86cd799439011",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "welcome-image", "507f1f77bcf86cd799439011"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Welcome Image by ID - Invalid MongoDB ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/welcome-image/invalid-id",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "welcome-image", "invalid-id"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Welcome Image by Server ID - Valid",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/welcome-image/server/123456789012345678",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "welcome-image", "server", "123456789012345678"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Welcome Image - Valid (Full Configuration)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"serverId\": \"123456789012345678\",\n  \"enabled\": true,\n  \"backgroundImage\": \"https://example.com/background.jpg\",\n  \"backgroundColor\": \"#36393f\",\n  \"textColor\": \"#ffffff\",\n  \"welcomeText\": \"أهلاً وسهلاً {username}!\",\n  \"fontSize\": 24,\n  \"fontFamily\": \"Arial\",\n  \"avatarBorder\": true,\n  \"avatarBorderColor\": \"#7289da\",\n  \"avatarSize\": 100,\n  \"position\": {\n    \"x\": 50,\n    \"y\": 50\n  },\n  \"imageWidth\": 800,\n  \"imageHeight\": 300\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/welcome-image",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "welcome-image"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Welcome Image - Valid (Minimal)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"serverId\": \"987654321098765432\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/welcome-image",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "welcome-image"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Welcome Image - Invalid Server ID",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"serverId\": \"invalid_server_id\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/welcome-image",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "welcome-image"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Welcome Image - Invalid Color Format",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"serverId\": \"123456789012345678\",\n  \"backgroundColor\": \"invalid-color\",\n  \"textColor\": \"rgb(255,255,255)\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/welcome-image",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "welcome-image"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Welcome Image - Invalid Font Size",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"serverId\": \"123456789012345678\",\n  \"fontSize\": 100,\n  \"avatarSize\": 300\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/welcome-image",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "welcome-image"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Welcome Image by ID - Valid",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"enabled\": false,\n  \"welcomeText\": \"مرحباً بك {username} في خادمنا!\",\n  \"fontSize\": 28,\n  \"textColor\": \"#ff0000\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/welcome-image/507f1f77bcf86cd799439011",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "welcome-image", "507f1f77bcf86cd799439011"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Welcome Image by Server ID - Valid",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"backgroundColor\": \"#000000\",\n  \"avatarBorder\": false\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/welcome-image/server/123456789012345678",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "welcome-image", "server", "123456789012345678"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Welcome Image by ID - Valid",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/welcome-image/507f1f77bcf86cd799439011",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "welcome-image", "507f1f77bcf86cd799439011"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Welcome Image by Server ID - Valid",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/welcome-image/server/123456789012345678",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "welcome-image", "server", "123456789012345678"]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:3000",
+			"type": "string"
+		}
+	]
+}

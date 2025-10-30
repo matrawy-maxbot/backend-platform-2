@@ -1,0 +1,422 @@
+{
+	"info": {
+		"_postman_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+		"name": "API Routes Negative Testing Collection",
+		"description": "مجموعة اختبارات سلبية وحالات حدية للـ API routes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Links API - Negative Tests",
+			"item": [
+				{
+					"name": "Get Link By Invalid ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/links/invalid_id",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"links",
+								"invalid_id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Link - Missing Required Fields",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789012345678\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/links",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"links"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Link - Invalid Action Type",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789012345678\",\n  \"link_or_keyword\": \"discord.gg\",\n  \"action_type\": \"invalid_action\",\n  \"channels\": []\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/links",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"links"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Link - Too Long Keyword",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789012345678\",\n  \"link_or_keyword\": \"this_is_a_very_long_keyword_that_exceeds_the_maximum_allowed_length_of_500_characters_and_should_fail_validation_because_it_is_too_long_for_the_system_to_handle_properly_and_might_cause_issues_with_database_storage_or_processing_performance_so_we_need_to_test_this_edge_case_to_ensure_our_validation_is_working_correctly_and_preventing_such_long_inputs_from_being_accepted_by_the_api_endpoint_which_could_potentially_cause_problems_in_production_environments_where_data_integrity_and_system_stability_are_crucial_for_maintaining_a_reliable_service_for_all_users\",\n  \"action_type\": \"delete\",\n  \"channels\": []\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/links",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"links"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Log API - Negative Tests",
+			"item": [
+				{
+					"name": "Get Log By Invalid MongoDB ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/log/invalid_mongodb_id",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"log",
+								"invalid_mongodb_id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Log - Invalid Log Type",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789012345678\",\n  \"log_type\": \"invalid_log_type\",\n  \"log_toggle\": true,\n  \"log_channel\": \"987654321098765432\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/log",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"log"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Log - Invalid Server ID Format",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"invalid_server_id_with_letters\",\n  \"log_type\": \"member_join_leave\",\n  \"log_toggle\": true,\n  \"log_channel\": \"987654321098765432\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/log",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"log"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Log - Empty Body",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/log/507f1f77bcf86cd799439011",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"log",
+								"507f1f77bcf86cd799439011"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Members API - Negative Tests",
+			"item": [
+				{
+					"name": "Get Members By Invalid MongoDB ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/members/not_a_valid_mongodb_id",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"members",
+								"not_a_valid_mongodb_id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Members - Invalid Server ID",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"abc123def456\",\n  \"welcome_message\": true\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/members",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"members"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Members - Too Long Welcome Message",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789012345678\",\n  \"welcome_message\": true,\n  \"welcome_message_content\": \"This is an extremely long welcome message that exceeds the maximum allowed length of 500 characters and should fail validation because it is too long for the system to handle properly and might cause issues with database storage or processing performance so we need to test this edge case to ensure our validation is working correctly and preventing such long inputs from being accepted by the api endpoint which could potentially cause problems in production environments where data integrity and system stability are crucial for maintaining a reliable service for all users and their discord servers\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/members",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"members"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Members - Invalid Boolean Values",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789012345678\",\n  \"welcome_message\": \"yes\",\n  \"leave_message\": \"no\",\n  \"auto_role\": 1\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/members",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"members"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Members - Empty Body",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/members/507f1f77bcf86cd799439011",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								
+								"members",
+								"507f1f77bcf86cd799439011"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:3000",
+			"type": "string"
+		}
+	]
+}

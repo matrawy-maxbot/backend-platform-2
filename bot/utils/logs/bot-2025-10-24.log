@@ -1,0 +1,89 @@
+[2025-10-24T11:45:21.870Z] [INFO] Starting Sync System...
+[2025-10-24T11:45:21.871Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-24T11:45:21.871Z] [INFO] Starting heartbeat system...
+[2025-10-24T11:45:21.871Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-24T11:45:21.872Z] [INFO] Queue processor started
+[2025-10-24T11:45:21.872Z] [SUCCESS] Sync System started successfully
+[2025-10-24T11:46:31.249Z] [INFO] Manual Log (message delete) sent for message from shytnbsly. in R7 بالقمة ..
+[2025-10-24T11:46:31.623Z] [INFO] Manual Log (message delete) sent for message from shytnbsly. in R7 بالقمة ..
+[2025-10-24T11:46:34.256Z] [INFO] Manual Log (message delete) sent for message from shytnbsly. in R7 بالقمة ..
+[2025-10-24T11:46:35.344Z] [INFO] Manual Log (message delete) sent for message from shytnbsly. in R7 بالقمة ..
+[2025-10-24T11:46:35.897Z] [INFO] Manual Log (message delete) sent for message from shytnbsly. in R7 بالقمة ..
+[2025-10-24T11:46:36.496Z] [INFO] Manual Log (message delete) sent for message from shytnbsly. in R7 بالقمة ..
+[2025-10-24T11:46:37.162Z] [INFO] Manual Log (message delete) sent for message from shytnbsly. in R7 بالقمة ..
+[2025-10-24T11:46:38.091Z] [INFO] Manual Log (message delete) sent for message from shytnbsly. in R7 بالقمة ..
+[2025-10-24T11:46:41.248Z] [INFO] Manual Log (message delete) sent for message from shytnbsly. in R7 بالقمة ..
+[2025-10-24T11:51:21.455Z] [INFO] Received settings update notification: | Data: {"serverId":"486630940542763009","section":"protection","timestamp":"2025-10-24T11:51:21.441Z"}
+[2025-10-24T11:51:21.456Z] [SUCCESS] Cache cleared for server: 486630940542763009
+[2025-10-24T11:51:21.517Z] [SUCCESS] New settings loaded for server: 486630940542763009
+[2025-10-24T11:51:21.519Z] [SUCCESS] Section 'protection' updated successfully for server: 486630940542763009
+[2025-10-24T15:02:42.565Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"ads","timestamp":"2025-10-24T15:02:42.557Z"}
+[2025-10-24T15:02:42.567Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-24T15:02:42.704Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-24T15:02:50.233Z] [SUCCESS] Section 'ads' updated successfully for server: 423067123225722891
+[2025-10-24T15:02:56.652Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"ads","timestamp":"2025-10-24T15:02:56.648Z"}
+[2025-10-24T15:02:56.652Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-24T15:02:56.714Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-24T15:02:56.737Z] [SUCCESS] Section 'ads' updated successfully for server: 423067123225722891
+[2025-10-24T15:03:33.358Z] [INFO] Manual Log (role change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-24T15:03:34.148Z] [INFO] Manual Log (role change) sent for member shytnbsly. in R7 بالقمة ..
+[2025-10-24T15:06:44.962Z] [INFO] Starting Sync System...
+[2025-10-24T15:06:44.962Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-24T15:06:44.963Z] [INFO] Starting heartbeat system...
+[2025-10-24T15:06:44.963Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-24T15:06:44.963Z] [INFO] Queue processor started
+[2025-10-24T15:06:44.964Z] [SUCCESS] Sync System started successfully
+[2025-10-24T15:22:09.249Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"protection","timestamp":"2025-10-24T15:22:09.217Z"}
+[2025-10-24T15:22:09.251Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-24T15:22:09.356Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-24T15:22:09.361Z] [SUCCESS] Section 'protection' updated successfully for server: 423067123225722891
+[2025-10-24T15:23:19.381Z] [INFO] Received settings update notification: | Data: {"serverId":"423067123225722891","section":"autoReply","timestamp":"2025-10-24T15:23:19.337Z"}
+[2025-10-24T15:23:19.383Z] [SUCCESS] Cache cleared for server: 423067123225722891
+[2025-10-24T15:23:19.615Z] [SUCCESS] New settings loaded for server: 423067123225722891
+[2025-10-24T15:23:19.617Z] [SUCCESS] Section 'autoReply' updated successfully for server: 423067123225722891
+[2025-10-24T19:23:29.834Z] [INFO] Starting Sync System...
+[2025-10-24T19:23:29.836Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-24T19:23:29.836Z] [INFO] Starting heartbeat system...
+[2025-10-24T19:23:29.837Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-24T19:23:29.838Z] [INFO] Queue processor started
+[2025-10-24T19:23:29.839Z] [SUCCESS] Sync System started successfully
+[2025-10-24T19:23:46.476Z] [INFO] Received settings update notification: | Data: {"serverId":"520346922876141598","section":"autoReply","timestamp":"2025-10-24T19:23:46.447Z"}
+[2025-10-24T19:23:46.477Z] [SUCCESS] Cache cleared for server: 520346922876141598
+[2025-10-24T19:23:46.484Z] [SUCCESS] New settings loaded for server: 520346922876141598
+[2025-10-24T19:23:46.486Z] [SUCCESS] Section 'autoReply' updated successfully for server: 520346922876141598
+[2025-10-24T19:30:04.318Z] [INFO] Starting Sync System...
+[2025-10-24T19:30:04.319Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-24T19:30:04.320Z] [INFO] Starting heartbeat system...
+[2025-10-24T19:30:04.321Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-24T19:30:04.322Z] [INFO] Queue processor started
+[2025-10-24T19:30:04.323Z] [SUCCESS] Sync System started successfully
+[2025-10-24T19:30:17.966Z] [INFO] Received settings update notification: | Data: {"serverId":"520346922876141598","section":"autoReply","timestamp":"2025-10-24T19:30:17.945Z"}
+[2025-10-24T19:30:17.967Z] [SUCCESS] Cache cleared for server: 520346922876141598
+[2025-10-24T19:30:18.298Z] [SUCCESS] New settings loaded for server: 520346922876141598
+[2025-10-24T19:30:18.300Z] [SUCCESS] Section 'autoReply' updated successfully for server: 520346922876141598
+[2025-10-24T19:30:39.211Z] [INFO] Received settings update notification: | Data: {"serverId":"520346922876141598","section":"autoReply","timestamp":"2025-10-24T19:30:39.206Z"}
+[2025-10-24T19:30:39.212Z] [SUCCESS] Cache cleared for server: 520346922876141598
+[2025-10-24T19:30:39.368Z] [SUCCESS] New settings loaded for server: 520346922876141598
+[2025-10-24T19:30:39.369Z] [SUCCESS] Section 'autoReply' updated successfully for server: 520346922876141598
+[2025-10-24T19:33:33.549Z] [INFO] Received settings update notification: | Data: {"serverId":"520346922876141598","section":"autoReply","timestamp":"2025-10-24T19:33:33.544Z"}
+[2025-10-24T19:33:33.552Z] [SUCCESS] Cache cleared for server: 520346922876141598
+[2025-10-24T19:33:33.697Z] [SUCCESS] New settings loaded for server: 520346922876141598
+[2025-10-24T19:33:33.698Z] [SUCCESS] Section 'autoReply' updated successfully for server: 520346922876141598
+[2025-10-24T20:52:57.525Z] [INFO] Starting Sync System...
+[2025-10-24T20:52:57.526Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-24T20:52:57.527Z] [INFO] Starting heartbeat system...
+[2025-10-24T20:52:57.528Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-24T20:52:57.529Z] [INFO] Queue processor started
+[2025-10-24T20:52:57.529Z] [SUCCESS] Sync System started successfully
+[2025-10-24T20:55:16.707Z] [INFO] Starting Sync System...
+[2025-10-24T20:55:16.708Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-24T20:55:16.709Z] [INFO] Starting heartbeat system...
+[2025-10-24T20:55:16.709Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-24T20:55:16.710Z] [INFO] Queue processor started
+[2025-10-24T20:55:16.711Z] [SUCCESS] Sync System started successfully
+[2025-10-24T20:55:43.099Z] [INFO] Starting Sync System...
+[2025-10-24T20:55:43.101Z] [INFO] Polling started - checking every 60 seconds
+[2025-10-24T20:55:43.101Z] [INFO] Starting heartbeat system...
+[2025-10-24T20:55:43.102Z] [INFO] Heartbeat started - every 30 seconds
+[2025-10-24T20:55:43.103Z] [INFO] Queue processor started
+[2025-10-24T20:55:43.104Z] [SUCCESS] Sync System started successfully

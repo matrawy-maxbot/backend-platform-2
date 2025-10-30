@@ -1,0 +1,589 @@
+{
+	"info": {
+		"_postman_id": "vendors-api-collection-2024",
+		"name": "Vendors API Collection",
+		"description": "مجموعة شاملة لاختبار API إدارة المتاجر والبائعين",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "vendors-api"
+	},
+	"item": [
+		{
+			"name": "Get All Vendors",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response is an array\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.be.an('array');",
+							"});",
+							"",
+							"pm.test(\"Response time is less than 2000ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/vendors",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendors"
+					]
+				},
+				"description": "جلب جميع المتاجر المسجلة في النظام"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Vendor By ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response has vendor data\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('vendor_id');",
+							"    pm.expect(jsonData).to.have.property('business_name');",
+							"    pm.expect(jsonData).to.have.property('business_email');",
+							"    pm.expect(jsonData).to.have.property('user_id');",
+							"});",
+							"",
+							"pm.test(\"Vendor ID is a positive number\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData.vendor_id).to.be.a('number');",
+							"    pm.expect(jsonData.vendor_id).to.be.above(0);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/vendors/{{testVendorId}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendors",
+						"{{testVendorId}}"
+					]
+				},
+				"description": "جلب متجر محدد بواسطة المعرف (يجب أن يكون رقم صحيح موجب)"
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Vendor",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});",
+							"",
+							"pm.test(\"Response has created vendor data\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('vendor_id');",
+							"    pm.expect(jsonData).to.have.property('business_name');",
+							"    pm.expect(jsonData).to.have.property('business_email');",
+							"    pm.expect(jsonData).to.have.property('user_id');",
+							"});",
+							"",
+							"pm.test(\"Default status is pending\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData.status).to.eql('pending');",
+							"});",
+							"",
+							"pm.test(\"Default verification status is unverified\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData.verification_status).to.eql('unverified');",
+							"});",
+							"",
+							"// Store vendor ID for other tests",
+							"if (pm.response.code === 201) {",
+							"    const jsonData = pm.response.json();",
+							"    pm.collectionVariables.set('createdVendorId', jsonData.vendor_id);",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": \"123456789012345\",\n  \"business_name\": \"متجر الإلكترونيات الحديثة\",\n  \"business_email\": \"info@modernelectronics.com\",\n  \"business_phone\": \"+966501234567\",\n  \"business_logo_url\": \"https://example.com/logo.png\",\n  \"business_description\": \"متجر متخصص في بيع الأجهزة الإلكترونية والهواتف الذكية بأحدث التقنيات وأفضل الأسعار\",\n  \"status\": \"pending\",\n  \"verification_status\": \"unverified\"\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/vendors",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendors"
+					]
+				},
+				"description": "إنشاء متجر جديد مع جميع البيانات المطلوبة"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Vendor",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response has updated vendor data\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('vendor_id');",
+							"    pm.expect(jsonData.business_name).to.include('المحدث');",
+							"});",
+							"",
+							"pm.test(\"Updated fields are reflected\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData.status).to.eql('active');",
+							"    pm.expect(jsonData.verification_status).to.eql('verified');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"business_name\": \"متجر الإلكترونيات الحديثة المحدث\",\n  \"business_email\": \"updated@modernelectronics.com\",\n  \"business_phone\": \"+966507654321\",\n  \"business_description\": \"متجر محدث متخصص في بيع الأجهزة الإلكترونية والهواتف الذكية مع خدمة عملاء متميزة\",\n  \"status\": \"active\",\n  \"verification_status\": \"verified\",\n  \"approved_by\": \"987654321012345\",\n  \"approved_at\": \"2024-01-15T10:30:00.000Z\"\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/vendors/{{testVendorId}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendors",
+						"{{testVendorId}}"
+					]
+				},
+				"description": "تحديث بيانات متجر موجود"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Vendor",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200 or 204\", function () {",
+							"    pm.expect(pm.response.code).to.be.oneOf([200, 204]);",
+							"});",
+							"",
+							"pm.test(\"Response time is acceptable\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/vendors/{{testVendorId}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendors",
+						"{{testVendorId}}"
+					]
+				},
+				"description": "حذف متجر من النظام"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Vendor - Validation Error Test",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {",
+							"    pm.response.to.have.status(400);",
+							"});",
+							"",
+							"pm.test(\"Response has validation error\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('error');",
+							"});",
+							"",
+							"pm.test(\"Error message is in Arabic\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    const errorMessage = jsonData.error || jsonData.message || '';",
+							"    pm.expect(errorMessage).to.match(/[\\u0600-\\u06FF]/);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": \"123\",\n  \"business_name\": \"أ\",\n  \"business_email\": \"invalid-email\",\n  \"business_phone\": \"123\"\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/vendors",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendors"
+					]
+				},
+				"description": "اختبار أخطاء التحقق من صحة البيانات - بيانات غير صحيحة"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Vendor - Missing Required Fields",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {",
+							"    pm.response.to.have.status(400);",
+							"});",
+							"",
+							"pm.test(\"Response indicates missing required fields\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('error');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"business_name\": \"متجر ناقص البيانات\"\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/vendors",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendors"
+					]
+				},
+				"description": "اختبار إنشاء متجر بدون الحقول المطلوبة"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Vendor By Invalid ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {",
+							"    pm.response.to.have.status(400);",
+							"});",
+							"",
+							"pm.test(\"Response has validation error for ID\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('error');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/vendors/invalid-id",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendors",
+						"invalid-id"
+					]
+				},
+				"description": "اختبار خطأ التحقق من معرف المتجر (يجب أن يكون رقم صحيح موجب)"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Vendor By Negative ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {",
+							"    pm.response.to.have.status(400);",
+							"});",
+							"",
+							"pm.test(\"Response has validation error for negative ID\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('error');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/vendors/-1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendors",
+						"-1"
+					]
+				},
+				"description": "اختبار خطأ التحقق من معرف المتجر السالب"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Vendor - No Fields Provided",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {",
+							"    pm.response.to.have.status(400);",
+							"});",
+							"",
+							"pm.test(\"Response indicates at least one field required\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('error');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/vendors/{{testVendorId}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendors",
+						"{{testVendorId}}"
+					]
+				},
+				"description": "اختبار تحديث متجر بدون تقديم أي حقول"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Vendor - Test Status Values",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});",
+							"",
+							"pm.test(\"Status is set correctly\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData.status).to.be.oneOf(['pending', 'active', 'suspended', 'rejected']);",
+							"});",
+							"",
+							"pm.test(\"Verification status is set correctly\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    pm.expect(jsonData.verification_status).to.be.oneOf(['unverified', 'verified', 'rejected']);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"user_id\": \"123456789012345\",\n  \"business_name\": \"متجر اختبار الحالات\",\n  \"business_email\": \"test@statustest.com\",\n  \"business_phone\": \"+966501234567\",\n  \"status\": \"active\",\n  \"verification_status\": \"verified\"\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/vendors",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"vendors"
+					]
+				},
+				"description": "اختبار إنشاء متجر مع قيم مختلفة للحالة وحالة التحقق"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// Set timestamp for unique data",
+					"pm.collectionVariables.set('timestamp', Date.now());"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// Global test for all requests",
+					"pm.test(\"Response has proper Content-Type\", function () {",
+					"    if (pm.response.code !== 204) {",
+					"        pm.expect(pm.response.headers.get('Content-Type')).to.include('application/json');",
+					"    }",
+					"});"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:3000/api/v1",
+			"type": "string"
+		},
+		{
+			"key": "testVendorId",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "createdVendorId",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "timestamp",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

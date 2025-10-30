@@ -1,0 +1,222 @@
+{
+  "guildId": "486630940542763009",
+  "guildName": "Sweet Frend..",
+  "memberCount": 29,
+  "categories": [
+    {
+      "id": "486630940542763010",
+      "name": "Text Channels",
+      "type": 4,
+      "position": 0,
+      "parentId": null,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "486630941129834499",
+      "name": "Voice Channels",
+      "type": 4,
+      "position": 1,
+      "parentId": null,
+      "permissionOverwrites": []
+    }
+  ],
+  "channels": [
+    {
+      "id": "486630941129834498",
+      "name": "general",
+      "type": 0,
+      "position": 0,
+      "parentId": "486630940542763010",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "486630941817569306",
+      "name": "General",
+      "type": 2,
+      "position": 0,
+      "parentId": "486630941129834499",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "bitrate": 64000,
+      "userLimit": 0,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "486963521708490762",
+      "name": "spam-2",
+      "type": 0,
+      "position": 1,
+      "parentId": "486630940542763010",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "486630940542763009",
+          "type": 0,
+          "allow": "1",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "487651169909473280",
+      "name": "spam-7",
+      "type": 0,
+      "position": 2,
+      "parentId": "486630940542763010",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "487651320854216716",
+      "name": "spam",
+      "type": 0,
+      "position": 3,
+      "parentId": "486630940542763010",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "1422239188610187314",
+      "name": "ششش1",
+      "type": 0,
+      "position": 0,
+      "parentId": null,
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": []
+    }
+  ],
+  "roles": [
+    {
+      "id": "486912057355141120",
+      "name": "ProBot ✨",
+      "color": 0,
+      "hoist": false,
+      "position": 8,
+      "permissions": "6442713665",
+      "mentionable": false,
+      "managed": true,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "690687098969391185",
+      "name": "Gaint",
+      "color": 0,
+      "hoist": false,
+      "position": 7,
+      "permissions": "6442450952",
+      "mentionable": false,
+      "managed": true,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1126910599301955658",
+      "name": "Genius",
+      "color": 0,
+      "hoist": false,
+      "position": 6,
+      "permissions": "8",
+      "mentionable": false,
+      "managed": true,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1417478815491293187",
+      "name": "TestCode",
+      "color": 0,
+      "hoist": false,
+      "position": 5,
+      "permissions": "8",
+      "mentionable": false,
+      "managed": true,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1418248528295104573",
+      "name": "new role",
+      "color": 0,
+      "hoist": false,
+      "position": 4,
+      "permissions": "17600775979016",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1418287397627629599",
+      "name": "active",
+      "color": 0,
+      "hoist": true,
+      "position": 3,
+      "permissions": "549758962688",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1422573325787467776",
+      "name": "new role",
+      "color": 0,
+      "hoist": false,
+      "position": 2,
+      "permissions": "0",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1422939611205865472",
+      "name": "ش33",
+      "color": 0,
+      "hoist": false,
+      "position": 1,
+      "permissions": "0",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    }
+  ],
+  "serverSettings": {
+    "name": "Sweet Frend..",
+    "description": "",
+    "icon": "fce6b71103a8cb0b6e3b240721772246",
+    "banner": null,
+    "splash": null,
+    "discoverySplash": null,
+    "afkChannelId": null,
+    "afkTimeout": 300,
+    "systemChannelId": "486630941129834498",
+    "systemChannelFlags": 0,
+    "rulesChannelId": null,
+    "publicUpdatesChannelId": null,
+    "preferredLocale": "en-US",
+    "features": [],
+    "verificationLevel": 0,
+    "explicitContentFilter": 0,
+    "mfaLevel": 0,
+    "defaultMessageNotifications": 0,
+    "vanityURLCode": null,
+    "premiumTier": 0,
+    "premiumSubscriptionCount": 0,
+    "nsfwLevel": 0
+  },
+  "createdAt": "2025-10-02T16:29:19.116Z"
+}

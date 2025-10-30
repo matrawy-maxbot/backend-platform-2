@@ -68,7 +68,7 @@ export const createUserSchema = {
         'string.max': 'الاسم الكامل يجب أن يكون أقل من 100 حرف',
         'any.required': 'الاسم الكامل مطلوب'
       }),
-    birthDate: Joi.date()
+    birth_date: Joi.date()
       .iso()
       .allow(null, '')
       .messages({
@@ -143,7 +143,7 @@ export const updateUserSchema = {
         'string.min': 'الاسم الكامل يجب أن يكون على الأقل حرفين',
         'string.max': 'الاسم الكامل يجب أن يكون أقل من 100 حرف'
       }),
-    birthDate: Joi.date()
+    birth_date: Joi.date()
       .iso()
       .allow(null, '')
       .messages({

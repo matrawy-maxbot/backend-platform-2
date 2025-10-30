@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار نظام الإعلانات</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .test-section {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .test-section h3 {
+            color: #4fc3f7;
+            margin-bottom: 10px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #e3f2fd;
+            font-weight: 500;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        input::placeholder, textarea::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+        button {
+            background: linear-gradient(45deg, #4fc3f7, #29b6f6);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin: 5px;
+        }
+        button:hover {
+            background: linear-gradient(45deg, #29b6f6, #0288d1);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(79, 195, 247, 0.4);
+        }
+        .result {
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .result.success {
+            background: rgba(76, 175, 80, 0.2);
+            border: 1px solid #4caf50;
+            color: #a5d6a7;
+        }
+        .result.error {
+            background: rgba(244, 67, 54, 0.2);
+            border: 1px solid #f44336;
+            color: #ef9a9a;
+        }
+        .result.info {
+            background: rgba(33, 150, 243, 0.2);
+            border: 1px solid #2196f3;
+            color: #90caf9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 اختبار نظام الإعلانات المتكامل</h1>
+        
+        <div class="test-section">
+            <h3>1. إنشاء إعلان جديد</h3>
+            <p>إنشاء إعلان جديد وحفظه في قاعدة البيانات</p>
+            
+            <div class="form-group">
+                <label for="serverId">معرف الخادم:</label>
+                <input type="text" id="serverId" value="423067123225722891" placeholder="معرف الخادم">
+            </div>
+            
+            <div class="form-group">
+                <label for="adTitle">عنوان الإعلان:</label>
+                <input type="text" id="adTitle" value="إعلان تجريبي - اختبار النظام" placeholder="عنوان الإعلان">
+            </div>
+            
+            <div class="form-group">
+                <label for="adContent">محتوى الإعلان:</label>
+                <textarea id="adContent" rows="3" placeholder="محتوى الإعلان">🎉 هذا إعلان تجريبي لاختبار نظام الإعلانات الجديد!
+
+✨ يتم اختبار:
+- حفظ الإعلان في قاعدة البيانات
+- إرسال إشعار للبوت
+- نشر الإعلان في قنوات Discord
+
+🚀 النظام يعمل بشكل مثالي!</textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="publishType">نوع النشر:</label>
+                <select id="publishType">
+                    <option value="immediate">فوري</option>
+                    <option value="scheduled">مجدول</option>
+                </select>
+            </div>
+            
+            <button onclick="createAndTestAd()">إنشاء واختبار الإعلان</button>
+            <div id="createAdResult" class="result" style="display: none;"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>2. اختبار إشعار البوت</h3>
+            <p>إرسال إشعار مباشر للبوت لاختبار استقبال التحديثات</p>
+            
+            <button onclick="testBotNotification()">اختبار إشعار البوت</button>
+            <div id="botNotificationResult" class="result" style="display: none;"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>3. فحص حالة النظام</h3>
+            <p>التحقق من حالة جميع مكونات النظام</p>
+            
+            <button onclick="checkSystemStatus()">فحص حالة النظام</button>
+            <div id="systemStatusResult" class="result" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script>
+        async function createAndTestAd() {
+            const resultDiv = document.getElementById('createAdResult');
+            resultDiv.style.display = 'block';
+            resultDiv.className = 'result info';
+            resultDiv.textContent = '⏳ جاري إنشاء الإعلان...';
+
+            try {
+                const serverId = document.getElementById('serverId').value;
+                const title = document.getElementById('adTitle').value;
+                const content = document.getElementById('adContent').value;
+                const publishType = document.getElementById('publishType').value;
+
+                if (!serverId || !title || !content) {
+                    throw new Error('يرجى ملء جميع الحقول المطلوبة');
+                }
+
+                // إنشاء بيانات الإعلان
+                const adData = {
+                    enabled: true,
+                    ads: [{
+                        id: 'test-ad-' + Date.now(),
+                        title: title,
+                        content: content,
+                        publishType: publishType,
+                        status: publishType === 'immediate' ? 'published' : 'scheduled',
+                        enabled: true,
+                        createdAt: new Date().toISOString(),
+                        publishedAt: publishType === 'immediate' ? new Date().toISOString() : null,
+                        scheduledFor: publishType === 'scheduled' ? new Date(Date.now() + 60000).toISOString() : null,
+                        priority: 'normal',
+                        channels: [],
+                        recurring: false
+                    }]
+                };
+
+                // 1. حفظ الإعلان في قاعدة البيانات
+                resultDiv.textContent = '💾 جاري حفظ الإعلان في قاعدة البيانات...';
+                
+                const saveResponse = await fetch(`http://localhost:3002/api/server-settings/${serverId}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        section: 'ads',
+                        data: adData
+                    })
+                });
+
+                if (!saveResponse.ok) {
+                    const errorText = await saveResponse.text();
+                    throw new Error(`فشل في حفظ الإعلان: ${saveResponse.status} - ${errorText}`);
+                }
+
+                const saveResult = await saveResponse.json();
+                
+                resultDiv.className = 'result success';
+                resultDiv.textContent = `✅ تم إنشاء الإعلان بنجاح!
+
+📋 تفاصيل الإعلان:
+- المعرف: ${adData.ads[0].id}
+- العنوان: ${adData.ads[0].title}
+- النوع: ${publishType === 'immediate' ? 'فوري' : 'مجدول'}
+- الحالة: ${adData.ads[0].status}
+- تاريخ الإنشاء: ${new Date(adData.ads[0].createdAt).toLocaleString('ar')}
+
+🎯 النتيجة: ${JSON.stringify(saveResult, null, 2)}
+
+✨ تم إرسال إشعار للبوت تلقائياً!`;
+
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `❌ خطأ في إنشاء الإعلان: ${error.message}`;
+            }
+        }
+
+        async function testBotNotification() {
+            const resultDiv = document.getElementById('botNotificationResult');
+            resultDiv.style.display = 'block';
+            resultDiv.className = 'result info';
+            resultDiv.textContent = '⏳ جاري إرسال إشعار للبوت...';
+
+            try {
+                const serverId = document.getElementById('serverId').value;
+                
+                const testData = {
+                    serverId: serverId,
+                    section: 'ads',
+                    data: {
+                        enabled: true,
+                        ads: [{
+                            id: 'test-notification-' + Date.now(),
+                            title: 'اختبار إشعار البوت',
+                            content: 'هذا اختبار لإشعار البوت',
+                            publishType: 'immediate',
+                            status: 'published',
+                            enabled: true,
+                            createdAt: new Date().toISOString()
+                        }]
+                    },
+                    timestamp: Date.now()
+                };
+
+                const response = await fetch('http://localhost:3001/api/settings-update', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer discord-bot-secret-2024'
+                    },
+                    body: JSON.stringify(testData)
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    resultDiv.className = 'result success';
+                    resultDiv.textContent = `✅ تم إرسال الإشعار للبوت بنجاح!
+
+📡 تفاصيل الإشعار:
+- معرف الخادم: ${result.serverId}
+- القسم: ${result.section}
+- الوقت: ${new Date(result.timestamp).toLocaleString('ar')}
+
+🤖 استجابة البوت: ${JSON.stringify(result, null, 2)}`;
+                } else {
+                    const errorText = await response.text();
+                    throw new Error(`فشل الإشعار: ${response.status} - ${errorText}`);
+                }
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `❌ خطأ في إرسال الإشعار: ${error.message}`;
+            }
+        }
+
+        async function checkSystemStatus() {
+            const resultDiv = document.getElementById('systemStatusResult');
+            resultDiv.style.display = 'block';
+            resultDiv.className = 'result info';
+            resultDiv.textContent = '⏳ جاري فحص حالة النظام...';
+
+            try {
+                const checks = [];
+                
+                // فحص خادم Next.js
+                try {
+                    const dashboardResponse = await fetch('http://localhost:3002/api/auth/session');
+                    checks.push({
+                        component: 'Dashboard (Next.js)',
+                        status: dashboardResponse.status < 500 ? 'متصل' : 'خطأ',
+                        details: `HTTP ${dashboardResponse.status}`
+                    });
+                } catch (error) {
+                    checks.push({
+                        component: 'Dashboard (Next.js)',
+                        status: 'غير متصل',
+                        details: error.message
+                    });
+                }
+
+                // فحص البوت
+                try {
+                    const botResponse = await fetch('http://localhost:3001/api/health');
+                    const botData = await botResponse.json();
+                    checks.push({
+                        component: 'Discord Bot',
+                        status: botResponse.ok ? 'متصل' : 'خطأ',
+                        details: JSON.stringify(botData)
+                    });
+                } catch (error) {
+                    checks.push({
+                        component: 'Discord Bot',
+                        status: 'غير متصل',
+                        details: error.message
+                    });
+                }
+
+                // فحص قاعدة البيانات
+                try {
+                    const serverId = document.getElementById('serverId').value;
+                    const dbResponse = await fetch(`http://localhost:3002/api/server-settings/${serverId}`);
+                    checks.push({
+                        component: 'Database',
+                        status: dbResponse.ok ? 'متصل' : 'خطأ',
+                        details: `HTTP ${dbResponse.status}`
+                    });
+                } catch (error) {
+                    checks.push({
+                        component: 'Database',
+                        status: 'غير متصل',
+                        details: error.message
+                    });
+                }
+
+                const allConnected = checks.every(check => check.status === 'متصل');
+                
+                resultDiv.className = allConnected ? 'result success' : 'result error';
+                resultDiv.textContent = `${allConnected ? '✅' : '⚠️'} تقرير حالة النظام:
+
+${checks.map(check => 
+    `🔧 ${check.component}: ${check.status}
+   📋 التفاصيل: ${check.details}`
+).join('\n\n')}
+
+📊 الحالة العامة: ${allConnected ? 'جميع المكونات تعمل بشكل طبيعي' : 'يوجد مشاكل في بعض المكونات'}`;
+
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.textContent = `❌ خطأ في فحص النظام: ${error.message}`;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,1859 @@
+[
+  {
+    "id": "mgwc52b8ua8r79ltsbf",
+    "serverId": "423067123225722891",
+    "section": "full",
+    "action": "update",
+    "oldData": {
+      "id": "423067123225722891",
+      "autoReply": {
+        "enabled": true,
+        "smartReply": false,
+        "defaultCooldown": 30,
+        "maxResponsesPerHour": 10,
+        "replies": []
+      },
+      "ads": {
+        "enabled": true,
+        "ads": [
+          {
+            "id": "test_scheduled_ad_001",
+            "title": "إعلان تجريبي مجدول",
+            "content": "هذا إعلان تجريبي لاختبار النظام المجدول",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "scheduled",
+            "scheduledTime": "2025-01-21T14:25:00.000Z",
+            "scheduleMode": "specific",
+            "status": "scheduled",
+            "enabled": true,
+            "createdAt": "2025-01-21T14:00:00.000Z",
+            "views": 0,
+            "clicks": 0
+          },
+          {
+            "id": "test_immediate_ad_002",
+            "title": "إعلان فوري جديد للاختبار",
+            "content": "هذا إعلان فوري جديد لاختبار المعالجة التلقائية",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "immediate",
+            "status": "pending",
+            "enabled": true,
+            "createdAt": "2025-01-21T15:00:00.000Z",
+            "views": 0,
+            "clicks": 0
+          },
+          {
+            "id": "test_immediate_ad_001",
+            "title": "إعلان فوري تجريبي",
+            "content": "هذا إعلان فوري لاختبار النظام بعد إصلاح المشاكل",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "immediate",
+            "status": "published",
+            "enabled": true,
+            "createdAt": "2025-01-21T14:30:00.000Z",
+            "views": 0,
+            "clicks": 0
+          }
+        ]
+      },
+      "members": {
+        "welcomeMessage": {
+          "enabled": true,
+          "message": "Welcome {user} to {server}! 🎉",
+          "channel": ""
+        },
+        "leaveMessage": {
+          "enabled": true,
+          "message": "Goodbye {user}, hope to see you soon! 👋",
+          "channel": ""
+        },
+        "autoRole": {
+          "enabled": false,
+          "roleId": ""
+        }
+      },
+      "protection": {
+        "spamProtection": true,
+        "raidProtection": false,
+        "autoModeration": true,
+        "links": {
+          "enabled": true,
+          "allowDiscordInvites": true,
+          "allowedDomains": [],
+          "blockAll": false,
+          "whitelistChannels": [],
+          "blockedLinks": [
+            {
+              "id": "test_blocked_link_001",
+              "content": "example.com",
+              "action": "warn",
+              "channels": [
+                "726837802406248539"
+              ],
+              "reason": "Blocked domain for testing",
+              "createdAt": "2025-09-24T16:10:48.268Z"
+            }
+          ]
+        },
+        "images": {
+          "enabled": false,
+          "mode": "allow_all",
+          "channels": [],
+          "pictureChannels": []
+        },
+        "badWords": {
+          "enabled": true,
+          "words": [
+            "spam",
+            "hack",
+            "scam"
+          ],
+          "action": "delete",
+          "punishment": "Mute",
+          "customMessage": "Please avoid using inappropriate language!",
+          "pictureChannels": [],
+          "botCommandChannels": []
+        },
+        "botManagement": {
+          "enabled": true,
+          "allowedBots": [],
+          "blockUnknownBots": false,
+          "disallowBots": false
+        },
+        "moderation": {
+          "enabled": true,
+          "autoDelete": true,
+          "warnUser": true,
+          "logChannel": "",
+          "maxKickBan": 5,
+          "memberPunishment": "kick"
+        },
+        "antiSpam": {
+          "enabled": true,
+          "maxMessages": 5,
+          "timeWindow": 10,
+          "action": "delete"
+        },
+        "test": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "backupInterval": 24,
+        "backups": [
+          {
+            "id": "mgv1xucz2wl1288ady8",
+            "filename": "backup_423067123225722891_2025-10-17T16-17-17-546Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-17T16-17-17-546Z.json",
+            "timestamp": "2025-10-17T16:17:17.545Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-17T16:17:17.555Z"
+          },
+          {
+            "id": "mgqqbsmn0zo7v3gc2zt",
+            "filename": "backup_423067123225722891_2025-10-14T15-41-08-393Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-41-08-393Z.json",
+            "timestamp": "2025-10-14T15:41:08.392Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:41:08.399Z"
+          },
+          {
+            "id": "mgqprdzcfm1ukoq7fmm",
+            "filename": "backup_423067123225722891_2025-10-14T15-25-16-291Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-25-16-291Z.json",
+            "timestamp": "2025-10-14T15:25:16.291Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:25:16.296Z"
+          },
+          {
+            "id": "mgqp8p3by9kqg5hrb2r",
+            "filename": "backup_423067123225722891_2025-10-14T15-10-44-228Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-10-44-228Z.json",
+            "timestamp": "2025-10-14T15:10:44.228Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:10:44.231Z"
+          },
+          {
+            "id": "mgqp1h5pjylr143vpq",
+            "filename": "backup_423067123225722891_2025-10-14T15-05-07-354Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-05-07-354Z.json",
+            "timestamp": "2025-10-14T15:05:07.353Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:05:07.357Z"
+          },
+          {
+            "id": "mgasbhh93k9r6cw52c",
+            "filename": "backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+            "timestamp": "2025-10-03T11:52:34.362Z",
+            "guildName": "R7 بالقمة",
+            "memberCount": 8,
+            "channelsCount": 17,
+            "rolesCount": 7,
+            "size": 5601,
+            "createdAt": "2025-10-03T11:52:34.365Z"
+          },
+          {
+            "id": "mgarxskcx2gi9b7ea5t",
+            "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+            "timestamp": "2025-10-03T11:41:55.545Z",
+            "guildName": "R7 بالقمة",
+            "memberCount": 8,
+            "channelsCount": 16,
+            "rolesCount": 7,
+            "size": 5433,
+            "createdAt": "2025-10-03T11:41:55.548Z"
+          }
+        ]
+      },
+      "createdAt": "2025-09-18T18:36:16.377Z",
+      "updatedAt": "2025-10-17T16:17:17.562Z",
+      "updatedBy": "backup-system"
+    },
+    "newData": {
+      "id": "423067123225722891",
+      "autoReply": {
+        "enabled": true,
+        "smartReply": false,
+        "defaultCooldown": 30,
+        "maxResponsesPerHour": 10,
+        "replies": []
+      },
+      "ads": {
+        "enabled": true,
+        "ads": [
+          {
+            "id": "test_scheduled_ad_001",
+            "title": "إعلان تجريبي مجدول",
+            "content": "هذا إعلان تجريبي لاختبار النظام المجدول",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "scheduled",
+            "scheduledTime": "2025-01-21T14:25:00.000Z",
+            "scheduleMode": "specific",
+            "status": "scheduled",
+            "enabled": true,
+            "createdAt": "2025-01-21T14:00:00.000Z",
+            "views": 0,
+            "clicks": 0
+          },
+          {
+            "id": "test_immediate_ad_002",
+            "title": "إعلان فوري جديد للاختبار",
+            "content": "هذا إعلان فوري جديد لاختبار المعالجة التلقائية",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "immediate",
+            "status": "published",
+            "enabled": true,
+            "createdAt": "2025-01-21T15:00:00.000Z",
+            "views": 0,
+            "clicks": 0,
+            "publishedAt": "2025-10-18T13:50:36.788Z"
+          },
+          {
+            "id": "test_immediate_ad_001",
+            "title": "إعلان فوري تجريبي",
+            "content": "هذا إعلان فوري لاختبار النظام بعد إصلاح المشاكل",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "immediate",
+            "status": "published",
+            "enabled": true,
+            "createdAt": "2025-01-21T14:30:00.000Z",
+            "views": 0,
+            "clicks": 0
+          }
+        ]
+      },
+      "members": {
+        "welcomeMessage": {
+          "enabled": true,
+          "message": "Welcome {user} to {server}! 🎉",
+          "channel": ""
+        },
+        "leaveMessage": {
+          "enabled": true,
+          "message": "Goodbye {user}, hope to see you soon! 👋",
+          "channel": ""
+        },
+        "autoRole": {
+          "enabled": false,
+          "roleId": ""
+        }
+      },
+      "protection": {
+        "spamProtection": true,
+        "raidProtection": false,
+        "autoModeration": true,
+        "links": {
+          "enabled": true,
+          "allowDiscordInvites": true,
+          "allowedDomains": [],
+          "blockAll": false,
+          "whitelistChannels": [],
+          "blockedLinks": [
+            {
+              "id": "test_blocked_link_001",
+              "content": "example.com",
+              "action": "warn",
+              "channels": [
+                "726837802406248539"
+              ],
+              "reason": "Blocked domain for testing",
+              "createdAt": "2025-09-24T16:10:48.268Z"
+            }
+          ]
+        },
+        "images": {
+          "enabled": false,
+          "mode": "allow_all",
+          "channels": [],
+          "pictureChannels": []
+        },
+        "badWords": {
+          "enabled": true,
+          "words": [
+            "spam",
+            "hack",
+            "scam"
+          ],
+          "action": "delete",
+          "punishment": "Mute",
+          "customMessage": "Please avoid using inappropriate language!",
+          "pictureChannels": [],
+          "botCommandChannels": []
+        },
+        "botManagement": {
+          "enabled": true,
+          "allowedBots": [],
+          "blockUnknownBots": false,
+          "disallowBots": false
+        },
+        "moderation": {
+          "enabled": true,
+          "autoDelete": true,
+          "warnUser": true,
+          "logChannel": "",
+          "maxKickBan": 5,
+          "memberPunishment": "kick"
+        },
+        "antiSpam": {
+          "enabled": true,
+          "maxMessages": 5,
+          "timeWindow": 10,
+          "action": "delete"
+        },
+        "test": true
+      },
+      "createdAt": "2025-09-18T18:36:16.377Z",
+      "updatedAt": "2025-10-17T16:17:17.562Z",
+      "updatedBy": "backup-system",
+      "backup": {
+        "autoBackup": true,
+        "backupInterval": 24,
+        "backups": [
+          {
+            "id": "mgv1xucz2wl1288ady8",
+            "filename": "backup_423067123225722891_2025-10-17T16-17-17-546Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-17T16-17-17-546Z.json",
+            "timestamp": "2025-10-17T16:17:17.545Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-17T16:17:17.555Z"
+          },
+          {
+            "id": "mgqqbsmn0zo7v3gc2zt",
+            "filename": "backup_423067123225722891_2025-10-14T15-41-08-393Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-41-08-393Z.json",
+            "timestamp": "2025-10-14T15:41:08.392Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:41:08.399Z"
+          },
+          {
+            "id": "mgqprdzcfm1ukoq7fmm",
+            "filename": "backup_423067123225722891_2025-10-14T15-25-16-291Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-25-16-291Z.json",
+            "timestamp": "2025-10-14T15:25:16.291Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:25:16.296Z"
+          },
+          {
+            "id": "mgqp8p3by9kqg5hrb2r",
+            "filename": "backup_423067123225722891_2025-10-14T15-10-44-228Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-10-44-228Z.json",
+            "timestamp": "2025-10-14T15:10:44.228Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:10:44.231Z"
+          },
+          {
+            "id": "mgqp1h5pjylr143vpq",
+            "filename": "backup_423067123225722891_2025-10-14T15-05-07-354Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-05-07-354Z.json",
+            "timestamp": "2025-10-14T15:05:07.353Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:05:07.357Z"
+          },
+          {
+            "id": "mgasbhh93k9r6cw52c",
+            "filename": "backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+            "timestamp": "2025-10-03T11:52:34.362Z",
+            "guildName": "R7 بالقمة",
+            "memberCount": 8,
+            "channelsCount": 17,
+            "rolesCount": 7,
+            "size": 5601,
+            "createdAt": "2025-10-03T11:52:34.365Z"
+          },
+          {
+            "id": "mgarxskcx2gi9b7ea5t",
+            "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+            "timestamp": "2025-10-03T11:41:55.545Z",
+            "guildName": "R7 بالقمة",
+            "memberCount": 8,
+            "channelsCount": 16,
+            "rolesCount": 7,
+            "size": 5433,
+            "createdAt": "2025-10-03T11:41:55.548Z"
+          }
+        ]
+      }
+    },
+    "userId": "bot-system",
+    "timestamp": "2025-10-18T13:50:36.788Z"
+  },
+  {
+    "id": "mgwciqiiuv3zyeiw7sd",
+    "serverId": "423067123225722891",
+    "section": "full",
+    "action": "update",
+    "oldData": {
+      "id": "423067123225722891",
+      "autoReply": {
+        "enabled": true,
+        "smartReply": false,
+        "defaultCooldown": 30,
+        "maxResponsesPerHour": 10,
+        "replies": []
+      },
+      "ads": {
+        "enabled": true,
+        "ads": [
+          {
+            "id": "test_scheduled_ad_001",
+            "title": "إعلان تجريبي مجدول",
+            "content": "هذا إعلان تجريبي لاختبار النظام المجدول",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "scheduled",
+            "scheduledTime": "2025-01-21T14:25:00.000Z",
+            "scheduleMode": "specific",
+            "status": "scheduled",
+            "enabled": true,
+            "createdAt": "2025-01-21T14:00:00.000Z",
+            "views": 0,
+            "clicks": 0
+          },
+          {
+            "id": "test_immediate_ad_002",
+            "title": "إعلان فوري جديد للاختبار",
+            "content": "هذا إعلان فوري جديد لاختبار المعالجة التلقائية",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "immediate",
+            "status": "published",
+            "enabled": true,
+            "createdAt": "2025-01-21T15:00:00.000Z",
+            "views": 0,
+            "clicks": 0,
+            "publishedAt": "2025-10-18T13:50:36.788Z"
+          },
+          {
+            "id": "test_immediate_ad_001",
+            "title": "إعلان فوري تجريبي",
+            "content": "هذا إعلان فوري لاختبار النظام بعد إصلاح المشاكل",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "immediate",
+            "status": "published",
+            "enabled": true,
+            "createdAt": "2025-01-21T14:30:00.000Z",
+            "views": 0,
+            "clicks": 0
+          },
+          {
+            "id": "test_auto_ad_1760795573198",
+            "title": "إعلان تلقائي للاختبار",
+            "content": "هذا إعلان جديد لاختبار المعالجة التلقائية عبر cron job",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "immediate",
+            "status": "pending",
+            "enabled": true,
+            "createdAt": "2025-10-18T13:52:53.198Z",
+            "views": 0,
+            "clicks": 0
+          }
+        ]
+      },
+      "members": {
+        "welcomeMessage": {
+          "enabled": true,
+          "message": "Welcome {user} to {server}! 🎉",
+          "channel": ""
+        },
+        "leaveMessage": {
+          "enabled": true,
+          "message": "Goodbye {user}, hope to see you soon! 👋",
+          "channel": ""
+        },
+        "autoRole": {
+          "enabled": false,
+          "roleId": ""
+        }
+      },
+      "protection": {
+        "spamProtection": true,
+        "raidProtection": false,
+        "autoModeration": true,
+        "links": {
+          "enabled": true,
+          "allowDiscordInvites": true,
+          "allowedDomains": [],
+          "blockAll": false,
+          "whitelistChannels": [],
+          "blockedLinks": [
+            {
+              "id": "test_blocked_link_001",
+              "content": "example.com",
+              "action": "warn",
+              "channels": [
+                "726837802406248539"
+              ],
+              "reason": "Blocked domain for testing",
+              "createdAt": "2025-09-24T16:10:48.268Z"
+            }
+          ]
+        },
+        "images": {
+          "enabled": false,
+          "mode": "allow_all",
+          "channels": [],
+          "pictureChannels": []
+        },
+        "badWords": {
+          "enabled": true,
+          "words": [
+            "spam",
+            "hack",
+            "scam"
+          ],
+          "action": "delete",
+          "punishment": "Mute",
+          "customMessage": "Please avoid using inappropriate language!",
+          "pictureChannels": [],
+          "botCommandChannels": []
+        },
+        "botManagement": {
+          "enabled": true,
+          "allowedBots": [],
+          "blockUnknownBots": false,
+          "disallowBots": false
+        },
+        "moderation": {
+          "enabled": true,
+          "autoDelete": true,
+          "warnUser": true,
+          "logChannel": "",
+          "maxKickBan": 5,
+          "memberPunishment": "kick"
+        },
+        "antiSpam": {
+          "enabled": true,
+          "maxMessages": 5,
+          "timeWindow": 10,
+          "action": "delete"
+        },
+        "test": true
+      },
+      "createdAt": "2025-09-18T18:36:16.377Z",
+      "updatedAt": "2025-10-17T16:17:17.562Z",
+      "updatedBy": "backup-system",
+      "backup": {
+        "autoBackup": true,
+        "backupInterval": 24,
+        "backups": [
+          {
+            "id": "mgv1xucz2wl1288ady8",
+            "filename": "backup_423067123225722891_2025-10-17T16-17-17-546Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-17T16-17-17-546Z.json",
+            "timestamp": "2025-10-17T16:17:17.545Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-17T16:17:17.555Z"
+          },
+          {
+            "id": "mgqqbsmn0zo7v3gc2zt",
+            "filename": "backup_423067123225722891_2025-10-14T15-41-08-393Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-41-08-393Z.json",
+            "timestamp": "2025-10-14T15:41:08.392Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:41:08.399Z"
+          },
+          {
+            "id": "mgqprdzcfm1ukoq7fmm",
+            "filename": "backup_423067123225722891_2025-10-14T15-25-16-291Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-25-16-291Z.json",
+            "timestamp": "2025-10-14T15:25:16.291Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:25:16.296Z"
+          },
+          {
+            "id": "mgqp8p3by9kqg5hrb2r",
+            "filename": "backup_423067123225722891_2025-10-14T15-10-44-228Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-10-44-228Z.json",
+            "timestamp": "2025-10-14T15:10:44.228Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:10:44.231Z"
+          },
+          {
+            "id": "mgqp1h5pjylr143vpq",
+            "filename": "backup_423067123225722891_2025-10-14T15-05-07-354Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-05-07-354Z.json",
+            "timestamp": "2025-10-14T15:05:07.353Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:05:07.357Z"
+          },
+          {
+            "id": "mgasbhh93k9r6cw52c",
+            "filename": "backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+            "timestamp": "2025-10-03T11:52:34.362Z",
+            "guildName": "R7 بالقمة",
+            "memberCount": 8,
+            "channelsCount": 17,
+            "rolesCount": 7,
+            "size": 5601,
+            "createdAt": "2025-10-03T11:52:34.365Z"
+          },
+          {
+            "id": "mgarxskcx2gi9b7ea5t",
+            "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+            "timestamp": "2025-10-03T11:41:55.545Z",
+            "guildName": "R7 بالقمة",
+            "memberCount": 8,
+            "channelsCount": 16,
+            "rolesCount": 7,
+            "size": 5433,
+            "createdAt": "2025-10-03T11:41:55.548Z"
+          }
+        ]
+      }
+    },
+    "newData": {
+      "id": "423067123225722891",
+      "autoReply": {
+        "enabled": true,
+        "smartReply": false,
+        "defaultCooldown": 30,
+        "maxResponsesPerHour": 10,
+        "replies": []
+      },
+      "ads": {
+        "enabled": true,
+        "ads": [
+          {
+            "id": "test_scheduled_ad_001",
+            "title": "إعلان تجريبي مجدول",
+            "content": "هذا إعلان تجريبي لاختبار النظام المجدول",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "scheduled",
+            "scheduledTime": "2025-01-21T14:25:00.000Z",
+            "scheduleMode": "specific",
+            "status": "scheduled",
+            "enabled": true,
+            "createdAt": "2025-01-21T14:00:00.000Z",
+            "views": 0,
+            "clicks": 0
+          },
+          {
+            "id": "test_immediate_ad_002",
+            "title": "إعلان فوري جديد للاختبار",
+            "content": "هذا إعلان فوري جديد لاختبار المعالجة التلقائية",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "immediate",
+            "status": "published",
+            "enabled": true,
+            "createdAt": "2025-01-21T15:00:00.000Z",
+            "views": 0,
+            "clicks": 0,
+            "publishedAt": "2025-10-18T13:50:36.788Z"
+          },
+          {
+            "id": "test_immediate_ad_001",
+            "title": "إعلان فوري تجريبي",
+            "content": "هذا إعلان فوري لاختبار النظام بعد إصلاح المشاكل",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "immediate",
+            "status": "published",
+            "enabled": true,
+            "createdAt": "2025-01-21T14:30:00.000Z",
+            "views": 0,
+            "clicks": 0
+          },
+          {
+            "id": "test_auto_ad_1760795573198",
+            "title": "إعلان تلقائي للاختبار",
+            "content": "هذا إعلان جديد لاختبار المعالجة التلقائية عبر cron job",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "immediate",
+            "status": "published",
+            "enabled": true,
+            "createdAt": "2025-10-18T13:52:53.198Z",
+            "views": 0,
+            "clicks": 0,
+            "publishedAt": "2025-10-18T14:01:14.681Z"
+          }
+        ]
+      },
+      "members": {
+        "welcomeMessage": {
+          "enabled": true,
+          "message": "Welcome {user} to {server}! 🎉",
+          "channel": ""
+        },
+        "leaveMessage": {
+          "enabled": true,
+          "message": "Goodbye {user}, hope to see you soon! 👋",
+          "channel": ""
+        },
+        "autoRole": {
+          "enabled": false,
+          "roleId": ""
+        }
+      },
+      "protection": {
+        "spamProtection": true,
+        "raidProtection": false,
+        "autoModeration": true,
+        "links": {
+          "enabled": true,
+          "allowDiscordInvites": true,
+          "allowedDomains": [],
+          "blockAll": false,
+          "whitelistChannels": [],
+          "blockedLinks": [
+            {
+              "id": "test_blocked_link_001",
+              "content": "example.com",
+              "action": "warn",
+              "channels": [
+                "726837802406248539"
+              ],
+              "reason": "Blocked domain for testing",
+              "createdAt": "2025-09-24T16:10:48.268Z"
+            }
+          ]
+        },
+        "images": {
+          "enabled": false,
+          "mode": "allow_all",
+          "channels": [],
+          "pictureChannels": []
+        },
+        "badWords": {
+          "enabled": true,
+          "words": [
+            "spam",
+            "hack",
+            "scam"
+          ],
+          "action": "delete",
+          "punishment": "Mute",
+          "customMessage": "Please avoid using inappropriate language!",
+          "pictureChannels": [],
+          "botCommandChannels": []
+        },
+        "botManagement": {
+          "enabled": true,
+          "allowedBots": [],
+          "blockUnknownBots": false,
+          "disallowBots": false
+        },
+        "moderation": {
+          "enabled": true,
+          "autoDelete": true,
+          "warnUser": true,
+          "logChannel": "",
+          "maxKickBan": 5,
+          "memberPunishment": "kick"
+        },
+        "antiSpam": {
+          "enabled": true,
+          "maxMessages": 5,
+          "timeWindow": 10,
+          "action": "delete"
+        },
+        "test": true
+      },
+      "createdAt": "2025-09-18T18:36:16.377Z",
+      "updatedAt": "2025-10-17T16:17:17.562Z",
+      "updatedBy": "backup-system",
+      "backup": {
+        "autoBackup": true,
+        "backupInterval": 24,
+        "backups": [
+          {
+            "id": "mgv1xucz2wl1288ady8",
+            "filename": "backup_423067123225722891_2025-10-17T16-17-17-546Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-17T16-17-17-546Z.json",
+            "timestamp": "2025-10-17T16:17:17.545Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-17T16:17:17.555Z"
+          },
+          {
+            "id": "mgqqbsmn0zo7v3gc2zt",
+            "filename": "backup_423067123225722891_2025-10-14T15-41-08-393Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-41-08-393Z.json",
+            "timestamp": "2025-10-14T15:41:08.392Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:41:08.399Z"
+          },
+          {
+            "id": "mgqprdzcfm1ukoq7fmm",
+            "filename": "backup_423067123225722891_2025-10-14T15-25-16-291Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-25-16-291Z.json",
+            "timestamp": "2025-10-14T15:25:16.291Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:25:16.296Z"
+          },
+          {
+            "id": "mgqp8p3by9kqg5hrb2r",
+            "filename": "backup_423067123225722891_2025-10-14T15-10-44-228Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-10-44-228Z.json",
+            "timestamp": "2025-10-14T15:10:44.228Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:10:44.231Z"
+          },
+          {
+            "id": "mgqp1h5pjylr143vpq",
+            "filename": "backup_423067123225722891_2025-10-14T15-05-07-354Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-05-07-354Z.json",
+            "timestamp": "2025-10-14T15:05:07.353Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:05:07.357Z"
+          },
+          {
+            "id": "mgasbhh93k9r6cw52c",
+            "filename": "backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+            "timestamp": "2025-10-03T11:52:34.362Z",
+            "guildName": "R7 بالقمة",
+            "memberCount": 8,
+            "channelsCount": 17,
+            "rolesCount": 7,
+            "size": 5601,
+            "createdAt": "2025-10-03T11:52:34.365Z"
+          },
+          {
+            "id": "mgarxskcx2gi9b7ea5t",
+            "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+            "timestamp": "2025-10-03T11:41:55.545Z",
+            "guildName": "R7 بالقمة",
+            "memberCount": 8,
+            "channelsCount": 16,
+            "rolesCount": 7,
+            "size": 5433,
+            "createdAt": "2025-10-03T11:41:55.548Z"
+          }
+        ]
+      }
+    },
+    "userId": "bot-system",
+    "timestamp": "2025-10-18T14:01:14.682Z"
+  },
+  {
+    "id": "mgwcrlakwoh53yve1y",
+    "serverId": "423067123225722891",
+    "section": "full",
+    "action": "update",
+    "oldData": {
+      "id": "423067123225722891",
+      "autoReply": {
+        "enabled": true,
+        "smartReply": false,
+        "defaultCooldown": 30,
+        "maxResponsesPerHour": 10,
+        "replies": []
+      },
+      "ads": {
+        "enabled": true,
+        "ads": [
+          {
+            "id": "test_scheduled_ad_001",
+            "title": "إعلان تجريبي مجدول",
+            "content": "هذا إعلان تجريبي لاختبار النظام المجدول",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "scheduled",
+            "scheduledTime": "2025-01-21T14:25:00.000Z",
+            "scheduleMode": "specific",
+            "status": "scheduled",
+            "enabled": true,
+            "createdAt": "2025-01-21T14:00:00.000Z",
+            "views": 0,
+            "clicks": 0
+          },
+          {
+            "id": "test_immediate_ad_002",
+            "title": "إعلان فوري جديد للاختبار",
+            "content": "هذا إعلان فوري جديد لاختبار المعالجة التلقائية",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "immediate",
+            "status": "published",
+            "enabled": true,
+            "createdAt": "2025-01-21T15:00:00.000Z",
+            "views": 0,
+            "clicks": 0,
+            "publishedAt": "2025-10-18T13:50:36.788Z"
+          },
+          {
+            "id": "test_immediate_ad_001",
+            "title": "إعلان فوري تجريبي",
+            "content": "هذا إعلان فوري لاختبار النظام بعد إصلاح المشاكل",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "immediate",
+            "status": "published",
+            "enabled": true,
+            "createdAt": "2025-01-21T14:30:00.000Z",
+            "views": 0,
+            "clicks": 0
+          },
+          {
+            "id": "test_auto_ad_1760795573198",
+            "title": "إعلان تلقائي للاختبار",
+            "content": "هذا إعلان جديد لاختبار المعالجة التلقائية عبر cron job",
+            "targetChannels": [
+              "726837802406248539"
+            ],
+            "targetRoles": [],
+            "publishType": "immediate",
+            "status": "published",
+            "enabled": true,
+            "createdAt": "2025-10-18T13:52:53.198Z",
+            "views": 0,
+            "clicks": 0,
+            "publishedAt": "2025-10-18T14:01:14.681Z"
+          }
+        ]
+      },
+      "members": {
+        "welcomeMessage": {
+          "enabled": true,
+          "message": "Welcome {user} to {server}! 🎉",
+          "channel": ""
+        },
+        "leaveMessage": {
+          "enabled": true,
+          "message": "Goodbye {user}, hope to see you soon! 👋",
+          "channel": ""
+        },
+        "autoRole": {
+          "enabled": false,
+          "roleId": ""
+        }
+      },
+      "protection": {
+        "spamProtection": true,
+        "raidProtection": false,
+        "autoModeration": true,
+        "links": {
+          "enabled": true,
+          "allowDiscordInvites": true,
+          "allowedDomains": [],
+          "blockAll": false,
+          "whitelistChannels": [],
+          "blockedLinks": [
+            {
+              "id": "test_blocked_link_001",
+              "content": "example.com",
+              "action": "warn",
+              "channels": [
+                "726837802406248539"
+              ],
+              "reason": "Blocked domain for testing",
+              "createdAt": "2025-09-24T16:10:48.268Z"
+            }
+          ]
+        },
+        "images": {
+          "enabled": false,
+          "mode": "allow_all",
+          "channels": [],
+          "pictureChannels": []
+        },
+        "badWords": {
+          "enabled": true,
+          "words": [
+            "spam",
+            "hack",
+            "scam"
+          ],
+          "action": "delete",
+          "punishment": "Mute",
+          "customMessage": "Please avoid using inappropriate language!",
+          "pictureChannels": [],
+          "botCommandChannels": []
+        },
+        "botManagement": {
+          "enabled": true,
+          "allowedBots": [],
+          "blockUnknownBots": false,
+          "disallowBots": false
+        },
+        "moderation": {
+          "enabled": true,
+          "autoDelete": true,
+          "warnUser": true,
+          "logChannel": "",
+          "maxKickBan": 5,
+          "memberPunishment": "kick"
+        },
+        "antiSpam": {
+          "enabled": true,
+          "maxMessages": 5,
+          "timeWindow": 10,
+          "action": "delete"
+        },
+        "test": true
+      },
+      "createdAt": "2025-09-18T18:36:16.377Z",
+      "updatedAt": "2025-10-17T16:17:17.562Z",
+      "updatedBy": "backup-system",
+      "backup": {
+        "autoBackup": true,
+        "backupInterval": 24,
+        "backups": [
+          {
+            "id": "mgv1xucz2wl1288ady8",
+            "filename": "backup_423067123225722891_2025-10-17T16-17-17-546Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-17T16-17-17-546Z.json",
+            "timestamp": "2025-10-17T16:17:17.545Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-17T16:17:17.555Z"
+          },
+          {
+            "id": "mgqqbsmn0zo7v3gc2zt",
+            "filename": "backup_423067123225722891_2025-10-14T15-41-08-393Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-41-08-393Z.json",
+            "timestamp": "2025-10-14T15:41:08.392Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:41:08.399Z"
+          },
+          {
+            "id": "mgqprdzcfm1ukoq7fmm",
+            "filename": "backup_423067123225722891_2025-10-14T15-25-16-291Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-25-16-291Z.json",
+            "timestamp": "2025-10-14T15:25:16.291Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:25:16.296Z"
+          },
+          {
+            "id": "mgqp8p3by9kqg5hrb2r",
+            "filename": "backup_423067123225722891_2025-10-14T15-10-44-228Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-10-44-228Z.json",
+            "timestamp": "2025-10-14T15:10:44.228Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:10:44.231Z"
+          },
+          {
+            "id": "mgqp1h5pjylr143vpq",
+            "filename": "backup_423067123225722891_2025-10-14T15-05-07-354Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-05-07-354Z.json",
+            "timestamp": "2025-10-14T15:05:07.353Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:05:07.357Z"
+          },
+          {
+            "id": "mgasbhh93k9r6cw52c",
+            "filename": "backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+            "timestamp": "2025-10-03T11:52:34.362Z",
+            "guildName": "R7 بالقمة",
+            "memberCount": 8,
+            "channelsCount": 17,
+            "rolesCount": 7,
+            "size": 5601,
+            "createdAt": "2025-10-03T11:52:34.365Z"
+          },
+          {
+            "id": "mgarxskcx2gi9b7ea5t",
+            "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+            "timestamp": "2025-10-03T11:41:55.545Z",
+            "guildName": "R7 بالقمة",
+            "memberCount": 8,
+            "channelsCount": 16,
+            "rolesCount": 7,
+            "size": 5433,
+            "createdAt": "2025-10-03T11:41:55.548Z"
+          }
+        ]
+      }
+    },
+    "newData": {
+      "id": "423067123225722891",
+      "autoReply": {
+        "enabled": true,
+        "smartReply": false,
+        "defaultCooldown": 30,
+        "maxResponsesPerHour": 10,
+        "replies": []
+      },
+      "ads": {
+        "enabled": true,
+        "ads": [],
+        "allowedChannels": [
+          "726837802406248539",
+          "726837802406248540",
+          "726837802406248541",
+          "726837802406248542"
+        ]
+      },
+      "members": {
+        "welcomeMessage": {
+          "enabled": true,
+          "message": "Welcome {user} to {server}! 🎉",
+          "channel": ""
+        },
+        "leaveMessage": {
+          "enabled": true,
+          "message": "Goodbye {user}, hope to see you soon! 👋",
+          "channel": ""
+        },
+        "autoRole": {
+          "enabled": false,
+          "roleId": ""
+        }
+      },
+      "protection": {
+        "spamProtection": true,
+        "raidProtection": false,
+        "autoModeration": true,
+        "links": {
+          "enabled": true,
+          "allowDiscordInvites": true,
+          "allowedDomains": [],
+          "blockAll": false,
+          "whitelistChannels": [],
+          "blockedLinks": [
+            {
+              "id": "test_blocked_link_001",
+              "content": "example.com",
+              "action": "warn",
+              "channels": [
+                "726837802406248539"
+              ],
+              "reason": "Blocked domain for testing",
+              "createdAt": "2025-09-24T16:10:48.268Z"
+            }
+          ]
+        },
+        "images": {
+          "enabled": false,
+          "mode": "allow_all",
+          "channels": [],
+          "pictureChannels": []
+        },
+        "badWords": {
+          "enabled": true,
+          "words": [
+            "spam",
+            "hack",
+            "scam"
+          ],
+          "action": "delete",
+          "punishment": "Mute",
+          "customMessage": "Please avoid using inappropriate language!",
+          "pictureChannels": [],
+          "botCommandChannels": []
+        },
+        "botManagement": {
+          "enabled": true,
+          "allowedBots": [],
+          "blockUnknownBots": false,
+          "disallowBots": false
+        },
+        "moderation": {
+          "enabled": true,
+          "autoDelete": true,
+          "warnUser": true,
+          "logChannel": "",
+          "maxKickBan": 5,
+          "memberPunishment": "kick"
+        },
+        "antiSpam": {
+          "enabled": true,
+          "maxMessages": 5,
+          "timeWindow": 10,
+          "action": "delete"
+        },
+        "test": true
+      },
+      "createdAt": "2025-09-18T18:36:16.377Z",
+      "updatedAt": "2025-10-17T16:17:17.562Z",
+      "updatedBy": "backup-system",
+      "backup": {
+        "autoBackup": true,
+        "backupInterval": 24,
+        "backups": [
+          {
+            "id": "mgv1xucz2wl1288ady8",
+            "filename": "backup_423067123225722891_2025-10-17T16-17-17-546Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-17T16-17-17-546Z.json",
+            "timestamp": "2025-10-17T16:17:17.545Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-17T16:17:17.555Z"
+          },
+          {
+            "id": "mgqqbsmn0zo7v3gc2zt",
+            "filename": "backup_423067123225722891_2025-10-14T15-41-08-393Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-41-08-393Z.json",
+            "timestamp": "2025-10-14T15:41:08.392Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:41:08.399Z"
+          },
+          {
+            "id": "mgqprdzcfm1ukoq7fmm",
+            "filename": "backup_423067123225722891_2025-10-14T15-25-16-291Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-25-16-291Z.json",
+            "timestamp": "2025-10-14T15:25:16.291Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:25:16.296Z"
+          },
+          {
+            "id": "mgqp8p3by9kqg5hrb2r",
+            "filename": "backup_423067123225722891_2025-10-14T15-10-44-228Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-10-44-228Z.json",
+            "timestamp": "2025-10-14T15:10:44.228Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:10:44.231Z"
+          },
+          {
+            "id": "mgqp1h5pjylr143vpq",
+            "filename": "backup_423067123225722891_2025-10-14T15-05-07-354Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-05-07-354Z.json",
+            "timestamp": "2025-10-14T15:05:07.353Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:05:07.357Z"
+          },
+          {
+            "id": "mgasbhh93k9r6cw52c",
+            "filename": "backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+            "timestamp": "2025-10-03T11:52:34.362Z",
+            "guildName": "R7 بالقمة",
+            "memberCount": 8,
+            "channelsCount": 17,
+            "rolesCount": 7,
+            "size": 5601,
+            "createdAt": "2025-10-03T11:52:34.365Z"
+          },
+          {
+            "id": "mgarxskcx2gi9b7ea5t",
+            "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+            "timestamp": "2025-10-03T11:41:55.545Z",
+            "guildName": "R7 بالقمة",
+            "memberCount": 8,
+            "channelsCount": 16,
+            "rolesCount": 7,
+            "size": 5433,
+            "createdAt": "2025-10-03T11:41:55.548Z"
+          }
+        ]
+      }
+    },
+    "timestamp": "2025-10-18T14:08:07.820Z"
+  },
+  {
+    "id": "mgwcxaszqvv34k2ho8",
+    "serverId": "423067123225722891",
+    "section": "full",
+    "action": "update",
+    "oldData": {
+      "id": "423067123225722891",
+      "autoReply": {
+        "enabled": true,
+        "smartReply": false,
+        "defaultCooldown": 30,
+        "maxResponsesPerHour": 10,
+        "replies": []
+      },
+      "ads": {
+        "enabled": true,
+        "ads": [],
+        "allowedChannels": [
+          "726837802406248539",
+          "726837802406248540",
+          "726837802406248541",
+          "726837802406248542"
+        ]
+      },
+      "members": {
+        "welcomeMessage": {
+          "enabled": true,
+          "message": "Welcome {user} to {server}! 🎉",
+          "channel": ""
+        },
+        "leaveMessage": {
+          "enabled": true,
+          "message": "Goodbye {user}, hope to see you soon! 👋",
+          "channel": ""
+        },
+        "autoRole": {
+          "enabled": false,
+          "roleId": ""
+        }
+      },
+      "protection": {
+        "spamProtection": true,
+        "raidProtection": false,
+        "autoModeration": true,
+        "links": {
+          "enabled": true,
+          "allowDiscordInvites": true,
+          "allowedDomains": [],
+          "blockAll": false,
+          "whitelistChannels": [],
+          "blockedLinks": [
+            {
+              "id": "test_blocked_link_001",
+              "content": "example.com",
+              "action": "warn",
+              "channels": [
+                "726837802406248539"
+              ],
+              "reason": "Blocked domain for testing",
+              "createdAt": "2025-09-24T16:10:48.268Z"
+            }
+          ]
+        },
+        "images": {
+          "enabled": false,
+          "mode": "allow_all",
+          "channels": [],
+          "pictureChannels": []
+        },
+        "badWords": {
+          "enabled": true,
+          "words": [
+            "spam",
+            "hack",
+            "scam"
+          ],
+          "action": "delete",
+          "punishment": "Mute",
+          "customMessage": "Please avoid using inappropriate language!",
+          "pictureChannels": [],
+          "botCommandChannels": []
+        },
+        "botManagement": {
+          "enabled": true,
+          "allowedBots": [],
+          "blockUnknownBots": false,
+          "disallowBots": false
+        },
+        "moderation": {
+          "enabled": true,
+          "autoDelete": true,
+          "warnUser": true,
+          "logChannel": "",
+          "maxKickBan": 5,
+          "memberPunishment": "kick"
+        },
+        "antiSpam": {
+          "enabled": true,
+          "maxMessages": 5,
+          "timeWindow": 10,
+          "action": "delete"
+        },
+        "test": true
+      },
+      "createdAt": "2025-09-18T18:36:16.377Z",
+      "updatedAt": "2025-10-17T16:17:17.562Z",
+      "updatedBy": "backup-system",
+      "backup": {
+        "autoBackup": true,
+        "backupInterval": 24,
+        "backups": [
+          {
+            "id": "mgv1xucz2wl1288ady8",
+            "filename": "backup_423067123225722891_2025-10-17T16-17-17-546Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-17T16-17-17-546Z.json",
+            "timestamp": "2025-10-17T16:17:17.545Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-17T16:17:17.555Z"
+          },
+          {
+            "id": "mgqqbsmn0zo7v3gc2zt",
+            "filename": "backup_423067123225722891_2025-10-14T15-41-08-393Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-41-08-393Z.json",
+            "timestamp": "2025-10-14T15:41:08.392Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:41:08.399Z"
+          },
+          {
+            "id": "mgqprdzcfm1ukoq7fmm",
+            "filename": "backup_423067123225722891_2025-10-14T15-25-16-291Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-25-16-291Z.json",
+            "timestamp": "2025-10-14T15:25:16.291Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:25:16.296Z"
+          },
+          {
+            "id": "mgqp8p3by9kqg5hrb2r",
+            "filename": "backup_423067123225722891_2025-10-14T15-10-44-228Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-10-44-228Z.json",
+            "timestamp": "2025-10-14T15:10:44.228Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:10:44.231Z"
+          },
+          {
+            "id": "mgqp1h5pjylr143vpq",
+            "filename": "backup_423067123225722891_2025-10-14T15-05-07-354Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-05-07-354Z.json",
+            "timestamp": "2025-10-14T15:05:07.353Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:05:07.357Z"
+          },
+          {
+            "id": "mgasbhh93k9r6cw52c",
+            "filename": "backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+            "timestamp": "2025-10-03T11:52:34.362Z",
+            "guildName": "R7 بالقمة",
+            "memberCount": 8,
+            "channelsCount": 17,
+            "rolesCount": 7,
+            "size": 5601,
+            "createdAt": "2025-10-03T11:52:34.365Z"
+          },
+          {
+            "id": "mgarxskcx2gi9b7ea5t",
+            "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+            "timestamp": "2025-10-03T11:41:55.545Z",
+            "guildName": "R7 بالقمة",
+            "memberCount": 8,
+            "channelsCount": 16,
+            "rolesCount": 7,
+            "size": 5433,
+            "createdAt": "2025-10-03T11:41:55.548Z"
+          }
+        ]
+      }
+    },
+    "newData": {
+      "id": "423067123225722891",
+      "autoReply": {
+        "enabled": true,
+        "smartReply": false,
+        "defaultCooldown": 30,
+        "maxResponsesPerHour": 10,
+        "replies": []
+      },
+      "ads": {
+        "enabled": true,
+        "ads": [
+          {
+            "id": "test-ad-1760796754161",
+            "title": "إعلان تجريبي للقنوات المحددة",
+            "content": "هذا إعلان تجريبي لاختبار النشر في القنوات المحددة بواسطة المستخدم",
+            "targetChannels": [
+              "726837802406248539",
+              "726837802406248540",
+              "726837802406248541"
+            ],
+            "targetRoles": [],
+            "publishType": "immediate",
+            "scheduledTime": null,
+            "scheduleMode": "once",
+            "status": "pending",
+            "enabled": true,
+            "createdAt": "2025-10-18T14:12:34.162Z",
+            "views": 0,
+            "clicks": 0,
+            "publishedAt": null
+          }
+        ],
+        "allowedChannels": [
+          "726837802406248539",
+          "726837802406248540",
+          "726837802406248541",
+          "726837802406248542"
+        ]
+      },
+      "members": {
+        "welcomeMessage": {
+          "enabled": true,
+          "message": "Welcome {user} to {server}! 🎉",
+          "channel": ""
+        },
+        "leaveMessage": {
+          "enabled": true,
+          "message": "Goodbye {user}, hope to see you soon! 👋",
+          "channel": ""
+        },
+        "autoRole": {
+          "enabled": false,
+          "roleId": ""
+        }
+      },
+      "protection": {
+        "spamProtection": true,
+        "raidProtection": false,
+        "autoModeration": true,
+        "links": {
+          "enabled": true,
+          "allowDiscordInvites": true,
+          "allowedDomains": [],
+          "blockAll": false,
+          "whitelistChannels": [],
+          "blockedLinks": [
+            {
+              "id": "test_blocked_link_001",
+              "content": "example.com",
+              "action": "warn",
+              "channels": [
+                "726837802406248539"
+              ],
+              "reason": "Blocked domain for testing",
+              "createdAt": "2025-09-24T16:10:48.268Z"
+            }
+          ]
+        },
+        "images": {
+          "enabled": false,
+          "mode": "allow_all",
+          "channels": [],
+          "pictureChannels": []
+        },
+        "badWords": {
+          "enabled": true,
+          "words": [
+            "spam",
+            "hack",
+            "scam"
+          ],
+          "action": "delete",
+          "punishment": "Mute",
+          "customMessage": "Please avoid using inappropriate language!",
+          "pictureChannels": [],
+          "botCommandChannels": []
+        },
+        "botManagement": {
+          "enabled": true,
+          "allowedBots": [],
+          "blockUnknownBots": false,
+          "disallowBots": false
+        },
+        "moderation": {
+          "enabled": true,
+          "autoDelete": true,
+          "warnUser": true,
+          "logChannel": "",
+          "maxKickBan": 5,
+          "memberPunishment": "kick"
+        },
+        "antiSpam": {
+          "enabled": true,
+          "maxMessages": 5,
+          "timeWindow": 10,
+          "action": "delete"
+        },
+        "test": true
+      },
+      "createdAt": "2025-09-18T18:36:16.377Z",
+      "updatedAt": "2025-10-17T16:17:17.562Z",
+      "updatedBy": "backup-system",
+      "backup": {
+        "autoBackup": true,
+        "backupInterval": 24,
+        "backups": [
+          {
+            "id": "mgv1xucz2wl1288ady8",
+            "filename": "backup_423067123225722891_2025-10-17T16-17-17-546Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-17T16-17-17-546Z.json",
+            "timestamp": "2025-10-17T16:17:17.545Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-17T16:17:17.555Z"
+          },
+          {
+            "id": "mgqqbsmn0zo7v3gc2zt",
+            "filename": "backup_423067123225722891_2025-10-14T15-41-08-393Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-41-08-393Z.json",
+            "timestamp": "2025-10-14T15:41:08.392Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:41:08.399Z"
+          },
+          {
+            "id": "mgqprdzcfm1ukoq7fmm",
+            "filename": "backup_423067123225722891_2025-10-14T15-25-16-291Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-25-16-291Z.json",
+            "timestamp": "2025-10-14T15:25:16.291Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:25:16.296Z"
+          },
+          {
+            "id": "mgqp8p3by9kqg5hrb2r",
+            "filename": "backup_423067123225722891_2025-10-14T15-10-44-228Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-10-44-228Z.json",
+            "timestamp": "2025-10-14T15:10:44.228Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:10:44.231Z"
+          },
+          {
+            "id": "mgqp1h5pjylr143vpq",
+            "filename": "backup_423067123225722891_2025-10-14T15-05-07-354Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-14T15-05-07-354Z.json",
+            "timestamp": "2025-10-14T15:05:07.353Z",
+            "guildName": "R7 بالقمة ..",
+            "memberCount": 9,
+            "channelsCount": 19,
+            "rolesCount": 8,
+            "size": 6838,
+            "createdAt": "2025-10-14T15:05:07.357Z"
+          },
+          {
+            "id": "mgasbhh93k9r6cw52c",
+            "filename": "backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-52-34-362Z.json",
+            "timestamp": "2025-10-03T11:52:34.362Z",
+            "guildName": "R7 بالقمة",
+            "memberCount": 8,
+            "channelsCount": 17,
+            "rolesCount": 7,
+            "size": 5601,
+            "createdAt": "2025-10-03T11:52:34.365Z"
+          },
+          {
+            "id": "mgarxskcx2gi9b7ea5t",
+            "filename": "backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+            "filepath": "C:\\laragon\\www\\dashboard-next\\bot\\data\\backups\\backup_423067123225722891_2025-10-03T11-41-55-545Z.json",
+            "timestamp": "2025-10-03T11:41:55.545Z",
+            "guildName": "R7 بالقمة",
+            "memberCount": 8,
+            "channelsCount": 16,
+            "rolesCount": 7,
+            "size": 5433,
+            "createdAt": "2025-10-03T11:41:55.548Z"
+          }
+        ]
+      }
+    },
+    "userId": "test-system",
+    "timestamp": "2025-10-18T14:12:34.164Z"
+  }
+]

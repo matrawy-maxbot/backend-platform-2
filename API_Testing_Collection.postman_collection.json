@@ -1,0 +1,505 @@
+{
+	"info": {
+		"_postman_id": "genius-backend-api-testing",
+		"name": "Genius Backend API Testing Collection",
+		"description": "مجموعة شاملة لاختبار جميع API endpoints لوحدات Admins و AutoReply و Backup",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Admins Management",
+			"description": "إدارة المشرفين - Admin Management APIs",
+			"item": [
+				{
+					"name": "Get All Admins",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/admins?limit=10&offset=0",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "admins"],
+							"query": [
+								{
+									"key": "limit",
+									"value": "10",
+									"description": "عدد النتائج المطلوبة"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "عدد النتائج المتجاوزة"
+								}
+							]
+						},
+						"description": "الحصول على جميع المشرفين مع إمكانية التصفية والترتيب"
+					}
+				},
+				{
+					"name": "Get Admin by ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/admins/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "admins", "1"]
+						},
+						"description": "الحصول على مشرف بواسطة المعرف"
+					}
+				},
+				{
+					"name": "Get Admins by Server ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/admins/server/123456789",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "admins", "server", "123456789"]
+						},
+						"description": "الحصول على المشرفين بواسطة معرف الخادم"
+					}
+				},
+				{
+					"name": "Create Admin",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789\",\n  \"admin_id\": \"987654321\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/admins",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "admins"]
+						},
+						"description": "إنشاء مشرف جديد"
+					}
+				},
+				{
+					"name": "Delete Admin",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/admins/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "admins", "1"]
+						},
+						"description": "حذف المشرف"
+					}
+				}
+			]
+		},
+		{
+			"name": "AutoReply Management",
+			"description": "إدارة الردود التلقائية - AutoReply Management APIs",
+			"item": [
+				{
+					"name": "Get All AutoReplies",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/auto-reply?limit=10&offset=0",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "auto-reply"],
+							"query": [
+								{
+									"key": "limit",
+									"value": "10",
+									"description": "عدد النتائج المطلوبة"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "عدد النتائج المتجاوزة"
+								}
+							]
+						},
+						"description": "الحصول على جميع الردود التلقائية"
+					}
+				},
+				{
+					"name": "Get AutoReply by ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/auto-reply/507f1f77bcf86cd799439011",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "auto-reply", "507f1f77bcf86cd799439011"]
+						},
+						"description": "الحصول على رد تلقائي بواسطة المعرف (MongoDB ObjectId)"
+					}
+				},
+				{
+					"name": "Get AutoReplies by Server ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/auto-reply/server/123456789",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "auto-reply", "server", "123456789"]
+						},
+						"description": "الحصول على الردود التلقائية بواسطة معرف الخادم"
+					}
+				},
+				{
+					"name": "Create AutoReply",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789\",\n  \"reply_name\": \"رد ترحيبي\",\n  \"triggers\": [\"مرحبا\", \"أهلا\", \"السلام عليكم\"],\n  \"responses\": [\"أهلاً وسهلاً بك!\", \"مرحباً! كيف يمكنني مساعدتك؟\"],\n  \"channels\": [\"987654321\", \"123456789\"]\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/auto-reply",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "auto-reply"]
+						},
+						"description": "إنشاء رد تلقائي جديد"
+					}
+				},
+				{
+					"name": "Update AutoReply",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"reply_name\": \"رد ترحيبي محدث\",\n  \"triggers\": [\"مرحبا\", \"أهلا\", \"السلام عليكم\", \"هاي\"],\n  \"responses\": [\"أهلاً وسهلاً بك في خادمنا!\", \"مرحباً! نحن سعداء بوجودك معنا\"]\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/auto-reply/507f1f77bcf86cd799439011",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "auto-reply", "507f1f77bcf86cd799439011"]
+						},
+						"description": "تحديث الرد التلقائي"
+					}
+				},
+				{
+					"name": "Delete AutoReply",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/auto-reply/507f1f77bcf86cd799439011",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "auto-reply", "507f1f77bcf86cd799439011"]
+						},
+						"description": "حذف الرد التلقائي"
+					}
+				}
+			]
+		},
+		{
+			"name": "Backup Management",
+			"description": "إدارة النسخ الاحتياطية - Backup Management APIs",
+			"item": [
+				{
+					"name": "Get All Backups",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/backup?limit=10&offset=0",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "backup"],
+							"query": [
+								{
+									"key": "limit",
+									"value": "10",
+									"description": "عدد النتائج المطلوبة"
+								},
+								{
+									"key": "offset",
+									"value": "0",
+									"description": "عدد النتائج المتجاوزة"
+								}
+							]
+						},
+						"description": "الحصول على جميع النسخ الاحتياطية"
+					}
+				},
+				{
+					"name": "Get Backup by ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/backup/507f1f77bcf86cd799439011",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "backup", "507f1f77bcf86cd799439011"]
+						},
+						"description": "الحصول على نسخة احتياطية بواسطة المعرف (MongoDB ObjectId)"
+					}
+				},
+				{
+					"name": "Get Backups by Server ID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/backup/server/123456789",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "backup", "server", "123456789"]
+						},
+						"description": "الحصول على النسخ الاحتياطية بواسطة معرف الخادم"
+					}
+				},
+				{
+					"name": "Create Backup",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789\",\n  \"server_settings\": {\n    \"name\": \"My Discord Server\",\n    \"description\": \"وصف الخادم\",\n    \"icon\": \"server_icon_url\",\n    \"verification_level\": 1\n  },\n  \"channels\": [\n    {\n      \"id\": \"987654321\",\n      \"name\": \"general\",\n      \"type\": 0,\n      \"position\": 0\n    },\n    {\n      \"id\": \"987654322\",\n      \"name\": \"announcements\",\n      \"type\": 0,\n      \"position\": 1\n    }\n  ],\n  \"roles\": [\n    {\n      \"id\": \"111111111\",\n      \"name\": \"Admin\",\n      \"color\": 16711680,\n      \"permissions\": \"8\"\n    },\n    {\n      \"id\": \"222222222\",\n      \"name\": \"Member\",\n      \"color\": 0,\n      \"permissions\": \"104324673\"\n    }\n  ],\n  \"created_by\": \"555555555\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/backup",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "backup"]
+						},
+						"description": "إنشاء نسخة احتياطية جديدة"
+					}
+				},
+				{
+					"name": "Delete Backup by ID",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"serverId\": \"123456789\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/backup/507f1f77bcf86cd799439011",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "backup", "507f1f77bcf86cd799439011"]
+						},
+						"description": "حذف النسخة الاحتياطية بواسطة المعرف"
+					}
+				}
+			]
+		},
+		{
+			"name": "Error Testing",
+			"description": "اختبار حالات الخطأ والتحقق من صحة البيانات",
+			"item": [
+				{
+					"name": "Invalid Admin ID Format",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/admins/invalid_id",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "admins", "invalid_id"]
+						},
+						"description": "اختبار معرف مشرف غير صحيح (يجب أن يكون رقم)"
+					}
+				},
+				{
+					"name": "Invalid MongoDB ObjectId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/auto-reply/invalid_mongodb_id",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "auto-reply", "invalid_mongodb_id"]
+						},
+						"description": "اختبار معرف MongoDB غير صحيح"
+					}
+				},
+				{
+					"name": "Create Admin with Missing Data",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/admins",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "admins"]
+						},
+						"description": "اختبار إنشاء مشرف بدون admin_id (مطلوب)"
+					}
+				},
+				{
+					"name": "Create AutoReply with Invalid Triggers",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789\",\n  \"reply_name\": \"رد تلقائي\",\n  \"triggers\": [],\n  \"responses\": [\"رد\"]\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/auto-reply",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "auto-reply"]
+						},
+						"description": "اختبار إنشاء رد تلقائي بدون كلمات محفزة (مطلوب على الأقل واحدة)"
+					}
+				},
+				{
+					"name": "Create AutoReply with Too Long Trigger",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789\",\n  \"reply_name\": \"رد تلقائي\",\n  \"triggers\": [\"هذا نص طويل جداً يتجاوز الحد المسموح به للكلمة المحفزة والذي هو 200 حرف كحد أقصى وهذا النص مصمم لاختبار التحقق من صحة البيانات في النظام ويجب أن يفشل في التحقق من الصحة لأنه يتجاوز الحد المسموح به بشكل كبير جداً\"],\n  \"responses\": [\"رد\"]\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/auto-reply",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "auto-reply"]
+						},
+						"description": "اختبار إنشاء رد تلقائي بكلمة محفزة طويلة جداً (أكثر من 200 حرف)"
+					}
+				},
+				{
+					"name": "Invalid Server ID Format",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/v1/backup/server/invalid_server_id_with_letters",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "backup", "server", "invalid_server_id_with_letters"]
+						},
+						"description": "اختبار معرف خادم غير صحيح (يحتوي على أحرف)"
+					}
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:3000",
+			"description": "عنوان الخادم الأساسي - يمكن تغييره حسب البيئة"
+		}
+	]
+}

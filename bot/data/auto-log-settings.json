@@ -1,0 +1,94 @@
+{
+  "423067123225722891": {
+    "enabled": true,
+    "channelId": null,
+    "categories": {
+      "joinLeave": {
+        "enabled": true,
+        "channelId": "1430527372452434033"
+      },
+      "kickBan": {
+        "enabled": true,
+        "channelId": "1430527375371800586"
+      },
+      "members": {
+        "enabled": true,
+        "channelId": "1430527378257612944"
+      },
+      "serverSettings": {
+        "enabled": true,
+        "channelId": "1430527381474381855"
+      },
+      "roles": {
+        "enabled": true,
+        "channelId": "1430527388080537711"
+      },
+      "channels": {
+        "enabled": true,
+        "channelId": "1430527391666802850"
+      },
+      "messages": {
+        "enabled": true,
+        "channelId": "1430527395147808779"
+      },
+      "adminActions": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "lastUpdated": "2025-10-24T15:03:21.037Z"
+  },
+  "358950338046459905": {
+    "guildId": "358950338046459905",
+    "enabled": true,
+    "categoryId": "611525634497314827",
+    "channels": {
+      "joinLeave": "611525634497314827",
+      "kickBan": "611525634497314827",
+      "members": "611525634497314827",
+      "serverSettings": "611525634497314827",
+      "roles": "611525634497314827",
+      "messages": "611525634497314827"
+    },
+    "updatedAt": "2025-10-06T16:30:00.000Z"
+  },
+  "486630940542763009": {
+    "enabled": true,
+    "channelId": null,
+    "categories": {
+      "joinLeave": {
+        "enabled": true,
+        "channelId": "1430573745642147852"
+      },
+      "kickBan": {
+        "enabled": true,
+        "channelId": "1430573748997722320"
+      },
+      "members": {
+        "enabled": true,
+        "channelId": "1430573752386850867"
+      },
+      "serverSettings": {
+        "enabled": true,
+        "channelId": "1430573755163218042"
+      },
+      "roles": {
+        "enabled": true,
+        "channelId": "1430573758309077083"
+      },
+      "channels": {
+        "enabled": true,
+        "channelId": "1430573760792105182"
+      },
+      "messages": {
+        "enabled": true,
+        "channelId": "1430573763262546041"
+      },
+      "adminActions": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "lastUpdated": "2025-10-23T10:52:09.771Z"
+  }
+}

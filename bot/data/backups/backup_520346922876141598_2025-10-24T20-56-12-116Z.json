@@ -1,0 +1,1930 @@
+{
+  "guildId": "520346922876141598",
+  "guildName": "Genius Bot Support",
+  "memberCount": 41,
+  "categories": [
+    {
+      "id": "1017927685021909072",
+      "name": "General Chats",
+      "type": 4,
+      "position": 5,
+      "parentId": null,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "1069483936577",
+          "deny": "28752094224"
+        }
+      ]
+    },
+    {
+      "id": "1118290503486677053",
+      "name": "AUDIT LOG",
+      "type": 4,
+      "position": 9,
+      "parentId": null,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1024"
+        },
+        {
+          "id": "946512418094329936",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        },
+        {
+          "id": "1017922262076231711",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "520346922876141600",
+      "name": "Don't delete that",
+      "type": 4,
+      "position": 7,
+      "parentId": null,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1093937921873"
+        }
+      ]
+    },
+    {
+      "id": "1017927910000173156",
+      "name": "General Voices",
+      "type": 4,
+      "position": 6,
+      "parentId": null,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "794606029633",
+          "deny": "303613223952"
+        }
+      ]
+    },
+    {
+      "id": "1017928098165035008",
+      "name": "Special",
+      "type": 4,
+      "position": 8,
+      "parentId": null,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1093937921873"
+        },
+        {
+          "id": "1124353661661876376",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        },
+        {
+          "id": "1017922262076231711",
+          "type": 0,
+          "allow": "1002912079680",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1427318844246065283",
+      "name": "Log Channels",
+      "type": 4,
+      "position": 10,
+      "parentId": null,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1023207065222660147",
+          "type": 1,
+          "allow": "19456",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1111688481417199706",
+      "name": "Server Votes",
+      "type": 4,
+      "position": 2,
+      "parentId": null,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "3072"
+        },
+        {
+          "id": "1023002434987114516",
+          "type": 1,
+          "allow": "4298115072",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1017926876741771345",
+      "name": "Bot analysics",
+      "type": 4,
+      "position": 3,
+      "parentId": null,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1093937921873"
+        }
+      ]
+    },
+    {
+      "id": "1109183628195401758",
+      "name": "Server Profile",
+      "type": 4,
+      "position": 1,
+      "parentId": null,
+      "permissionOverwrites": [
+        {
+          "id": "1023002434987114516",
+          "type": 1,
+          "allow": "4298115072",
+          "deny": "0"
+        },
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "3072"
+        }
+      ]
+    },
+    {
+      "id": "1002575195208421506",
+      "name": "Bot Intro",
+      "type": 4,
+      "position": 4,
+      "parentId": null,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298440768",
+          "deny": "1093937594129"
+        }
+      ]
+    },
+    {
+      "id": "1017926206320033822",
+      "name": "Bot Status",
+      "type": 4,
+      "position": 0,
+      "parentId": null,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1093937921873"
+        }
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "id": "1118290512449917019",
+      "name": "members",
+      "type": 0,
+      "position": 4,
+      "parentId": "1118290503486677053",
+      "topic": "Here will display members settings events (add role, remove role, mute, deafen)",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1024"
+        },
+        {
+          "id": "946512418094329936",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        },
+        {
+          "id": "1017922262076231711",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1109183629394985021",
+      "name": "profile",
+      "type": 0,
+      "position": 1,
+      "parentId": "1109183628195401758",
+      "topic": "This channel for server profile",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "1023002434987114516",
+          "type": 1,
+          "allow": "4298115072",
+          "deny": "0"
+        },
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "3072"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1017927842287337502",
+      "name": "try-bot-commands",
+      "type": 0,
+      "position": 0,
+      "parentId": "1017927685021909072",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "1071631424321",
+          "deny": "26604610576"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1017927135173816330",
+      "name": "👤 Server Users [ 400 ]",
+      "type": 2,
+      "position": 2,
+      "parentId": "1017926876741771345",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "bitrate": 63688,
+      "userLimit": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1093937921873"
+        }
+      ]
+    },
+    {
+      "id": "1017920835140456478",
+      "name": "change-server",
+      "type": 0,
+      "position": 0,
+      "parentId": null,
+      "topic": "New Server",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "6144"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1002575283477545072",
+      "name": "admin-commands",
+      "type": 5,
+      "position": 3,
+      "parentId": "1002575195208421506",
+      "topic": null,
+      "nsfw": false,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298440768",
+          "deny": "1093937594129"
+        }
+      ]
+    },
+    {
+      "id": "1427318861669077003",
+      "name": "channels-log",
+      "type": 0,
+      "position": 5,
+      "parentId": "1427318844246065283",
+      "topic": "سجلات إنشاء وحذف وتعديل القنوات",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "0",
+          "deny": "3072"
+        },
+        {
+          "id": "1023207065222660147",
+          "type": 1,
+          "allow": "52224",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1017927024024748062",
+      "name": "👥 Bot Users [ 9000 ]",
+      "type": 2,
+      "position": 0,
+      "parentId": "1017926876741771345",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "bitrate": 64000,
+      "userLimit": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1093937921873"
+        }
+      ]
+    },
+    {
+      "id": "1118290515503349760",
+      "name": "messages",
+      "type": 0,
+      "position": 6,
+      "parentId": "1118290503486677053",
+      "topic": "Here will display messages events (update, delete)",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1024"
+        },
+        {
+          "id": "946512418094329936",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        },
+        {
+          "id": "1017922262076231711",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1028410598687518751",
+      "name": "support-requests",
+      "type": 15,
+      "position": 3,
+      "parentId": "1017927685021909072",
+      "topic": "📜  **You should send this information that in the following :**\n<:transparent:990039761177682071>\n||.|| 1- Name\n||.|| 2- Age\n||.|| 3- Nationality\n||.|| 4- What is the languages that you can speak ?\n||.|| 5- Did you work as supporter before ?\n||.|| 6- how many time work you can still ?\n<:transparent:990039761177682071>\n📔  **If you have important note , put it **\n<:transparent:990039761177682071>\n😇  **Be honest about your information**",
+      "nsfw": false,
+      "rateLimitPerUser": 10,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "1069483936577",
+          "deny": "28752094224"
+        }
+      ]
+    },
+    {
+      "id": "1118290507077013678",
+      "name": "kick-ban",
+      "type": 0,
+      "position": 1,
+      "parentId": "1118290503486677053",
+      "topic": "Here will display members events (kick & ban)",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1024"
+        },
+        {
+          "id": "946512418094329936",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        },
+        {
+          "id": "1017922262076231711",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1028441425894985828",
+      "name": "badges-requests",
+      "type": 15,
+      "position": 4,
+      "parentId": "1017927685021909072",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 5,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "1069483936577",
+          "deny": "28752094224"
+        }
+      ]
+    },
+    {
+      "id": "1118290513670443068",
+      "name": "server-settings",
+      "type": 0,
+      "position": 5,
+      "parentId": "1118290503486677053",
+      "topic": "Here will display servers settings events (owner, name, icon, region, AFK channel)",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1024"
+        },
+        {
+          "id": "946512418094329936",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        },
+        {
+          "id": "1017922262076231711",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1017932443833073716",
+      "name": "admins-chat-💡",
+      "type": 0,
+      "position": 0,
+      "parentId": "1017928098165035008",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298119168",
+          "deny": "1093937915729"
+        },
+        {
+          "id": "1124353661661876376",
+          "type": 0,
+          "allow": "4298120192",
+          "deny": "0"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        },
+        {
+          "id": "1017922262076231711",
+          "type": 0,
+          "allow": "1002912078656",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1017932771689255034",
+      "name": "discord-system-bot",
+      "type": 0,
+      "position": 1,
+      "parentId": "1017928098165035008",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1093937921873"
+        },
+        {
+          "id": "244374842646724609",
+          "type": 1,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1124353661661876376",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        },
+        {
+          "id": "1017922262076231711",
+          "type": 0,
+          "allow": "1002912079680",
+          "deny": "0"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1028385786992791753",
+      "name": "support",
+      "type": 15,
+      "position": 2,
+      "parentId": "1017927685021909072",
+      "topic": "🧹 **Please write in the chat without spamming or mentions**\n<:transparent:990039761177682071>\n🤬 **Don't write offensive words**\n<:transparent:990039761177682071>\n🕙 **If no one reply on your message , please wait**\n<:transparent:990039761177682071>\n😇 __We do our best to solve all problems and facilitate a better system through __ **Maxbot and the website** __to organize the server in the best way__",
+      "nsfw": false,
+      "rateLimitPerUser": 5,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "1069483936577",
+          "deny": "28752094224"
+        }
+      ]
+    },
+    {
+      "id": "1427318855692189826",
+      "name": "server-settings-log",
+      "type": 0,
+      "position": 3,
+      "parentId": "1427318844246065283",
+      "topic": "سجلات تغييرات إعدادات السيرفر",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "0",
+          "deny": "3072"
+        },
+        {
+          "id": "1023207065222660147",
+          "type": 1,
+          "allow": "52224",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1427318846724898856",
+      "name": "join-leave-log",
+      "type": 0,
+      "position": 0,
+      "parentId": "1427318844246065283",
+      "topic": "سجلات انضمام ومغادرة الأعضاء من السيرفر",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "0",
+          "deny": "3072"
+        },
+        {
+          "id": "1023207065222660147",
+          "type": 1,
+          "allow": "52224",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "991511169867194478",
+      "name": "genius-thumbnails",
+      "type": 0,
+      "position": 0,
+      "parentId": "520346922876141600",
+      "topic": "Don't delete that",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1093937921873"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1017927458542075904",
+      "name": "features",
+      "type": 0,
+      "position": 1,
+      "parentId": "1002575195208421506",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298440768",
+          "deny": "1093937594129"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1020217802377941053",
+      "name": "public-commands",
+      "type": 5,
+      "position": 4,
+      "parentId": "1002575195208421506",
+      "topic": null,
+      "nsfw": false,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298440768",
+          "deny": "1093937594129"
+        }
+      ]
+    },
+    {
+      "id": "1427318853175611523",
+      "name": "members-log",
+      "type": 0,
+      "position": 2,
+      "parentId": "1427318844246065283",
+      "topic": "سجلات تغييرات بيانات الأعضاء",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "0",
+          "deny": "3072"
+        },
+        {
+          "id": "1023207065222660147",
+          "type": 1,
+          "allow": "52224",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1109183631114649752",
+      "name": "tasks",
+      "type": 0,
+      "position": 0,
+      "parentId": "1109183628195401758",
+      "topic": "This channel for server tasks",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "1023002434987114516",
+          "type": 1,
+          "allow": "4298115072",
+          "deny": "0"
+        },
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "3072"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1427318858372481117",
+      "name": "roles-log",
+      "type": 0,
+      "position": 4,
+      "parentId": "1427318844246065283",
+      "topic": "سجلات تغييرات الرتب",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "0",
+          "deny": "3072"
+        },
+        {
+          "id": "1023207065222660147",
+          "type": 1,
+          "allow": "52224",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1017926435329036339",
+      "name": "online",
+      "type": 2,
+      "position": 0,
+      "parentId": "1017926206320033822",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "bitrate": 64000,
+      "userLimit": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1093937921873"
+        }
+      ]
+    },
+    {
+      "id": "1427318850122289234",
+      "name": "kick-ban-log",
+      "type": 0,
+      "position": 1,
+      "parentId": "1427318844246065283",
+      "topic": "سجلات طرد وحظر الأعضاء",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "0",
+          "deny": "3072"
+        },
+        {
+          "id": "1023207065222660147",
+          "type": 1,
+          "allow": "52224",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1017927514443759666",
+      "name": "news",
+      "type": 5,
+      "position": 2,
+      "parentId": "1002575195208421506",
+      "topic": null,
+      "nsfw": false,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298440768",
+          "deny": "1093937594129"
+        }
+      ]
+    },
+    {
+      "id": "1027323402148642866",
+      "name": "suggests",
+      "type": 15,
+      "position": 1,
+      "parentId": "1017927685021909072",
+      "topic": "🔹 **We hope to you to put good suggestions.**  😇 \n<:transparent:990039761177682071>\n📃 You should send a constructive suggestion and do not abuse the words, because it will lead to the deletion of your suggestion and ban you from sending any suggestion after that.\n<:transparent:990039761177682071>\n🔹**So please send a good suggestion and we are following all suggestions every day and if your suggestion is good you will be rewarded**\n<:transparent:990039761177682071>\n🔸**This reward is sure to be coins, but if your suggestion is excellent from the team's opinion, you will be rewarded with Nitro**  🤩",
+      "nsfw": false,
+      "rateLimitPerUser": 5,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "1069483936577",
+          "deny": "28752094224"
+        }
+      ]
+    },
+    {
+      "id": "1118290508821835797",
+      "name": "roles",
+      "type": 0,
+      "position": 2,
+      "parentId": "1118290503486677053",
+      "topic": "Here will display roles events (create, delete, edit settings, edit permissions)",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1024"
+        },
+        {
+          "id": "946512418094329936",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        },
+        {
+          "id": "1017922262076231711",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1427318864504553492",
+      "name": "messages-log",
+      "type": 0,
+      "position": 6,
+      "parentId": "1427318844246065283",
+      "topic": "سجلات حذف وتعديل الرسائل",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "0",
+          "deny": "3072"
+        },
+        {
+          "id": "1023207065222660147",
+          "type": 1,
+          "allow": "52224",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1017927089422340147",
+      "name": "🗄 Bot Servers [ 500 ]",
+      "type": 2,
+      "position": 1,
+      "parentId": "1017926876741771345",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "bitrate": 64000,
+      "userLimit": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1093937921873"
+        }
+      ]
+    },
+    {
+      "id": "1111688482881032352",
+      "name": "votes",
+      "type": 0,
+      "position": 0,
+      "parentId": "1111688481417199706",
+      "topic": "This channel for voting and server competition with other servers in Discord",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "1023002434987114516",
+          "type": 1,
+          "allow": "4298115072",
+          "deny": "0"
+        },
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "3072"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1118290511032229980",
+      "name": "channels",
+      "type": 0,
+      "position": 3,
+      "parentId": "1118290503486677053",
+      "topic": "Here will display channels events (create, delete, edit settings, edit permissions)",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1024"
+        },
+        {
+          "id": "946512418094329936",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        },
+        {
+          "id": "1017922262076231711",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1017927374358196254",
+      "name": "get-started",
+      "type": 0,
+      "position": 0,
+      "parentId": "1002575195208421506",
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298440768",
+          "deny": "1093937594129"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1118290505910976633",
+      "name": "join-leave",
+      "type": 0,
+      "position": 0,
+      "parentId": "1118290503486677053",
+      "topic": "Here will display members events (join & leave)",
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "permissionOverwrites": [
+        {
+          "id": "520346922876141598",
+          "type": 0,
+          "allow": "4298113024",
+          "deny": "1024"
+        },
+        {
+          "id": "946512418094329936",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        },
+        {
+          "id": "1126534406958489701",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        },
+        {
+          "id": "1017922262076231711",
+          "type": 0,
+          "allow": "4298114048",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1027328557476741190",
+      "name": "We hope you will give us your best ideas",
+      "type": 11,
+      "parentId": "1027323402148642866",
+      "rateLimitPerUser": 5,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "1028387680297431091",
+      "name": "Tell us any problem you have",
+      "type": 11,
+      "parentId": "1028385786992791753",
+      "rateLimitPerUser": 5,
+      "permissionOverwrites": []
+    },
+    {
+      "id": "1028412543867302000",
+      "name": "send a request",
+      "type": 11,
+      "parentId": "1028410598687518751",
+      "rateLimitPerUser": 5,
+      "permissionOverwrites": []
+    }
+  ],
+  "roles": [
+    {
+      "id": "1412811794220711936",
+      "name": "sea_green",
+      "color": 1752220,
+      "hoist": false,
+      "position": 46,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750849142587642",
+      "name": "gold",
+      "color": 15973918,
+      "hoist": false,
+      "position": 31,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750907913310330",
+      "name": "medium_purple",
+      "color": 10969855,
+      "hoist": false,
+      "position": 24,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750882466336798",
+      "name": "green",
+      "color": 3066993,
+      "hoist": false,
+      "position": 27,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811852899156060",
+      "name": "pink",
+      "color": 15156132,
+      "hoist": false,
+      "position": 39,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750899365445857",
+      "name": "blue",
+      "color": 5080048,
+      "hoist": false,
+      "position": 25,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750840162848902",
+      "name": "orange",
+      "color": 15169067,
+      "hoist": false,
+      "position": 32,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811693456887868",
+      "name": "black",
+      "color": 0,
+      "hoist": false,
+      "position": 60,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811718450483293",
+      "name": "white",
+      "color": 16777215,
+      "hoist": false,
+      "position": 55,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "941063719574700082",
+      "name": "Muted",
+      "color": 0,
+      "hoist": false,
+      "position": 11,
+      "permissions": "0",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750806948020478",
+      "name": "peach",
+      "color": 15978157,
+      "hoist": false,
+      "position": 36,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1023938675773554778",
+      "name": "Server system",
+      "color": 0,
+      "hoist": false,
+      "position": 9,
+      "permissions": "0",
+      "mentionable": false,
+      "managed": true,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811701580992544",
+      "name": "dark",
+      "color": 6250340,
+      "hoist": false,
+      "position": 59,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1023010536599867405",
+      "name": "MaxBot",
+      "color": 0,
+      "hoist": false,
+      "position": 10,
+      "permissions": "110919782620993",
+      "mentionable": false,
+      "managed": true,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1124352006354640976",
+      "name": "Support En",
+      "color": 0,
+      "hoist": false,
+      "position": 6,
+      "permissions": "0",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1124352012105044040",
+      "name": "Support Ar",
+      "color": 0,
+      "hoist": false,
+      "position": 5,
+      "permissions": "0",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1119708788551856170",
+      "name": "prime edition (2)",
+      "color": 3447003,
+      "hoist": false,
+      "position": 8,
+      "permissions": "0",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750867266175037",
+      "name": "aquamarine",
+      "color": 8388564,
+      "hoist": false,
+      "position": 29,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750773242593332",
+      "name": "black",
+      "color": 0,
+      "hoist": false,
+      "position": 61,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750817186447401",
+      "name": "rosy",
+      "color": 13867931,
+      "hoist": false,
+      "position": 35,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1017921322900275282",
+      "name": "Genius Bot ❄️",
+      "color": 15326860,
+      "hoist": true,
+      "position": 62,
+      "permissions": "138538465099775",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1124353661661876376",
+      "name": "Mods.",
+      "color": 14600959,
+      "hoist": true,
+      "position": 18,
+      "permissions": "9896909078720",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1124554683223121980",
+      "name": "Bot Devs.",
+      "color": 14221301,
+      "hoist": true,
+      "position": 17,
+      "permissions": "1099675205760",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811701749026908",
+      "name": "dark",
+      "color": 6250340,
+      "hoist": false,
+      "position": 58,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750924786860074",
+      "name": "violet",
+      "color": 14058719,
+      "hoist": false,
+      "position": 22,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1017922262076231711",
+      "name": "Supporters.",
+      "color": 9633726,
+      "hoist": true,
+      "position": 16,
+      "permissions": "1071711637313",
+      "mentionable": true,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811735622222020",
+      "name": "rosy",
+      "color": 13867931,
+      "hoist": false,
+      "position": 53,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1124353039390756934",
+      "name": "Community Contributor.",
+      "color": 15844367,
+      "hoist": true,
+      "position": 15,
+      "permissions": "0",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811693180063774",
+      "name": "black",
+      "color": 0,
+      "hoist": false,
+      "position": 2,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1124352013178785932",
+      "name": "Support Tr",
+      "color": 0,
+      "hoist": false,
+      "position": 4,
+      "permissions": "0",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811810569977888",
+      "name": "sky",
+      "color": 2271960,
+      "hoist": false,
+      "position": 44,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811827729141840",
+      "name": "medium_purple",
+      "color": 10969855,
+      "hoist": false,
+      "position": 42,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811836121677958",
+      "name": "purple",
+      "color": 13258999,
+      "hoist": false,
+      "position": 41,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811709927919740",
+      "name": "silver",
+      "color": 10724264,
+      "hoist": false,
+      "position": 56,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1124351504220954705",
+      "name": "prime edition (1)",
+      "color": 3447003,
+      "hoist": false,
+      "position": 7,
+      "permissions": "0",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750891173974087",
+      "name": "sky",
+      "color": 2271960,
+      "hoist": false,
+      "position": 26,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750789675880480",
+      "name": "silver",
+      "color": 10724264,
+      "hoist": false,
+      "position": 38,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1126534406958489701",
+      "name": "Mute chat",
+      "color": 2895667,
+      "hoist": false,
+      "position": 20,
+      "permissions": "1024",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811743750524948",
+      "name": "brown",
+      "color": 8740669,
+      "hoist": false,
+      "position": 52,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811768975331450",
+      "name": "gold",
+      "color": 15973918,
+      "hoist": false,
+      "position": 49,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811785928445983",
+      "name": "aquamarine",
+      "color": 8388564,
+      "hoist": false,
+      "position": 47,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750856939929616",
+      "name": "yellow",
+      "color": 14737205,
+      "hoist": false,
+      "position": 30,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1124351939463893002",
+      "name": "Our Friends.",
+      "color": 3447003,
+      "hoist": true,
+      "position": 14,
+      "permissions": "0",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811777250562048",
+      "name": "yellow",
+      "color": 14737205,
+      "hoist": false,
+      "position": 48,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811844904681583",
+      "name": "violet",
+      "color": 14058719,
+      "hoist": false,
+      "position": 40,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811709675999234",
+      "name": "silver",
+      "color": 10724264,
+      "hoist": false,
+      "position": 1,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "946512418094329936",
+      "name": "Server Supporters.",
+      "color": 15621019,
+      "hoist": true,
+      "position": 13,
+      "permissions": "111022878744385",
+      "mentionable": true,
+      "managed": true,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750916549247057",
+      "name": "purple",
+      "color": 13258999,
+      "hoist": false,
+      "position": 23,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811752227213312",
+      "name": "red",
+      "color": 15157577,
+      "hoist": false,
+      "position": 51,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750874107347077",
+      "name": "sea_green",
+      "color": 1752220,
+      "hoist": false,
+      "position": 28,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750781325017259",
+      "name": "dark",
+      "color": 6250340,
+      "hoist": false,
+      "position": 57,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1124352134775840939",
+      "name": "Support Ru",
+      "color": 0,
+      "hoist": false,
+      "position": 3,
+      "permissions": "0",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811760519348397",
+      "name": "orange",
+      "color": 15169067,
+      "hoist": false,
+      "position": 50,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750932877803545",
+      "name": "pink",
+      "color": 15156132,
+      "hoist": false,
+      "position": 21,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750798743961741",
+      "name": "white",
+      "color": 16777215,
+      "hoist": false,
+      "position": 37,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811819323752680",
+      "name": "blue",
+      "color": 5080048,
+      "hoist": false,
+      "position": 43,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750823700205618",
+      "name": "brown",
+      "color": 8740669,
+      "hoist": false,
+      "position": 34,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811802357796908",
+      "name": "green",
+      "color": 3066993,
+      "hoist": false,
+      "position": 45,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1021508516948758608",
+      "name": "Members",
+      "color": 0,
+      "hoist": true,
+      "position": 12,
+      "permissions": "826885398337",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1412811726830702806",
+      "name": "peach",
+      "color": 15978157,
+      "hoist": false,
+      "position": 54,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1411750831694549164",
+      "name": "red",
+      "color": 15157577,
+      "hoist": false,
+      "position": 33,
+      "permissions": "2048",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1021498541996257381",
+      "name": "Founder",
+      "color": 4606683,
+      "hoist": true,
+      "position": 19,
+      "permissions": "138538465099775",
+      "mentionable": false,
+      "managed": false,
+      "icon": null,
+      "unicodeEmoji": null
+    }
+  ],
+  "serverSettings": {
+    "name": "Genius Bot Support",
+    "description": null,
+    "icon": "8183ec967f9b0d036449777343790a27",
+    "banner": null,
+    "splash": null,
+    "discoverySplash": null,
+    "afkChannelId": null,
+    "afkTimeout": 3600,
+    "systemChannelId": null,
+    "systemChannelFlags": 0,
+    "rulesChannelId": "1017920835140456478",
+    "publicUpdatesChannelId": "1017932771689255034",
+    "preferredLocale": "en-US",
+    "features": [
+      "NEWS",
+      "COMMUNITY",
+      "MEMBER_VERIFICATION_GATE_ENABLED",
+      "CHANNEL_ICON_EMOJIS_GENERATED",
+      "EXPOSED_TO_ACTIVITIES_WTP_EXPERIMENT",
+      "AUTO_MODERATION",
+      "WELCOME_SCREEN_ENABLED",
+      "SOUNDBOARD",
+      "GUILD_ONBOARDING_EVER_ENABLED",
+      "PREVIEW_ENABLED",
+      "ACTIVITY_FEED_DISABLED_BY_USER"
+    ],
+    "verificationLevel": 3,
+    "explicitContentFilter": 2,
+    "mfaLevel": 1,
+    "defaultMessageNotifications": 1,
+    "vanityURLCode": null,
+    "premiumTier": 0,
+    "premiumSubscriptionCount": 0,
+    "nsfwLevel": 0
+  },
+  "createdAt": "2025-10-24T20:56:12.115Z"
+}

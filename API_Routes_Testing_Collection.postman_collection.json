@@ -1,0 +1,530 @@
+{
+	"info": {
+		"_postman_id": "api-routes-testing-collection",
+		"name": "API Routes Testing Collection",
+		"description": "مجموعة شاملة لاختبار جميع API routes في النظام - BadWords, ChannelContent, DashboardLog",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "BadWords API",
+			"description": "اختبار جميع endpoints الخاصة بإدارة الكلمات السيئة",
+			"item": [
+				{
+					"name": "Get All BadWords",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/badwords",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "badwords"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get BadWords by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/badwords/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "badwords", "1"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get BadWords by Server ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/badwords/server/123456789",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "badwords", "server", "123456789"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create BadWords",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789\",\n  \"words\": [\"badword1\", \"badword2\", \"inappropriate\"],\n  \"punishment_type\": \"warn\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/badwords",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "badwords"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update BadWords by ID",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"words\": [\"updated_badword1\", \"updated_badword2\"],\n  \"punishment_type\": \"mute\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/badwords/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "badwords", "1"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update BadWords by Server ID",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"words\": [\"server_badword1\", \"server_badword2\"],\n  \"punishment_type\": \"kick\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/badwords/server/123456789",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "badwords", "server", "123456789"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete BadWords by ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/badwords/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "badwords", "1"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete BadWords by Server ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/badwords/server/123456789",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "badwords", "server", "123456789"]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Channel Content API",
+			"description": "اختبار جميع endpoints الخاصة بإدارة محتوى القنوات",
+			"item": [
+				{
+					"name": "Get All Channel Content",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/channel-content",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "channel-content"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Channel Content by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/channel-content/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "channel-content", "1"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Channel Content by Server ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/channel-content/server/123456789",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "channel-content", "server", "123456789"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Channel Content",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789\",\n  \"block_images\": [\"987654321\", \"876543210\"],\n  \"block_text_messages\": [\"765432109\"],\n  \"block_file_attachments\": [\"654321098\", \"543210987\"],\n  \"block_bot_commands\": [\"432109876\"]\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/channel-content",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "channel-content"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Channel Content by ID",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"block_images\": [\"111111111\", \"222222222\"],\n  \"block_text_messages\": [\"333333333\"],\n  \"block_file_attachments\": [],\n  \"block_bot_commands\": [\"444444444\", \"555555555\"]\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/channel-content/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "channel-content", "1"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Channel Content by Server ID",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"block_images\": [\"666666666\"],\n  \"block_text_messages\": [\"777777777\", \"888888888\"],\n  \"block_file_attachments\": [\"999999999\"],\n  \"block_bot_commands\": []\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/channel-content/server/123456789",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "channel-content", "server", "123456789"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Channel Content by ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/channel-content/1",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "channel-content", "1"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Channel Content by Server ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/channel-content/server/123456789",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "channel-content", "server", "123456789"]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Dashboard Log API",
+			"description": "اختبار جميع endpoints الخاصة بإدارة سجلات لوحة التحكم",
+			"item": [
+				{
+					"name": "Get All Dashboard Logs",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/dashboard-log",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "dashboard-log"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Dashboard Log by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/dashboard-log/507f1f77bcf86cd799439011",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "dashboard-log", "507f1f77bcf86cd799439011"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Dashboard Logs by Server ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/dashboard-log/server/123456789",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "dashboard-log", "server", "123456789"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Dashboard Logs by User ID and Server ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/dashboard-log/user/987654321/server/123456789",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "dashboard-log", "user", "987654321", "server", "123456789"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Dashboard Logs by Feature and Server ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/dashboard-log/feature/badwords/server/123456789",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "dashboard-log", "feature", "badwords", "server", "123456789"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Dashboard Logs by Action and Server ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/dashboard-log/action/create/server/123456789",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "dashboard-log", "action", "create", "server", "123456789"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Dashboard Log",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"title\": \"تم إنشاء إعدادات كلمات سيئة جديدة\",\n  \"description\": \"تم إنشاء إعدادات جديدة للكلمات المحظورة في الخادم مع نوع عقوبة التحذير\",\n  \"feature\": \"badwords\",\n  \"action\": \"create\",\n  \"server_id\": \"123456789\",\n  \"user_id\": \"987654321\",\n  \"additional_data\": {\n    \"words_count\": 5,\n    \"punishment_type\": \"warn\"\n  }\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/dashboard-log",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "dashboard-log"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Dashboard Log by ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/dashboard-log/507f1f77bcf86cd799439011",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "dashboard-log", "507f1f77bcf86cd799439011"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Dashboard Logs by Server ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/dashboard-log/server/123456789",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "dashboard-log", "server", "123456789"]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Test Cases - Edge Cases",
+			"description": "حالات اختبار خاصة للتحقق من validation والحالات الحدية",
+			"item": [
+				{
+					"name": "BadWords - Invalid Server ID",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"invalid_id\",\n  \"words\": [\"test\"],\n  \"punishment_type\": \"warn\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/badwords",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "badwords"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BadWords - Invalid Punishment Type",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789\",\n  \"words\": [\"test\"],\n  \"punishment_type\": \"invalid_type\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/badwords",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "badwords"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Channel Content - Invalid Channel ID",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"server_id\": \"123456789\",\n  \"block_images\": [\"invalid_channel_id\"],\n  \"block_text_messages\": [],\n  \"block_file_attachments\": [],\n  \"block_bot_commands\": []\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/channel-content",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "channel-content"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dashboard Log - Invalid MongoDB ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/v1/dashboard-log/invalid_mongo_id",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "dashboard-log", "invalid_mongo_id"]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Dashboard Log - Invalid Action Type",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"title\": \"Test Log\",\n  \"description\": \"Test Description\",\n  \"feature\": \"test_feature\",\n  \"action\": \"invalid_action\",\n  \"server_id\": \"123456789\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/dashboard-log",
+							"host": ["{{base_url}}"],
+							"path": ["api", "v1", "dashboard-log"]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:3000",
+			"description": "Base URL للخادم المحلي"
+		}
+	]
+}

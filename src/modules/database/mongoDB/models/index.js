@@ -1,39 +1,15 @@
-import Session from './Session.model.js';
-import UserActivity from './UserActivity.model.js';
-// import UserActivityLogs from './UserActivityLogs.model.js';
-import UserSettings from './UserSettings.model.js';
-import Notification from './Notification.model.js';
-import Wishlist from './Wishlist.model.js';
-import OrderStatusHistory from './OrderStatusHistory.model.js';
-import ProductDetails from './ProductDetails.model.js';
-import ProductReviews from './ProductReviews.model.js';
-import VendorDynamicContent from './VendorDynamicContent.model.js';
-import VendorActivities from './VendorActivities.model.js';
-import AuditTrails from './AuditTrails.model.js';
-import VendorSettings from './VendorSettings.model.js';
-import VendorCompanySettings from './VendorCompanySettings.model.js';
-import VendorNotificationSettings from './VendorNotificationSettings.model.js';
-import VendorPrintSettings from './VendorPrintSettings.model.js';
-import VendorBackups from './VendorBackups.model.js';
-import VendorBackupSettings from './VendorBackupSettings.model.js';
+import DashboardLog from './DashboardLog.model.js';
+import Log from './Log.model.js';
+import AutoReply from './AutoReply.model.js';
+import WelcomeImage from './WelcomeImage.model.js';
+import Member from './Member.model.js';
+import Backup from './Backup.model.js';
 
 export { 
-  Session, 
-  UserActivity, 
-  // UserActivityLogs,
-  UserSettings, 
-  Notification, 
-  Wishlist, 
-  OrderStatusHistory,
-  ProductDetails,
-  ProductReviews,
-  VendorDynamicContent,
-  VendorActivities,
-  AuditTrails,
-  VendorSettings,
-  VendorCompanySettings,
-  VendorNotificationSettings,
-  VendorPrintSettings,
-  VendorBackups,
-  VendorBackupSettings
+  DashboardLog,
+  Log,
+  AutoReply,
+  WelcomeImage,
+  Member,
+  Backup
 };

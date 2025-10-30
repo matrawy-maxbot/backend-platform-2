@@ -1,0 +1,688 @@
+[
+  {
+    "id": "mh501weuxz7z2jz6gyo",
+    "serverId": "423067123225722891",
+    "section": "protection",
+    "action": "update",
+    "oldData": {
+      "spamProtection": true,
+      "raidProtection": false,
+      "autoModeration": true,
+      "botManagement": {
+        "enabled": true,
+        "allowedBots": [],
+        "blockUnknownBots": false,
+        "disallowBots": true,
+        "deleteRepeatedMessages": true
+      },
+      "moderation": {
+        "enabled": true,
+        "autoDelete": false,
+        "warnUser": false,
+        "logChannel": "",
+        "maxKickBan": 1,
+        "memberPunishment": "remove roles"
+      },
+      "badWords": {
+        "enabled": true,
+        "words": [
+          "هلا",
+          "وينو",
+          "سيبسيب",
+          "سيبيسب",
+          "شسييي",
+          "بق"
+        ],
+        "action": "delete",
+        "customMessage": "",
+        "pictureChannels": [
+          "art",
+          "chan",
+          "kick-",
+          "nf",
+          "servers",
+          "J",
+          "meme",
+          "mess",
+          "join-leave",
+          "423067123225722893",
+          "726837802406248539",
+          "726842791367540786"
+        ],
+        "botCommandChannels": [
+          "join-leave",
+          "channels",
+          "general",
+          "asd",
+          "roles",
+          "members"
+        ],
+        "punishment": "Warn message"
+      },
+      "links": {
+        "enabled": true,
+        "allowDiscordInvites": true,
+        "allowedDomains": [],
+        "blockAll": false,
+        "whitelistChannels": [],
+        "blockedLinks": [
+          {
+            "content": "",
+            "action": "delete",
+            "channels": []
+          },
+          {
+            "content": "youtube.com",
+            "action": "delete",
+            "channels": [
+              "general",
+              "chat",
+              "726837802406248539",
+              "423067123225722893",
+              "726842791367540786"
+            ]
+          },
+          {
+            "content": "discorضd.شش",
+            "action": "delete",
+            "channels": [
+              "general",
+              "announcements",
+              "1423638928212099192",
+              "727083989361229876",
+              "727083988925153360"
+            ]
+          },
+          {
+            "content": "spam",
+            "action": "delete",
+            "channels": [
+              "general",
+              "1423638928212099192",
+              "727083988925153360"
+            ]
+          }
+        ]
+      },
+      "antiSpam": {
+        "enabled": false,
+        "maxMessages": 20,
+        "timeWindow": 10,
+        "action": "delete",
+        "messageLimit": 15
+      },
+      "images": {
+        "enabled": false,
+        "mode": "allow_all",
+        "pictureChannels": []
+      },
+      "channels": {
+        "enabled": true,
+        "mode": "allow_all",
+        "channels": [],
+        "channelSettings": {
+          "1423638928212099192": {
+            "allowImages": true,
+            "allowTexts": true,
+            "allowFiles": true,
+            "allowBotCommands": true
+          },
+          "423067123225722893": {
+            "allowImages": true,
+            "allowTexts": false,
+            "allowFiles": true,
+            "allowBotCommands": true
+          }
+        }
+      }
+    },
+    "newData": {
+      "spamProtection": true,
+      "raidProtection": false,
+      "autoModeration": true,
+      "botManagement": {
+        "enabled": true,
+        "allowedBots": [],
+        "blockUnknownBots": false,
+        "disallowBots": false,
+        "deleteRepeatedMessages": true
+      },
+      "moderation": {
+        "enabled": true,
+        "autoDelete": false,
+        "warnUser": false,
+        "logChannel": "",
+        "maxKickBan": 1,
+        "memberPunishment": "remove roles"
+      },
+      "badWords": {
+        "enabled": true,
+        "words": [
+          "هلا",
+          "وينو",
+          "سيبسيب",
+          "سيبيسب",
+          "شسييي",
+          "بق"
+        ],
+        "action": "delete",
+        "customMessage": "",
+        "pictureChannels": [
+          "art",
+          "chan",
+          "kick-",
+          "nf",
+          "servers",
+          "J",
+          "meme",
+          "mess",
+          "join-leave",
+          "423067123225722893",
+          "726837802406248539",
+          "726842791367540786"
+        ],
+        "botCommandChannels": [
+          "join-leave",
+          "channels",
+          "general",
+          "asd",
+          "roles",
+          "members"
+        ],
+        "punishment": "Warn message"
+      },
+      "links": {
+        "enabled": true,
+        "allowDiscordInvites": true,
+        "allowedDomains": [],
+        "blockAll": false,
+        "whitelistChannels": [],
+        "blockedLinks": [
+          {
+            "content": "",
+            "action": "delete",
+            "channels": []
+          },
+          {
+            "content": "youtube.com",
+            "action": "delete",
+            "channels": [
+              "general",
+              "chat",
+              "726837802406248539",
+              "423067123225722893",
+              "726842791367540786"
+            ]
+          },
+          {
+            "content": "discorضd.شش",
+            "action": "delete",
+            "channels": [
+              "general",
+              "announcements",
+              "1423638928212099192",
+              "727083989361229876",
+              "727083988925153360"
+            ]
+          },
+          {
+            "content": "spam",
+            "action": "delete",
+            "channels": [
+              "general",
+              "1423638928212099192",
+              "727083988925153360"
+            ]
+          }
+        ]
+      },
+      "antiSpam": {
+        "enabled": false,
+        "maxMessages": 20,
+        "timeWindow": 10,
+        "action": "delete",
+        "messageLimit": 15
+      },
+      "images": {
+        "enabled": false,
+        "mode": "allow_all",
+        "pictureChannels": []
+      },
+      "channels": {
+        "enabled": true,
+        "mode": "allow_all",
+        "channels": [],
+        "channelSettings": {
+          "1423638928212099192": {
+            "allowImages": true,
+            "allowTexts": true,
+            "allowFiles": true,
+            "allowBotCommands": true
+          },
+          "423067123225722893": {
+            "allowImages": true,
+            "allowTexts": false,
+            "allowFiles": true,
+            "allowBotCommands": true
+          }
+        }
+      }
+    },
+    "userId": "bot-sync",
+    "timestamp": "2025-10-24T15:22:09.366Z"
+  },
+  {
+    "id": "mh5bw84wbi5r4pstwmt",
+    "serverId": "520346922876141598",
+    "section": "full",
+    "action": "create",
+    "newData": {
+      "id": "520346922876141598",
+      "autoReply": {
+        "enabled": true,
+        "replies": []
+      },
+      "ads": {
+        "enabled": false,
+        "ads": []
+      },
+      "members": {
+        "welcomeMessage": {
+          "enabled": true,
+          "message": "Welcome {user}!",
+          "channel": ""
+        },
+        "autoRole": {
+          "enabled": false,
+          "roleId": ""
+        }
+      },
+      "protection": {
+        "spamProtection": true,
+        "raidProtection": false
+      },
+      "createdAt": "2025-10-24T20:53:40.016Z",
+      "updatedAt": "2025-10-24T20:53:40.016Z",
+      "updatedBy": "backup-system",
+      "backup": {
+        "enabled": true,
+        "backups": [
+          {
+            "id": "mh5bw84t7f026pz6ucq",
+            "filename": "backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+            "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+            "timestamp": "2025-10-24T20:53:40.006Z",
+            "guildName": "Genius Bot Support",
+            "memberCount": 41,
+            "channelsCount": 49,
+            "rolesCount": 62,
+            "size": 29285,
+            "createdAt": "2025-10-24T20:53:40.014Z"
+          }
+        ]
+      }
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-24T20:53:40.016Z"
+  },
+  {
+    "id": "mh5bxujl8amo4a1lksj",
+    "serverId": "520346922876141598",
+    "section": "backup",
+    "action": "update",
+    "oldData": {
+      "enabled": true,
+      "backups": [
+        {
+          "id": "mh5bw84t7f026pz6ucq",
+          "filename": "backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "timestamp": "2025-10-24T20:53:40.006Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:53:40.014Z"
+        }
+      ]
+    },
+    "newData": {
+      "enabled": true,
+      "backups": [
+        {
+          "id": "mh5bxujifm7bea1lwpl",
+          "filename": "backup_520346922876141598_2025-10-24T20-54-55-705Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-54-55-705Z.json",
+          "timestamp": "2025-10-24T20:54:55.705Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:54:55.711Z"
+        },
+        {
+          "id": "mh5bw84t7f026pz6ucq",
+          "filename": "backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "timestamp": "2025-10-24T20:53:40.006Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:53:40.014Z"
+        }
+      ]
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-24T20:54:55.713Z"
+  },
+  {
+    "id": "mh5bzhi8dkrevie7w6w",
+    "serverId": "520346922876141598",
+    "section": "backup",
+    "action": "update",
+    "oldData": {
+      "enabled": true,
+      "backups": [
+        {
+          "id": "mh5bxujifm7bea1lwpl",
+          "filename": "backup_520346922876141598_2025-10-24T20-54-55-705Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-54-55-705Z.json",
+          "timestamp": "2025-10-24T20:54:55.705Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:54:55.711Z"
+        },
+        {
+          "id": "mh5bw84t7f026pz6ucq",
+          "filename": "backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "timestamp": "2025-10-24T20:53:40.006Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:53:40.014Z"
+        }
+      ]
+    },
+    "newData": {
+      "enabled": true,
+      "backups": [
+        {
+          "id": "mh5bzhi3sv71tjyeq4e",
+          "filename": "backup_520346922876141598_2025-10-24T20-56-12-116Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-56-12-116Z.json",
+          "timestamp": "2025-10-24T20:56:12.115Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:56:12.124Z"
+        },
+        {
+          "id": "mh5bxujifm7bea1lwpl",
+          "filename": "backup_520346922876141598_2025-10-24T20-54-55-705Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-54-55-705Z.json",
+          "timestamp": "2025-10-24T20:54:55.705Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:54:55.711Z"
+        },
+        {
+          "id": "mh5bw84t7f026pz6ucq",
+          "filename": "backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "timestamp": "2025-10-24T20:53:40.006Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:53:40.014Z"
+        }
+      ]
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-24T20:56:12.128Z"
+  },
+  {
+    "id": "mh5c1wft9u693kml4yk",
+    "serverId": "520346922876141598",
+    "section": "backup",
+    "action": "update",
+    "oldData": {
+      "enabled": true,
+      "backups": [
+        {
+          "id": "mh5bzhi3sv71tjyeq4e",
+          "filename": "backup_520346922876141598_2025-10-24T20-56-12-116Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-56-12-116Z.json",
+          "timestamp": "2025-10-24T20:56:12.115Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:56:12.124Z"
+        },
+        {
+          "id": "mh5bxujifm7bea1lwpl",
+          "filename": "backup_520346922876141598_2025-10-24T20-54-55-705Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-54-55-705Z.json",
+          "timestamp": "2025-10-24T20:54:55.705Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:54:55.711Z"
+        },
+        {
+          "id": "mh5bw84t7f026pz6ucq",
+          "filename": "backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "timestamp": "2025-10-24T20:53:40.006Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:53:40.014Z"
+        }
+      ]
+    },
+    "newData": {
+      "enabled": true,
+      "backups": [
+        {
+          "id": "mh5c1wfqtn5ylsowbxi",
+          "filename": "backup_520346922876141598_2025-10-24T20-58-04-784Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-58-04-784Z.json",
+          "timestamp": "2025-10-24T20:58:04.783Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:58:04.790Z"
+        },
+        {
+          "id": "mh5bzhi3sv71tjyeq4e",
+          "filename": "backup_520346922876141598_2025-10-24T20-56-12-116Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-56-12-116Z.json",
+          "timestamp": "2025-10-24T20:56:12.115Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:56:12.124Z"
+        },
+        {
+          "id": "mh5bxujifm7bea1lwpl",
+          "filename": "backup_520346922876141598_2025-10-24T20-54-55-705Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-54-55-705Z.json",
+          "timestamp": "2025-10-24T20:54:55.705Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:54:55.711Z"
+        },
+        {
+          "id": "mh5bw84t7f026pz6ucq",
+          "filename": "backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "timestamp": "2025-10-24T20:53:40.006Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:53:40.014Z"
+        }
+      ]
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-24T20:58:04.793Z"
+  },
+  {
+    "id": "mh5c40d2ucvkj6dqgd",
+    "serverId": "520346922876141598",
+    "section": "backup",
+    "action": "update",
+    "oldData": {
+      "enabled": true,
+      "backups": [
+        {
+          "id": "mh5c1wfqtn5ylsowbxi",
+          "filename": "backup_520346922876141598_2025-10-24T20-58-04-784Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-58-04-784Z.json",
+          "timestamp": "2025-10-24T20:58:04.783Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:58:04.790Z"
+        },
+        {
+          "id": "mh5bzhi3sv71tjyeq4e",
+          "filename": "backup_520346922876141598_2025-10-24T20-56-12-116Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-56-12-116Z.json",
+          "timestamp": "2025-10-24T20:56:12.115Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:56:12.124Z"
+        },
+        {
+          "id": "mh5bxujifm7bea1lwpl",
+          "filename": "backup_520346922876141598_2025-10-24T20-54-55-705Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-54-55-705Z.json",
+          "timestamp": "2025-10-24T20:54:55.705Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:54:55.711Z"
+        },
+        {
+          "id": "mh5bw84t7f026pz6ucq",
+          "filename": "backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "timestamp": "2025-10-24T20:53:40.006Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:53:40.014Z"
+        }
+      ]
+    },
+    "newData": {
+      "enabled": true,
+      "backups": [
+        {
+          "id": "mh5c40czn9upjwz7fua",
+          "filename": "backup_520346922876141598_2025-10-24T20-59-43-181Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-59-43-181Z.json",
+          "timestamp": "2025-10-24T20:59:43.180Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:59:43.187Z"
+        },
+        {
+          "id": "mh5c1wfqtn5ylsowbxi",
+          "filename": "backup_520346922876141598_2025-10-24T20-58-04-784Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-58-04-784Z.json",
+          "timestamp": "2025-10-24T20:58:04.783Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:58:04.790Z"
+        },
+        {
+          "id": "mh5bzhi3sv71tjyeq4e",
+          "filename": "backup_520346922876141598_2025-10-24T20-56-12-116Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-56-12-116Z.json",
+          "timestamp": "2025-10-24T20:56:12.115Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:56:12.124Z"
+        },
+        {
+          "id": "mh5bxujifm7bea1lwpl",
+          "filename": "backup_520346922876141598_2025-10-24T20-54-55-705Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-54-55-705Z.json",
+          "timestamp": "2025-10-24T20:54:55.705Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:54:55.711Z"
+        },
+        {
+          "id": "mh5bw84t7f026pz6ucq",
+          "filename": "backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "filepath": "C:\\Users\\moham\\OneDrive\\Desktop\\workshop\\genius-next\\dashboard-next\\bot\\data\\backups\\backup_520346922876141598_2025-10-24T20-53-40-007Z.json",
+          "timestamp": "2025-10-24T20:53:40.006Z",
+          "guildName": "Genius Bot Support",
+          "memberCount": 41,
+          "channelsCount": 49,
+          "rolesCount": 62,
+          "size": 29285,
+          "createdAt": "2025-10-24T20:53:40.014Z"
+        }
+      ]
+    },
+    "userId": "backup-system",
+    "timestamp": "2025-10-24T20:59:43.190Z"
+  }
+]

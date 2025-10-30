@@ -1,0 +1,42 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="12" fill="#7C3AED"/>
+  <!-- Game board -->
+  <rect x="8" y="16" width="48" height="40" rx="4" fill="white" opacity="0.9"/>
+  
+  <!-- Grid holes -->
+  <circle cx="16" cy="24" r="3" fill="#7C3AED"/>
+  <circle cx="24" cy="24" r="3" fill="#7C3AED"/>
+  <circle cx="32" cy="24" r="3" fill="#7C3AED"/>
+  <circle cx="40" cy="24" r="3" fill="#7C3AED"/>
+  <circle cx="48" cy="24" r="3" fill="#7C3AED"/>
+  
+  <circle cx="16" cy="32" r="3" fill="#7C3AED"/>
+  <circle cx="24" cy="32" r="3" fill="#7C3AED"/>
+  <circle cx="32" cy="32" r="3" fill="#7C3AED"/>
+  <circle cx="40" cy="32" r="3" fill="#7C3AED"/>
+  <circle cx="48" cy="32" r="3" fill="#7C3AED"/>
+  
+  <circle cx="16" cy="40" r="3" fill="#7C3AED"/>
+  <circle cx="24" cy="40" r="3" fill="#7C3AED"/>
+  <circle cx="32" cy="40" r="3" fill="#7C3AED"/>
+  <circle cx="40" cy="40" r="3" fill="#7C3AED"/>
+  <circle cx="48" cy="40" r="3" fill="#7C3AED"/>
+  
+  <circle cx="16" cy="48" r="3" fill="#7C3AED"/>
+  <circle cx="24" cy="48" r="3" fill="#7C3AED"/>
+  <circle cx="32" cy="48" r="3" fill="#7C3AED"/>
+  <circle cx="40" cy="48" r="3" fill="#7C3AED"/>
+  <circle cx="48" cy="48" r="3" fill="#7C3AED"/>
+  
+  <!-- Winning pieces -->
+  <circle cx="16" cy="48" r="2.5" fill="#EF4444"/>
+  <circle cx="24" cy="48" r="2.5" fill="#EF4444"/>
+  <circle cx="32" cy="48" r="2.5" fill="#EF4444"/>
+  <circle cx="40" cy="48" r="2.5" fill="#EF4444"/>
+  
+  <!-- Other pieces -->
+  <circle cx="16" cy="40" r="2.5" fill="#FCD34D"/>
+  <circle cx="24" cy="40" r="2.5" fill="#FCD34D"/>
+  <circle cx="32" cy="32" r="2.5" fill="#EF4444"/>
+  <circle cx="40" cy="40" r="2.5" fill="#FCD34D"/>
+</svg>

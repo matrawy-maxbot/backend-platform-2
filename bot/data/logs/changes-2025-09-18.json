@@ -1,0 +1,52 @@
+[
+  {
+    "id": "mfpr4vayb4jl7ijrd0c",
+    "serverId": "423067123225722891",
+    "section": "full",
+    "action": "create",
+    "newData": {
+      "id": "423067123225722891",
+      "autoReply": {
+        "enabled": true,
+        "smartReply": false,
+        "defaultCooldown": 30,
+        "maxResponsesPerHour": 10,
+        "replies": []
+      },
+      "ads": {
+        "enabled": false,
+        "ads": []
+      },
+      "members": {
+        "welcomeMessage": {
+          "enabled": true,
+          "message": "Welcome {user} to {server}! 🎉",
+          "channel": ""
+        },
+        "leaveMessage": {
+          "enabled": true,
+          "message": "Goodbye {user}, hope to see you soon! 👋",
+          "channel": ""
+        },
+        "autoRole": {
+          "enabled": false,
+          "roleId": ""
+        }
+      },
+      "protection": {
+        "spamProtection": true,
+        "raidProtection": false,
+        "autoModeration": true
+      },
+      "backup": {
+        "autoBackup": true,
+        "backupInterval": 24
+      },
+      "createdAt": "2025-09-18T18:36:16.377Z",
+      "updatedAt": "2025-09-18T18:36:16.378Z",
+      "updatedBy": "bot"
+    },
+    "userId": "bot",
+    "timestamp": "2025-09-18T18:36:16.378Z"
+  }
+]

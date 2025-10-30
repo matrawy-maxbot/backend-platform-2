@@ -36,6 +36,8 @@ export const getVendorById = async (req, res, next) => {
     
     let vendor = await VendorService.getVendorById(id);
     vendor = resolveDatabaseResult(vendor);
+
+    console.log("vendor result : ", vendor);
     
     let status = 200;
     if (vendor.length < 1) status = 404;
